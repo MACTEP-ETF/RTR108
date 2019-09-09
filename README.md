@@ -1,5 +1,6 @@
 # RTR105
 Studiju kursa Datormācība (pamatkurss) elektroniskā klade  
+- 1. lekcija
 ## Termināls
 ### Īsceļi (shortcuts)
 **Ctrl+Alt+T** – Jauna termināla loga atveršana  
