@@ -1,17 +1,18 @@
 # RTR105
 Studiju kursa Datormācība (pamatkurss) elektroniskā klade  
 # Vispārīgi
-## Dzelža sastāvdaļas (HW):
+## Hardware (PC sastāvdaļas):
 - CPU;  
 - RAM (short);  
 - ROM (long);  
-- perifērijas ierīces (pele, tastatūra, monitors utt.);
-- sistēma sastāv no diviem pamatelementiem – "0" un "1".  
+- Perifērijas ierīces (pele, tastatūra, monitors utt.);
+- Divi pamatelementi – "0" un "1".  
 
 # Darba vides struktūra
-1. **OS Linux operētājsistēma** – sazinās ar dzelzi izmantojot *drivers* (iebūvētās instrukcijas).  
-2. **Bash interpretators** – sazinās ar OS Linux izmantojot *Shell* valodu.  
-3. **Applications** – Aplikācijas. 
+1. **Hardware** – dzel
+2. **OS Linux operētājsistēma** – sazinās ar dzelzi izmantojot *drivers* (iebūvētās instrukcijas).  
+3. **Bash interpretators** – sazinās ar OS Linux izmantojot *Shell* valodu.  
+4. **Applications** – Aplikācijas. 
 
 # LINUX
 ## Termināls
