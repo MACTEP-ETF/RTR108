@@ -9,7 +9,7 @@ Dzelža sastāvdaļas (HW):
 - sistēma sastāv no diviem pamatelementiem – "0" un "1".  
 
 # Darba vides struktūra
-1. **OS Linux operētājsistēma** – sazinās ar dzelzi izmantojot *draivers* (iebūvētās instrukcijas).  
+1. **OS Linux operētājsistēma** – sazinās ar dzelzi izmantojot *drivers* (iebūvētās instrukcijas).  
 2. **Bash interpretators** – sazinās ar OS Linux izmantojot *Shell* valodu.  
 3. **Applications** – Aplikācijas. 
 
