@@ -31,7 +31,7 @@ Studiju kursa Datormācība (pamatkurss) elektroniskā klade
 **uname** – Operētājsistēmas nosaukums.  
 **echo $0** – Noklusētā interpretatora nosaukums.  
 **sh** – Kompaktā interpretatora izsaukšana.  
-**man** – Papildinājums kodam, kuru jāpieraksta pirms nepieciešamās komandas. Dod detalizēts apraksts par tekošu kodu.
+**man** – Dod detalizēts apraksts par tekošu kodu (*Papildinājums kodam, kuru jāpieraksta pirms nepieciešamās komandas*).
 
 
 
