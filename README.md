@@ -1,7 +1,7 @@
 # RTR105
 Studiju kursa Datormācība (pamatkurss) elektroniskā klade  
 # Vispārīgi
-Dzelža sastāvdaļas (HW):
+## Dzelža sastāvdaļas (HW):
 - CPU;  
 - RAM (short);  
 - ROM (long);  
