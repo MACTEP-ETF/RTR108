@@ -1,11 +1,25 @@
 # RTR105
-Studiju kursa Datormācība (pamatkurss) elektroniskā klade
-## Termināla (Linux) komandas
-**Ctrl+Alt+T** — Jauna termināla loga atveršana  
-**Ctrl+Shift+T** — Jauna papildlogā loga atveršana esošajā termināla  
-## Bash īsceļi
-**Ctrl+L** — ekrāna attīrīšana (*Clear screen*)  
-## Bash komandas
-**whoami** — Kas es esmu? (*Lietotājs*)  
-**pwd** — Kur es esmu? (*Kāda manas atrašanas adrese (folderis)*)  
-**ls** — Kas man ir pieejams (*Kas atrodas konkrētajā folderī*)  
+Studiju kursa Datormācība (pamatkurss) elektroniskā klade  
+## Termināla īsceļi (shortcuts)
+**Ctrl+Alt+T** – Jauna termināla loga atveršana  
+**Ctrl+Shift+T** – Jauna papildloga atveršana esošajā termināla  
+
+## Bash interpretatora  
+### Īsceļi (shortcuts)  
+**Ctrl+L** – ekrāna attīrīšana (*Clear screen*)  
+**TAB 2x** – papildina kodu uzrādot iespējamos variantus  
+**TAB 1x** – papildina kodu ar vienīgo iespējamo variantu  
+
+### Komandas
+**whoami** – Kas es esmu? (*Lietotājs*).  
+**pwd** – Kur es esmu? (*Kāda ir adrese tekošam folderim*).  
+**ls** – Kas man ir pieejams (*Kas atrodas tekošā folderī*).  
+**uname** – Operētājsistēmas nosaukums.  
+**man** – Papildinājums kodam, kuru jāpieraksta pirms nepieciešamās komandas. Dod detalizēts apraksts par tekošu kodu.
+
+
+
+
+
+
+**** — 
