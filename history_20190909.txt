@@ -1,0 +1,45 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox
+    4  cls
+    5  ?
+    6  /?
+    7  help/?
+    8  help\?
+    9  |?
+   10  explorer
+   11  firefox
+   12  whoami
+   13  pvd
+   14  pwd
+   15  ls
+   16  firefox
+   17  ls
+   18  ls-a
+   19  ls -a
+   20  ls -al
+   21  ls -a
+   22  ls -s
+   23  ls -al
+   24  pwd
+   25  cd .
+   26  pwd
+   27  cd ..
+   28  pwd
+   29  cd ..
+   30  pwd
+   31  cd home
+   32  cd user
+   33  pwd
+   34  cd...
+   35  cd..
+   36  cd ..
+   37  cd /home/user
+   38  cd home
+   39  cd /home
+   40  cd /
+   41  cd ~
+   42  cd /
+   43  cd ~
+   44  history
+   45  history > history_20190909.txt
