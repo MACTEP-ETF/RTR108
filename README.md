@@ -1,11 +1,12 @@
 # RTR105
 Studiju kursa Datormācība (pamatkurss) elektroniskā klade  
-## Termināla īsceļi (shortcuts)
+## Termināls
+### Īsceļi (shortcuts)
 **Ctrl+Alt+T** – Jauna termināla loga atveršana  
 **Ctrl+Shift+T** – Jauna papildloga atveršana esošajā termināla  
 
-## Bash interpretatora  
-### Īsceļi (shortcuts)  
+## Bash interpretators
+### Īsceļi (shortcuts)
 **Ctrl+L** – ekrāna attīrīšana (*Clear screen*)  
 **TAB 2x** – papildina kodu uzrādot iespējamos variantus  
 **TAB 1x** – papildina kodu ar vienīgo iespējamo variantu  
