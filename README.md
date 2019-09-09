@@ -1,6 +1,7 @@
 # RTR105
 Studiju kursa Datormācība (pamatkurss) elektroniskā klade  
-# 1. lekcija
+
+# LINUX
 ## Termināls
 ### Īsceļi (shortcuts)
 **Ctrl+Alt+T** – Jauna termināla loga atveršana  
@@ -10,18 +11,16 @@ Studiju kursa Datormācība (pamatkurss) elektroniskā klade
 ### Īsceļi (shortcuts)
 **Ctrl+L** – ekrāna attīrīšana (*Clear screen*)  
 **TAB 2x** – papildina kodu uzrādot iespējamos variantus  
-**TAB 1x** – papildina kodu ar vienīgo iespējamo variantu  
-
+**TAB 1x** – papildina kodu ar vienīgo iespējamo variantu
 ### Komandas
 **whoami** – Kas es esmu? (*Lietotājs*).  
 **pwd** – Kur es esmu? (*Kāda ir adrese tekošam folderim*).  
 **ls** – Kas man ir pieejams (*Kas atrodas tekošā folderī*).  
 **uname** – Operētājsistēmas nosaukums.  
+**echo $0** – Noklusētā interpretatora nosaukums.  
+**sh** – Kompaktā interpretatora izsaukšana.  
 **man** – Papildinājums kodam, kuru jāpieraksta pirms nepieciešamās komandas. Dod detalizēts apraksts par tekošu kodu.
 
 
 
-
-
-
-**** — 
+**** – 
