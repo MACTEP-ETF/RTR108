@@ -2,7 +2,6 @@
 Studiju kursa Datormācība (pamatkurss) elektroniskā klade
 ## Termināla (Linux) komandas
 **Ctrl+Alt+T** — Jauna termināla loga atveršana
-
 **Ctrl+Shift+T** — Jauna papildlogā loga atveršana esošajā termināla
 
 ## Bash īsceļi
