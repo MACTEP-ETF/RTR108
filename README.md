@@ -46,6 +46,8 @@ Studiju kursa Datormācība (pamatkurss) elektroniskā klade
 **cd ..** – norāde/solis līmeni augstāk.  
 **~$** – mājas apgabals.  
 **/home$** – mājas apgabals.  
+**>** – konveijera simbols.
+**init 0** – OS Linux shutdown.
 
 *УНДЭРКОНСТРУКТИОН*  
 **** – 
