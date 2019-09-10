@@ -33,10 +33,12 @@ Studiju kursa Datormācība (pamatkurss) elektroniskā klade
 **TAB 2x** – papildina kodu uzrādot iespējamos variantus.  
 **TAB 1x** – papildina kodu ar vienīgo iespējamo variantu.  
 ### Komandas
+**firefox** – Firefox palaišana.
 **whoami** – Kas es esmu? (*Lietotājs*).  
 **pwd** – Kur es esmu? (*Kāda ir adrese tekošam folderim*).  
 **ls** – Kas man ir pieejams (*Kas atrodas tekošā folderī*).  
-**ls -al** – Tekošā foldera detalizēts skats (Piem., **drwxr-xr-x**, kur "d" – direktorija; "r" – read; "w" – write; "x" – execute).  
+**ls -al** – Tekošā foldera detalizēts skats.  
+- Piem., **drwxr-xr-x**, kur "d" – direktorija; "r" – read; "w" – write; "x" – execute.  
 **uname** – Operētājsistēmas nosaukums.  
 **echo $0** – Noklusētā interpretatora nosaukums.  
 **sh** – Kompaktā interpretatora izsaukšana.  
@@ -46,5 +48,5 @@ Studiju kursa Datormācība (pamatkurss) elektroniskā klade
 **~$** – mājas apgabals.  
 **/home$** – mājas apgabals.  
 
-*УНДЭРКОНСТРУКТИОН*
+*УНДЭРКОНСТРУКТИОН*  
 **** – 
