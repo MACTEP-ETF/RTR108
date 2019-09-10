@@ -22,6 +22,7 @@ Studiju kursa Datormācība (pamatkurss) elektroniskā klade
 - **epk428** – serveris;  
 - **2** – darba stacijas numurs;  
 - **/home$** – tekošais folderis.  
+Ja objekta nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 
 ### Īsceļi (shortcuts)
 **Ctrl+Alt+T** – Jauna termināla loga atveršana.  
@@ -33,7 +34,7 @@ Studiju kursa Datormācība (pamatkurss) elektroniskā klade
 **TAB 2x** – papildina kodu uzrādot iespējamos variantus.  
 **TAB 1x** – papildina kodu ar vienīgo iespējamo variantu.  
 ### Komandas
-**firefox** – Firefox palaišana.
+**firefox** – Firefox palaišana.  
 **whoami** – Kas es esmu? (*Lietotājs*).  
 **pwd** – Kur es esmu? (*Kāda ir adrese tekošam folderim*).  
 **ls** – Kas man ir pieejams (*Kas atrodas tekošā folderī*).  
@@ -50,4 +51,3 @@ Studiju kursa Datormācība (pamatkurss) elektroniskā klade
 **init 0** – OS Linux shutdown.  
 
 *УНДЭРКОНСТРУКТИОН*  
-**** – 
