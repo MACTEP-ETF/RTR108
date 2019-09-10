@@ -41,13 +41,13 @@ Studiju kursa Datormācība (pamatkurss) elektroniskā klade
 **uname** – Operētājsistēmas nosaukums.  
 **echo $0** – Noklusētā interpretatora nosaukums.  
 **sh** – Kompaktā interpretatora izsaukšana.  
-**man** – Dod detalizēts apraksts par tekošu kodu (*Jāpieraksta pirms nepieciešamās komandas*).
+**man** – Dod detalizēts apraksts par tekošu kodu (*Jāpieraksta pirms nepieciešamās komandas*).  
 **cd .** – norāde/solis uz vietas (*relatīvā adresācija*).  
 **cd ..** – norāde/solis līmeni augstāk.  
 **~$** – mājas apgabals.  
 **/home$** – mājas apgabals.  
-**>** – konveijera simbols.
-**init 0** – OS Linux shutdown.
+**>** – konveijera simbols.  
+**init 0** – OS Linux shutdown.  
 
 *УНДЭРКОНСТРУКТИОН*  
 **** – 
