@@ -16,12 +16,12 @@ Studiju kursa Datormācība (pamatkurss) elektroniskā klade
 
 # LINUX
 ## Termināls
-### Interfeiss
-**user@epk428-2/home$**:
-- user – lietotāja vārds;  
-- epk428 – serveris;  
-- 2 – darbastacijas numurs;  
-- /home – tekošais folderis.  
+### Interfeiss  
+**user@epk428-2:/home$**:
+- **user** – lietotāja vārds;  
+- **epk428** – serveris;  
+- **2** – darba stacijas numurs;  
+- **/home$** – tekošais folderis.  
 
 ### Īsceļi (shortcuts)
 **Ctrl+Alt+T** – Jauna termināla loga atveršana.  
