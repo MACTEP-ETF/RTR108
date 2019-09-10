@@ -36,6 +36,7 @@ Studiju kursa Datormācība (pamatkurss) elektroniskā klade
 **whoami** – Kas es esmu? (*Lietotājs*).  
 **pwd** – Kur es esmu? (*Kāda ir adrese tekošam folderim*).  
 **ls** – Kas man ir pieejams (*Kas atrodas tekošā folderī*).  
+**ls -al** – Tekošā foldera detalizēts skats (Piem., **drwxr-xr-x**, kur "d" – direktorija; "r" – read; "w" – write; "x" – execute).  
 **uname** – Operētājsistēmas nosaukums.  
 **echo $0** – Noklusētā interpretatora nosaukums.  
 **sh** – Kompaktā interpretatora izsaukšana.  
