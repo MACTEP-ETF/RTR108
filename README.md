@@ -46,5 +46,5 @@ Studiju kursa Datormācība (pamatkurss) elektroniskā klade
 **~$** – mājas apgabals.  
 **/home$** – mājas apgabals.  
 
-
+*УНДЭРКОНСТРУКТИОН*
 **** – 
