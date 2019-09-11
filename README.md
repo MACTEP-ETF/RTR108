@@ -35,24 +35,24 @@ Ja objekta nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 - **TAB 1x** – papildina kodu ar vienīgo iespējamo variantu.  
 ### Komandas
 #### Apraksts par sistēmu
-**whoami** – lietotājs (*kas es esmu?*).  
-**uname** – operētājsistēmas nosaukums.  
-**echo $0** – noklusētā interpretatora nosaukums.  
-**sh** – kompaktā interpretatora izsaukšana.  
+- **whoami** – lietotājs (*kas es esmu?*).  
+- **uname** – operētājsistēmas nosaukums.  
+- **echo $0** – noklusētā interpretatora nosaukums.  
+- **sh** – kompaktā interpretatora izsaukšana.  
 #### Failu sistēmas navigācija
-**cd .** – norāde/solis uz vietas (*relatīvā adresācija*).  
-**cd ..** – norāde/solis līmeni augstāk.  
-**~$** – mājas apgabals.  
-**cd /home** – pāreja uz konkrētu adresi (folderi).  
-**pwd** – parāda kāda ir adrese tekošam folderim (*kur es esmu?*).  
-**ls** – parāda kas atrodas tekošā folderī (*kas man ir pieejams*).  
-**ls -a** – parādā visus objektus (tai skaitā *hidden files*).  
-**ls -al** – tekošā foldera detalizēts skats. (Piem., **drwxr-xr-x**, kur "d" – direktorija; "r" – read; "w" – write; "x" – execute).  
+- **cd .** – norāde/solis uz vietas (*relatīvā adresācija*).  
+- **cd ..** – norāde/solis līmeni augstāk.  
+- **~$** – mājas apgabals.  
+- **cd /home** – pāreja uz konkrētu adresi (folderi).  
+- **pwd** – parāda kāda ir adrese tekošam folderim (*kur es esmu?*).  
+- **ls** – parāda kas atrodas tekošā folderī (*kas man ir pieejams*).  
+- **ls -a** – parādā visus objektus (tai skaitā *hidden files*).  
+- **ls -al** – tekošā foldera detalizēts skats. (Piem., **drwxr-xr-x**, kur "d" – direktorija; "r" – read; "w" – write; "x" – execute).  
 #### Vispārīgi
-**firefox** – Firefox palaišana.  
-**man** – dod detalizēts apraksts par tekošu kodu (*Jāpieraksta pirms nepieciešamās komandas*).  
-**history** – parāda uz ekrāna visas veiktās operācijas/komandas.  
-**>** – konveijera simbols. konkrētas informācijas ierakstīšana failā (*Piem., history > File.txt*).  
-**init 0** – OS Linux shutdown.  
+- **firefox** – Firefox palaišana.  
+- **man** – dod detalizēts apraksts par tekošu kodu (*Jāpieraksta pirms nepieciešamās komandas*).  
+- **history** – parāda uz ekrāna visas veiktās operācijas/komandas.  
+- **>** – konveijera simbols. konkrētas informācijas ierakstīšana failā (*Piem., history > File.txt*).  
+- **init 0** – OS Linux shutdown.  
 
 *УНДЭРКОНСТРУКТИОН*  
