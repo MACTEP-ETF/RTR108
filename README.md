@@ -25,14 +25,14 @@ Studiju kursa Datormācība (pamatkurss) elektroniskā klade
 Ja objekta nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 
 ### Īsceļi (shortcuts)
-**Ctrl+Alt+T** – jauna termināla loga atveršana.  
-**Ctrl+Shift+T** – jauna papildloga atveršana esošajā termināla.  
+- **Ctrl+Alt+T** – jauna termināla loga atveršana.  
+- **Ctrl+Shift+T** – jauna papildloga atveršana esošajā termināla.  
 
 ## Bash interpretators
 ### Īsceļi (shortcuts)
-**Ctrl+L** – ekrāna attīrīšana (*Clear screen*).  
-**TAB 2x** – papildina kodu uzrādot iespējamos variantus.  
-**TAB 1x** – papildina kodu ar vienīgo iespējamo variantu.  
+- **Ctrl+L** – ekrāna attīrīšana (*Clear screen*).  
+- **TAB 2x** – papildina kodu uzrādot iespējamos variantus.  
+- **TAB 1x** – papildina kodu ar vienīgo iespējamo variantu.  
 ### Komandas
 #### Apraksts par sistēmu
 **whoami** – lietotājs (*kas es esmu?*).  
