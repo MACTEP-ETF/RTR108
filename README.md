@@ -46,8 +46,8 @@ Ja objekta nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 **cd .** – norāde/solis uz vietas (*relatīvā adresācija*).  
 **cd ..** – norāde/solis līmeni augstāk.  
 **~$** – mājas apgabals.  
-**/home$** – mājas apgabals.  
-**>** – konveijera simbols.  
+**cd /home** – pāreja uz konkrētu adresi (folderi).  
+**>** – konveijera simbols (*informācijas ierakstīšana failā. Piem., history > File.txt*).  
 **init 0** – OS Linux shutdown.  
 
 *УНДЭРКОНСТРУКТИОН*  
