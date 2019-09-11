@@ -25,8 +25,8 @@ Studiju kursa Datormācība (pamatkurss) elektroniskā klade
 Ja objekta nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 
 ### Īsceļi (shortcuts)
-**Ctrl+Alt+T** – Jauna termināla loga atveršana.  
-**Ctrl+Shift+T** – Jauna papildloga atveršana esošajā termināla.  
+**Ctrl+Alt+T** – jauna termināla loga atveršana.  
+**Ctrl+Shift+T** – jauna papildloga atveršana esošajā termināla.  
 
 ## Bash interpretators
 ### Īsceļi (shortcuts)
@@ -34,20 +34,26 @@ Ja objekta nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 **TAB 2x** – papildina kodu uzrādot iespējamos variantus.  
 **TAB 1x** – papildina kodu ar vienīgo iespējamo variantu.  
 ### Komandas
-**firefox** – Firefox palaišana.  
-**whoami** – Kas es esmu? (*Lietotājs*).  
-**pwd** – Kur es esmu? (*Kāda ir adrese tekošam folderim*).  
-**ls** – Kas man ir pieejams (*Kas atrodas tekošā folderī*).  
-**ls -al** – Tekošā foldera detalizēts skats. (Piem., **drwxr-xr-x**, kur "d" – direktorija; "r" – read; "w" – write; "x" – execute).  
-**uname** – Operētājsistēmas nosaukums.  
-**echo $0** – Noklusētā interpretatora nosaukums.  
-**sh** – Kompaktā interpretatora izsaukšana.  
-**man** – Dod detalizēts apraksts par tekošu kodu (*Jāpieraksta pirms nepieciešamās komandas*).  
+#### Failu sistēmas navigācija
+**pwd** – kur es esmu? (*Kāda ir adrese tekošam folderim*).  
+**ls** – kas man ir pieejams (*Kas atrodas tekošā folderī*).  
+**ls -a** – parādā arī paslēptos objektus (*hidden*).  
+**ls -al** – tekošā foldera detalizēts skats. (Piem., **drwxr-xr-x**, kur "d" – direktorija; "r" – read; "w" – write; "x" – execute).  
 **cd .** – norāde/solis uz vietas (*relatīvā adresācija*).  
 **cd ..** – norāde/solis līmeni augstāk.  
 **~$** – mājas apgabals.  
 **cd /home** – pāreja uz konkrētu adresi (folderi).  
-**>** – konveijera simbols (*informācijas ierakstīšana failā. Piem., history > File.txt*).  
+
+#### Apraksts par sistēmu
+**whoami** – kas es esmu? (*Lietotājs*).  
+**uname** – operētājsistēmas nosaukums.  
+**echo $0** – noklusētā interpretatora nosaukums.  
+**sh** – kompaktā interpretatora izsaukšana.  
+#### Vispārīgi
+**firefox** – Firefox palaišana.  
+**man** – dod detalizēts apraksts par tekošu kodu (*Jāpieraksta pirms nepieciešamās komandas*).  
+**history** – parāda uz ekrāna visas veiktās operācijas/komandas.  
+**>** – konveijera simbols. konkrētas informācijas ierakstīšana failā (*Piem., history > File.txt*).  
 **init 0** – OS Linux shutdown.  
 
 *УНДЭРКОНСТРУКТИОН*  
