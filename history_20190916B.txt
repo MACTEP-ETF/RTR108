@@ -1,0 +1,109 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  man rm
+    4  cd..
+    5  cd ..
+    6  cd /home/~
+    7  cd /home/~$
+    8  cd /home
+    9  cd
+   10  ls -l
+   11  touch aaa.txt
+   12  ls -l
+   13  touch -c -t 201909171000 aaa.txt
+   14  ls -l
+   15  echo Hello World!
+   16  echo Hello World! > bbb.txt
+   17  ls -l
+   18  ls -l bbb.txt
+   19  cat bbb.txt
+   20  echo Hello World again! > bbb.txt
+   21  cat bbb.txt
+   22  echo Hello World! > bbb.txt
+   23  echo Hello World again! >> bbb.txt
+   24  cat bbb.txt
+   25  echo
+   26  echo Hello\vWorld! > bbb.txt
+   27  cat bbb.txt
+   28  echo Hello\vWorld! >> bbb.txt
+   29  echo Hello\vWorld!
+   30  echo -e Hello\vWorld!
+   31  echo -e "Hello\vWorld!"
+   32  echo -e "Hello\vWorld!" >> ccc.txt
+   33  ls - ccc.txt
+   34  ls -l ccc.txt
+   35  cat ccc.t
+   36  cat ccc.txt
+   37  cat ccc.txt 
+   38  echo -e "Hello\v\World!" >> ccc.txt
+   39  echo -e "Hello\v\World!"
+   40  ls -l /bin/bash
+   41  ls -l /bin/lv
+   42  ls -l /bin/ls
+   43  cat /bin/ls
+   44  ls -l
+   45  cat bbb.txt
+   46  cat bbb.txt > bbb1.txt
+   47  ls -l
+   48  cat bbb1.txt
+   49  cp bbb.txt bbb2.txt
+   50  ls -l *.txt
+   51  ls -l b*.txt
+   52  cd /
+   53  pwd
+   54  mv ~/bbb2.txt ~/Music/d10.tx
+   55  cd
+   56  pwd
+   57  ls
+   58  ls -l Music/
+   59  cat /home/user/music/d10.tx
+   60  cat /home/user/Music/d10.tx
+   61  ls
+   62  mv bbb1.txt e7.xtx
+   63  ls
+   64  ls -l e7.xtx
+   65  rm aaa.txt
+   66  ls
+   67  ls -l *.*xt
+   68  ls -l *.*xt*
+   69  rm *.*xt*
+   70  ls
+   71  ls ./Music
+   72  rm ./Music/d10.tx 
+   73  ls
+   74  ls -l
+   75  history
+   76  history > history_20190916.txt
+   77  ls
+   78  ls -l
+   79  cat history_20190916.txt
+   80  touch 1.txt
+   81  ls -l
+   82  pwd
+   83  nano MansPirmaisSkripts.sh
+   84  chmod 740
+   85  chmod 740 MansPirmaisSkripts.sh
+   86  ls -l
+   87  cat MansPirmaisSkripts.sh
+   88  sh MansPirmaisSkripts.sh
+   89  ls -l
+   90  MansPirmaisSkripts.sh.save
+   91  rm MansPirmaisSkripts.sh.save
+   92  ls -l
+   93  rm MansPirmaisSkripts.sh.save.1
+   94  rm nano.save
+   95  ls -l
+   96  nano MansPirmaisSkripts.sh
+   97  PATH
+   98  echo PATH
+   99  echo  $PATH
+  100  PATH=$PATH:~
+  101  echo  $PATH
+  102  whereis MansPirmaisSkripts.sh 
+  103  echo  $PATH
+  104  MansPirmaisSkripts.sh 
+  105  ls -l
+  106  cat error.txt 
+  107  cat log.txt 
+  108  history
+  109  history > history_20190916B.txt
