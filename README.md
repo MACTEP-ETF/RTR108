@@ -51,7 +51,7 @@ Ja objekta nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 - **ls -al** – tekošā foldera detalizēts skats. (Piem., **drwxr-xr-x**, kur "d" – direktorija; "r" – read; "w" – write; "x" – execute).  
 #### Darbības ar failiem
 - **cp** – kopēt failu (*No - uz*).  
-- **\*** – maska (\*.txt).  
+- **\*** – maska (*Piem., \*.txt*).  
 #### Vispārīgi
 - **firefox** – Firefox palaišana.  
 - **man** – dod detalizēts apraksts par tekošu kodu (*Jāpieraksta pirms nepieciešamās komandas*).  
