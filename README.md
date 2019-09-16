@@ -43,6 +43,7 @@ Ja objekta nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 - **cd .** – norāde/solis uz vietas (*relatīvā adresācija*).  
 - **cd ..** – norāde/solis līmeni augstāk.  
 - **~$** – mājas apgabals.  
+- **/** – saknes apgabals.  
 - **cd /home** – pāreja uz konkrētu adresi (folderi).  
 - **pwd** – parāda kāda ir adrese tekošam folderim (*kur es esmu?*).  
 - **ls** – parāda kas atrodas tekošā folderī (*kas man ir pieejams*).  
