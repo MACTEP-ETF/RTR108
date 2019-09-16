@@ -33,12 +33,14 @@ Ja objekta nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 - **Ctrl+L** – ekrāna attīrīšana (*Clear screen*).  
 - **TAB 2x** – papildina kodu uzrādot iespējamos variantus.  
 - **TAB 1x** – papildina kodu ar vienīgo iespējamo variantu.  
+
 ### Komandas
 #### Apraksts par sistēmu
 - **whoami** – lietotājs (*kas es esmu?*).  
 - **uname** – operētājsistēmas nosaukums.  
 - **echo $0** – noklusētā interpretatora nosaukums.  
 - **sh** – kompaktā interpretatora izsaukšana.  
+
 #### Failu sistēmas navigācija
 - **cd .** – norāde/solis uz vietas (*relatīvā adresācija*).  
 - **cd ..** – norāde/solis līmeni augstāk.  
@@ -48,11 +50,21 @@ Ja objekta nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 - **pwd** – parāda kāda ir adrese tekošam folderim (*kur es esmu?*).  
 - **ls** – parāda kas atrodas tekošā folderī (*kas man ir pieejams*).  
 - **ls -a** – parādā visus objektus (tai skaitā *hidden files*).  
-- **ls -al** – tekošā foldera detalizēts skats. (Piem., **drwxr-xr-x**, kur "d" – direktorija; "r" – read; "w" – write; "x" – execute).  
+- **ls -l** – tekošā foldera detalizēts skats. (Piem., **drwx | r-x | r-x**, kur "d" – direktorija; "r" – read; "w" – write; "x" – execute. 1. kolonna - administrātora tiesības; 2. kolonna - lietotāja tiesības; 3. kolonna - visas pārējās pasaules tiesības).  
+
 #### Darbības ar failiem
+- **echo** – printēt uz ekrāna tekstu (*Piem., echo Hello World*):  
+- Izmantojot kopā ar > tiks ierakstīt failā:  
+**a**.) Ja fails neeksistē, tad izveido jaunu;
+**b**.) Ja fails eksistē, tad pārraksta (dzēšot veco saturu);
+
+- **touch** – izveidot jaunu failu.  
 - **cp** – kopēt failu (*No - uz*).  
-- **\*** – maska (*Piem., \*.txt*).  
+- **mv** – pārvietot failu (*No - uz. Kā arī pārsaukt tekošu, ja destinācija (gala mērķis) ir tas pats folderis*).  
+- **rm** – izdzēst vienību (*Izdēst kopu ar atbilstošu masku (\*)*).  
+
 #### Vispārīgi
+- **\*** – maska (*Piem., \*.txt*).  
 - **firefox** – Firefox palaišana.  
 - **man** – dod detalizēts apraksts par tekošu kodu (*Jāpieraksta pirms nepieciešamās komandas*).  
 - **history** – parāda uz ekrāna visas veiktās operācijas/komandas.  
