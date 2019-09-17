@@ -16,17 +16,27 @@ Studiju kursa Datormācība (pamatkurss) elektroniskā klade
 
 # LINUX
 ## Termināls
+### Īsceļi (shortcuts)
+- **Ctrl+Alt+T** – jauna termināla loga atveršana.  
+- **Ctrl+Shift+T** – jauna papildloga atveršana esošajā termināla.  
+
 ### Interfeiss  
 **user@epk428-2:/home$**:
 - **user** – lietotāja vārds;  
 - **epk428** – serveris;  
 - **2** – darba stacijas numurs;  
 - **/home$** – tekošais folderis.  
-Ja objekta nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
+Ja objekta nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.  
 
-### Īsceļi (shortcuts)
-- **Ctrl+Alt+T** – jauna termināla loga atveršana.  
-- **Ctrl+Shift+T** – jauna papildloga atveršana esošajā termināla.  
+### Details apraksts
+**drwx | r-x | r-x**:
+- **d** – direktorija (*Ja defise, tad fails*);
+- **r** – read;
+- **w** – write;
+- **x** – execute;
+- **1. kolonna (rwx)** – administrātora tiesības uz objektu;  
+- **2. kolonna** – lietotāja tiesības uz objektu;  
+- **3. kolonna** – visas pārējās pasaules tiesības uz objektu.  
 
 ## Bash interpretators
 ### Īsceļi (shortcuts)
@@ -50,7 +60,7 @@ Ja objekta nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 - **pwd** – parāda kāda ir adrese tekošam folderim (*kur es esmu?*).  
 - **ls** – parāda kas atrodas tekošā folderī (*kas man ir pieejams*).  
 - **ls -a** – parādā visus objektus (tai skaitā *hidden files*).  
-- **ls -l** – tekošā foldera detalizēts skats. (Piem., **drwx | r-x | r-x**, kur "d" – direktorija; "r" – read; "w" – write; "x" – execute. 1. kolonna - administrātora tiesības; 2. kolonna - lietotāja tiesības; 3. kolonna - visas pārējās pasaules tiesības).  
+- **ls -l** – tekošā foldera detalizēts skats.  
 
 #### Darbības ar failiem
 - **echo** – printēt uz ekrāna tekstu (*Piem., echo Hello World*):  
@@ -60,7 +70,7 @@ Ja objekta nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 
 - **touch** – izveidot jaunu failu.  
 - **cp** – kopēt failu (*No - uz*).  
-- **mv** – pārvietot failu (*No - uz. Kā arī pārsaukt tekošu, ja destinācija (gala mērķis) ir tas pats folderis*).  
+- **mv** – pārvietot failu (*No - uz. Kā arī pārsaukt tekošu, ja mērķa fails jau eksistē*).  
 - **rm** – izdzēst vienību (*Izdēst kopu ar atbilstošu masku (\*)*).  
 
 #### Vispārīgi
