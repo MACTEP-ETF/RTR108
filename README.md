@@ -28,7 +28,7 @@ Studiju kursa Datormācība (pamatkurss) elektroniskā klade
 - **/home$** – tekošais folderis.  
 Ja objekta nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.  
 
-### Details apraksts
+### Failu detalīzētā skata apraksts
 **drwx | r-x | r-x**:
 - **d** – direktorija (*Ja defise, tad fails*);
 - **r** – read;
@@ -54,21 +54,19 @@ Ja objekta nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 #### Failu sistēmas navigācija
 - **cd .** – norāde/solis uz vietas (*relatīvā adresācija*).  
 - **cd ..** – norāde/solis līmeni augstāk.  
+- **cd** – atgriešanās mājas apgabalā.  
 - **~$** – mājas apgabals.  
 - **/** – saknes apgabals.  
 - **cd /home** – pāreja uz konkrētu adresi (folderi).  
 - **pwd** – parāda kāda ir adrese tekošam folderim (*kur es esmu?*).  
 - **ls** – parāda kas atrodas tekošā folderī (*kas man ir pieejams*).  
-- **ls -a** – parādā visus objektus (tai skaitā *hidden files*).  
 - **ls -l** – tekošā foldera detalizēts skats.  
+- **ls -a** – parādā visus objektus (tai skaitā *hidden files*).  
 
 #### Darbības ar failiem
-- **echo** – printēt uz ekrāna tekstu (*Piem., echo Hello World*):  
-- Izmantojot kopā ar > tiks ierakstīt failā:  
-**a**.) Ja fails neeksistē, tad izveido jaunu;
-**b**.) Ja fails eksistē, tad pārraksta (dzēšot veco saturu);
+- **echo** – printēt uz ekrāna tekstu (*Piem., echo Hello World*). Izmantojot kopā ar **>** tiks ierakstīt failā: **a**.) Ja fails neeksistē, tad izveido jaunu; **b**.) Ja fails eksistē, tad pārraksta (dzēšot veco saturu).  
 
-- **touch** – izveidot jaunu failu.  
+- **touch FileName.txt** – izveidot jaunu failu.  
 - **cp** – kopēt failu (*No - uz*).  
 - **mv** – pārvietot failu (*No - uz. Kā arī pārsaukt tekošu, ja mērķa fails jau eksistē*).  
 - **rm** – izdzēst vienību (*Izdēst kopu ar atbilstošu masku (\*)*).  
