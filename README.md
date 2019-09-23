@@ -68,14 +68,17 @@ Ja objekta nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 - **ls -a** – parādā visus objektus (tai skaitā *hidden files*).  
 
 #### Darbības ar failiem/folderiem
-- **echo** – printēt uz ekrāna tekstu (*Piem., echo Hello World*). Izmantojot kopā ar **>** tiks ierakstīt failā: **a**.) Ja fails neeksistē, tad izveido jaunu; **b**.) Ja fails eksistē, tad pārraksta (dzēšot veco saturu).  
-- **echo -e "Hello\vWorld"** – izdrukā uz ekrāna *Hello World*. Simbolu virkne "\v" ir darbības simbols, kurš pārnes uz nākamo rindiņu turpmāko saturu tieši zem sevis. T.i., šis nav parasts *Enter*! Sintaksis -e aktivizē papild bibliotēku ar aprakstu par "\v" un citiem elementiem.  
-
-- **touch FileName.txt** – izveidot jaunu failu.  
+- **whereis FileName** – parāda uz ekrāna dotā faila atrašanas vietu.  
+- **cat** – skatīt faila saturu uz ekrāna (*Rediģēšanas iespēju nav!*).  
+- **nano** – Rediģēšanas programma (*Alternatīva **Notepad++***).  
+- **touch FileName.txt** – izveidot jaunu failu. (*Kā arī ir iespējams izveidot failu ar komandu "echo" un ">" kombināciju*)  
 - **cp** – kopēt failu (*No - uz*).  
 - **mv** – pārvietot failu (*No - uz. Kā arī pārsaukt tekošu, ja mērķa fails jau eksistē*).  
 - **rm** – izdzēst vienību (*Izdēst kopu ar atbilstošu masku (\*)*).  
+- **rm -r** – izdzēs folderi ar visu saturu (*Ir neatgriezeniska darbība!*).  
 - **mkdir FolderName** – izveidot jaunu folderi tekošajā foderī.  
+- **echo** – printēt uz ekrāna tekstu (*Piem., echo Hello World*). Izmantojot kopā ar **>** tiks ierakstīt failā: **a**.) Ja fails neeksistē, tad izveido jaunu; **b**.) Ja fails eksistē, tad pārraksta (dzēšot veco saturu).  
+- **echo -e "Hello\vWorld"** – izdrukā uz ekrāna *Hello World*. Simbolu virkne "\v" ir darbības simbols, kurš pārnes uz nākamo rindiņu turpmāko saturu tieši zem sevis. T.i., šis nav parasts *Enter*! Sintaksis -e aktivizē papild bibliotēku ar aprakstu par "\v" un citiem elementiem.  
 
 #### Vispārīgi
 - **\*** – maska (*Piem., \*.txt*).  
