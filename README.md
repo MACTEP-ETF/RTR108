@@ -47,7 +47,8 @@ Ja objekta nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 - **TAB 1x** – papildina kodu ar vienīgo iespējamo variantu.  
 
 ### Komandas
-**Ir iespējams strādāt ar failiem/folderiem attālināti! Respektīvi nav jāatrodas tai pašā adresē kā fails, lai varētu, piem., skatīt detalizēti skatu par viņu / rediģēt viņu / pārvietot / dzēst - veikt dajebkādas darbības!**  
+**Ir iespējams strādāt ar failiem/folderiem attālināti! Respektīvi nav jāatrodas tai pašā adresē kā fails, lai varētu, piem.: skatīt detalizēti skatu par viņu, rediģēt viņu, pārvietot, dzēst - veikt dajebkādas darbības!**    
+
 #### Apraksts par sistēmu
 - **whoami** – lietotājs (*kas es esmu?*).  
 - **uname** – operētājsistēmas nosaukums.  
@@ -70,14 +71,19 @@ Ja objekta nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 #### Darbības ar failiem/folderiem
 - **whereis FileName** – parāda uz ekrāna dotā faila atrašanas vietu.  
 - **cat** – skatīt faila saturu uz ekrāna (*Rediģēšanas iespēju nav!*).  
-- **nano** – Rediģēšanas programma (*Alternatīva **Notepad++***).  
-- **touch FileName.txt** – izveidot jaunu failu. (*Kā arī ir iespējams izveidot failu ar komandu "echo" un ">" kombināciju*)  
+- **nano** – rediģēšanas programma (*Alternatīva **Notepad++***).  
+- **chmod FileName** – rediģēt tiesības uz failu/folderi (Read/Write/Execute). Kods "740" ļauj palaist tādus failus kā "sh"  
+- **touch FileName** – izveidot jaunu failu.  
 - **cp** – kopēt failu (*No - uz*).  
+- **cp -r** – kopēt folderi ar visu saturu (*No - uz*).  
 - **mv** – pārvietot failu (*No - uz. Kā arī pārsaukt tekošu, ja mērķa fails jau eksistē*).  
+- **mv -r** – pārvietot folderi ar visu saturu (*No - uz.*).  
 - **rm** – izdzēst vienību (*Izdēst kopu ar atbilstošu masku (\*)*).  
 - **rm -r** – izdzēs folderi ar visu saturu (*Ir neatgriezeniska darbība!*).  
 - **mkdir FolderName** – izveidot jaunu folderi tekošajā foderī.  
 - **echo** – printēt uz ekrāna tekstu (*Piem., echo Hello World*). Izmantojot kopā ar **>** tiks ierakstīt failā: **a**.) Ja fails neeksistē, tad izveido jaunu; **b**.) Ja fails eksistē, tad pārraksta (dzēšot veco saturu).  
+- **echo $PATH** – parāda uz ekrāna visus iekešotos ceļus sistēmā! (*Ja, piem., jaunizveidotais folderis nebūs iekešots, tad ar komandu **whereis** sistēma nespēs atrast failu, kurš atrodas šajā folderī! Kā arī nebūs iespējams palaist viņu, pat ja Tu atrodies faila atrašanas folderī*)  
+
 - **echo -e "Hello\vWorld"** – izdrukā uz ekrāna *Hello World*. Simbolu virkne "\v" ir darbības simbols, kurš pārnes uz nākamo rindiņu turpmāko saturu tieši zem sevis. T.i., šis nav parasts *Enter*! Sintaksis -e aktivizē papild bibliotēku ar aprakstu par "\v" un citiem elementiem.  
 
 #### Vispārīgi
