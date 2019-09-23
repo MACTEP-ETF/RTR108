@@ -1,0 +1,107 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  ls
+    4  ls -l
+    5  git clone https://github.com/MACTEP-ETF/RTR105
+    6  man git
+    7  ls -l
+    8  man git
+    9  ls -l
+   10  cd RTR[E
+   11  cd RTR105
+   12  ls -l
+   13  nano git-upload
+   14  ls -l
+   15  echo $PATH .git-upload
+   16  ls -l
+   17  echo $PATH git-upload
+   18  ls -l
+   19  chmod 755 git-upload
+   20  ls -l
+   21  history
+   22  history > history_201909923.txt
+   23  ls -l
+   24* 
+   25  echo $PATH git-upload
+   26  ./git-upload 
+   27  nano git-upload
+   28  ./git-upload 
+   29  ls -l
+   30  ls -l -a
+   31  cat git-upload
+   32  ./git-upload a b
+   33  ./git-upload 20190923_15_15
+   34  man $PATH
+   35  man PATH
+   36  echo $PATH | tr ":" "\n"
+   37  pwd
+   38  mkdir darbi
+   39  ls -l
+   40  cd darbi
+   41  pwd
+   42  nano elementary.c
+   43  cat elementary.c
+   44  nano elementary.c
+   45  cat elementary.c
+   46  gcc elementary.c
+   47  nano elementary.c
+   48  gcc elementary.c
+   49  ls -l
+   50  nano elementary.c
+   51  cat elementary.c
+   52  gcc elementary.c -o prg1
+   53  ls -l
+   54  ./prg1
+   55  ./a.out
+   56  nano elementary.c
+   57  gcc elementary.c -o prg2
+   58  ls -l
+   59  gcc elementary.c -o prg1
+   60  ls -l
+   61  nano elementary.c
+   62  gcc elementary.c -o prg1
+   63  nano elementary.c
+   64  gcc elementary.c -o prg1
+   65  ls -l
+   66  nano elementary.c
+   67  ls -l
+   68  cat elementary.c
+   69  gcc elementary.c -o prg2
+   70  ls -l
+   71  nano elementary.c
+   72  gcc elementary.c -o prg3
+   73  ls -l
+   74  cp elementary.c hello.c
+   75  li -l
+   76  ls -l
+   77  nano hello.c
+   78  gcc hello.c prg4
+   79  gcc hello.c -o prg4
+   80  nano hello.c
+   81  cat hello.c
+   82  gcc hello.c -o prg4
+   83  nano hello.c
+   84  cat hello.c
+   85  gcc hello.c -o prg4
+   86  ls -l
+   87  ./prg4
+   88  nano hello.c
+   89  cat hello.c
+   90  gcc hello.c -o prg4
+   91  gcc hello.c -o prg5
+   92  ls -l
+   93  ./prg5
+   94  cat hello.c
+   95  nano hello.c
+   96  cat hello.c
+   97  gcc hello.c -o prg6
+   98  ls -l
+   99  ./prg6
+  100  ls prg*
+  101  rm prg*
+  102  ls -l
+  103  rm a.out
+  104  ls -l
+  105  cd ..
+  106  ls -l
+  107  history > history_2019091607.txt
