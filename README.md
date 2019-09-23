@@ -56,6 +56,7 @@ Ja objekta nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 - **sh** – kompaktā interpretatora izsaukšana.  
 
 #### Failu sistēmas navigācija
+- **.** – norāde uz esošu vietu.  
 - **cd .** – norāde/solis uz vietas (*relatīvā adresācija*).  
 - **cd ..** – norāde/solis līmeni augstāk.  
 - **cd** – atgriešanās mājas apgabalā.  
@@ -85,7 +86,8 @@ Ja objekta nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 - **mkdir FolderName** – izveidot jaunu folderi tekošajā foderī.  
 - **echo** – printēt uz ekrāna tekstu (*Piem., echo Hello World*). Izmantojot kopā ar **>** tiks ierakstīt failā: **a**.) Ja fails neeksistē, tad izveido jaunu; **b**.) Ja fails eksistē, tad pārraksta (dzēšot veco saturu).  
 - **$PATH** – parāda uz ekrāna visus iekešotos ceļus sistēmā!  
-- **echo $PATH RequirePath** – pievieno ceļu nepieciešamajam folderim.    
+- **echo $PATH RequirePath** – pievieno ceļu nepieciešamajam folderim.  
+- **./FileName** – palaiž failu (*Nav obligāti nepieciešams iekļaut failu PATH sistēmā*).  
 - **echo -e "Hello\vWorld"** – izdrukā uz ekrāna *Hello World*. Simbolu virkne "\v" ir darbības simbols, kurš pārnes uz nākamo rindiņu turpmāko saturu tieši zem sevis. T.i., šis nav parasts *Enter*! Sintaksis -e aktivizē papild bibliotēku ar aprakstu par "\v" un citiem elementiem.  
 
 #### Vispārīgi
