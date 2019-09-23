@@ -45,6 +45,7 @@ Ja objekta nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 - **TAB 1x** – papildina kodu ar vienīgo iespējamo variantu.  
 
 ### Komandas
+- Ir iespējams strādāt ar failiem/folderiem attālināti! Respektīvi nav jāatrodas tai pašā adresē kā fails, lai varētu, piem., skatīt detalizēti skatu par viņu / rediģēt viņu / pārvietot / dzēst - veikt dajebkādas darbības!  
 #### Apraksts par sistēmu
 - **whoami** – lietotājs (*kas es esmu?*).  
 - **uname** – operētājsistēmas nosaukums.  
@@ -61,12 +62,12 @@ Ja objekta nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 - **pwd** – parāda kāda ir adrese tekošam folderim (*kur es esmu?*).  
 - **ls** – parāda kas atrodas tekošā folderī (*kas man ir pieejams*).  
 - **ls -l** – tekošā foldera detalizēts skats.  
-- **ls -l \Path\FileName** – konkreta faila detalizēts skats.  
+- **ls -l \Path\FileName** – konkreta faila detalizēts skats (*Nav obligāti atrasties tajā adresē, var darboties arī attālināti!*).  
 - **ls -a** – parādā visus objektus (tai skaitā *hidden files*).  
 
 #### Darbības ar failiem/folderiem
 - **echo** – printēt uz ekrāna tekstu (*Piem., echo Hello World*). Izmantojot kopā ar **>** tiks ierakstīt failā: **a**.) Ja fails neeksistē, tad izveido jaunu; **b**.) Ja fails eksistē, tad pārraksta (dzēšot veco saturu).  
-- **echo -e "Hello\vWorld"** – izdrukā uz ekrāna *Hello World*. Simbolu virkne "/v" ir darbības simbols, kurš pārnes uz nākamo rindiņu turpmāko saturu tieši zem sevis. T.i., šis nav parasts *Enter*! Sintaksis -e aktivizē papild bibliotēku ar aprakstu par "/v" un citiem elementiem.  
+- **echo -e "Hello\vWorld"** – izdrukā uz ekrāna *Hello World*. Simbolu virkne "\v" ir darbības simbols, kurš pārnes uz nākamo rindiņu turpmāko saturu tieši zem sevis. T.i., šis nav parasts *Enter*! Sintaksis -e aktivizē papild bibliotēku ar aprakstu par "\v" un citiem elementiem.  
 
 - **touch FileName.txt** – izveidot jaunu failu.  
 - **cp** – kopēt failu (*No - uz*).  
