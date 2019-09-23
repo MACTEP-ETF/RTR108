@@ -61,15 +61,18 @@ Ja objekta nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 - **pwd** – parāda kāda ir adrese tekošam folderim (*kur es esmu?*).  
 - **ls** – parāda kas atrodas tekošā folderī (*kas man ir pieejams*).  
 - **ls -l** – tekošā foldera detalizēts skats.  
+- **ls -l \Path\FileName** – konkreta faila detalizēts skats.  
 - **ls -a** – parādā visus objektus (tai skaitā *hidden files*).  
 
-#### Darbības ar failiem
+#### Darbības ar failiem/folderiem
 - **echo** – printēt uz ekrāna tekstu (*Piem., echo Hello World*). Izmantojot kopā ar **>** tiks ierakstīt failā: **a**.) Ja fails neeksistē, tad izveido jaunu; **b**.) Ja fails eksistē, tad pārraksta (dzēšot veco saturu).  
+- **echo -e "Hello\vWorld"** – izdrukā uz ekrāna *Hello World*. Simbolu virkne "/v" ir darbības simbols, kurš pārnes uz nākamo rindiņu turpmāko saturu tieši zem sevis. T.i., šis nav parasts *Enter*! Sintaksis -e aktivizē papild bibliotēku ar aprakstu par "/v" un citiem elementiem.  
 
 - **touch FileName.txt** – izveidot jaunu failu.  
 - **cp** – kopēt failu (*No - uz*).  
 - **mv** – pārvietot failu (*No - uz. Kā arī pārsaukt tekošu, ja mērķa fails jau eksistē*).  
 - **rm** – izdzēst vienību (*Izdēst kopu ar atbilstošu masku (\*)*).  
+- **mkdir FolderName** – izveidot jaunu folderi tekošajā foderī.  
 
 #### Vispārīgi
 - **\*** – maska (*Piem., \*.txt*).  
