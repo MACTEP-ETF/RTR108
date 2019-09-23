@@ -15,8 +15,9 @@ Studiju kursa Datormācība (pamatkurss) elektroniskā klade
 4. **Applications** – Aplikācijas. 
 
 # LINUX
-## Termināls
 **Katrs simbols ir noteikts pēc ASCII kartes! Respektīvi, vārds "Ram" un "ram" nav viens un tas pats!**  
+
+## Termināls
 ### Īsceļi (shortcuts)
 - **Ctrl+Alt+T** – jauna termināla loga atveršana.  
 - **Ctrl+Shift+T** – jauna papildloga atveršana esošajā termināla.  
