@@ -45,7 +45,7 @@ Ja objekta nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 - **TAB 1x** – papildina kodu ar vienīgo iespējamo variantu.  
 
 ### Komandas
-- Ir iespējams strādāt ar failiem/folderiem attālināti! Respektīvi nav jāatrodas tai pašā adresē kā fails, lai varētu, piem., skatīt detalizēti skatu par viņu / rediģēt viņu / pārvietot / dzēst - veikt dajebkādas darbības!  
+**Ir iespējams strādāt ar failiem/folderiem attālināti! Respektīvi nav jāatrodas tai pašā adresē kā fails, lai varētu, piem., skatīt detalizēti skatu par viņu / rediģēt viņu / pārvietot / dzēst - veikt dajebkādas darbības!**  
 #### Apraksts par sistēmu
 - **whoami** – lietotājs (*kas es esmu?*).  
 - **uname** – operētājsistēmas nosaukums.  
