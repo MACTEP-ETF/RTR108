@@ -1,0 +1,22 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  ls
+    4  ls -l
+    5  git clone https://github.com/MACTEP-ETF/RTR105
+    6  man git
+    7  ls -l
+    8  man git
+    9  ls -l
+   10  cd RTR[E
+   11  cd RTR105
+   12  ls -l
+   13  nano git-upload
+   14  ls -l
+   15  echo $PATH .git-upload
+   16  ls -l
+   17  echo $PATH git-upload
+   18  ls -l
+   19  chmod 755 git-upload
+   20  ls -l
+   21  history
+   22  history > history_201909923.txt
