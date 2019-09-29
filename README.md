@@ -24,29 +24,37 @@ Skaitļošanas sistēmas apzīmējumu raksta cipara beigās subscript veidā! (*
 Lai pārietu no vienas skaitļošanas sistēmu uz otru, izejas skaitlis tiek dalīts ar pārejas skaitļošanas sistēmas bāzi! Piem., binārās sistēmas bāze ir 2, decimālās - 10, heksadecimālās - 16. Tātad, skaitlis tiek datīts ar "sistēmas bāzi" un atlikums tiek ierakstīts iekavās "()". Dalīšana turpinās tiktāl, līdz dalījums ir vienāds ar "0". Jaunās skaitļošanas sistēmas skaitlis tiek pārrakstīts no iekavām no apakšas uz augšu. Skat. piemērus!  
 ### Dec to Bin:  
 **Piemērs**:  
-65<sub>10</sub>. : 2 = 32 (1) - LSB  
-32<sub>10</sub>. : 2 = 16 (0)  
-16<sub>10</sub>. : 2 = 8 (0)  
-8<sub>10</sub>. : 2 = 4 (0)  
-4<sub>10</sub>. : 2 = 2 (0)  
-2<sub>10</sub>. : 2 = 1 (0)  
-1<sub>10</sub>. : 2 = 0 (1) - MSB  
-Binārais kods = 100 0001<sub>2</sub>  
+65<sub>10</sub> : 2 = 32 (1) - LSB  
+32<sub>10</sub> : 2 = 16 (0)  
+16<sub>10</sub> : 2 = 8 (0)  
+8<sub>10</sub> : 2 = 4 (0)  
+4<sub>10</sub> : 2 = 2 (0)  
+2<sub>10</sub> : 2 = 1 (0)  
+1<sub>10</sub> : 2 = 0 (1) - MSB  
+Binārais skaitlis = 100 0001<sub>2</sub>  
 ### Bin to Dec:  
 Decimālā skaitļošanas sistēmā ir 10 skaitļi {0, 1, 2, 3, 4, 5, 6, 7, 8, 9} un to kārtas var tikt atzīmētas sekojoši: piem., skaitli 256 var pierakstīt šādi = 2\*10<sup>2</sup> + 5\*10<sup>1</sup> + 6\*10<sup>0</sup> = 256. Tāpat ir arī ar bināriem skaitļiem ar vienu BET! Binārā sistēmā ir tikai divi skaitļi {0, 1}, tādejādi arī kārtas ir nevis 10<sup>pakāpē</sup>, bet gan 2<sup>pakāpē</sup>  
 **Piemērs**:  
-100 0001<sub>2</sub> = 1\*2<sup>6</sup> + 0\*2<sup>5</sup> + 0\*2<sup>4</sup> + 0\*2<sup>3</sup> + 0\*2<sup>2</sup> + 0\*2<sup>1</sup> + 1\*2<sup>0</sup> = 1+0+0+0+0+0+64 = 65<sub>10</sub>  
+100 0001<sub>2</sub> = 1\*2<sup>6</sup> + 0\*2<sup>5</sup> + 0\*2<sup>4</sup> + 0\*2<sup>3</sup> + 0\*2<sup>2</sup> + 0\*2<sup>1</sup> + 1\*2<sup>0</sup> = 64+0+0+0+0+0+1 = 65<sub>10</sub>  
 ### Dec to Hex:  
-
-
+Hexadecimālā skaitļošanas sistēmā ir 16 skaitļi {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F} un to kārtas tiek atzīmētas pēc tāda paša principa kā iepriekš.
+**Piemērs**:  
+65<sub>10</sub> : 16 = 4 (1)  
+4<sub>10</sub> : 16 = 0 (4)  
+Heksadecimāls skaitlis = 41<sub>16</sub>  
+Tiek apzīmēts arī kā: 0x41  
 ### Hex to Dec:  
-
+**Piemērs**:  
+41<sub>16</sub> = 4\*16<sup>1</sup> + 1\*16<sup>0</sup> = 64 + 1 = 65<sub>10</sub>  
 ### Dec to Oct:  
-
+**Piemērs**:  
+65<sub>10</sub> : 8 = 8 (1)  
+8<sub>10</sub> : 8 = 1 (0)  
+1<sub>10</sub> : 8 = 0 (1)  
+Oktālais skaitlis = 101<sub>8</sub>  
 ### Oct to Dec:  
-
-
-
+**Piemērs**:  
+101<sub>8</sub> = 1\*8<sup>2</sup> + 0\*8<sup>1</sup> + 1\*8<sup>0</sup> = 64 + 1 = 65<sub>10</sub> 
 
 # LINUX
 **Katrs simbols ir noteikts pēc ASCII kartes! Respektīvi, vārds "Ram" un "ram" nav viens un tas pats!**  
