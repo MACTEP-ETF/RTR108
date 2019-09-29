@@ -47,6 +47,7 @@ Tiek apzīmēts arī kā: 0x41
 **Piemērs**:  
 41<sub>16</sub> = 4\*16<sup>1</sup> + 1\*16<sup>0</sup> = 64 + 1 = 65<sub>10</sub>  
 ### Dec to Oct:  
+Oktālā skaitļošanas sistēmā ir 8 skaitļi {0, 1, 2, 3, 4, 5, 6, 7} un to kārtas tiek atzīmētas pēc tāda paša principa kā iepriekš.
 **Piemērs**:  
 65<sub>10</sub> : 8 = 8 (1)  
 8<sub>10</sub> : 8 = 1 (0)  
@@ -57,7 +58,7 @@ Oktālais skaitlis = 101<sub>8</sub>
 101<sub>8</sub> = 1\*8<sup>2</sup> + 0\*8<sup>1</sup> + 1\*8<sup>0</sup> = 64 + 1 = 65<sub>10</sub> 
 
 # LINUX
-**Katrs simbols ir noteikts pēc ASCII kartes! Respektīvi, vārds "Ram" un "ram" nav viens un tas pats!**  
+**Katrs simbols ir noteikts pēc ASCII kartes! Respektīvi, "Ram" un "ram" nav viens un tas pats!**  
 
 ## Termināls
 ### Īsceļi (shortcuts)
