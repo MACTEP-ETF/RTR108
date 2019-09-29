@@ -5,7 +5,7 @@ if [ $# == 1 ] #cik "$#" argumenti ir nodoti skriptam
 then
 git config --global user.email vfedorovich@yandex.ru #Sevis indentifikācija
 git add . #Ko pievienot - šo vietu
-#git commit -m "20171012_09_55" #Agrāk bija katru reizi jāiet skriptā un 
+#git commit -m "20171012_09_55" #Agrāk bija katru reizi jāiet skriptā
 git commit -m $1 #Commit name nosaukums - Piešķir argumenta nosaukumu. (Uztaisīt mājās automatizēto date piešķiršanu)
 git pull
 git push origin master #Augšupielāde
