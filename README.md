@@ -15,11 +15,32 @@ Studiju kursa Datormācība (pamatkurss) elektroniskā klade
 4. **Applications** – Aplikācijas. 
 
 ## ASCII character map
-Tā ir burtu/ciparu karte, kurā ir iekļauti 256 simboli. 128 no tiem ir standarta un atlikušie - papildinājums atkarībā no valodas. Pirmie 32 simboli ir neredzamie – tie ir darbības simboli.
+**ASCII** ir burtu/ciparu karte, kurā ir iekļauti 256 simboli. 128 no tiem ir standarta un atlikušie - papildinājums atkarībā no valodas. Pirmie 32 simboli ir neredzamie – tie ir darbības simboli.
 - **LSB** – Least significant bit - reprezentē pašu mazāko skaitļa vērtību binārajā sistēmā. 1000 100**0**.
 - **MSB** – Most significant bit - reprezentē pašu lielāko skaitļa vērtību binārajā sistēmā. **1**000 1000.   
 
 ## Skaitļošanas sistēmas
+Skaitļošanas sistēmas apzīmējumu raksta cipara beigās subscript veidā! (*Piem., 12<sub>10</sub> - decimālā sistēma. 1110<sub>2</sub> - binārā sistēma. 41<sub>16</sub> - heksadecimālā sistēma*).  
+### Pārejas starp skaitļošanas sistēmām  
+#### Dec to Bin:  
+Skaitlis tiek datīts ar "2" un atlikums tiek ierakstīts iekavās "()". Dalīšana turpinās tiktāl, līdz dalījums ir vienāds ar "0". Binārais kods tiek pierakstīts no apakšas uz augšu.  
+**Piemērs**:  
+65<sub>10</sub>. : 2 = 32 (1) - LSB  
+32<sub>10</sub>. : 2 = 16 (0)  
+16<sub>10</sub>. : 2 = 8 (0)  
+8<sub>10</sub>. : 2 = 4 (0)  
+4<sub>10</sub>. : 2 = 2 (0)  
+2<sub>10</sub>. : 2 = 1 (0)  
+1<sub>10</sub>. : 2 = 0 (1) - MSB  
+Binārais kods = 100 0001<sub>2</sub>  
+#### Bin to Dec:  
+Decimālā skaitļošanas sistēmā ir 10 skaitļi {0, 1, 2, 3, 4, 5, 6, 7, 8, 9} un to kārtas var tikt atzīmētas sekojoši: piem., skaitli 256 var pierakstīt šādi = 2\*10<sup>2</sup> + 5\*10<sup>1</sup> + 6\*10<sup>0</sup> = 256. Tāpat ir arī ar bināriem skaitļiem ar vienu BET! Binārā sistēmā ir tikai divi skaitļi {0, 1}, tādejādi arī kārtas ir nevis 10<sup>pakāpē</sup>, bet gan 2<sup>pakāpē</sup>  
+**Piemērs**:  
+100 00011<sub>2</sub> = 1\*2<sup>7</sup> + 0\*2<sup>6</sup> + 0\*2<sup>5</sup> + 0\*2<sup>4</sup> + 1\*2<sup>3</sup> + 0\*2<sup>2</sup> + 0\*2<sup>1</sup> + 1\*2<sup>0</sup> = 1+0+0+0+0+0+0+64 = 65<sub>10</sub>  
+
+
+### Dec to Bin
+Skaitlis tiek datīts ar "2" un atlikums tiek ierakstīts iekavās "()". Dalīšana turpinās tiktāl, līdz dalījums ir vienāds ar "0". Binārais kods tiek pierakstīts no apakšas uz augšu.
 
 
 # LINUX
@@ -117,8 +138,8 @@ Ja faila/foldera nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 - **echo -e "Hello\vWorld"** – izdrukā uz ekrāna *Hello World*. Simbolu virkne "\v" ir darbības simbols, kurš pārnes uz nākamo rindiņu turpmāko saturu tieši zem sevis. T.i., šis nav parasts *Enter*! Sintaksis -e aktivizē papild bibliotēku ar aprakstu par "\v" un citiem elementiem.  
 
 #### Vispārīgi
-GitHub klonēšana
 - **git clone "arguments"** – kopē esošajā folderī visu repozitoriju no github. Argumentā norādīt repozitorija ceļu: https://github.com/MACTEP-ETF/RTR105.  
+- **git-upload parametri*** – lai augšuplādētu paveiktos darbus, kā argumentu ierakstīt laiku (*Piem., 20192909_10_10*).  
 - **\*** – maska (*Piem., \*.txt*).  
 - **firefox** – Firefox palaišana.  
 - **man** – dod detalizēts apraksts par tekošu kodu (*Jāpieraksta pirms nepieciešamās komandas*).  
