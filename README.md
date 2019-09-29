@@ -21,9 +21,8 @@ Studiju kursa Datormācība (pamatkurss) elektroniskā klade
 
 ## Skaitļošanas sistēmas
 Skaitļošanas sistēmas apzīmējumu raksta cipara beigās subscript veidā! (*Piem., 12<sub>10</sub> - decimālā sistēma. 1110<sub>2</sub> - binārā sistēma. 41<sub>16</sub> - heksadecimālā sistēma*).  
-### Pārejas starp skaitļošanas sistēmām  
-#### Dec to Bin:  
-Skaitlis tiek datīts ar "2" un atlikums tiek ierakstīts iekavās "()". Dalīšana turpinās tiktāl, līdz dalījums ir vienāds ar "0". Binārais kods tiek pierakstīts no apakšas uz augšu.  
+Lai pārietu no vienas skaitļošanas sistēmu uz otru, izejas skaitlis tiek dalīts ar pārejas skaitļošanas sistēmas bāzi! Piem., binārās sistēmas bāze ir 2, decimālās - 10, heksadecimālās - 16. Tātad, skaitlis tiek datīts ar "sistēmas bāzi" un atlikums tiek ierakstīts iekavās "()". Dalīšana turpinās tiktāl, līdz dalījums ir vienāds ar "0". Jaunās skaitļošanas sistēmas skaitlis tiek pārrakstīts no iekavām no apakšas uz augšu. Skat. piemērus!  
+### Dec to Bin:  
 **Piemērs**:  
 65<sub>10</sub>. : 2 = 32 (1) - LSB  
 32<sub>10</sub>. : 2 = 16 (0)  
@@ -33,14 +32,20 @@ Skaitlis tiek datīts ar "2" un atlikums tiek ierakstīts iekavās "()". Dalīš
 2<sub>10</sub>. : 2 = 1 (0)  
 1<sub>10</sub>. : 2 = 0 (1) - MSB  
 Binārais kods = 100 0001<sub>2</sub>  
-#### Bin to Dec:  
+### Bin to Dec:  
 Decimālā skaitļošanas sistēmā ir 10 skaitļi {0, 1, 2, 3, 4, 5, 6, 7, 8, 9} un to kārtas var tikt atzīmētas sekojoši: piem., skaitli 256 var pierakstīt šādi = 2\*10<sup>2</sup> + 5\*10<sup>1</sup> + 6\*10<sup>0</sup> = 256. Tāpat ir arī ar bināriem skaitļiem ar vienu BET! Binārā sistēmā ir tikai divi skaitļi {0, 1}, tādejādi arī kārtas ir nevis 10<sup>pakāpē</sup>, bet gan 2<sup>pakāpē</sup>  
 **Piemērs**:  
 100 00011<sub>2</sub> = 1\*2<sup>7</sup> + 0\*2<sup>6</sup> + 0\*2<sup>5</sup> + 0\*2<sup>4</sup> + 1\*2<sup>3</sup> + 0\*2<sup>2</sup> + 0\*2<sup>1</sup> + 1\*2<sup>0</sup> = 1+0+0+0+0+0+0+64 = 65<sub>10</sub>  
+### Dec to Hex:  
 
 
-### Dec to Bin
-Skaitlis tiek datīts ar "2" un atlikums tiek ierakstīts iekavās "()". Dalīšana turpinās tiktāl, līdz dalījums ir vienāds ar "0". Binārais kods tiek pierakstīts no apakšas uz augšu.
+### Hex to Dec:  
+
+### Dec to Oct:  
+
+### Oct to Dec:  
+
+
 
 
 # LINUX
