@@ -93,12 +93,14 @@ Ja faila/foldera nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 ### Darbibas simboli printf funkcijai
 - **\n** – pāriet uz nākamo rindiņu.  
 - **\r** – pāriet rindiņas sākumā.  
-- **\t** – tabulācija.  
+- **\t** – tabulācija (pārcelšana uz tuvāko TAB pozīciju).  
 - **\a** – skaņas simbols.  
 - **\'** – apostrofs.  
 - **\"** – pēdiņa.  
 - **\?** – jautājumzīme.  
 - **\\** – sleš.  
+- **\b** – kursors 1 solis atpakaļ.  
+- **\v** – vertikālā tabulācija.  
 
 ## Bash interpretators
 ### Īsceļi (shortcuts)
