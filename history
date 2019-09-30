@@ -1,0 +1,119 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/MACTEP-ETF/RTR105
+    4  cd RTR105
+    5  cd darbi
+    6  ls -l
+    7  cd ..
+    8  nano git-upload 
+    9  cd darbi
+   10  cd P05
+   11  la -l
+   12  nano 04.c
+   13  cat 04.c
+   14  cd ..
+   15  mkdir 5.lekcija
+   16  cd 5.lekcija/
+   17  nano 01.c
+   18  gcc 01.c -o prog1
+   19  nano 01.c
+   20  gcc 01.c -o prog1
+   21  ./prog1
+   22  nano 01.c
+   23  ./prog1
+   24  nano 01.c
+   25  gcc 01.c -o prog1
+   26  ./prog1
+   27  cp 01.c 02.c
+   28  nano 02.c
+   29  cd ..
+   30  rm -r 5.lekcija/
+   31  mkdir operator_precedence
+   32  cd operator_precedence/
+   33  nano 01.c
+   34  gcc 01.c -o prog1
+   35  nano 01.c
+   36  gcc 01.c -o prog1
+   37* 
+   38  nano float.c
+   39  rm float.c
+   40  nano 01.c
+   41  gcc 01.c -o prog1
+   42  ./prog1 
+   43  nano 01.c
+   44  gcc 01.c -o prog1
+   45  ./prog1 
+   46  nano 01.c
+   47  gcc 01.c -o prog1
+   48  ./prog1 
+   49  nano 01.c
+   50  gcc 01.c -o prog1
+   51  ./prog1 
+   52  nano 01.c
+   53  gcc 01.c -o prog1
+   54  ./prog1 
+   55  nano 01.c
+   56  gcc 01.c -o prog1
+   57  ./prog1 
+   58  nano 01.c
+   59  gcc 01.c -o prog1
+   60  nano 01.c
+   61  gcc 01.c -o prog1
+   62  ./prog1 
+   63  nano 01.c
+   64  cd ..
+   65  mkdir 5.lekcija
+   66  cd 5.lekcija/
+   67  nano 01.c
+   68  gcc 01.c -o prog1
+   69  ./ prog1 
+   70  gcc 01.c -o prog1
+   71  ./ prog1 
+   72  ./prog1 
+   73  nano 01.c
+   74  cp 01.c 02.c
+   75  nano 01.c
+   76  gcc 01.c -o prog1
+   77  ./prog1 
+   78  nano 01.c
+   79  gcc 01.c -o prog1
+   80  ./prog1 
+   81  nano 01.c
+   82  gcc 01.c -o prog1
+   83  nano 01.c
+   84  gcc 01.c -o prog1
+   85  ./prog1 
+   86  nano 01.c
+   87  gcc 01.c -o prog1
+   88  ./prog1 
+   89  nano 01.c
+   90  cp 02.c 03.c
+   91  nano 03.c 
+   92  gcc 03.c -o prog1
+   93  nano 03.c 
+   94  gcc 03.c -o prog1
+   95  nano 03.c 
+   96  gcc 03.c -o prog1
+   97  nano 03.c 
+   98  gcc 03.c -o prog1
+   99  nano 03.c 
+  100  gcc 03.c -o prog1
+  101  ./prog1 
+  102  nano 03.c 
+  103  gcc 03.c -o prog1
+  104  ./prog1 
+  105  cat 03.c
+  106  cd ..
+  107  cd 5.lekcija/
+  108  ls -l
+  109  rm prog1
+  110  ls -l
+  111  cd ..
+  112  ls -l
+  113  cd ..
+  114  ls -l
+  115  ./git-upload 30092019_16_11
+  116  history > history date
+  117  man date
+  118  history > history date -d
+  119  history > history 300920191613
