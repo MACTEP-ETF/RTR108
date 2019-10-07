@@ -90,7 +90,7 @@ Ja faila/foldera nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 ### Funkcijas
 - **main() {}** – Funkcija main. **()** – vieta argumentam. **{}** – funkcijas izpildošā daļa.  
 - **void** – funkcija rezultātu neatgriež.  
-### Darbibas simboli printf funkcijai
+### Darbības simboli printf funkcijai
 - **\n** – pāriet uz nākamo rindiņu.  
 - **\r** – pāriet rindiņas sākumā.  
 - **\t** – tabulācija (pārcelšana uz tuvāko TAB pozīciju).  
