@@ -1,0 +1,265 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/MACTEP-ETF/RTR105
+    4  ls -l
+    5  dc RTR[E
+    6  dc RTR105
+    7  cd RTR105
+    8  dir
+    9  cd darbi
+   10  ls -l
+   11  cd P05
+   12  ls -l
+   13  nano 05.c
+   14  cd ..
+   15  mkdir P06
+   16  cd P06
+   17  nano 01.c
+   18  gcc 01.c prog1
+   19  gcc 01.c -o prog1
+   20  ./prog1
+   21  nano 01.c
+   22  gcc 01.c -o prog1
+   23  ./prog1
+   24  nano 01.c
+   25  gcc 01.c -o prog1
+   26  ./prog1
+   27  cp 01.c 02.c
+   28  nano 02.c
+   29  gcc 02.c -o prog1
+   30  ./prog1
+   31  nano 02.c
+   32  gcc 02.c -o prog1
+   33  nano 02.c
+   34  gcc 02.c -o prog1
+   35  nano 02.c
+   36  gcc 02.c -o prog1
+   37  nano 02.c
+   38  gcc 02.c -o prog1
+   39  nano 02.c
+   40  gcc 02.c -o prog1
+   41  ./prog1
+   42  nano 01.c
+   43  rm 01.c
+   44  mv 02.c 01.c
+   45  nano 01.c
+   46  nano 02.c
+   47  gcc 02.c -o prog1
+   48  nano 02.c
+   49  gcc 02.c -o prog1
+   50  nano 02.c
+   51  gcc 02.c -o prog1
+   52  ./prog1
+   53  mv 02.c operation_bitwise_right_with_char.c
+   54  gcc operation_bitwise_right_with_char.c -o prog1
+   55  ./prog1
+   56  nano operation_bitwise_right_with_char.c 
+   57  gcc operation_bitwise_right_with_char.c -o prog1
+   58  ./prog1
+   59  nano operation_bitwise_right_with_char.c 
+   60  gcc operation_bitwise_right_with_char.c -o prog1
+   61  ./prog1
+   62  nano operation_bitwise_right_with_char.c 
+   63  gcc operation_bitwise_right_with_char.c -o prog1
+   64  ./prog1
+   65  nano operation_bitwise_right_with_char.c 
+   66  gcc operation_bitwise_right_with_char.c -o prog1
+   67  ./prog1
+   68  nano operation_bitwise_right_with_char.c 
+   69  ./prog1
+   70  cp operation_bitwise_right_with_char.c operation_bitwise_right_with_int.c 
+   71  nano operation_bitwise_right_with_int.c 
+   72  gcc operation_bitwise_right_with_int.c -o prog1
+   73  ./prog1
+   74  nano operation_bitwise_right_with_int.c 
+   75  ./prog1
+   76  cp 01.c Multiplication_division_and_remainder.c
+   77  nano Multiplication_division_and_remainder.c 
+   78  gcc Multiplication_division_and_remainder.c -o prog1
+   79  ./prog1
+   80  nano Multiplication_division_and_remainder.c 
+   81  nano operation_bitwise_right_with_int.c 
+   82  nano Multiplication_division_and_remainder.c 
+   83  gcc Multiplication_division_and_remainder.c -o prog1
+   84  ./prog1
+   85  nano Multiplication_division_and_remainder.c 
+   86  gcc Multiplication_division_and_remainder.c -o prog1
+   87  nano Multiplication_division_and_remainder.c 
+   88  gcc Multiplication_division_and_remainder.c -o prog1
+   89  nano Multiplication_division_and_remainder.c 
+   90  gcc Multiplication_division_and_remainder.c -o prog1
+   91  nano Multiplication_division_and_remainder.c 
+   92  gcc Multiplication_division_and_remainder.c -o prog1
+   93  nano Multiplication_division_and_remainder.c 
+   94  gcc Multiplication_division_and_remainder.c -o prog1
+   95  ./prog1
+   96  nano Multiplication_division_and_remainder.c 
+   97  gcc Multiplication_division_and_remainder.c -o prog1
+   98  nano Multiplication_division_and_remainder.c 
+   99  gcc Multiplication_division_and_remainder.c -o prog1
+  100  ./prog1
+  101  nano Multiplication_division_and_remainder.c 
+  102  gcc Multiplication_division_and_remainder.c -o prog1
+  103  ./prog1
+  104  nano Multiplication_division_and_remainder.c 
+  105  cp operation_bitwise_right_with_int.c operation_bitwise_left_with_int.c
+  106  nano operation_bitwise_left_with_int.c 
+  107  gcc operation_bitwise_left_with_int.c -o prog1
+  108  ./prog1
+  109  nano operation_bitwise_left_with_int.c 
+  110  gcc operation_bitwise_left_with_int.c -o prog1
+  111* 
+  112  nano Multiplication_division_and_remainder.c 
+  113  gcc Multiplication_division_and_remainder.c -o prog1
+  114  ./prog1
+  115  mv Multiplication_division_and_remainder.c Multiplication_and_division.c 
+  116  ls -l
+  117  cp Multiplication_and_division.c Remainder.c
+  118  ls -l
+  119  nano Remainder.c 
+  120  gcc Remainder.c 
+  121  nano Remainder.c 
+  122  gcc Remainder.c 
+  123  nano Remainder.c 
+  124  gcc Remainder.c 
+  125  nano Remainder.c 
+  126  gcc Remainder.c 
+  127  nano Remainder.c 
+  128  gcc Remainder.c 
+  129  ./prog1 
+  130  gcc Remainder.c -o prog1
+  131  ./prog1 
+  132  nano Remainder.c 
+  133  gcc Remainder.c -o prog1
+  134  ./prog1 
+  135  nano Remainder.c 
+  136  gcc Remainder.c -o prog1
+  137  ./prog1 
+  138  nano Remainder.c 
+  139  gcc Remainder.c -o prog1
+  140  nano Remainder.c 
+  141  gcc Remainder.c -o prog1
+  142  ./prog1 
+  143  nano Remainder.c 
+  144  gcc Remainder.c -o prog1
+  145  nano Remainder.c 
+  146  gcc Remainder.c -o prog1
+  147  ./prog1 
+  148  nano Remainder.c 
+  149  gcc Remainder.c -o prog1
+  150  ./prog1 
+  151  nano Remainder.c 
+  152  gcc Remainder.c -o prog1
+  153  ./prog1 
+  154  nano Remainder.c 
+  155  gcc Remainder.c -o prog1
+  156  ./prog1 
+  157  nano Remainder.c 
+  158  gcc Remainder.c -o prog1
+  159  ./prog1 
+  160  nano relation_operations.c
+  161  gcc relation_operations.c -o prog1
+  162  nano relation_operations.c
+  163  gcc relation_operations.c -o prog1
+  164  nano relation_operations.c
+  165  gcc relation_operations.c -o prog1
+  166  nano relation_operations.c
+  167  gcc relation_operations.c -o prog1
+  168  nano relation_operations.c
+  169  gcc relation_operations.c -o prog1
+  170  nano relation_operations.c
+  171  gcc relation_operations.c -o prog1
+  172  nano relation_operations.c
+  173  gcc relation_operations.c -o prog1
+  174  nano relation_operations.c
+  175  gcc relation_operations.c -o prog1
+  176  nano relation_operations.c
+  177  gcc relation_operations.c -o prog1
+  178  nano relation_operations.c
+  179  gcc relation_operations.c -o prog1
+  180  ./prog1 
+  181  nano relation_operations.c
+  182  gcc relation_operations.c -o prog1
+  183  nano relation_operations.c
+  184  gcc relation_operations.c -o prog1
+  185  nano relation_operations.c
+  186  gcc relation_operations.c -o prog1
+  187  nano relation_operations.c
+  188  gcc relation_operations.c -o prog1
+  189  nano relation_operations.c
+  190  gcc relation_operations.c -o prog1
+  191  nano relation_operations.c
+  192  gcc relation_operations.c -o prog1
+  193  nano relation_operations.c
+  194  gcc relation_operations.c -o prog1
+  195  ./prog1 
+  196  nano relation_operations.c
+  197  gcc relation_operations.c -o prog1
+  198  ./prog1 
+  199  nano relation_operations.c
+  200  gcc relation_operations.c -o prog1
+  201  ./prog1 
+  202  nano relation_operations.c
+  203  gcc relation_operations.c -o prog1
+  204  ./prog1 
+  205  nano relation_operations.c
+  206  gcc relation_operations.c -o prog1
+  207  nano relation_operations.c
+  208  gcc relation_operations.c -o prog1
+  209  ./prog1 
+  210  nano relation_operations.c
+  211  gcc relation_operations.c -o prog1
+  212  ./prog1 
+  213  nano relation_operations.c
+  214  gcc relation_operations.c -o prog1
+  215  ./prog1 
+  216  nano relation_operations.c
+  217  gcc relation_operations.c -o prog1
+  218  ./prog1 
+  219  nano relation_operations.c
+  220  gcc relation_operations.c -o prog1
+  221  ./prog1 
+  222  nano relation_operations.c
+  223  nano Prefix_increment_and_decrement.c
+  224  gcc Prefix_increment_and_decrement.c -o prog1
+  225  ./prog1 
+  226  nano Prefix_increment_and_decrement.c
+  227  gcc Prefix_increment_and_decrement.c -o prog1
+  228  ./prog1 
+  229  nano Prefix_increment_and_decrement.c
+  230  gcc Prefix_increment_and_decrement.c -o prog1
+  231  ./prog1 
+  232  nano Prefix_increment_and_decrement.c
+  233  gcc Prefix_increment_and_decrement.c -o prog1
+  234  ./prog1 
+  235  nano Prefix_increment_and_decrement.c
+  236  gcc Prefix_increment_and_decrement.c -o prog1
+  237  ./prog1 
+  238  nano Prefix_increment_and_decrement.c
+  239  gcc Prefix_increment_and_decrement.c -o prog1
+  240  nano Prefix_increment_and_decrement.c
+  241  gcc Prefix_increment_and_decrement.c -o prog1
+  242  ./prog1 
+  243  nano Prefix_increment_and_decrement.c
+  244  gcc Prefix_increment_and_decrement.c -o prog1
+  245  ./prog1 
+  246  nano Prefix_increment_and_decrement.c
+  247  gcc Prefix_increment_and_decrement.c -o prog1
+  248  ./prog1 
+  249  nano Prefix_increment_and_decrement.c
+  250  gcc Prefix_increment_and_decrement.c -o prog1
+  251  ./prog1 
+  252  nano Prefix_increment_and_decrement.c
+  253  gcc Prefix_increment_and_decrement.c -o prog1
+  254  ./prog1 
+  255  nano Prefix_increment_and_decrement.c
+  256  gcc Prefix_increment_and_decrement.c -o prog1
+  257  nano Prefix_increment_and_decrement.c
+  258  nano Logical_NOT_and_bitwise_NOT.c
+  259  gcc Logical_NOT_and_bitwise_NOT.c -o prog1
+  260  ls -l
+  261  rm a.out
+  262  rm prog1
+  263  cd ..
+  264  ls -l
+  265  history > history_201907101752.txt
