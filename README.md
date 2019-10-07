@@ -93,14 +93,18 @@ Ja faila/foldera nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 - **void** – funkcija rezultātu neatgriež.  
 
 ### Datu tipi C valodā (izplatītākie)
-- **char b = 'A'** – Šī koda rindiņa definē trīs darbības. 1.) Atmiņā tiek rezervēts atmiņas daudzums dotam datu tipam *char* - 1 baits. 2. Tiek deklarēts "b" elements. 3. Elementam tiek piešķirta "=" vērtība.   
+- **char b = 'A'** – šī koda rindiņa definē trīs darbības:  
+1.) Atmiņā tiek rezervēts atmiņas daudzums dotam datu tipam *char* – 1 baits.  
+2.) Tiek deklarēts "b" elements.  
+3.) Elementam tiek piešķirta vērtība 'A'.   
+
 - **char** – paredzēts tikai simbolu glabāšanai, bet var būt izmantots arī veseliem skaitļiem kā *int*. Atmiņas diapazons ir ļoti mazs - 1 baits (8 biti) - 256 zīmes. Tādejādi skaitliskais diapazons no -128 līdz +127.
-- **unsigned "datuTipaNosaukums"** – nosaka, ka dotajā datu tipā būs tikai vienas zīmes elementi. (*Piem., ja tas ir **unsigned char**, tad dotajā datu tipā skaitliskais diapazons būs no 0 līdz 255.*)  
-- **int** – visi veselie skaitļi. Atkarībā no interpretatora atmiņas piešķirtais baitu skaits dotam datu tipam ir atšķirīgs. No 2 (16 bitiem) līdz 4 (32 bitiem) baitiem. Piem., 4 baitu diapazons ir: no -2,147,483,648 līdz 2,147,483,647.  
-- **long int** – tas pats kas *int*, tikai ar paplašinātu atmiņas apjomu – 4–12 baiti.  
-- **float** – visi reālie skaitļi (respektīvi, arī daļskaitļi). 4 baitu liels datu tips un līdz 6 zīmēm aiz komata.  
-- **double** – tas pats kas *float*, tikai ar paplašinātu atmiņas apjomu – 8 baiti un līdz 15 zīmēm aiz komata.  
-- **long double** – tas pats kas *doublefloat*, tikai ar paplašinātu atmiņas apjomu – 10 baiti un līdz 19 zīmēm aiz komata.  
+- **unsigned "datuTipaNosaukums"** – nosaka, ka dotajā datu tipā būs tikai vienas zīmes elementi. (*Piem., ja tas ir **unsigned char**, tad dotajā datu tipā skaitliskais diapazons būs no +0 līdz +255.*)  
+- **int** – visi veselie skaitļi. Atkarībā no interpretatora, piešķirtais atmiņas apgabals dotam datu tipam ir atšķirīgs. **No 2** (16 bitiem) **līdz 4** (32 bitiem) **baitiem**. Piem., 4 baitu diapazons ir: no -2,147,483,648 līdz 2,147,483,647.  
+- **long int** – tas pats kas *int*, tikai ar paplašinātu atmiņas apjomu – **4–12 baiti**.  
+- **float** – visi reālie skaitļi (respektīvi, arī daļskaitļi). **4 baitu** liels datu tips un līdz **6 zīmēm aiz komata**.  
+- **double** – tas pats kas *float*, tikai ar paplašinātu atmiņas apjomu – **8 baiti** un līdz **15 zīmēm aiz komata**.  
+- **long double** – tas pats kas *double float*, tikai ar paplašinātu atmiņas apjomu – **10 baiti** un līdz **19 zīmēm aiz komata**.  
 
 ### Darbības simboli printf funkcijai
 - **\n** – pāriet uz nākamo rindiņu.  
