@@ -121,13 +121,33 @@ Ja faila/foldera nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 ### C operatora prioritātes
 - **\*, /, %** – reizināšana, dalīšana un atlikums.  
 - **+, -** – saskaitīšana un atņemšana.  
-- **\<<, \>>** – bitu virzienā maiņa pa kreisi un pa labi.  
-- **\*, /, %** – Reizināšana, dalīšana un atlikums.  
-- **\*, /, %** – Reizināšana, dalīšana un atlikums.  
-- **\*, /, %** – Reizināšana, dalīšana un atlikums.  
-- **\*, /, %** – Reizināšana, dalīšana un atlikums.  
-- **\*, /, %** – Reizināšana, dalīšana un atlikums.  
-- **\*, /, %** – Reizināšana, dalīšana un atlikums.  
+- **<, <=** – salīdzināšanas operācija starp divām izteiksmēm, attiecīgi: mazāks kā (<), mazāks vai vienāds (≤).  
+- **>, >=** – salīdzināšanas operācija starp divām izteiksmēm, attiecīgi: lielāks kā (>), lielāks vai vienāds (≥).  
+- **==, !=** – izteiksmes salīdzināšanas oerpācija, attiecīgi: vienāds, nav vienāds.  
+- **!** – loģiskais NE. (*Piem., **! izteiksme1***)  
+- **||** – loģiskais VAI. (*Piem., **izteiksme1 || izteiksme2***)  
+- **&&** – loģiskais UN. (*Piem., **izteiksme1 && izteiksme2***)  
+
+#### Darbības pa bitiem
+- **~** – noliegums pa bitiem.  
+Piemērs:  
+baits           10 010 111  
+baits =~baits    01 101 000  
+
+- **\<<, \>>** – bitu virzienā maiņa pa kreisi, pa labi.  
+Piemērs:  
+baits                00 100 001  
+baits = baits << 1   01 000 010  
+baits = baits << 2   00 001 000  
+baits = baits >> 3   00 000 001  
+(*Piezīme. Bīdot uz kreiso vai labo pusi, jaunie biti, kas ienāk laukā ir 0.*)
+
+
+- **|** – pa bitiem loģiskais VAI. (**izteiksme1 | izteiksme2**)  
+- **^** – pa bitiem izslēdzošais VAI. (**izteiksme1 ^ izteiksme2**)  
+- **&** – pa bitiem loģiskais UN. (**izteiksme1 & izteiksme2**)  
+
+
 
 ## Bash interpretators
 ### Īsceļi (shortcuts)
