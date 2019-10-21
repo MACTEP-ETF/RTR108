@@ -131,19 +131,20 @@ Ja faila/foldera nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 #### Darbības pa bitiem
 - **~** – noliegums pa bitiem.  
 
-| Apraksts | darbības rezultāts |  
+| Operācija | Rezultāts |  
 | --- | --- |  
 | baits | 10 010 111 |  
 | baits =~baits | 01 101 000 |  
 
 - **\<<, \>>** – bitu virzienā maiņa pa kreisi, pa labi.  
-Piemērs:  
-baits                00 100 001  
-baits = baits << 1   01 000 010  
-baits = baits << 2   00 001 000  
-baits = baits >> 3   00 000 001  
-(*Piezīme. Bīdot uz kreiso vai labo pusi, jaunie biti, kas ienāk laukā ir 0.*)
 
+| Operācija | Rezultāts |  
+| --- | --- |  
+| baits | 00 100 001 |  
+| baits = baits << 1 | 01 000 010 |  
+| baits = baits << 2 | 00 001 000 |  
+| baits = baits >> 3 | 00 000 001 |  
+(*Piezīme. Bīdot uz kreiso vai labo pusi, jaunie biti, kas ienāk laukā ir 0.*)
 
 - **|** – pa bitiem loģiskais VAI. (**izteiksme1 | izteiksme2**)  
 - **^** – pa bitiem izslēdzošais VAI. (**izteiksme1 ^ izteiksme2**)  
