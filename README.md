@@ -129,27 +129,35 @@ Ja faila/foldera nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 - **&&** – loģiskais UN. (*Piem., **izteiksme1 && izteiksme2***)  
 
 #### Darbības pa bitiem
-- **~** – noliegums pa bitiem.  
+- **~** – noliegums pa bitiem. Piemērs:  
 
 | Operācija | Rezultāts |  
 | --- | --- |  
 | baits | 10 010 111 |  
 | baits =~baits | 01 101 000 |  
 
-- **\<<, \>>** – bitu virzienā maiņa pa kreisi, pa labi.  
 
-| Operācija | Rezultāts |  
+- **\<<, \>>** – bitu virzienā maiņa pa kreisi, pa labi. Piemērs:  
+
+| Izteiksme | Rezultāts |  
 | --- | --- |  
 | baits | 00 100 001 |  
 | baits = baits << 1 | 01 000 010 |  
 | baits = baits << 2 | 00 001 000 |  
 | baits = baits >> 3 | 00 000 001 |  
+
 (*Piezīme. Bīdot uz kreiso vai labo pusi, jaunie biti, kas ienāk laukā ir 0.*)
 
-- **|** – pa bitiem loģiskais VAI. (**izteiksme1 | izteiksme2**)  
-- **^** – pa bitiem izslēdzošais VAI. (**izteiksme1 ^ izteiksme2**)  
-- **&** – pa bitiem loģiskais UN. (**izteiksme1 & izteiksme2**)  
+- **|, ^, &** – divu izteiksmju salīdzināšana pa bitiem: loģiskais VAI, izslēdzošais VAI. loģiskais UN. Piemērs:  
+Pieņemsim, ka mums ir divas *unsigned char* izteiksmes: b1 = 0145, b2 = 0257.
 
+| Izteiksme | Rezultāts |  
+| --- | --- |  
+| b1 | 01 100 101 |  
+| b2 | 10 101 111 |  
+| rezultāts = b1 \| b2 | 11 001 010 |  
+| rezultāts = b1 ^ b2 | 00 000 001 |  
+| rezultāts = b1 & b2 | 00 100 101 |  
 
 
 ## Bash interpretators
