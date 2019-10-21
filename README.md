@@ -118,6 +118,17 @@ Ja faila/foldera nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 - **\b** – kursors 1 solis atpakaļ.  
 - **\v** – vertikālā tabulācija.  
 
+### C operatora prioritātes
+- **\*, /, %** – reizināšana, dalīšana un atlikums.  
+- **+, -** – saskaitīšana un atņemšana.  
+- **\<<, \>>** – bitu virzienā maiņa pa kreisi un pa labi.  
+- **\*, /, %** – Reizināšana, dalīšana un atlikums.  
+- **\*, /, %** – Reizināšana, dalīšana un atlikums.  
+- **\*, /, %** – Reizināšana, dalīšana un atlikums.  
+- **\*, /, %** – Reizināšana, dalīšana un atlikums.  
+- **\*, /, %** – Reizināšana, dalīšana un atlikums.  
+- **\*, /, %** – Reizināšana, dalīšana un atlikums.  
+
 ## Bash interpretators
 ### Īsceļi (shortcuts)
 - **Ctrl+L** – ekrāna attīrīšana (*Clear screen*).  
