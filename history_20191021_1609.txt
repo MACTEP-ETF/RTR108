@@ -1,0 +1,110 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/MACTEP-ETF/RTR105
+    4  cd RTR[E
+    5  cd RTR105
+    6  dc darbi
+    7  cd darbi
+    8  ls -l
+    9  mv operator_precedence P07_operator_precedence
+   10  ls -l
+   11  cd P05
+   12  ls P05
+   13  ls /P05
+   14  ls ./P05
+   15  ls .P05
+   16  cd ..
+   17  ls .\P05
+   18  ls ./P05
+   19  ls -l 5.lekcija
+   20  mkdir P08_if_while_for
+   21  cd P08_if_while_for/
+   22  nano for_tests_1.c
+   23  gcc for_tests_1.c -o prog1
+   24  ./prog1
+   25  nano for_tests_1.c
+   26  gcc for_tests_1.c -o prog1
+   27  ./prog1
+   28  cp for_tests_1.c for_tests_2.c 
+   29  ls -l
+   30  nano for_tests_2.c
+   31  gcc for_tests_2.c -o prog1
+   32  ./prog1
+   33  nano for_tests_2.c
+   34  cp for_tests_2.c for_tests_3.c
+   35  nano for_tests_3.c 
+   36  gcc for_tests_3.c -o prog1
+   37  ./prog1
+   38  nano for_tests_3.c 
+   39  cp for_tests_1.c if_tests_1.c
+   40  nano if_tests_1.c 
+   41  gcc if_tests_1.c -o prog1
+   42  ./prog1 
+   43  cp if_tests_1.c if_tests_2.c 
+   44  nano if_tests_2.c
+   45  gcc if_tests_2.c -o prog1
+   46  nano if_tests_2.c
+   47  gcc if_tests_2.c -o prog1
+   48  nano if_tests_2.c
+   49  gcc if_tests_2.c -o prog1
+   50  ./prog1 
+   51  cp if_tests_2.c if_tests_3.c
+   52  nano if_tests_3.c 
+   53  gcc if_tests_3.c -o prog1
+   54  nano if_tests_3.c 
+   55  gcc if_tests_3.c -o prog1
+   56  ./prog1 
+   57  cp for_tests_1.c while_tests_1.c
+   58  nano while_tests_1.c 
+   59  nano if_tests_3.c 
+   60  gcc if_tests_3.c -o prog1
+   61  ./prog1 
+   62  nano if_tests_3.c 
+   63  gcc while_tests_1.c -o prog1
+   64  ./prog1 
+   65  nano while_tests_1.c 
+   66  cp while_tests_1.c while_tests_2.c 
+   67  nano while_tests_2.c
+   68  gcc while_tests_2.c -o prog1
+   69  nano while_tests_2.c
+   70  gcc while_tests_2.c -o prog1
+   71  ./prog1 
+   72  nano while_tests_2.c
+   73  gcc while_tests_2.c -o prog1
+   74  ./prog1 
+   75  nano while_tests_2.c
+   76  cp if_tests_1.c if_tests_even_odd.c
+   77  nano if_tests_even_odd.c 
+   78  gcc if_tests_even_odd.c 
+   79  ls -l
+   80  rm a.out
+   81  rm if
+   82  gcc if_tests_even_odd.c -o prog1
+   83  ./prog1
+   84  nano if_tests_even_odd.c 
+   85  gcc if_tests_even_odd.c -o prog1
+   86  ./prog1
+   87  nano if_tests_even_odd.c 
+   88  gcc if_tests_even_odd.c -o prog1
+   89  nano if_tests_even_odd.c 
+   90  gcc if_tests_even_odd.c -o prog1
+   91  nano if_tests_even_odd.c 
+   92  gcc if_tests_even_odd.c -o prog1
+   93  nano if_tests_even_odd.c 
+   94  gcc if_tests_even_odd.c -o prog1
+   95  nano if_tests_even_odd.c 
+   96  gcc if_tests_even_odd.c -o prog1
+   97  ./prog1
+   98  nano if_tests_even_odd.c 
+   99  gcc if_tests_even_odd.c -o prog1
+  100  ./prog1
+  101  cd ..
+  102  ls -l
+  103  rm Gcc.jpg
+  104  rm Gcc.JPG
+  105  ls -l
+  106  history
+  107  history > history_20191021_1608
+  108  ls -l
+  109  rm history_20191021_1608
+  110  history > history_20191021_1609.txt
