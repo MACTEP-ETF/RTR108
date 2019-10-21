@@ -130,9 +130,11 @@ Ja faila/foldera nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 
 #### Darbības pa bitiem
 - **~** – noliegums pa bitiem.  
-Piemērs:  
-baits           10 010 111  
-baits =~baits    01 101 000  
+
+| Apraksts | darbības rezultāts |  
+| --- | --- |  
+| baits | 10 010 111 |  
+| baits =~baits | 01 101 000 |  
 
 - **\<<, \>>** – bitu virzienā maiņa pa kreisi, pa labi.  
 Piemērs:  
