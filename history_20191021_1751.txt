@@ -1,0 +1,80 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/MACTEP-ETF/RTR105
+    4  cd RTR105
+    5  cd darbi
+    6  ls -l
+    7  PS1=""
+    8  PS1="$"
+    9* 
+   10  PS1=" "
+   11  PS1="$ "
+   12  ls
+   13  cd..
+   14  cd ..
+   15  ls -la
+   16  cd ..
+   17  ls -l
+   18  cd RTR105
+   19  WIM
+   20  WIMM
+   21  VIM
+   22  vim
+   23  ls -l
+   24  mv a.txt darbi/
+   25  cd darbi
+   26  ls -l
+   27  wc a.txt 
+   28  man wc
+   29  wc -l a.txt 
+   30  wc -c a.txt 
+   31  wc -m a.txt 
+   32  wc -L a.txt 
+   33  man wc
+   34  echo a.txt 
+   35  cat a.txt 
+   36  echo a.txt 
+   37  mv a.txt a.sh
+   38  ls -l
+   39  vim a.sh
+   40  ls -l
+   41  chmod 111 a.sh
+   42  ls -l
+   43  chmod 001 a.sh
+   44  ls -l
+   45  chmod 000 a.sh
+   46  ls -l
+   47  chmod +x a.sh
+   48  ls -l
+   49  chmod -x a.sh
+   50  ls -l
+   51  chmod +x a.sh
+   52  ls -l
+   53  ./a.sh
+   54  ls -l
+   55  chmod +r a.sh
+   56  ls -l
+   57  chmod 755 a.sh
+   58  ls -l
+   59  ./a.sh
+   60  ls -l
+   61  vim a.c
+   62  gcc a.c
+   63  ls -l
+   64  ./a.out 
+   65  vim a.c
+   66  gcc a.c
+   67  ./a.out 
+   68  vim a.c
+   69  gcc a.c
+   70  ./a.out 
+   71  echo $?
+   72  vim a.c
+   73  gcc a.c
+   74  ./a.out 
+   75  echo $?
+   76  vim a.c
+   77  ls -l
+   78  cd ..
+   79  ls -l
+   80  history > history_20191021_1751.txt
