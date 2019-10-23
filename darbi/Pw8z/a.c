@@ -5,7 +5,7 @@ int main()
 {
 	unsigned char i = 250; //cikla mainīgais i
 
-	for ( i; 249>i<10 ; i++ ) {
+	for ( i; i!=11 ; i++ ) {
 	printf("i = %d \n",i);
 	} 
 
