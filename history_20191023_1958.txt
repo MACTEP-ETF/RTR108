@@ -1,0 +1,520 @@
+    1  sudo sh./VBoxLinuxAdditions.run
+    2  sudo sh ./VBoxLinuxAdditions.run
+    3  ls
+    4  pwd
+    5  whoami
+    6  uname
+    7  echo $0
+    8  sh
+    9  whoami
+   10  uname
+   11  pwd
+   12  ls
+   13  cd..
+   14  cd ..
+   15  pwd
+   16  ls
+   17  cd ..
+   18  pwd
+   19  ls
+   20  whoami
+   21  cd /
+   22  ls
+   23  cd ~
+   24  ls
+   25  init 0
+   26  pwd
+   27  uname
+   28  sh
+   29  firefox
+   30  init 0
+   31  /home
+   32  pwd
+   33  cd /home
+   34  pwd
+   35  cd
+   36  pwd
+   37  pwd -a
+   38  pwd -lp
+   39  man pwd
+   40  pwd -l
+   41  pwd -s
+   42  man pwd
+   43  pwd -L
+   44  pwd -A
+   45  pwd [-l]
+   46  man pwd
+   47  ls -a
+   48  man ls
+   49  ls -c
+   50  ls -d
+   51  ls -e
+   52  man ls
+   53  ls -al
+   54  firefox
+   55  init 0
+   56  sh
+   57  man ls
+   58  ls -a -c
+   59  pwd
+   60  cd..
+   61  cd ..
+   62  cd
+   63  cd ..
+   64  cd  
+   65  cd
+   66  cd  
+   67  cd ..
+   68  pwd
+   69  ls
+   70  ls -c
+   71  ls -w
+   72  ls -a
+   73  cd .
+   74  init 0
+   75  firefox
+   76  uname
+   77  sh
+   78  firefox
+   79  init 0
+   80  firefox
+   81  init 0
+   82  PATH
+   83  PATH$
+   84  $PATH
+   85  man $PATH
+   86  notepad
+   87  nano
+   88  pwd
+   89  ls -l
+   90  ls -l -a
+   91  ls -l
+   92  cat DarbaApraksts 
+   93  whoami
+   94  cd ..
+   95  cd
+   96  init 0
+   97  firefox
+   98  init 0
+   99  nano 03.c
+  100  cd darbi
+  101  ls -l
+  102  cd RTR105
+  103  ls -l
+  104  cd darbi
+  105  ls -l
+  106  cd P05
+  107  ls -l
+  108  nano 03.c
+  109  gcc 03.c -o prog1
+  110  ./03.c
+  111  ./prog1
+  112  nano 03.c
+  113  gcc 03.c -o prog1
+  114  ./prog1
+  115  nano 04.c
+  116  gcc 04.c -o prog1
+  117  nano 04.c
+  118  gcc 04.c -o prog1
+  119  nano 04.c
+  120  gcc 04.c -o prog1
+  121  nano 04.c
+  122  gcc 04.c -o prog1
+  123  nano 04.c
+  124  gcc 04.c -o prog1
+  125  ./prog1
+  126  nano 04.c
+  127  gcc 04.c -o prog1
+  128  ./prog1
+  129  nano 04.c
+  130  gcc 04.c -o prog1
+  131  nano 04.c
+  132  gcc 04.c -o prog1
+  133  nano 04.c
+  134  gcc 04.c -o prog1
+  135  nano 04.c
+  136  gcc 04.c -o prog1
+  137  ./prog1
+  138  nano 04.c
+  139  gcc 04.c -o prog1
+  140  ./prog1
+  141  nano 04.c
+  142  gcc 04.c -o prog1
+  143  ./prog1
+  144  nano 04.c
+  145  gcc 04.c -o prog1
+  146  ./prog1
+  147  nano 04.c
+  148  gcc 04.c -o prog1
+  149  nano 04.c
+  150  gcc 04.c -o prog1
+  151  ./prog1
+  152  nano 04.c
+  153  gcc 04.c -o prog1
+  154  ./prog1
+  155  nano 04.c
+  156  gcc 04.c -o prog1
+  157  ./prog1
+  158  nano 04.c
+  159  gcc 04.c -o prog1
+  160  ./prog1
+  161  nano 04.c
+  162  gcc 04.c -o prog1
+  163  ./prog1
+  164  nano 04.c
+  165  gcc 04.c -o prog1
+  166  ./prog1
+  167  nano 05.c
+  168  gcc 05.c -o prog1
+  169  ./prog1
+  170  nano 05.c
+  171  gcc 05.c -o prog1
+  172  ./prog1
+  173  nano 05.c
+  174  gcc 05.c -o prog1
+  175  ./prog1
+  176  cd ..
+  177  pwd
+  178  ls -l
+  179  init 0
+  180  firefox
+  181  firefox &
+  182  ls
+  183  cd RTR105
+  184  cd darbi
+  185  cd P05
+  186  ls -l
+  187  rm prog1
+  188  ls -l
+  189  cd ..
+  190  history
+  191  ls -l
+  192  ./git-upload
+  193  .git-upload
+  194  chmod 744 git-upload
+  195  ls -l
+  196  .git-upload
+  197  nano git-upload
+  198  chmod 755 git-upload
+  199  ls -l
+  200  ./git-upload 20190923_09_30
+  201  ls -l
+  202  cd darbi
+  203  ls -l
+  204  rm prog1
+  205  rm lekcija.c
+  206  ls -l
+  207  cd ..
+  208  ./git-upload 20190923_09_31
+  209  cd darbi
+  210  cd P05
+  211  cat 04.c
+  212  nano 04.c 
+  213  gcc 04.c -o prog1
+  214  nano 04.c 
+  215  gcc 04.c -o prog1
+  216  nano 04.c 
+  217  nano 03.c 
+  218  nano 04.c 
+  219  gcc 04.c -o prog1
+  220  ./prog1
+  221  nano 04.c 
+  222  gcc 04.c -o prog1
+  223  nano 04.c 
+  224  gcc 04.c -o prog1
+  225  gcc 05.c -o prog1
+  226  ./prog1
+  227  ls -l
+  228  rm prog1
+  229  cd ..
+  230  cd ~
+  231  ls -l
+  232  cd Pictures
+  233  ls -l
+  234  cd ..
+  235  cd RTR105/darbi
+  236  ls -l
+  237  gcc 02.c
+  238  ls -l
+  239  sh a.out
+  240  ./a.out
+  241  ls -l
+  242  nano a.out
+  243  ls -l
+  244  rm a.out
+  245  cd ..
+  246  nano m
+  247  init 0
+  248  ls -l
+  249  cd RTR105
+  250  ls -l
+  251  cd ..
+  252  rm -r RTR105
+  253  y
+  254  ls -l
+  255  cd RTR105
+  256  ls -l
+  257  cd ..
+  258  rm RTR105
+  259  rm -r RTR105/
+  260  ls -l
+  261  git clone https://github.com/MACTEP-ETF/RTR105
+  262  cd RTR105
+  263  dir -l
+  264  ls -l
+  265  cd ..
+  266  nano tests.c
+  267  cat tests.c 
+  268  gcc tests.c -o tests.out
+  269  ls -l tests.out
+  270  ./tests.out 
+  271  nano tests.c
+  272  gcc tests.c -o tests.out
+  273  nano tests.c
+  274  cat tests.c 
+  275  gcc tests.c -o tests.out
+  276  ls -l tests.out
+  277  ./tests.out 
+  278  nano tests.c
+  279  cat tests.c 
+  280  gcc tests.c -o tests.out
+  281  ls -l tests.out
+  282  ./tests.out 
+  283  ls -l
+  284  mv tests.c RTR105\darbi
+  285  mv tests.out RTR105\darbi
+  286  cd RTR105
+  287  cd darbi
+  288  ls -l
+  289  cd ..
+  290  ls -l
+  291  cd ..
+  292  ls -l
+  293  cd RTR105dabi
+  294  cd RTR105darbi
+  295  cat RTR105darbi
+  296  ls -l
+  297  cd RTR105
+  298  ls -l
+  299  cd darbi
+  300  ls -l
+  301  mkdir tests
+  302  cd tests
+  303  nano tests.c
+  304  ls -l
+  305  man touch
+  306  touch -d 23:54 tests.out
+  307  ls -l
+  308  touch -d "okt 15 23:54" tests.out
+  309  cd RTR105\darbi
+  310  cd .\RTR105\darbi
+  311  cd RTR105/darbi
+  312  cd tests
+  313  nano tests.c
+  314  cat tests.c 
+  315  gcc tests.c -o tests.out
+  316  init 0
+  317  firefox
+  318  get clone https://github.com/MACTEP-ETF/RTR105
+  319  git clone https://github.com/MACTEP-ETF/RTR105
+  320  ls -l
+  321  cd RTR105
+  322  ls -l
+  323  cd ..
+  324  rm -r RTR105
+  325  y
+  326  ls -l
+  327  rm RTR105darbi
+  328  ls -l
+  329  git clone https://github.com/MACTEP-ETF/RTR105
+  330  cd RTR105
+  331  cd darbi
+  332  ls -l
+  333  cd P05
+  334  ls -l
+  335  cd ..
+  336  cd P06
+  337  ls -l
+  338  nano Remainder.c 
+  339  gcc Remainder.c -o prog1
+  340  ./prog1
+  341  init 0
+  342  ls -l
+  343  rm RTR105
+  344  rm -r RTR105
+  345  y
+  346  rm RTR105
+  347  rm -r RTR105
+  348  ls -l
+  349  git clone https://github.com/MACTEP-ETF/RTR105
+  350  cd RTR105
+  351  cd darbi
+  352  ls -l
+  353  cd P08_if_while_for/
+  354  PS
+  355  PS1
+  356  PS="$ "
+  357  PS1="$ "
+  358  for i a b c; do echo $i; done
+  359  for i {a b c}; do echo $i; done
+  360  for i "a b c"; do echo $i; done
+  361  for i [a b c]; do echo $i; done
+  362  for i in [a b c]; do echo $i; done
+  363  for i in a b c; do echo $i; done
+  364  for i in 1 2 3; do echo $i; done
+  365  for i in RTU157; do echo $i; done
+  366  for i in 1..10 ; do echo $i; done
+  367  for i in {1..10} ; do echo $i; done;
+  368  for i in {3..10} ; do echo $i; done;
+  369  for i in {3..20} ; do echo $i; done;
+  370  for i in {3..20} ; do echo $i+1; done;
+  371  for i in {3..20} ; do echo $i; done;
+  372  for i in {3..20} i++ ; do echo $i; done;
+  373  for i in {3..20++} ; do echo $i; done;
+  374  echo $i
+  375  echo $i+2
+  376  for i in {3..20} ; do echo $i; done;
+  377  echo $i+2
+  378  echo $i(+2)
+  379  echo ($i+2)
+  380  echo $((i+2))
+  381  echo $(( i+2 ))
+  382  echo $(i+2)
+  383  echo $((i+132))
+  384  echo $((i+123))
+  385  echo $((i+323))
+  386  echo $((i+320000003))
+  387  echo $((i+320000000000000000000000000000000003))
+  388  echo $((i+32000000000003))
+  389  echo $((i+32000000000000003))
+  390  echo $((i+32000000000000000003))
+  391  echo $((i+32000000000000000000))
+  392  echo $((i+3200000000000000000))
+  393  for i in {3..20} ; do echo $((i+3)); done;
+  394  for i in {3..20} ; do echo $((i*3)); done;
+  395  for i in {3..20} ; do echo $((i/3)); done;
+  396  for i in {3..20} ; do echo $((i%2)); done;
+  397* 
+  398  for (( i = 1; i < 10; i++   )) ; do echo $i; done;
+  399  for i in {1..10} ; do echo $i; done;
+  400  for (( i = 11; i < 10; i++   )) ; do echo $i; done;
+  401  for ((  ; ;   )) ; do echo 123; done;
+  402  pwd
+  403  cd ..
+  404  mkdir Pw8z
+  405  cd Pw8z/
+  406  pwd
+  407  ls -l
+  408  vim a.c
+  409  sudo apt install vim
+  410  vim a.c
+  411  ls -l
+  412  gcc a.c -o prog1
+  413  ./prog1
+  414  ls -l
+  415  ./prog1
+  416  vim a.c
+  417  gcc a.c -o prog1
+  418  ./prog1
+  419  echo $?
+  420  vim a.c
+  421  gcc a.c -o prog1
+  422  ./prog1
+  423  vim a.c
+  424  gcc a.c -o prog1
+  425  ./prog1
+  426  vim a.c
+  427  gcc a.c -o prog1
+  428  ./prog1
+  429  vim a.c
+  430  gcc a.c -o prog1
+  431  ./prog1
+  432  vim a.c
+  433  gcc a.c -o prog1
+  434  ./prog1
+  435  date
+  436  ls -l
+  437  vim a.c
+  438  gcc a.c -o prog1
+  439  ./prog1
+  440  vim a.c
+  441  gcc a.c -o prog1
+  442  ./prog1
+  443  gcc a.c -o prog1
+  444  vim a.c
+  445  gcc a.c -o prog1
+  446  ./prog1
+  447  vim a.c
+  448  gcc a.c -o prog1
+  449  ./prog1
+  450  vim a.c
+  451  gcc a.c -o prog1
+  452  ./prog1
+  453  vim a.c
+  454  gcc a.c -o prog1
+  455  ./prog1
+  456  vim a.c
+  457  gcc a.c -o prog1
+  458  ./prog1
+  459  vim a.c
+  460  gcc a.c -o prog1
+  461  ./prog1
+  462  vim a.c
+  463  gcc a.c -o prog1
+  464  ./prog1
+  465  vim a.c
+  466  gcc a.c -o prog1
+  467  ./prog1
+  468  vim a.c
+  469  gcc a.c -o prog1
+  470  vim a.c
+  471  ./prog1
+  472  vim a.c
+  473  gcc a.c -o prog1
+  474  ./prog1
+  475  vim a.c
+  476  gcc a.c -o prog1
+  477  ./prog1
+  478  vim a.c
+  479  gcc a.c -o prog1
+  480  ./prog1
+  481  vim a.c
+  482  gcc a.c -o prog1
+  483  ./prog1
+  484  vim a.c
+  485  gcc a.c -o prog1
+  486  vim a.c
+  487  gcc a.c -o prog1
+  488  ./prog1
+  489  vim a.c
+  490  gcc a.c -o prog1
+  491  ./prog1
+  492  vim a.c
+  493  gcc a.c -o prog1
+  494  vim a.c
+  495  gcc a.c -o prog1
+  496  vim a.c
+  497  gcc a.c -o prog1
+  498  vim a.c
+  499  gcc a.c -o prog1
+  500  ./prog1
+  501  vim a.c
+  502  gcc a.c -o prog1
+  503  vim a.c
+  504  gcc a.c -o prog1
+  505  vim a.c
+  506  gcc a.c -o prog1
+  507  ./prog1
+  508  vim a.c
+  509  gcc a.c -o prog1
+  510  ./prog1
+  511  vim a.c
+  512  gcc a.c -o prog1
+  513  ./prog1
+  514  vim a.c
+  515  ls -l
+  516  cd ..
+  517  ls -l
+  518  cd ..
+  519  ls -l
+  520  history > history_20191023_1958.txt
