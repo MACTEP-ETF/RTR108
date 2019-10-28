@@ -83,7 +83,16 @@ Ja faila/foldera nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 - **2. kolonna** – lietotāja tiesības uz objektu;  
 - **3. kolonna** – visas pārējās pasaules tiesības uz objektu.  
 
-## Nano redaktors (C valoda)
+## vim redaktors (C valoda)
+### Īsceļi (shortcuts)
+- **Esc+:** – izsauc komandu rindu.  
+  - **q** – iziet no redaktora.  
+  - **q!** – piespiedu izeja no redaktora (ja fails nav saglabāts, paziņojums neizlec un fails NETIEK saglabāts).  
+  - **w** – ierakstīt izmaiņas failā (*Save*).  
+  - **:set number** – kreisajā sānā parādās rindiņu numerācija.  
+  
+
+## nano redaktors (C valoda)
 ### Īsceļi (shortcuts)
 - **Ctrl+K** – Cut.  
 - **Ctrl+U** – Paste.  
@@ -164,6 +173,7 @@ Pieņemsim, ka mums ir divas *unsigned char* izteiksmes: b1 = 0145, b2 = 0257.
 
 ### Komandas
 **Ir iespējams strādāt ar failiem/folderiem attālināti! Respektīvi nav jāatrodas tai pašā adresē kā fails, lai varētu, piem.: skatīt detalizēti skatu par viņu, rediģēt viņu, pārvietot, dzēst - veikt dajebkādas darbības! Lai pārvietotu folderi no viena uz otru atrodoties trešajā, pirmajam priekšā jāraksta punkts: "./FirstDestination" "/SecondDestination"**  
+- **PS1="$ "** – šis komanda atbrīvo komandas rindu no liekā ceļa (tikai vizuāli). Respektīvi uz ekrāna mēs redzam tikai **$** nevis kā ierasts **user@epk428-2:~$** ;  
 
 #### Apraksts par sistēmu
 - **whoami** – lietotājs (*kas es esmu?*).  
