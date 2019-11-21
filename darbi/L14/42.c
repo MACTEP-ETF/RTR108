@@ -5,7 +5,7 @@
 
 #include<stdio.h>
 
-float mediaanas_meklesana(int mas3[], int MasivaIzmers) // medianas apreekinaasana
+float mediaanas_meklesana (int mas3[], int MasivaIzmers) // medianas apreekinaasana
 {
     float mediaana = 0;
     if (MasivaIzmers%2 == 0) // ja elementu skaits ir paara
@@ -15,7 +15,7 @@ float mediaanas_meklesana(int mas3[], int MasivaIzmers) // medianas apreekinaasa
     return mediaana;
 }
 
-int moda(int mas3[],int MasivaIzmers)
+int moda (int mas3[], int MasivaIzmers)
 {
    int maxVertiba = 0, maxSkaits = 0, i, j;
 
@@ -34,11 +34,6 @@ int moda(int mas3[],int MasivaIzmers)
          maxSkaits = skaititajs;
          maxVertiba = mas3[i];
       }
-      /* else if (skaititajs == maxSkaits) // modas parbaude
-        printf("Kopai nav modas\n"); // modas izvade
-      else
-        printf("Kopas modas veertiba ir %d\n", moda(mas3,m)); // modas izvade
-      */
    }
    return maxVertiba;
 }
@@ -98,7 +93,7 @@ int main()
     }
 
 
-    printf("\n\n[Statistiskie raadiitaaji]:\n");
+    printf("\n\n[STATISTISKIE RAADIITAAJI]:\n");
     printf("(a) Masiiva izmeers: %d\n", MasivaIzmers);
     printf("(b) Masiiva minimaala veertiiba: %d\n", min);
     printf("(c) Masiiva maksimaala veertiiba: %d\n", max);
@@ -114,9 +109,7 @@ int main()
     printf("(e) Kopas mediaanas vertiiba: %.2f\n", mediaana); // mediaanas izvade
 
 
-    printf("(f) Kopas modas ir: Pagaidam aprekins nav korekts ");
-    for (k=0; k<MasivaIzmers; k++)
-        printf("%d, ", mas3[k]);
+    printf("(f) Kopas moda ir: %d\t", moda (mas3, MasivaIzmers));
     printf("\n");
 
     printf("(g) Kopas modu skaits: Pagaidam nav aprekinats \n");
