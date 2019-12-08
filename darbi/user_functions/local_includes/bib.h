@@ -1,0 +1,2 @@
+//deklaracija
+int kvadrats(int);
