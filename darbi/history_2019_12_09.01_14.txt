@@ -1,0 +1,129 @@
+    1  ls -l
+    2  pwd
+    3  git clone http://github.com/MACTEP-ETF/RTR105
+    4  cd RTR105/
+    5  cd darbi/
+    6  cd L14/
+    7  nano 42.c
+    8  gcc 42.c -o prog1
+    9  sudo apt install gcc
+   10  [2;2~
+   11  sudo apt-get update
+   12  sudo apt install gcc
+   13  gcc 42.c -o prog1
+   14  ./prog1 
+   15  nano 42.c
+   16  gcc 42.c -o prog1
+   17  ./prog1 
+   18  nano 42.c
+   19  gcc 42.c -o prog1
+   20  nano 42.c
+   21  gcc 42.c -o prog1
+   22  nano 42.c
+   23  gcc 42.c -o prog1
+   24  ./prog1 
+   25  nano 42.c
+   26  gcc 42.c -o prog1
+   27  ./prog1 
+   28  ls -l
+   29  rm 42.exe 
+   30  rm 42.0
+   31  rm 42.o
+   32  ls -l
+   33  cd ..
+   34  ls -l
+   35  ./git-upload 20191121_01_23
+   36  init 0
+   37  exit
+   38  quit
+   39  sudo apt install init 0
+   40  sudo apt install init
+   41  init 0
+   42  init
+   43  cat init
+   44  man init
+   45  PS1="$ "
+   46  cd RTR105/
+   47  cd darbi/
+   48  cd L14/
+   49  nano 42.c
+   50  gcc 42.c -o prog1
+   51  ./prog1 
+   52  nano 42.c
+   53  gcc 42.c -o prog1
+   54  ./prog1 
+   55  cd ..
+   56  pwd
+   57  cd ..
+   58  nano git-upload 
+   59  PS1="$ "
+   60  ls -l
+   61  rm -r RTR105/
+   62  ls -l
+   63  git clone http://MACTEP-ETF/RTR105
+   64  git clone http://github.com/MACTEP-ETF/RTR105
+   65  cd RTR105/
+   66  cd dar
+   67  cd darbi/
+   68  ls -l
+   69  mkdir user_fucntions
+   70  cd user_fucntions/
+   71  ls -l -a
+   72  nano user_function_squar.c
+   73  gcc user_function_squar.c -o prog1
+   74  ./prog1 
+   75  nano user_function_squar.c
+   76  gcc user_function_squar.c -o prog1
+   77  nano user_function_squar.c
+   78  gcc user_function_squar.c -o prog1
+   79  ./prog1 
+   80  nano user_function_squar.c
+   81  mkdir local_includes
+   82  nano bib.h
+   83  cd..
+   84  cd ..
+   85  ls -l
+   86  cd user_fucntions/
+   87  cd local_includes/
+   88  ls -l
+   89  cd ..
+   90  ls -l
+   91  mv bib.h ./local_includes/
+   92  ls -l
+   93  cd local_includes/
+   94  ls -l
+   95  nano bib.c
+   96  cd ..
+   97  ls -l -a
+   98  ls -a
+   99  nano example_with_external_user_function.c
+  100  gcc example_with_external_user_function.c -o prog1
+  101  ls local_includes/
+  102  cd local_includes/
+  103  nano bib.h
+  104  nano bib.c
+  105  cd ..
+  106  nano example_with_external_user_function.c 
+  107  gcc example_with_external_user_function.c -o prog1
+  108  nano example_with_external_user_function.c 
+  109  gcc example_with_external_user_function.c -o prog1
+  110  ls -l-a
+  111  ls -l -a
+  112  nano user_function_squar.c 
+  113  gcc user_function_squar.c -g -o prog1
+  114  gdb prog1.out
+  115  sudo apt install gdb
+  116  gdb prog1.out
+  117  ls -l
+  118  gdb prog1
+  119  gcc user_function_squar.c -g
+  120  ls -l
+  121  gdb a.out
+  122  ls -l
+  123  rm a.out
+  124  ls -l
+  125  cd ..
+  126  ls -l
+  127  cd ..
+  128  ls -l
+  129  history > history_2019_12_09.01_14.txt
