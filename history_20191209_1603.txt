@@ -1,0 +1,38 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  PS1="$ "
+    4  ls -l
+    5  git clone http://github.com/MACTEP-ETF/RTR105
+    6  cd RTR105/
+    7  cd darbi/
+    8  ls -l -a
+    9  cd L14/
+   10  ls -l
+   11  nano 42.c
+   12  ls -l
+   13  cd..
+   14  cd ..
+   15  ls -l
+   16  mkdir series
+   17  cd series/
+   18  nano sin_caur_rindu_V1.c
+   19  gcc sin_caur_rindu_V1.c 
+   20  ls -l
+   21  nano sin_caur_rindu_V1.c
+   22  gcc sin_caur_rindu_V1.c 
+   23  nano sin_caur_rindu_V1.c
+   24  gcc sin_caur_rindu_V1.c 
+   25  nano sin_caur_rindu_V1.c
+   26  gcc sin_caur_rindu_V1.c 
+   27  nano sin_caur_rindu_V1.c
+   28  gcc sin_caur_rindu_V1.c 
+   29  nano sin_caur_rindu_V1.c
+   30  gcc sin_caur_rindu_V1.c 
+   31  nano sin_caur_rindu_V1.c
+   32  gcc sin_caur_rindu_V1.c 
+   33  nano sin_caur_rindu_V1.c
+   34  gcc sin_caur_rindu_V1.c -lm
+   35  ./a.out 
+   36  cd ..
+   37  ls -l
+   38  history > history_20191209_1603.txt
