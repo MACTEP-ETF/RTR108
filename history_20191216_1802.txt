@@ -1,0 +1,172 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  PS1="$ "
+    4  git clone http://www.github.com/MACTEP-ETF/RTR105
+    5  cd RTR105/darbi/Laboratorijas_darbi/
+    6  nano TeiloraRindasVariantsNr12.c 
+    7  mv TeiloraRindasVariantsNr12.c ~/RTR105/darbi/series/
+    8  ls -
+    9  ls -l
+   10  cd ..
+   11  ls -l
+   12  rm Laboratorijas_darbi/
+   13  rm -r Laboratorijas_darbi/
+   14  cd series/
+   15  ls -l
+   16  nano sin_caur_rindu_V5.c 
+   17  nano sin_caur_rindu_V4.c 
+   18  nano TeiloraRindasVariantsNr12.c 
+   19  gcc TeiloraRindasVariantsNr12.c -lm
+   20  ./a.out 
+   21  nano TeiloraRindasVariantsNr12.c 
+   22  gcc TeiloraRindasVariantsNr12.c -lm
+   23  ./a.out 
+   24  nano TeiloraRindasVariantsNr12.c 
+   25  gcc TeiloraRindasVariantsNr12.c -lm
+   26  ./a.out 
+   27  nano TeiloraRindasVariantsNr12.c 
+   28  gcc TeiloraRindasVariantsNr12.c -lm
+   29  ./a.out 
+   30  nano TeiloraRindasVariantsNr12.c 
+   31  gcc TeiloraRindasVariantsNr12.c -lm
+   32  ./a.out 
+   33  nano TeiloraRindasVariantsNr12.c 
+   34  ls -l
+   35  nano sin_caur_rindu_V5.c 
+   36  gcc sin_caur_rindu_V5.c 
+   37  gcc sin_caur_rindu_V5.c -lm
+   38  ./a.out 
+   39  nano sin_caur_rindu_V5.c 
+   40  gcc TeiloraRindasVariantsNr12.c -lm
+   41  ./a.out 
+   42  nano TeiloraRindasVariantsNr12.c 
+   43  gcc TeiloraRindasVariantsNr12.c -lm
+   44  ./a.out 
+   45  gcc TeiloraRindasVariantsNr12.c -lm
+   46  nano TeiloraRindasVariantsNr12.c 
+   47  gcc TeiloraRindasVariantsNr12.c -lm
+   48  ./a.out 
+   49  nano TeiloraRindasVariantsNr12.c 
+   50  gcc TeiloraRindasVariantsNr12.c -lm
+   51  nano TeiloraRindasVariantsNr12.c 
+   52  gcc TeiloraRindasVariantsNr12.c -lm
+   53  ./a.out 
+   54  ./a.out 4
+   55  4
+   56  ./a.out 4
+   57  ./a.out
+   58  nano TeiloraRindasVariantsNr12.c 
+   59  gcc TeiloraRindasVariantsNr12.c -lm
+   60  ./a.out
+   61  nano TeiloraRindasVariantsNr12.c 
+   62  gcc TeiloraRindasVariantsNr12.c -lm
+   63  ./a.out
+   64  nano TeiloraRindasVariantsNr12.c 
+   65  gcc TeiloraRindasVariantsNr12.c -lm
+   66  ./a.out
+   67  nano TeiloraRindasVariantsNr12.c 
+   68  gcc TeiloraRindasVariantsNr12.c -lm
+   69  ./a.out
+   70  nano TeiloraRindasVariantsNr12.c 
+   71  gcc TeiloraRindasVariantsNr12.c -lm
+   72  ./a.out
+   73  nano TeiloraRindasVariantsNr12.c 
+   74  gcc TeiloraRindasVariantsNr12.c -lm
+   75  ./a.out
+   76  nano TeiloraRindasVariantsNr12.c 
+   77  gcc TeiloraRindasVariantsNr12.c -lm
+   78  nano TeiloraRindasVariantsNr12.c 
+   79  gcc TeiloraRindasVariantsNr12.c -lm
+   80  ./a.out
+   81  ./a.out./a.out
+   82  ./a.out
+   83  nano TeiloraRindasVariantsNr12.c 
+   84  gcc TeiloraRindasVariantsNr12.c -lm
+   85  ./a.out
+   86  nano TeiloraRindasVariantsNr12.c 
+   87  ./a.out
+   88  nano TeiloraRindasVariantsNr12.c 
+   89  gcc TeiloraRindasVariantsNr12.c -lm
+   90  ./a.out
+   91  nano TeiloraRindasVariantsNr12.c 
+   92  gcc TeiloraRindasVariantsNr12.c -lm
+   93  nano TeiloraRindasVariantsNr12.c 
+   94  gcc TeiloraRindasVariantsNr12.c -lm
+   95  ./a.out
+   96  nano TeiloraRindasVariantsNr12.c 
+   97  gcc TeiloraRindasVariantsNr12.c -lm
+   98  ./a.out
+   99  nano TeiloraRindasVariantsNr12.c 
+  100  gcc TeiloraRindasVariantsNr12.c -lm
+  101  ./a.out
+  102  nano TeiloraRindasVariantsNr12.c 
+  103  gcc TeiloraRindasVariantsNr12.c -lm
+  104  ./a.out
+  105  nano TeiloraRindasVariantsNr12.c 
+  106  gcc TeiloraRindasVariantsNr12.c -lm
+  107  nano TeiloraRindasVariantsNr12.c 
+  108  gcc TeiloraRindasVariantsNr12.c -lm
+  109  ./a.out
+  110  nano TeiloraRindasVariantsNr12.c 
+  111  gcc TeiloraRindasVariantsNr12.c -lm
+  112  ./a.out
+  113  nano TeiloraRindasVariantsNr12.c 
+  114  gcc TeiloraRindasVariantsNr12.c -lm
+  115  ./a.out
+  116  nano TeiloraRindasVariantsNr12.c 
+  117  gcc TeiloraRindasVariantsNr12.c -lm
+  118  ./a.out
+  119  nano TeiloraRindasVariantsNr12.c 
+  120  gcc TeiloraRindasVariantsNr12.c -lm
+  121  ./a.out
+  122  nano TeiloraRindasVariantsNr12.c 
+  123  gcc TeiloraRindasVariantsNr12.c -lm
+  124  ./a.out
+  125  nano TeiloraRindasVariantsNr12.c 
+  126  gcc TeiloraRindasVariantsNr12.c -lm
+  127  ./a.out
+  128  nano TeiloraRindasVariantsNr12.c 
+  129  gcc TeiloraRindasVariantsNr12.c -lm
+  130  ./a.out
+  131  nano TeiloraRindasVariantsNr12.c 
+  132  gcc TeiloraRindasVariantsNr12.c -lm
+  133  ./a.out
+  134  gcc TeiloraRindasVariantsNr12.c -lm
+  135  nano TeiloraRindasVariantsNr12.c 
+  136  gcc TeiloraRindasVariantsNr12.c -lm
+  137  nano TeiloraRindasVariantsNr12.c 
+  138  gcc TeiloraRindasVariantsNr12.c -lm
+  139  ./a.out
+  140  nano TeiloraRindasVariantsNr12.c 
+  141  gcc TeiloraRindasVariantsNr12.c -lm
+  142  ./a.out
+  143  nano TeiloraRindasVariantsNr12.c 
+  144  gcc TeiloraRindasVariantsNr12.c -lm
+  145  ./a.out
+  146  nano TeiloraRindasVariantsNr12.c 
+  147  gcc TeiloraRindasVariantsNr12.c -lm
+  148  ./a.out
+  149  nano TeiloraRindasVariantsNr12.c 
+  150  gcc TeiloraRindasVariantsNr12.c -lm
+  151  nano TeiloraRindasVariantsNr12.c 
+  152  gcc TeiloraRindasVariantsNr12.c -lm
+  153  nano TeiloraRindasVariantsNr12.c 
+  154  gcc TeiloraRindasVariantsNr12.c -lm
+  155  ./a.out
+  156  nano TeiloraRindasVariantsNr12.c 
+  157  gcc TeiloraRindasVariantsNr12.c -lm
+  158  ./a.out
+  159  nano TeiloraRindasVariantsNr12.c 
+  160  gcc TeiloraRindasVariantsNr12.c -lm
+  161  ./a.out
+  162  nano TeiloraRindasVariantsNr12.c 
+  163  gcc TeiloraRindasVariantsNr12.c -lm
+  164  ./a.out
+  165  nano TeiloraRindasVariantsNr12.c 
+  166  gcc TeiloraRindasVariantsNr12.c -lm
+  167  ./a.out
+  168  cd ~
+  169  ls -l
+  170  cd RTR105/
+  171  ls -l
+  172  history > history_20191216_1802.txt
