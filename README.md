@@ -24,13 +24,13 @@ Skaitļošanas sistēmas apzīmējumu raksta cipara beigās subscript veidā! (*
 Lai pārietu no vienas skaitļošanas sistēmu uz otru, izejas skaitlis tiek dalīts ar pārejas skaitļošanas sistēmas bāzi! Piem., binārās sistēmas bāze ir 2, decimālās - 10, heksadecimālās - 16. Tātad, skaitlis tiek datīts ar "sistēmas bāzi" un atlikums tiek ierakstīts iekavās "()". Dalīšana turpinās tiktāl, līdz dalījums ir vienāds ar "0". Jaunās skaitļošanas sistēmas skaitlis tiek pārrakstīts no iekavām no apakšas uz augšu. Skat. piemērus!  
 ### Dec to Bin:  
 **Piemērs**:  
-65<sub>10</sub> : 2 = 32 (1) - LSB  
+65<sub>10</sub> : 2 = 32 (1) - LSB (Least Significant Bit)  
 32<sub>10</sub> : 2 = 16 (0)  
 16<sub>10</sub> : 2 = 8 (0)  
 8<sub>10</sub> : 2 = 4 (0)  
 4<sub>10</sub> : 2 = 2 (0)  
 2<sub>10</sub> : 2 = 1 (0)  
-1<sub>10</sub> : 2 = 0 (1) - MSB  
+1<sub>10</sub> : 2 = 0 (1) - MSB (Most Significant Bit)  
 Binārais skaitlis = 100 0001<sub>2</sub>  
 ### Bin to Dec:  
 Decimālā skaitļošanas sistēmā ir 10 skaitļi {0, 1, 2, 3, 4, 5, 6, 7, 8, 9} un to kārtas var tikt atzīmētas sekojoši: piem., skaitli 256 var pierakstīt šādi = 2\*10<sup>2</sup> + 5\*10<sup>1</sup> + 6\*10<sup>0</sup> = 256. Tāpat ir arī ar bināriem skaitļiem ar vienu BET! Binārā sistēmā ir tikai divi skaitļi {0, 1}, tādejādi arī kārtas ir nevis 10<sup>pakāpē</sup>, bet gan 2<sup>pakāpē</sup>  
@@ -96,6 +96,8 @@ Ja faila/foldera nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 ### Īsceļi (shortcuts)
 - **Ctrl+K** – Cut.  
 - **Ctrl+U** – Paste.  
+- **Ctrl+S** – Save.  
+- **Ctrl+X** – Quit.  
 
 ### Funkcijas
 - **main() {}** – Funkcija main. **()** – vieta argumentam. **{}** – funkcijas izpildošā daļa.  
@@ -103,12 +105,12 @@ Ja faila/foldera nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 
 ### Datu tipi C valodā (izplatītākie)
 - **char b = 'A'** – šī koda rindiņa definē trīs darbības:  
-1.) Atmiņā tiek rezervēts atmiņas daudzums dotam datu tipam *char* – 1 baits.  
+1.) Atmiņā tiek rezervēts atmiņas daudzums dotam datu tipam *char* – 1 baits (8 biti).  
 2.) Tiek deklarēts "b" elements.  
 3.) Elementam tiek piešķirta vērtība 'A'.   
 
-- **char** – paredzēts tikai simbolu glabāšanai, bet var būt izmantots arī veseliem skaitļiem kā *int*. Atmiņas diapazons ir ļoti mazs - 1 baits (8 biti) - 256 zīmes. Tādejādi skaitliskais diapazons no -128 līdz +127.
-- **unsigned "datuTipaNosaukums"** – nosaka, ka dotajā datu tipā būs tikai vienas zīmes elementi. (*Piem., ja tas ir **unsigned char**, tad dotajā datu tipā skaitliskais diapazons būs no +0 līdz +255.*)  
+- **char** – paredzēts tikai simbolu glabāšanai, bet var būt izmantots arī veseliem skaitļiem kā *int*. Atmiņas diapazons ir ļoti mazs - 1 baits (8 biti) - 256 zīmes. Tādejādi skaitliskais diapazons no -128 līdz +127 (0 tai skaitā!).
+- **unsigned "datuTipaNosaukums"** – nosaka, ka dotajā datu tipā būs tikai vienas zīmes elementi. (*Piem., ja tas ir **unsigned char**, tad dotajā datu tipā skaitliskais diapazons būs no +0 līdz +255.*). *Unsigned* elements tiek ierakstīts iekš MSB. Ja MSB ir "0", tad tā ir pozitīvā zīme, bet ja "1" - negatīvā.  
 - **int** – visi veselie skaitļi. Atkarībā no interpretatora, piešķirtais atmiņas apgabals dotam datu tipam ir atšķirīgs. **No 2** (16 bitiem) **līdz 4** (32 bitiem) **baitiem**. Piem., 4 baitu diapazons ir: no -2,147,483,648 līdz 2,147,483,647.  
 - **long int** – tas pats kas *int*, tikai ar paplašinātu atmiņas apjomu – **4–12 baiti**.  
 - **float** – visi reālie skaitļi (respektīvi, arī daļskaitļi). **4 baitu** liels datu tips un līdz **6 zīmēm aiz komata**.  
@@ -149,21 +151,21 @@ Ja faila/foldera nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 
 | Izteiksme | Rezultāts |  
 | --- | --- |  
-| baits | 00 100 001 |  
-| baits = baits << 1 | 01 000 010 |  
-| baits = baits << 2 | 00 001 000 |  
-| baits = baits >> 3 | 00 000 001 |  
+| baits | 0010 0001 |  
+| baits = baits << 1 | 0100 0010 |  
+| baits = baits << 2 | 0000 1000 |  
+| baits = baits >> 3 | 0000 0001 |  
 
 - **|, ^, &** – divu izteiksmju salīdzināšana pa bitiem: loģiskais VAI, izslēdzošais VAI. loģiskais UN. Piemērs:  
 Pieņemsim, ka mums ir divas *unsigned char* izteiksmes: b1 = 0145, b2 = 0257.
 
 | Izteiksme | Rezultāts |  
 | --- | --- |  
-| b1 | 01 100 101 |  
-| b2 | 10 101 111 |  
-| b1 \| b2 | 11 001 010 |  
-| b1 ^ b2 | 00 000 001 |  
-| b1 & b2 | 00 100 101 |  
+| b1 | 0110 0101 |  
+| b2 | 1010 1111 |  
+| b1 \| b2 | 1110 1111 |  
+| b1 ^ b2 | 1100 1010 |  
+| b1 & b2 | 0010 0101 |  
 
 ## Bash interpretators
 ### Īsceļi (shortcuts)
