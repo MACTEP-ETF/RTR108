@@ -99,6 +99,10 @@ Ja faila/foldera nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 - **Ctrl+S** – Save.  
 - **Ctrl+X** – Quit.  
 
+### math.h bibliotēka
+**Iepriekš noteiktas matemātiskās konstances**
+- **M_PI** – Pi, apļa apkārtmēra un tā diametra attiecība.  
+
 ### Funkcijas
 - **main() {}** – Funkcija main. **()** – vieta argumentam. **{}** – funkcijas izpildošā daļa.  
 - **void** – funkcija rezultātu neatgriež.  
@@ -128,6 +132,7 @@ Ja faila/foldera nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 - **\\** – sleš.  
 - **\b** – kursors 1 solis atpakaļ.  
 - **\v** – vertikālā tabulācija.  
+- **10.8f** – pirmais cipars '10'  apzīmē cik simbolus rādīt pirms komata, tādejādi veidojot izvietojuma struktūru (lai nav jāizmanto tabulācija un velns zin ko vēl :D). Otrs cipars - cik simbolus attēlot pēc komata, turklāt pēdējo **noapaļojot**.  
 
 ### C operatora prioritātes
 - **\*, /, %** – reizināšana, dalīšana un atlikums.  
@@ -230,18 +235,28 @@ Pieņemsim, ka mums ir divas *unsigned char* izteiksmes: b1 = 101<sub>10</sub>, 
 - **>>** – satura papildināšana. (*Ja fails nav izveidots, tad izveido jaunu. Ja eksistē, tad papildina ar esošu informāciju*)  
 - **init 0** – OS Linux shutdown.  
 
-## Python & IDLE
-Laboratorijas darbi, kurus ir uzdevis mums Zagorskis ir bāzēts uz Python versiju 2.7.x, bet manā LINUX vidē Python versija ir 3.6.9! Dēļ tā es nevaru pilnvērtīgi un sakarīgi pildīt uzdevumus... :( Visu laiku redzu tik SyntaxError utt.  
+## Python v3 & IDLE
+- Nav iespējams turpināt darbu ar veco sesiju! Verot vaļā ar komandrindiņu veco dienasgrāmatas failu, var tikai skatīt/kopēt/modificēt saturu, bet izpildīt kodu vairs nav iespējams, tādēļ lai turpinātu iepriekšējo darbu ir jāparkopē tieši/netieši saturu un jāturpina strādāt jau jaunā *dienasgrāmatas* failā!
+- Python v3 izpildamās darbības pierakstu forma ir pietuvināta C valodai, savukārt Python v2 - Shell/Bash valodai.  
+
 ### Shortcuts
 - **Alt+P** – izsauc iepriekšlietotas komandas, alternatīva bultiņām **uz augšu/leju** Terminālā. Lai nav jāraksta viens un tas pats manuāli.   
 
-###Python & IDLE palaišana
+### Python & IDLE palaišana
 - **python** – izsauc Python versiju vienkāršotā veidā turpat Terminālā.  
 - **idle** – interaktīvi grafiska *Python Shell* forma.  
   - **&** – šī sintakse atver programmu *background* režīmā, ļaujot strādāt kā pašā programmā, tā arī Terminālā.  
 
+### Python dienasgrāmatas dokumentācija (.py)
+- ar IDLE vai citu redaktora palīdzību var uzrakstīt Python komandu rindu. OBLIGĀTI faila sākumā rakstīt šīs divas rindiņas:  
+  1.) \#!/usr/bin/python  
+  2.) \# -*- coding: UTF-8 -*-  
+  
+  Ar pirmo rindiņu norādam valodu, ar otru - kodēšanas veidu.  
+
 ### Python funkciju apraksti
 Vairākas *Python* instrukcijas var rakstīt vienā rindā atdalot tās ar semikolona operatoru (līdzīgi kā C valodā).  
 
-- **print** – lai izvade uz ekrāna strādātu korekti, mainīgo ir jāraksta iekavās *print(y)*, pretējā gadījumā – *print y* – SyntaxError!   
+- **print** – Piemērs korektai izvadei: print("Pēc %g sekundes bumba būs %.2f metru augstumā \n" %(t,y)).
+  - Atšķirībā no C valodas, Pythonam mēs mainīgos rakstam papildiekavās un pirms mainīgo iekavām norādam datu/virknes tipu *%*  
 

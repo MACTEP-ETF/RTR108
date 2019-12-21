@@ -1,0 +1,7 @@
+#include<stdio.h>
+#include<math.h>
+void main ()
+{
+ float b=1.5*M_PI, a=1.e-5 /**/;
+ printf("b vērtība ir = %.10f",b);
+}
