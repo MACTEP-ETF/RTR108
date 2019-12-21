@@ -1,5 +1,13 @@
 # RTR105
 Studiju kursa Datormācība (pamatkurss) elektroniskā klade  
+
+# Saturs  
+*Sadalījums pa programēšanas valodām tiks izstrādāts tuvākajā laikā, lai nav jāšķirsta dokuments meklējumos!*  
+- Terminals  
+- Shell/Bash  
+- C valoda  
+- [Python](#2)    
+
 # Vispārīgi
 ## Hardware (PC sastāvdaļas):
 - CPU;  
@@ -235,7 +243,7 @@ Pieņemsim, ka mums ir divas *unsigned char* izteiksmes: b1 = 101<sub>10</sub>, 
 - **>>** – satura papildināšana. (*Ja fails nav izveidots, tad izveido jaunu. Ja eksistē, tad papildina ar esošu informāciju*)  
 - **init 0** – OS Linux shutdown.  
 
-## Python v3 & IDLE
+## [#2](Python v3 & IDLE)
 - Nav iespējams turpināt darbu ar veco sesiju! Verot vaļā ar komandrindiņu veco dienasgrāmatas failu, var tikai skatīt/kopēt/modificēt saturu, bet izpildīt kodu vairs nav iespējams, tādēļ lai turpinātu iepriekšējo darbu ir jāparkopē tieši/netieši saturu un jāturpina strādāt jau jaunā *dienasgrāmatas* failā!
 - Python v3 izpildamās darbības pierakstu forma ir pietuvināta C valodai, savukārt Python v2 - Shell/Bash valodai.  
 
