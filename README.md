@@ -3,12 +3,12 @@ Studiju kursa Datormācība (pamatkurss) elektroniskā klade
 
 # Saturs  
 *Sadalījums pa programēšanas valodām tiks izstrādāts tuvākajā laikā, lai nav jāšķirsta dokuments meklējumos!*  
-- [Terminals](#1)  
+- (#1)  
 - [Shell/Bash](#2)  
 - [C valoda](#3)  
 - [Python](#4)    
 
-# Vispārīgi
+[# Vispārīgi]
 ## Hardware (PC sastāvdaļas):
 - CPU;  
 - RAM (short);  
@@ -68,7 +68,7 @@ Oktālais skaitlis = 101<sub>8</sub>
 # LINUX
 **Katrs simbols ir noteikts pēc ASCII kartes! Respektīvi, "Ram" un "ram" nav viens un tas pats!**  
 
-## Termināls [#2]
+## Termināls
 ### Īsceļi (shortcuts)
 - **Ctrl+Alt+T** – jauna termināla loga atveršana.  
 - **Ctrl+Shift+T** – jauna papildloga atveršana esošajā termināla.  
@@ -243,7 +243,7 @@ Pieņemsim, ka mums ir divas *unsigned char* izteiksmes: b1 = 101<sub>10</sub>, 
 - **>>** – satura papildināšana. (*Ja fails nav izveidots, tad izveido jaunu. Ja eksistē, tad papildina ar esošu informāciju*)  
 - **init 0** – OS Linux shutdown.  
 
-## [#2](Python v3 & IDLE)
+## Python v3 & IDLE
 - Nav iespējams turpināt darbu ar veco sesiju! Verot vaļā ar komandrindiņu veco dienasgrāmatas failu, var tikai skatīt/kopēt/modificēt saturu, bet izpildīt kodu vairs nav iespējams, tādēļ lai turpinātu iepriekšējo darbu ir jāparkopē tieši/netieši saturu un jāturpina strādāt jau jaunā *dienasgrāmatas* failā!
 - Python v3 izpildamās darbības pierakstu forma ir pietuvināta C valodai, savukārt Python v2 - Shell/Bash valodai.  
 
