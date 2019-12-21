@@ -1,8 +1,8 @@
 # RTR105
 Studiju kursa Datormācība (pamatkurss) elektroniskā klade  
 
-# Saturs  
-*Sadalījums pa programēšanas valodām tiks izstrādāts tuvākajā laikā, lai nav jāšķirsta dokuments meklējumos!*  
+# Satura rādītājs  
+*Satura rādītājs pakāpeniski tiks uztaisīts sakarīgs, lai nav bezgalīgi jāšķirsta kaut ko meklējot :)*  
 - [Terminals](#Terminals)  
 - [Python](#Python)    
 
