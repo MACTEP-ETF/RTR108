@@ -3,10 +3,10 @@ Studiju kursa Datormācība (pamatkurss) elektroniskā klade
 
 # Saturs  
 *Sadalījums pa programēšanas valodām tiks izstrādāts tuvākajā laikā, lai nav jāšķirsta dokuments meklējumos!*  
-- Terminals  
-- Shell/Bash  
-- C valoda  
-- [Python](#2)    
+- [Terminals](#1)  
+- [Shell/Bash](#2)  
+- [C valoda](#3)  
+- [Python](#4)    
 
 # Vispārīgi
 ## Hardware (PC sastāvdaļas):
@@ -68,7 +68,7 @@ Oktālais skaitlis = 101<sub>8</sub>
 # LINUX
 **Katrs simbols ir noteikts pēc ASCII kartes! Respektīvi, "Ram" un "ram" nav viens un tas pats!**  
 
-## Termināls
+## Termināls [#2]
 ### Īsceļi (shortcuts)
 - **Ctrl+Alt+T** – jauna termināla loga atveršana.  
 - **Ctrl+Shift+T** – jauna papildloga atveršana esošajā termināla.  
