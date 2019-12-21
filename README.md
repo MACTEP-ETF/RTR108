@@ -1,9 +1,3 @@
-```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-```
 # RTR105
 Studiju kursa Datormācība (pamatkurss) elektroniskā klade  
 # Vispārīgi
