@@ -251,8 +251,8 @@ Pieņemsim, ka mums ir divas *unsigned char* izteiksmes: b1 = 101<sub>10</sub>, 
 - ar IDLE vai citu redaktora palīdzību var uzrakstīt Python komandu rindu. OBLIGĀTI faila sākumā rakstīt šīs divas rindiņas:  
   1.) \#!/usr/bin/python  
   2.) \# -*- coding: UTF-8 -*-  
-  
   Ar pirmo rindiņu norādam valodu, ar otru - kodēšanas veidu.  
+- **python FileName.py** – ar šo komandrindiņu mēs palaižam dienasgrāmatas kodu izpildi. Kā redzams, Pythonam nav nepieciešama papildkompilācija. Viss notiek *on the fly* tā teikt. Kas būtībā ļoti atvieglo un pāatrina programmēšanu!  
 
 ### Python funkciju apraksti
 Vairākas *Python* instrukcijas var rakstīt vienā rindā atdalot tās ar semikolona operatoru (līdzīgi kā C valodā).  
