@@ -229,3 +229,19 @@ Pieņemsim, ka mums ir divas *unsigned char* izteiksmes: b1 = 101<sub>10</sub>, 
 - **>** – konveijera simbols. konkrētas informācijas ierakstīšana failā (*Piem., history > File.txt*).  
 - **>>** – satura papildināšana. (*Ja fails nav izveidots, tad izveido jaunu. Ja eksistē, tad papildina ar esošu informāciju*)  
 - **init 0** – OS Linux shutdown.  
+
+## Python & IDLE
+Laboratorijas darbi, kurus ir uzdevis mums Zagorskis ir bāzēts uz Python versiju 2.7.x, bet manā LINUX vidē Python versija ir 3.6.9! Dēļ tā es nevaru pilnvērtīgi un sakarīgi pildīt uzdevumus... :( Visu laiku redzu tik SyntaxError utt.  
+### Shortcuts
+- **Alt+P** – izsauc iepriekšlietotas komandas, alternatīva bultiņām **uz augšu/leju** Terminālā. Lai nav jāraksta viens un tas pats manuāli.   
+
+###Python & IDLE palaišana
+- **python** – izsauc Python versiju vienkāršotā veidā turpat Terminālā.  
+- **idle** – interaktīvi grafiska *Python Shell* forma.  
+  - **&** – šī sintakse atver programmu *background* režīmā, ļaujot strādāt kā pašā programmā, tā arī Terminālā.  
+
+### Python funkciju apraksti
+Vairākas *Python* instrukcijas var rakstīt vienā rindā atdalot tās ar semikolona operatoru (līdzīgi kā C valodā).  
+
+- **print** – lai izvade uz ekrāna strādātu korekti, mainīgo ir jāraksta iekavās *print(y)*, pretējā gadījumā – *print y* – SyntaxError!   
+

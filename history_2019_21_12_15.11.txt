@@ -1,0 +1,481 @@
+    1  PS1="$ "
+    2  ls -l
+    3  git clone http://github.com/MACTEP-ETF/RTR105
+    4  sudo apt install git
+    5  git clone http://github.com/MACTEP-ETF/RTR105
+    6  cd RTR105/
+    7  cd darbi/
+    8  dir
+    9  mv history_2019_12_09.01_14.txt ~/RTR105/
+   10  ls ~/RTR105/
+   11  pwd
+   12  ls -l -a
+   13  pip install esptool
+   14  sudo apt install python-pip
+   15  pip install esptool
+   16  sudo apt update
+   17  ls -l -a
+   18  ./a.sh
+   19  ./a.out
+   20  rm a.out
+   21  rm a.sh
+   22  cat a.c
+   23  rm a.c
+   24  ls -l -a
+   25  cat .a.c.swp
+   26  ls -l
+   27  mkdir pirmas_lekcijas
+   28  mv 02.c pirmas_lekcijas/
+   29  mv 03.c pirmas_lekcijas/
+   30  mv 04.c pirmas_lekcijas/
+   31  mv elementary.c pirmas_lekcijas/
+   32  mv hello.c pirmas_lekcijas/
+   33  ls -l
+   34  cd ..
+   35  ls -l
+   36  cd darbi/
+   37  ls -l
+   38  mkdir L16
+   39  cd L16
+   40  ls -l
+   41  python
+   42  idle &
+   43  sudo apt install idle
+   44  idle &
+   45  idle dg16.py &
+   46  ls -l
+   47  ls -l -a
+   48  idle dg16.py &
+   49  idle
+   50  ls -l
+   51  cd ..
+   52  ls -l
+   53  cd ..
+   54  ./git-upload 20191210_01_22
+   55  cd ..
+   56  ls -l
+   57  rm -r RTR105/
+   58  ls -l
+   59  init 0
+   60  man sudo_root
+   61  PS1="$ "
+   62  firefox
+   63  init 0
+   64  sudo app update
+   65  idle
+   66  PS1="$ "
+   67  init 0
+   68  sudo canonical-livepatch refresh
+   69  PS1="$ "
+   70  ls -l
+   71  git clone https://github.com/MACTEP-ETF/RTR105
+   72  cd RTR105/
+   73  cd darbi/
+   74  ls -l
+   75  cd series/
+   76  ls -l
+   77  nano sin_caur_rindu_V1.c 
+   78  gcc sin_caur_rindu_V1.c 
+   79  gcc sin_caur_rindu_V1.c -lm
+   80  ls -l
+   81  ./a.out 
+   82  nano sin_caur_rindu_V1.c 
+   83  cp sin_caur_rindu_V1.c sin_caur_rindu_V2.c 
+   84  nano sin_caur_rindu_V2.c 
+   85  gcc sin_caur_rindu_V2.c 
+   86  gcc sin_caur_rindu_V2.c -lm
+   87  ./a.out 
+   88  cp sin_caur_rindu_V2.c sin_caur_rindu_V3.c
+   89  nano sin_caur_rindu_V3.c 
+   90  gcc sin_caur_rindu_V3.c -lm
+   91  ./a.out 
+   92  cp sin_caur_rindu_V3.c sin_caur_rindu_V4.c
+   93  nano sin_caur_rindu_V4.c
+   94  gcc sin_caur_rindu_V4.c -lm
+   95  ./a.out 
+   96  cp sin_caur_rindu_V4.c sin_caur_rindu_V5.c
+   97  nano sin_caur_rindu_V5.c 
+   98  gcc sin_caur_rindu_V5.c -lm
+   99  nano sin_caur_rindu_V5.c 
+  100  gcc sin_caur_rindu_V5.c -lm
+  101  ./a
+  102  ./a.out 
+  103  ls -l
+  104  rm a.out 
+  105  cd ..
+  106  ls -l
+  107  mkdir Laboratorijas_darbi
+  108  cd Laboratorijas_darbi/
+  109  nano TeiloraRindasVariantsNr12.c
+  110  gcc TeiloraRindasVariantsNr12.c -lm
+  111  nano TeiloraRindasVariantsNr12.c
+  112  gcc TeiloraRindasVariantsNr12.c -lm
+  113  nano TeiloraRindasVariantsNr12.c
+  114  gcc TeiloraRindasVariantsNr12.c -lm
+  115  ./a.out 
+  116  nano TeiloraRindasVariantsNr12.c
+  117  gcc TeiloraRindasVariantsNr12.c -lm
+  118  ./a.out 
+  119  gcc TeiloraRindasVariantsNr12.c -lm
+  120  nano TeiloraRindasVariantsNr12.c
+  121  gcc TeiloraRindasVariantsNr12.c -lm
+  122  ./a.out 
+  123  nano TeiloraRindasVariantsNr12.c
+  124  gcc TeiloraRindasVariantsNr12.c -lm
+  125  ./a.out 
+  126  nano TeiloraRindasVariantsNr12.c
+  127  gcc TeiloraRindasVariantsNr12.c -lm
+  128  ./a.out 
+  129  nano TeiloraRindasVariantsNr12.c
+  130  gcc TeiloraRindasVariantsNr12.c -lm
+  131  ./a.out 
+  132  nano TeiloraRindasVariantsNr12.c
+  133  gcc TeiloraRindasVariantsNr12.c -lm
+  134  ./a.out 
+  135  nano TeiloraRindasVariantsNr12.c
+  136  gcc TeiloraRindasVariantsNr12.c -lm
+  137  ./a.out 
+  138  nano TeiloraRindasVariantsNr12.c
+  139  gcc TeiloraRindasVariantsNr12.c -lm
+  140  ./a.out 
+  141  nano TeiloraRindasVariantsNr12.c
+  142  gcc TeiloraRindasVariantsNr12.c -lm
+  143  ./a.out 
+  144  nano TeiloraRindasVariantsNr12.c
+  145  gcc TeiloraRindasVariantsNr12.c -lm
+  146  ./a.out 
+  147  nano TeiloraRindasVariantsNr12.c
+  148  gcc TeiloraRindasVariantsNr12.c -lm
+  149  ./a.out 
+  150  nano TeiloraRindasVariantsNr12.c
+  151  gcc TeiloraRindasVariantsNr12.c -lm
+  152  nano TeiloraRindasVariantsNr12.c
+  153  gcc TeiloraRindasVariantsNr12.c -lm
+  154  ./a.out 
+  155  nano TeiloraRindasVariantsNr12.c
+  156  gcc TeiloraRindasVariantsNr12.c -lm
+  157  ./a.out 
+  158  nano TeiloraRindasVariantsNr12.c
+  159  gcc TeiloraRindasVariantsNr12.c -lm
+  160  ./a.out 
+  161  nano TeiloraRindasVariantsNr12.c
+  162  gcc TeiloraRindasVariantsNr12.c -lm
+  163  ./a.out 
+  164  nano TeiloraRindasVariantsNr12.c
+  165  gcc TeiloraRindasVariantsNr12.c -lm
+  166  ./a.out 
+  167  nano TeiloraRindasVariantsNr12.c
+  168  gcc TeiloraRindasVariantsNr12.c -lm
+  169  ./a.out 
+  170  nano TeiloraRindasVariantsNr12.c
+  171  gcc TeiloraRindasVariantsNr12.c -lm
+  172  ./a.out 
+  173  nano TeiloraRindasVariantsNr12.c
+  174  gcc TeiloraRindasVariantsNr12.c -lm
+  175  ./a.out 
+  176  nano TeiloraRindasVariantsNr12.c
+  177  gcc TeiloraRindasVariantsNr12.c -lm
+  178  ./a.out 
+  179  nano TeiloraRindasVariantsNr12.c
+  180  gcc TeiloraRindasVariantsNr12.c -lm
+  181  nano TeiloraRindasVariantsNr12.c
+  182  gcc TeiloraRindasVariantsNr12.c -lm
+  183  ./a.out 
+  184  nano TeiloraRindasVariantsNr12.c
+  185  gcc TeiloraRindasVariantsNr12.c -lm
+  186  ./a.out 
+  187  nano TeiloraRindasVariantsNr12.c
+  188  gcc TeiloraRindasVariantsNr12.c -lm
+  189  ./a.out 
+  190  nano TeiloraRindasVariantsNr12.c
+  191  gcc TeiloraRindasVariantsNr12.c -lm
+  192  ./a.out 
+  193  nano TeiloraRindasVariantsNr12.c
+  194  gcc TeiloraRindasVariantsNr12.c -lm
+  195  ./a.out 
+  196  ls -l
+  197  cd ..
+  198  ls -l
+  199  history > history_20191214_1503.txt
+  200  ./git-upload 2019_1214_14_03
+  201  init 0
+  202  ls -l
+  203  cd RTR105/
+  204  cd darbi/
+  205  ls -l
+  206  cd Laboratorijas_darbi/
+  207  ls
+  208  nano TeiloraRindasVariantsNr12.c
+  209  gcc TeiloraRindasVariantsNr12.c -lm
+  210  PS1=$ ""
+  211  PS1="$ "
+  212  ./a.out 
+  213  nano TeiloraRindasVariantsNr12.c
+  214  gcc TeiloraRindasVariantsNr12.c -lm
+  215  ./a.out 
+  216  nano TeiloraRindasVariantsNr12.c
+  217  gcc TeiloraRindasVariantsNr12.c -lm
+  218  ./a.out 
+  219  nano TeiloraRindasVariantsNr12.c
+  220  cp TeiloraRindasVariantsNr12Pakapeniski.c
+  221  cp TeiloraRindasVariantsNr12.c Experiments.c
+  222  nano Experiments.c 
+  223  gcc Experiments.c -lm
+  224  ./a.out 
+  225  nano Experiments.c 
+  226  gcc Experiments.c -lm
+  227  ./a.out 
+  228  nano Experiments.c 
+  229  gcc Experiments.c -lm
+  230  ./a.out 
+  231  debug
+  232  nano Experiments.c 
+  233  gcc Experiments.c -lm
+  234  ./a.out 
+  235  nano Experiments.c 
+  236  gcc Experiments.c -lm
+  237  ./a.out 
+  238  nano Experiments.c 
+  239  gcc Experiments.c -lm
+  240  ./a.out 
+  241  gcc Experiments.c -lm
+  242  nano Experiments.c 
+  243  gcc Experiments.c -lm
+  244  ./a.out 
+  245  nano Experiments.c 
+  246  gcc Experiments.c -lm
+  247  ./a.out 
+  248  gcc Experiments.c -lm
+  249  nano Experiments.c 
+  250  gcc Experiments.c -lm
+  251  ./a.out 
+  252  nano Experiments.c 
+  253  gcc Experiments.c -lm
+  254  ./a.out 
+  255  nano Experiments.c 
+  256  gcc Experiments.c -lm
+  257  nano Experiments.c 
+  258  gcc Experiments.c -lm
+  259  ./a.out 
+  260  nano Experiments.c 
+  261  gcc Experiments.c -lm
+  262  ./a.out 
+  263  nano Experiments.c 
+  264  gcc Experiments.c -lm
+  265  ./a.out 
+  266  nano Experiments.c 
+  267  gcc Experiments.c -lm
+  268  nano Experiments.c 
+  269  gcc Experiments.c -lm
+  270  ./a.out 
+  271  nano Experiments.c 
+  272  nano TeiloraRindasVariantsNr12.c
+  273  gcc TeiloraRindasVariantsNr12.c -lm
+  274  ./a.out 
+  275  nano TeiloraRindasVariantsNr12.c
+  276  gcc TeiloraRindasVariantsNr12.c -lm
+  277  ./a.out 
+  278  nano TeiloraRindasVariantsNr12.c
+  279  gcc TeiloraRindasVariantsNr12.c -lm
+  280  ./a.out 
+  281  nano TeiloraRindasVariantsNr12.c
+  282  gcc TeiloraRindasVariantsNr12.c -lm
+  283  ./a.out 
+  284  nano TeiloraRindasVariantsNr12.c
+  285  cd ..
+  286  cd darbi/Laboratorijas_darbi/
+  287  ls -l
+  288  rm Experiments.c 
+  289  rm TeiloraRindasVariantsNr12.c.save 
+  290  rm a.out 
+  291  ls -l
+  292  cd ..
+  293  ls -l
+  294  history >> history_20191214_1503.txt 
+  295  ./git-upload 20191214_20_11
+  296  init 0
+  297  PS1="$ "
+  298  ls -l -a
+  299  cd RTR105/
+  300  cd darbi/
+  301  dir
+  302  init 0
+  303  PS1="$ "
+  304  ls -l
+  305  git clone http://www.github.com/MACTEP-ETF/RTR105
+  306  rm -r RTR105
+  307  y
+  308  rm -r RTR105
+  309  y
+  310  rm -r RTR105
+  311  git clone http://www.github.com/MACTEP-ETF/RTR105
+  312  cd RTR105/darbi/Laboratorijas_darbi/
+  313  nano TeiloraRindasVariantsNr12.c 
+  314  gcc TeiloraRindasVariantsNr12.c -lm
+  315  ./a.out 
+  316  nano TeiloraRindasVariantsNr12.c 
+  317  cd ~
+  318  ls -l
+  319  rm RTR105
+  320  rm -r RTR105
+  321  y
+  322  rm -r RTR105
+  323  ls -l
+  324  init 0
+  325  PS1="$ "
+  326  init 0
+  327  PS1="$ "
+  328  ls -l
+  329  git clone http://github.com/MACTEP-ETF/RTR105
+  330  cd RTR105/darbi/
+  331  ls -l
+  332  mkdir LabDarbiHEX
+  333  mv L14 LabDarbiHEX/
+  334  mv L16 LabDarbiHEX/
+  335  man mv
+  336  ls -l
+  337  ls P05
+  338  ls P06
+  339  ls P07
+  340  ls P07_operator_precedence/
+  341  cd P07_operator_precedence/
+  342  ./prog1 
+  343  mv 01.c Operator_precedence.c
+  344  ls -l
+  345  rm prog1 
+  346  mv Operator_precedence.c ~/RTR105/darbi/P06/
+  347  ls -
+  348  ls -l
+  349  cd ..
+  350  ls -l -a
+  351  man ls
+  352  ls -s
+  353  ls -l -s
+  354  ls -l
+  355  cd 6.lekcija/
+  356  ls -l
+  357  cd ..
+  358  ls -l 5.lekcija/
+  359  nano 5.lekcija/01.c
+  360  nano 5.lekcija/02.c
+  361  mv 5.lekcija/02.c 5.lekcija/sizeof.c
+  362  ls -l 5.lekcija/
+  363  nano 5.lekcija/02.c
+  364  nano 5.lekcija/03.c
+  365  mv 5.lekcija/03.c 5.lekcija/MatDarbibas1.c
+  366  ls -l 5.lekcija/
+  367  nano 5.lekcija/01.c
+  368  ls -l
+  369  ls P05/
+  370  ls P06
+  371  ls P07_operator_precedence/
+  372  mv P06/*.* P07_operator_precedence/
+  373  ls P06
+  374  man rm
+  375  rm -d
+  376  rm -d P06
+  377  ls -l
+  378  ls 6.lekcija/
+  379  mv 6.lekcija P06_masivi
+  380  ls -l
+  381  ls 5.lekcija/
+  382  rm 5.lekcija/01.c
+  383  mv 5.lekcija/*.* P05
+  384  ls 5.lekcija/
+  385  rm -d 5.lekcija/
+  386  ls -l
+  387  ls P05
+  388  nano P05/01.c
+  389  mv P05//01.c PrintChar.c
+  390  nano P05/02.c
+  391  mv P05//02.c MatDarbibasArLieliemSkaitliem.c
+  392  nano P05/03.c
+  393  mv P05//03.c FunkcijasDeklaresana.c
+  394  nano P05/04.c
+  395  mv P05//04.c FunkcijasDeklaresana2.c
+  396  nano P05/05.c
+  397  mv P05//05.c SimbolaIzdrukaKaSkaitlis.c
+  398  ls -l
+  399  ls P05
+  400  mv FunkcijasDeklaresana.c P05/
+  401  mv FunkcijasDeklaresana2.c P05/
+  402  mv PrintChar.c P05/
+  403  mv SimbolaIzdrukaKaSkaitlis.c P05/
+  404  ls -l
+  405  mv MatDarbibasArLieliemSkaitliem.c P05/
+  406  ls -l
+  407  ls P07_operator_precedence/
+  408  ls pirmas_lekcijas/
+  409  ls user_functions/
+  410  mkdir LabDarbiAtskaites
+  411  mv series LabDarbiAtskaites/
+  412  ls -l
+  413  mkdir Lekcijas
+  414  mv P05 Lekcijas/
+  415  mv P06_masivi Lekcijas/
+  416  mv Pw8z Lekcijas/
+  417  mv Pw9z Lekcijas/
+  418  mv user_functions Lekcijas/
+  419  ls -l
+  420  mv P07_operator_precedence Lekcijas/
+  421  mv P08_if_while_for Lekcijas/
+  422  mv pirmas_lekcijas L
+  423  mv pirmas_lekcijas Lekcijas/
+  424  ls -l
+  425  mv L IevadLekcija
+  426  ls -l
+  427  mv IevadLekcija Lekcijas/
+  428  ls -l
+  429  ls -l Lekcijas/
+  430  ls LabDarbiAtskaites/
+  431  ls LabDarbiAtskaites/series/
+  432  ls LabDarbiAtskaites/
+  433  ls LabDarbiHEX/
+  434  cd ..
+  435  ls -l
+  436  history > history_20191220_1302.txt
+  437  ./git-upload 20191220_13_02
+  438  ls -l
+  439  cd ..
+  440  ls -l
+  441  rm -r -f RTR105/
+  442  ls -l
+  443  init 0
+  444  PS1=$ ""
+  445  PS1="$ "
+  446  pwd
+  447  ls -l
+  448  git clone https://github.com/MACTEP-ETF/RTR105
+  449  cd RTR105/darbi/
+  450  ls -l
+  451  cd LabDarbiHEX/
+  452  ls -l
+  453  cd L16
+  454  ls -l
+  455  python
+  456  PS1="$ "=
+  457  PS1="$ "
+  458  python
+  459  idle &
+  460  ls -l
+  461  cd RTR105/darbi/
+  462  cd LabDarbiHEX/
+  463  cd L16
+  464  ls -l
+  465  idle dg16.py &
+  466  cd ~
+  467  cd RTR105/darbi/LabDarbiHEX/L16/
+  468  ls -l
+  469  ls ~/RTR105/
+  470  nano ~/RTR105/README.md 
+  471  pwd
+  472  ls -l
+  473  idle
+  474  idle &
+  475  nano ~/RTR105/README.md 
+  476  ls -l
+  477  cd ~
+  478  ls -l
+  479  cd RTR105/
+  480  ls -l
+  481  history > history_2019_21_12_15.11.txt
