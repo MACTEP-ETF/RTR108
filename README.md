@@ -144,8 +144,8 @@ Ja faila/foldera nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 
 | Izteiksme | Rezultāts |  
 | --- | --- |  
-| baits | 10 010 111 |  
-| baits =~baits | 01 101 000 |  
+| baits | 1001 0111 |  
+| baits =~baits | 0110 1000 |  
 
 - **\<<, \>>** – bitu virzienā maiņa pa kreisi, pa labi. (*Piezīme. Bīdot uz kreiso vai labo pusi, jaunie biti, kas ienāk laukā ir 0.*) Piemērs:  
 
@@ -157,7 +157,7 @@ Ja faila/foldera nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 | baits = baits >> 3 | 0000 0001 |  
 
 - **|, ^, &** – divu izteiksmju salīdzināšana pa bitiem: loģiskais VAI, izslēdzošais VAI. loģiskais UN. Piemērs:  
-Pieņemsim, ka mums ir divas *unsigned char* izteiksmes: b1 = 0145, b2 = 0257.
+Pieņemsim, ka mums ir divas *unsigned char* izteiksmes: b1 = 101<sub>10</sub>, b2 = 175<sub>10</sub>.
 
 | Izteiksme | Rezultāts |  
 | --- | --- |  
@@ -217,7 +217,7 @@ Pieņemsim, ka mums ir divas *unsigned char* izteiksmes: b1 = 0145, b2 = 0257.
 - **echo** – printēt uz ekrāna tekstu (*Piem., echo Hello World*). Izmantojot kopā ar **>** tiks ierakstīt failā: **a**.) Ja fails neeksistē, tad izveido jaunu; **b**.) Ja fails eksistē, tad pārraksta (dzēšot veco saturu).  
 - **$PATH** – parāda uz ekrāna visus iekešotos ceļus sistēmā!  
 - **echo $PATH RequirePath** – pievieno ceļu nepieciešamajam folderim.  
-- **echo -e "Hello\vWorld"** – izdrukā uz ekrāna *Hello World*. Simbolu virkne "\v" ir darbības simbols, kurš pārnes uz nākamo rindiņu turpmāko saturu tieši zem sevis. T.i., šis nav parasts *Enter*! Sintaksis -e aktivizē papild bibliotēku ar aprakstu par "\v" un citiem elementiem.  
+- **echo -e "Hello\vWorld"** – izdrukā uz ekrāna *Hello World*. Simbolu virkne "\v" ir darbības simbols, kurš pārnes uz nākamo rindiņu turpmāko saturu tieši zem sevis. T.i., šis nav parasts *Enter*! Sintaksis -e aktivizē papild bibliotēku ar aprakstu par "\v" un citiem darbības simboliem (*detalizētāk skatīt **man echo***).  
 
 #### Vispārīgi
 - **git clone "arguments"** – kopē esošajā folderī visu repozitoriju no github. Argumentā norādīt repozitorija ceļu: https://github.com/MACTEP-ETF/RTR105.  
