@@ -79,7 +79,7 @@ printf("     (2 * k - 1) * (2 * k)\n\n\n\n");
 
 }
 ```
-Šajā koda es neiekļāvu datu skaitļošanu priekš GNUPLOT grafika. To es uztaisīju atsevišķā failā (viņu var atrast apakšfolderī GnuplotSeries – *FunkcijasVertibuKalkulacija.c*, kā arī datu failu priekš GNUPLOTa) izmantojot jau iebūvēto *math.h* bilbiotēku funkcijas skaitļošanai: y=cos(x)\*cos(x).  
+Šajā koda es neiekļāvu datu skaitļošanu priekš GNUPLOT grafika. To es uztaisīju atsevišķā failā izmantojot jau iebūvēto *math.h* bilbiotēku funkcijas skaitļošanai: y=cos(x)\*cos(x).
 
 ### Rezultāts
 ```
@@ -91,3 +91,28 @@ Neizskaidrojama iemesla pēc, programma spēj korekti izskaitļot funkciju ar **
 
 ### Bildes
 ![Funkcijas grafiks](https://github.com/MACTEP-ETF/RTR105/blob/master/darbi/LabDarbiAtskaites/series/GnuplotSeries/Funkcijas%20grafiks.png)
+
+#### Funkcijas vērtību skaitļošanas kods grafika attēlošanai GNUPLOT vidē
+```
+#include<stdio.h>
+#include<math.h>
+
+void main()
+{
+ float x, y;
+ FILE * fptr;
+
+ fptr = fopen("SeriesGnuplot.dat","w");
+
+ x = -22;
+ while (x<22.01)
+  {
+   y = cos(x)*cos(x);
+   fprintf(fptr,"%f\t%f\n",x,y);
+   x += 0.01;
+  }
+
+ fclose(fptr);
+}
+
+```
