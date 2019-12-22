@@ -9,8 +9,7 @@ Merkis : Uzrakstiit algoritmu, kurs apreekina funkcijas y=cos(x)*cos(x) veertiib
 
 void main()
 {
- long double x, y, a, S;
- long double b = 0; //priekspeedeejais saskaitaamais
+ long double x, y, a, b, S;
  int k = 1;
 
  printf("\nSveicinaati!\n");
@@ -31,9 +30,9 @@ void main()
 
   while(k<500)
   {
+   k++;
    a = a * (((-1)*x*x*4)/((2*k-1)*(2*k)));
    S = S + a;
-   k++;
    if (k == 499)
    {
     b = a;// saglabaajam priekspeedeejo saskaitaamo
@@ -69,5 +68,26 @@ printf("           1\n");
 printf("       (-1)  * x * x * 4\n");
 printf("   --------------------------\n");
 printf("     (2 * k - 1) * (2 * k)\n\n\n\n");
+
+
+
+
+
+
+/* BACKUP
+                   5  0  0
+  /|            ____________
+ / |            \          |
+/  |             \                  k+1       2*k      2*k-1
+   |              \             (-1)     *   x     *  2
+   |   ------     /          ---------------------------------
+   |             /                       ( 2 * k ) !
+   |            /
+   |           /___________|
+                   k = 1
+
+*/
+
+
 
 }

@@ -244,27 +244,31 @@ Pieņemsim, ka mums ir divas *unsigned char* izteiksmes: b1 = 101<sub>10</sub>, 
 
 <a name="Python"></a>
 ## Python v3 & IDLE
+### Python Īpašības
 - Nav iespējams turpināt darbu ar veco sesiju! Verot vaļā ar komandrindiņu veco dienasgrāmatas failu, var tikai skatīt/kopēt/modificēt saturu, bet izpildīt kodu vairs nav iespējams, tādēļ lai turpinātu iepriekšējo darbu ir jāparkopē tieši/netieši saturu un jāturpina strādāt jau jaunā *dienasgrāmatas* failā!
 - Python v3 izpildamās darbības pierakstu forma ir pietuvināta C valodai, savukārt Python v2 - Shell/Bash valodai.  
+- Nav nepieciešam atsevišķi deklarēt mainīgos.  
+- Nav nepieciešam atsevišķi kompilēt failu ar programmas kodu. Palaišana notiek *pa taisno*.  
 
 ### Shortcuts
-- **Alt+P** – izsauc iepriekšlietotas komandas, alternatīva bultiņām **uz augšu/leju** Terminālā. Lai nav jāraksta viens un tas pats manuāli.   
+- **Alt+P un Alt+N** – izsauc iepriekšlietotas komandas, alternatīva bultiņām **uz augšu/leju** Terminālā.  
 
 ### Python & IDLE palaišana
-- **python** – izsauc Python versiju vienkāršotā veidā turpat Terminālā.  
+- **python** – izsauc Python versiju vienkāršotā veidā turpat Terminālā. **>>>**  
 - **idle** – interaktīvi grafiska *Python Shell* forma.  
   - **&** – šī sintakse atver programmu *background* režīmā, ļaujot strādāt kā pašā programmā, tā arī Terminālā.  
 
 ### Python dienasgrāmatas dokumentācija (.py)
-- ar IDLE vai citu redaktora palīdzību var uzrakstīt Python komandu rindu. OBLIGĀTI faila sākumā rakstīt šīs divas rindiņas:  
-  1.) \#!/usr/bin/python  
-  2.) \# -*- coding: UTF-8 -*-  
-  Ar pirmo rindiņu norādam valodu, ar otru - kodēšanas veidu.  
+- ar IDLE vai citu redaktora palīdzību var uzrakstīt Python komandu rindu. OBLIGĀTI faila sākumā rakstīt šo rindiņu:    
+  - \# -*- coding: UTF-8 -*-  
+  Ar šo rindiņu mēs definējam kodēšanas veidu.  
 - **python FileName.py** – ar šo komandrindiņu mēs palaižam dienasgrāmatas kodu izpildi. Kā redzams, Pythonam nav nepieciešama papildkompilācija. Viss notiek *on the fly* tā teikt. Kas būtībā ļoti atvieglo un pāatrina programmēšanu!  
 
 ### Python funkciju apraksti
 Vairākas *Python* instrukcijas var rakstīt vienā rindā atdalot tās ar semikolona operatoru (līdzīgi kā C valodā).  
 
-- **print** – Piemērs korektai izvadei: print("Pēc %g sekundes bumba būs %.2f metru augstumā \n" %(t,y)).
+- **print()** – piemērs korektai izvadei: print("Pēc %g sekundes bumba būs %.2f metru augstumā \n" %(t,y)).  
   - Atšķirībā no C valodas, Pythonam mēs mainīgos rakstam papildiekavās un pirms mainīgo iekavām norādam datu/virknes tipu *%*  
+
+- **a = input()** – *input* funkcija nolasa lietotāja ievadu un ieraksta mainīgajā 'a'.  
 
