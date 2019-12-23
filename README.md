@@ -272,3 +272,15 @@ Vairākas *Python* instrukcijas var rakstīt vienā rindā atdalot tās ar semik
 
 - **a = input()** – *input* funkcija nolasa lietotāja ievadu un ieraksta mainīgajā 'a'.  
 
+# FUNKCIJU Templates
+- **Funkcija atrod lielāko kopīgo dalītāju**  
+int dal(int v1, int v2)  
+{  
+ int temp;  
+ while(v2)  
+ {  
+  temp=v2; v2=v1%v2; v1=temp;  
+ }  
+ return v1;  
+}  
+
