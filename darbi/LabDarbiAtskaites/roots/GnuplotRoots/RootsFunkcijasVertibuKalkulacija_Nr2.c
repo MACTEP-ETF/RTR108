@@ -6,13 +6,13 @@ void main()
  float x, y;
  FILE * fptr;
 
- fptr = fopen("RootsGnuplot.dat","w");
+ fptr = fopen("RootsGnuplotNr2.dat","w");
 
  x = -3.2;
- while (x<0.0001)
+ while (x<0.5001)
   {
    y = cos(x)*cos(x);
-   fprintf(fptr,"%f\t%f\n",x,y);
+   fprintf(fptr,"%5.4f\t%5.4f\n",x,y);
    x += 0.0001;
   }
 
