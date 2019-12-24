@@ -12,12 +12,12 @@ def f(x):
     return cos(x)
 
 # Definējam argumenta x robežas:
-a = 0
-b = 50
+a = -1
+b = 1
 
 # Aprēķinam funkcijas vērtības dotajos punktos:
-funa = f(a)-0.707
-funb = f(b)-0.707
+funa = f(a)-1
+funb = f(b)-1
 
 # Pārbaudam, vai dotajā intervālā ir saknes:
 if ( funa * funb > 0.0 ):
@@ -31,7 +31,7 @@ deltax = 0.01
 
 # Sašaurinam saknes meklēšanas robežas:
 while ( fabs(b-a) > deltax ):
-    x = (a+b)/2; funx = f(x)-0.707
+    x = (a+b)/2; funx = f(x)-1
     if ( funa*funx < 0. ):
         b = x
     else:
