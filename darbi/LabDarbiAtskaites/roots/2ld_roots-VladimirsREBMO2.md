@@ -94,36 +94,35 @@ Ar cos^2(x) es vienkārši apzīmēju savu funkciju saīsinātā veidā.
 
 ### Rezultāts
 ```
+Sveicināti!
+Šī programma atrod tādu 'x' vērtību no jūsu definētā intervāla [a;b],
+pie kura izpildas vienādojums: cos(x)*cos(x) = c, kur 'c' pieder pie intervāla [0;1],
+no kura Jūs izvēlēsieties sev tīkamu.
+Turklāt, Jums būs jāievada arī precizitātes slieksnis delta_x
+
+1.) Lūdzu, ievadiet intervāla sākotnējo x vērtību, a = -3.2
+2.) Lūdzu, ievadiet intervāla gala x vērību, b = 0
+3.) Lūdzu, ievadiet funkcijas vērtību, c = 0.22
+4.) Lūdzu, ievadiet precizitātes slieksni, delta_x = 0.0001
+
+Dotajā intervālā sakne ir!
+
+5.) Sakne atrodas pie x = -1.0825 funkcijai 'cos^2(x) = c'
+6.) cos^2(-1.0825) = 0.220059, kas ir tuvinājums Jūsu ievadītai vērtībai c = 0.220000
+7.) Iterāciju skaits ir vienāds ar 15
 
 ```
 
 ### Analīze
-  
+Rezultātu ieguvei nācās riktīgi palauzt galvu, bet izlasot atbilstošu nodaļu gramātā "Ievadu Algoritmu valodā" ( Autors J.Ziemelis), pildot V.Zagorska LabDarbu 17HEX, un urbjoties internetā man izdevās šo LabDarbu izpildīt.  
 
-### Funkcijas y=cos(x)\*cos(x) grafiks x vērtības intervālā:  \[-3.2;3.2\]  
+### Secinājums
+Nav iespējams saprast ko lasot pa diagonāli, ir jāsaprot ikkatra rindiņa!
+
+### Funkcijas cos(x)\*cos(x)=0.22 grafiks x vērtības intervālā:  \[-3.2;0\]  
 ![Funkcijas grafiks](https://github.com/MACTEP-ETF/RTR105/blob/master/darbi/LabDarbiAtskaites/series/GnuplotSeries/Funkcijas%20grafiks.png)
 
 #### Funkcijas vērtību skaitļošanas kods grafika attēlošanai GNUPLOT vidē
 ```
-#include<stdio.h>
-#include<math.h>
-
-void main()
-{
- float x, y;
- FILE * fptr;
-
- fptr = fopen("SeriesGnuplot.dat","w");
-
- x = -22;
- while (x<22.01)
-  {
-   y = cos(x)*cos(x);
-   fprintf(fptr,"%f\t%f\n",x,y);
-   x += 0.01;
-  }
-
- fclose(fptr);
-}
 
 ```
