@@ -135,7 +135,8 @@ while(fabs(b0-a0)>delta_x)
 }
 
 ```
-Ar cos^2(x) es apzīmēju savu funkciju saīsinātā veidā.
+- Ar cos^2(x) es apzīmēju savu funkciju saīsinātā veidā, respektīvi ir domāts - **cos<sup>2</sup>(x)**.
+- Mainīgais "D" (tā ir kvardātsakne no "c") tika ieviests, lai sākumā atrastu "x" vērtību priekš cos(x), un tikai pēcāk tika kāpināts kvadrātā. "Dihotomijas metodi" nevarēja pielietot cos<sup>2</sup>(x), jo funkcijas vērtība vienmēr būtu pozitīva, tādejādi arī nosacijums funkcA\*funkcB>0 vienmēr izpildītos un neko nevarētu izskaitļot!
 
 ### Rezultāts Nr1
 ```
@@ -253,3 +254,4 @@ void main()
  fclose(fptr);
 }
 ```
+P.S. Sakņu punkti ir saglabāti atsevišķos \*.dat failos, un rezultāti ierakstīti manuāli.
