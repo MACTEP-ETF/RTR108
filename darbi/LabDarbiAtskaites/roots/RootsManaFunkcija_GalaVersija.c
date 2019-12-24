@@ -6,7 +6,7 @@ Mērķis : Atrast sakni(es) funkcijai 'cos(x)*cos(x)=c' pēc šādiem lietotāja
 3.) Funkcijas vērtību apgabals ir ierobežots [0;1] 
     (tiek secināts pēc 1. LabDarba GNUPLOT grafika)
 
-P.S. Teorijā, kvadrātiskai funkcijai ir divas saknes, un tieši intervāls nosaka, vai otra sakne ir/nav
+P.S. Teorijā, kvadrātfunkcijai ir divas saknes, un tieši intervāls nosaka, vai otra sakne ir/nav
 *****************************************************************************************/
 
 #include<stdio.h>
@@ -17,7 +17,7 @@ double f(double z)
 
 int main()
 {
- float a, a0, b, b0, c, D, x1, x2, x0, delta_x, funkcA, funkcA0, funkcB, funkcB0, funkcX, funkcX0;
+ float a, a0, aC, b, b0, bC, c, D, x1, x2, x0, delta_x, funkcA, funkcA0, funkcB, funkcB0, funkcX, funkcX0;
  float tempNeg, tempPoz;
  int k=0, j=0; //cikla mainīgie
 
@@ -53,8 +53,8 @@ int main()
 
 /*Aprēķina sākums*/
  D = sqrt(c);
- a0 = a;
- b0 = b;
+ a0 = aC = a;
+ b0 = bC = b;
  funkcA = f(a)-D;
  funkcA0 = f(a);
  funkcB = f(b)-D;
@@ -68,7 +68,7 @@ int main()
   goto StartA;
  }
  else
-  printf("\nDotajā intervālā sakne ir!\n\n");
+  printf("\nDotajā intervālā sakne(s) ir!\n\n");
 
  while(fabs(b-a)>delta_x)
  {
@@ -101,9 +101,18 @@ while(fabs(b0-a0)>delta_x)
  else if (x1==0) x2=x1;
  else
  {
- tempNeg = fabs(x0) - fabs(x1);
- x2 = x0 - tempNeg;
+  tempNeg = fabs(x0) - fabs(x1);
+  x2 = x0 - tempNeg;
  }
+
+ if (x2<aC | x2>bC) //Pārbaudam, vai x2 pieder pie intervāla apgabala
+  {
+   printf("Funkcija ir tikai viena vienīgā sakne!\n");
+   printf("5.) Saknes atrodas pie x = %.4f funkcijai 'cos^2(x) = c'\n",x1);
+   printf("6.) cos^2(%.4f) = %f, kas ir tuvinājums Jūsu ievadītai vērtībai c = %f\n",x1,pow(f(x1),2),c);
+   printf("7.) Iterāciju skaits dotai saknei ir %d\n",k);
+   return 0;
+  }
 
 /*
  printf("x0 %f\n", x0); //šeit es pārbaudīju mainīgos, kad izstrādāju augstākminēto x2 meklēšanu
