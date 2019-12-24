@@ -24,13 +24,13 @@ int main()
  printf("\nSveicināti!\n");
  printf("Šī programma atrod tādu 'x' vērtību no jūsu definētā intervāla [a;b],\n");
  printf("pie kura izpildas vienādojums: cos(x)*cos(x) = c, kur 'c' pieder pie intervāla [0;1],\n");
- printf("no kura Jūs izvēlēsieties sev tīkamu\n\n");
- printf("Turklāt, Jums būs jāievada arī precizitātes vērtība delta_x\n");
+ printf("no kura Jūs izvēlēsieties sev tīkamu.\n");
+ printf("Turklāt, Jums būs jāievada arī precizitātes slieksnis delta_x\n\n");
 
  StartA:
- printf("Lūdzu, ievadiet intervāla sākotnējo x vērtību, a = ");
+ printf("1.) Lūdzu, ievadiet intervāla sākotnējo x vērtību, a = ");
  scanf("%f",&a);
- printf("Lūdzu, ievadiet intervāla gala x vērību, b = ");
+ printf("2.) Lūdzu, ievadiet intervāla gala x vērību, b = ");
  scanf("%f",&b);
  if (b<a)
  {
@@ -40,7 +40,7 @@ int main()
  }
 
  StartC:
- printf("Lūdzu, ievadiet funkcijas vērtību, c = ");
+ printf("3.) Lūdzu, ievadiet funkcijas vērtību, c = ");
  scanf("%f",&c);
  if (c>1 | c<0)
  {
@@ -48,7 +48,7 @@ int main()
   goto StartC;
  }
 
- printf("Lūdzu, ievadiet precizitātes slieksni, delta_x = ");
+ printf("4.) Lūdzu, ievadiet precizitātes slieksni, delta_x = ");
  scanf("%f",&delta_x);
 
 /*Aprēķina sākums*/
@@ -64,25 +64,21 @@ int main()
   goto StartA;
  }
  else
-  printf("\nDotajā intervālā sakne(s) ir!\n\n");
+  printf("\nDotajā intervālā sakne ir!\n\n");
 
  while(fabs(b-a)>delta_x)
  {
   k++;//k=k+1;//k+=1;
   x = (a+b)/2.;
   funkcX = f(x)-D;
-  if((funkcA)*(funkcX)<0.) // tuvojamies mūsu f(x)=c rezultātam
+  if((funkcA)*(funkcX)<0.) // tuvojamies mūsu f(x)=D rezultātam
    b = x;
   else
    a = x;
-
-//printf("\n%2d. iterācija: Acos(%7.4f)-D=%7.4f\t",k,a,f(a)-D);
-//printf("Xcos(%7.4f)-D=%7.3f\t",x,f(x)-D);
-//printf("Bcos(%7.4f)-D=%7.3f\n",b,f(b)-D);
-
  }
- printf("1.) Sakne atrodas pie x = %.4f, jo cos^2(x) = %f,\n",x,pow(f(x),2));
- printf("    un šī vērtība ir maksimāli pietuvināta Jūsu ievadītai funkcijas vērtībai C = %f\n",c);
- printf("2.) Iterāciju skaits ir vienāds ar %d\n\n",k);
+
+ printf("5.) Sakne atrodas pie x = %.4f funkcijai 'cos^2(x) = c'\n",x);
+ printf("6.) cos^2(%.4f) = %f, kas ir tuvinājums Jūsu ievadītai vērtībai c = %f\n",x,pow(f(x),2),c);
+ printf("7.) Iterāciju skaits ir vienāds ar %d\n\n",k);
  return 0;
 }
