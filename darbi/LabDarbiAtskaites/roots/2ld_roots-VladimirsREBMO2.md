@@ -198,16 +198,58 @@ Kā jau visām programmām, arī šai ir kļūdas. Neesmu atrisinājis problēmu
 
 ### Funkcijas y=cos(x)\*cos(x) grafiki  
 #### Funkcijas grafiks rezultātam Nr1, x intervāls: \[-1.9;0.5\]  
-![Funkcijas grafiks Nr1](https://github.com/MACTEP-ETF/RTR105/blob/master/darbi/LabDarbiAtskaites/series/GnuplotSeries/Funkcijas%20grafiks.png)
+![Funkcijas grafiks Nr1](https://github.com/MACTEP-ETF/RTR105/tree/master/darbi/LabDarbiAtskaites/roots/GnuplotRoots/RezultatsNr1.png)
 
 
 #### Funkcijas grafiks rezultātam Nr2, x intervāls: \[-3.2;0.5\]  
-![Funkcijas grafiks Nr2](https://github.com/MACTEP-ETF/RTR105/blob/master/darbi/LabDarbiAtskaites/series/GnuplotSeries/Funkcijas%20grafiks.png)
+![Funkcijas grafiks Nr2](https://github.com/MACTEP-ETF/RTR105/tree/master/darbi/LabDarbiAtskaites/roots/GnuplotRoots/RezultatsNr2.png)
 
 #### Funkcijas cos(x)\*cos(x) grafiks no 1. LabDarba 
 ![Funkcijas grafiks](https://github.com/MACTEP-ETF/RTR105/blob/master/darbi/LabDarbiAtskaites/series/GnuplotSeries/Funkcijas%20grafiks.png)
 
 #### Funkcijas vērtību skaitļošanas kods grafika attēlošanai GNUPLOT vidē
+Rezultāts Nr1:
 ```
+#include<stdio.h>
+#include<math.h>
 
+void main()
+{
+ float x, y, sakne;
+ FILE * fptr;
+
+ fptr = fopen("RootsGnuplotNr1.dat","w");
+ x = -1.9;
+ while (x<0.5001)
+  {
+   y = cos(x)*cos(x);
+   fprintf(fptr,"%5.4f\t%5.4f\n",x,y);
+   x += 0.0001;
+  }
+
+ fclose(fptr);
+}
+```
+Rezultāts Nr2:
+```
+#include<stdio.h>
+#include<math.h>
+
+void main()
+{
+ float x, y;
+ FILE * fptr;
+
+ fptr = fopen("RootsGnuplotNr2.dat","w");
+
+ x = -3.2;
+ while (x<0.5001)
+  {
+   y = cos(x)*cos(x);
+   fprintf(fptr,"%5.4f\t%5.4f\n",x,y);
+   x += 0.0001;
+  }
+
+ fclose(fptr);
+}
 ```
