@@ -128,7 +128,33 @@ while(fabs(b0-a0)>delta_x)
 ```
 Ar cos^2(x) es apzīmēju savu funkciju saīsinātā veidā.
 
-### Rezultāts
+### Rezultāts nr1
+```
+Sveicināti!
+Šī programma atrod tādu(as) 'x' vērtību(as) no jūsu definētā intervāla [a;b],
+pie kura izpildas vienādojums: cos(x)*cos(x) = c, kur 'c' pieder pie intervāla [0;1],
+no kura Jūs izvēlēsieties sev tīkamu.
+Turklāt, Jums būs jāievada arī precizitātes slieksnis delta_x
+
+1.) Lūdzu, ievadiet intervāla sākotnējo x vērtību, a = -1.9
+2.) Lūdzu, ievadiet intervāla gala x vērību, b = 0.5
+3.) Lūdzu, ievadiet funkcijas vērtību, c = 0.22
+4.) Lūdzu, ievadiet precizitātes slieksni, delta_x = 0.0001
+
+Dotajā intervālā sakne(s) ir!
+
+Funkcija ir tikai viena vienīgā sakne!
+5.) Saknes atrodas pie x = -1.0825 funkcijai 'cos^2(x) = c'
+6.) cos^2(-1.0825) = 0.220039, kas ir tuvinājums Jūsu ievadītai vērtībai c = 0.220000
+7.) Iterāciju skaits dotai saknei ir 15
+
+```
+
+### Analīze nr1
+Šajā aprēķinā, programma konstatē, ka ir viena vienīgā sakne un izvada to!
+
+
+### Rezultāts nr2
 ```
 Sveicināti!
 Šī programma atrod tādu(as) 'x' vērtību(as) no jūsu definētā intervāla [a;b],
@@ -138,24 +164,28 @@ Turklāt, Jums būs jāievada arī precizitātes slieksnis delta_x
 
 1.) Lūdzu, ievadiet intervāla sākotnējo x vērtību, a = -3.2
 2.) Lūdzu, ievadiet intervāla gala x vērību, b = 0.5
-3.) Lūdzu, ievadiet funkcijas vērtību, c = 0.049
+3.) Lūdzu, ievadiet funkcijas vērtību, c = 0.22
 4.) Lūdzu, ievadiet precizitātes slieksni, delta_x = 0.0001
 
-Dotajā intervālā sakne ir!
+Dotajā intervālā sakne(s) ir!
 
-5.) Saknes atrodas pie x1 = -1.3476 un x2 = -1.7940 funkcijai 'cos^2(x) = c'
-6.a) Ar pirmo sakni cos^2(-1.3476) = 0.049007, kas ir tuvinājums Jūsu ievadītai vērtībai c = 0.049000
-6.b) Ar otru sakni cos^2(-1.7940) = 0.049015, kas ir tuvinājums Jūsu ievadītai vērtībai c = 0.049000
+5.) Saknes atrodas pie x1 = -1.0826 un x2 = -2.0590 funkcijai 'cos^2(x) = c'
+6.a) Ar pirmo sakni cos^2(-1.0826) = 0.220025, kas ir tuvinājums Jūsu ievadītai vērtībai c = 0.220000
+6.b) Ar otru sakni cos^2(-2.0590) = 0.220040, kas ir tuvinājums Jūsu ievadītai vērtībai c = 0.220000
 7.a) Iterāciju skaits pirmajai saknei ir 16
 7.b) Iterāciju skaits otrajai saknei ir 16
 
 ```
 
-### Analīze
-Rezultātu ieguvei nācās riktīgi palauzt galvu, bet izlasot atbilstošu nodaļu gramātā "Ievadu Algoritmu valodā" ( Autors J.Ziemelis), pildot V.Zagorska LabDarbu 17HEX, un urbjoties internetā man izdevās šo LabDarbu izpildīt.  
+### Analīze nr2
+Šajā aprēķinā, programma konstatē, ka ir divas saknes un izvada tās!
 
 ### Secinājums
+Rezultātu ieguvei nācās riktīgi palauzt galvu, bet izlasot atbilstošu nodaļu gramātā "Ievadu Algoritmu valodā" ( Autors J.Ziemelis), pildot V.Zagorska LabDarbu 17HEX, un urbjoties internetā man izdevās šo LabDarbu izpildīt.  
 Nav iespējams saprast kodu lasot pa diagonāli, ir jāizprot ikkatra rindiņa! :) 
+
+### Kļūdas
+Kā jau visām programmām, arī šai ir kļūdas. Neesmu atrisinājis problēmu pie x intervāla \[-1;1\] funkcijai cos^2(x)=1. Būtu jābūt tā kā saknei **0**, bet programma viņu neredz. Tā pat ir arī Zagorska Python programma - tā arī **0** neredz. :( 
 
 ### Funkcijas y=cos(x)\*cos(x) grafiki
 #### Funkcijas vērtības intervālā: \[-22;22\] (grafiks no 1.LabDarba)
