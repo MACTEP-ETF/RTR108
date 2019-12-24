@@ -1,0 +1,1000 @@
+  164  nano TeiloraRindasVariantsNr12.c
+  165  gcc TeiloraRindasVariantsNr12.c -lm
+  166  ./a.out 
+  167  nano TeiloraRindasVariantsNr12.c
+  168  gcc TeiloraRindasVariantsNr12.c -lm
+  169  ./a.out 
+  170  nano TeiloraRindasVariantsNr12.c
+  171  gcc TeiloraRindasVariantsNr12.c -lm
+  172  ./a.out 
+  173  nano TeiloraRindasVariantsNr12.c
+  174  gcc TeiloraRindasVariantsNr12.c -lm
+  175  ./a.out 
+  176  nano TeiloraRindasVariantsNr12.c
+  177  gcc TeiloraRindasVariantsNr12.c -lm
+  178  ./a.out 
+  179  nano TeiloraRindasVariantsNr12.c
+  180  gcc TeiloraRindasVariantsNr12.c -lm
+  181  nano TeiloraRindasVariantsNr12.c
+  182  gcc TeiloraRindasVariantsNr12.c -lm
+  183  ./a.out 
+  184  nano TeiloraRindasVariantsNr12.c
+  185  gcc TeiloraRindasVariantsNr12.c -lm
+  186  ./a.out 
+  187  nano TeiloraRindasVariantsNr12.c
+  188  gcc TeiloraRindasVariantsNr12.c -lm
+  189  ./a.out 
+  190  nano TeiloraRindasVariantsNr12.c
+  191  gcc TeiloraRindasVariantsNr12.c -lm
+  192  ./a.out 
+  193  nano TeiloraRindasVariantsNr12.c
+  194  gcc TeiloraRindasVariantsNr12.c -lm
+  195  ./a.out 
+  196  ls -l
+  197  cd ..
+  198  ls -l
+  199  history > history_20191214_1503.txt
+  200  ./git-upload 2019_1214_14_03
+  201  init 0
+  202  ls -l
+  203  cd RTR105/
+  204  cd darbi/
+  205  ls -l
+  206  cd Laboratorijas_darbi/
+  207  ls
+  208  nano TeiloraRindasVariantsNr12.c
+  209  gcc TeiloraRindasVariantsNr12.c -lm
+  210  PS1=$ ""
+  211  PS1="$ "
+  212  ./a.out 
+  213  nano TeiloraRindasVariantsNr12.c
+  214  gcc TeiloraRindasVariantsNr12.c -lm
+  215  ./a.out 
+  216  nano TeiloraRindasVariantsNr12.c
+  217  gcc TeiloraRindasVariantsNr12.c -lm
+  218  ./a.out 
+  219  nano TeiloraRindasVariantsNr12.c
+  220  cp TeiloraRindasVariantsNr12Pakapeniski.c
+  221  cp TeiloraRindasVariantsNr12.c Experiments.c
+  222  nano Experiments.c 
+  223  gcc Experiments.c -lm
+  224  ./a.out 
+  225  nano Experiments.c 
+  226  gcc Experiments.c -lm
+  227  ./a.out 
+  228  nano Experiments.c 
+  229  gcc Experiments.c -lm
+  230  ./a.out 
+  231  debug
+  232  nano Experiments.c 
+  233  gcc Experiments.c -lm
+  234  ./a.out 
+  235  nano Experiments.c 
+  236  gcc Experiments.c -lm
+  237  ./a.out 
+  238  nano Experiments.c 
+  239  gcc Experiments.c -lm
+  240  ./a.out 
+  241  gcc Experiments.c -lm
+  242  nano Experiments.c 
+  243  gcc Experiments.c -lm
+  244  ./a.out 
+  245  nano Experiments.c 
+  246  gcc Experiments.c -lm
+  247  ./a.out 
+  248  gcc Experiments.c -lm
+  249  nano Experiments.c 
+  250  gcc Experiments.c -lm
+  251  ./a.out 
+  252  nano Experiments.c 
+  253  gcc Experiments.c -lm
+  254  ./a.out 
+  255  nano Experiments.c 
+  256  gcc Experiments.c -lm
+  257  nano Experiments.c 
+  258  gcc Experiments.c -lm
+  259  ./a.out 
+  260  nano Experiments.c 
+  261  gcc Experiments.c -lm
+  262  ./a.out 
+  263  nano Experiments.c 
+  264  gcc Experiments.c -lm
+  265  ./a.out 
+  266  nano Experiments.c 
+  267  gcc Experiments.c -lm
+  268  nano Experiments.c 
+  269  gcc Experiments.c -lm
+  270  ./a.out 
+  271  nano Experiments.c 
+  272  nano TeiloraRindasVariantsNr12.c
+  273  gcc TeiloraRindasVariantsNr12.c -lm
+  274  ./a.out 
+  275  nano TeiloraRindasVariantsNr12.c
+  276  gcc TeiloraRindasVariantsNr12.c -lm
+  277  ./a.out 
+  278  nano TeiloraRindasVariantsNr12.c
+  279  gcc TeiloraRindasVariantsNr12.c -lm
+  280  ./a.out 
+  281  nano TeiloraRindasVariantsNr12.c
+  282  gcc TeiloraRindasVariantsNr12.c -lm
+  283  ./a.out 
+  284  nano TeiloraRindasVariantsNr12.c
+  285  cd ..
+  286  cd darbi/Laboratorijas_darbi/
+  287  ls -l
+  288  rm Experiments.c 
+  289  rm TeiloraRindasVariantsNr12.c.save 
+  290  rm a.out 
+  291  ls -l
+  292  cd ..
+  293  ls -l
+  294  history >> history_20191214_1503.txt 
+  295  ./git-upload 20191214_20_11
+  296  init 0
+  297  PS1="$ "
+  298  ls -l -a
+  299  cd RTR105/
+  300  cd darbi/
+  301  dir
+  302  init 0
+  303  PS1="$ "
+  304  ls -l
+  305  git clone http://www.github.com/MACTEP-ETF/RTR105
+  306  rm -r RTR105
+  307  y
+  308  rm -r RTR105
+  309  y
+  310  rm -r RTR105
+  311  git clone http://www.github.com/MACTEP-ETF/RTR105
+  312  cd RTR105/darbi/Laboratorijas_darbi/
+  313  nano TeiloraRindasVariantsNr12.c 
+  314  gcc TeiloraRindasVariantsNr12.c -lm
+  315  ./a.out 
+  316  nano TeiloraRindasVariantsNr12.c 
+  317  cd ~
+  318  ls -l
+  319  rm RTR105
+  320  rm -r RTR105
+  321  y
+  322  rm -r RTR105
+  323  ls -l
+  324  init 0
+  325  PS1="$ "
+  326  init 0
+  327  PS1="$ "
+  328  ls -l
+  329  git clone http://github.com/MACTEP-ETF/RTR105
+  330  cd RTR105/darbi/
+  331  ls -l
+  332  mkdir LabDarbiHEX
+  333  mv L14 LabDarbiHEX/
+  334  mv L16 LabDarbiHEX/
+  335  man mv
+  336  ls -l
+  337  ls P05
+  338  ls P06
+  339  ls P07
+  340  ls P07_operator_precedence/
+  341  cd P07_operator_precedence/
+  342  ./prog1 
+  343  mv 01.c Operator_precedence.c
+  344  ls -l
+  345  rm prog1 
+  346  mv Operator_precedence.c ~/RTR105/darbi/P06/
+  347  ls -
+  348  ls -l
+  349  cd ..
+  350  ls -l -a
+  351  man ls
+  352  ls -s
+  353  ls -l -s
+  354  ls -l
+  355  cd 6.lekcija/
+  356  ls -l
+  357  cd ..
+  358  ls -l 5.lekcija/
+  359  nano 5.lekcija/01.c
+  360  nano 5.lekcija/02.c
+  361  mv 5.lekcija/02.c 5.lekcija/sizeof.c
+  362  ls -l 5.lekcija/
+  363  nano 5.lekcija/02.c
+  364  nano 5.lekcija/03.c
+  365  mv 5.lekcija/03.c 5.lekcija/MatDarbibas1.c
+  366  ls -l 5.lekcija/
+  367  nano 5.lekcija/01.c
+  368  ls -l
+  369  ls P05/
+  370  ls P06
+  371  ls P07_operator_precedence/
+  372  mv P06/*.* P07_operator_precedence/
+  373  ls P06
+  374  man rm
+  375  rm -d
+  376  rm -d P06
+  377  ls -l
+  378  ls 6.lekcija/
+  379  mv 6.lekcija P06_masivi
+  380  ls -l
+  381  ls 5.lekcija/
+  382  rm 5.lekcija/01.c
+  383  mv 5.lekcija/*.* P05
+  384  ls 5.lekcija/
+  385  rm -d 5.lekcija/
+  386  ls -l
+  387  ls P05
+  388  nano P05/01.c
+  389  mv P05//01.c PrintChar.c
+  390  nano P05/02.c
+  391  mv P05//02.c MatDarbibasArLieliemSkaitliem.c
+  392  nano P05/03.c
+  393  mv P05//03.c FunkcijasDeklaresana.c
+  394  nano P05/04.c
+  395  mv P05//04.c FunkcijasDeklaresana2.c
+  396  nano P05/05.c
+  397  mv P05//05.c SimbolaIzdrukaKaSkaitlis.c
+  398  ls -l
+  399  ls P05
+  400  mv FunkcijasDeklaresana.c P05/
+  401  mv FunkcijasDeklaresana2.c P05/
+  402  mv PrintChar.c P05/
+  403  mv SimbolaIzdrukaKaSkaitlis.c P05/
+  404  ls -l
+  405  mv MatDarbibasArLieliemSkaitliem.c P05/
+  406  ls -l
+  407  ls P07_operator_precedence/
+  408  ls pirmas_lekcijas/
+  409  ls user_functions/
+  410  mkdir LabDarbiAtskaites
+  411  mv series LabDarbiAtskaites/
+  412  ls -l
+  413  mkdir Lekcijas
+  414  mv P05 Lekcijas/
+  415  mv P06_masivi Lekcijas/
+  416  mv Pw8z Lekcijas/
+  417  mv Pw9z Lekcijas/
+  418  mv user_functions Lekcijas/
+  419  ls -l
+  420  mv P07_operator_precedence Lekcijas/
+  421  mv P08_if_while_for Lekcijas/
+  422  mv pirmas_lekcijas L
+  423  mv pirmas_lekcijas Lekcijas/
+  424  ls -l
+  425  mv L IevadLekcija
+  426  ls -l
+  427  mv IevadLekcija Lekcijas/
+  428  ls -l
+  429  ls -l Lekcijas/
+  430  ls LabDarbiAtskaites/
+  431  ls LabDarbiAtskaites/series/
+  432  ls LabDarbiAtskaites/
+  433  ls LabDarbiHEX/
+  434  cd ..
+  435  ls -l
+  436  history > history_20191220_1302.txt
+  437  ./git-upload 20191220_13_02
+  438  ls -l
+  439  cd ..
+  440  ls -l
+  441  rm -r -f RTR105/
+  442  ls -l
+  443  init 0
+  444  PS1=$ ""
+  445  PS1="$ "
+  446  pwd
+  447  ls -l
+  448  git clone https://github.com/MACTEP-ETF/RTR105
+  449  cd RTR105/darbi/
+  450  ls -l
+  451  cd LabDarbiHEX/
+  452  ls -l
+  453  cd L16
+  454  ls -l
+  455  python
+  456  PS1="$ "=
+  457  PS1="$ "
+  458  python
+  459  idle &
+  460  ls -l
+  461  cd RTR105/darbi/
+  462  cd LabDarbiHEX/
+  463  cd L16
+  464  ls -l
+  465  idle dg16.py &
+  466  cd ~
+  467  cd RTR105/darbi/LabDarbiHEX/L16/
+  468  ls -l
+  469  ls ~/RTR105/
+  470  nano ~/RTR105/README.md 
+  471  pwd
+  472  ls -l
+  473  idle
+  474  idle &
+  475  nano ~/RTR105/README.md 
+  476  ls -l
+  477  cd ~
+  478  ls -l
+  479  cd RTR105/
+  480  ls -l
+  481  history > history_2019_21_12_15.11.txt
+  482  ./git-upload 2019_21_12_15.11
+  483  cd ..
+  484  ls -l
+  485  rm -r -f RTR105/
+  486  ls -l
+  487  cd ~
+  488  cd Downloads/
+  489  ls -l
+  490  cd gnuplot-5.2.8/
+  491  ls 
+  492  ./config
+  493  PS1="$ "
+  494  ls -l
+  495  ./configure
+  496  nano parbaude.c 
+  497  gcc parbaude.c -lm
+  498  ./a.out 
+  499  nano parbaude.c 
+  500  PS1="$ "
+  501  ls -l
+  502  nano parbaude.c 
+  503  nano dichotomy_V1.c 
+  504  gcc dichotomy_V1.c -lm
+  505  ./a.out 
+  506  nano dichotomy_V1.c 
+  507  gcc dichotomy_V1.c -lm
+  508  ./a.out 
+  509  nano dichotomy_V1.c 
+  510  gcc dichotomy_V1.c -lm
+  511  ./a.out 
+  512  nano dichotomy_V1.c 
+  513  gcc dichotomy_V1.c -lm
+  514  ./a.out 
+  515  nano dichotomy_V1.c 
+  516  gcc dichotomy_V1.c -lm
+  517  ./a.out 
+  518  nano dichotomy_V1.c 
+  519  gcc dichotomy_V1.c -lm
+  520  nano dichotomy_V1.c 
+  521  gcc dichotomy_V1.c -lm
+  522  ./a.out 
+  523  nano dichotomy_V1.c 
+  524  cd ..
+  525  ls -l
+  526  cd ..
+  527  ls -l
+  528  cd LabDarbiHEX/
+  529  ls -l
+  530  cd L16
+  531  ls -l
+  532  idle dg162.py 
+  533  idle dg162.py &
+  534  python dg16.py 
+  535  idle
+  536  PS1="$ "
+  537  python 160.py 
+  538  ls -l
+  539  python 160.py 
+  540  nano 1.c
+  541  nano ~/RTR105/README.md 
+  542  PS1="$ "
+  543  ls -l
+  544  git clone http://github.com/MACTEP-ETF/RTR105
+  545  cd RTR105/darbi/LabDarbiAtskaites/
+  546  ls -l
+  547  cd series/
+  548  ls -l
+  549  cd ..
+  550  ls -l
+  551  mkdir roots
+  552  cd roots/
+  553  nano dichotomy_V1.c
+  554  gcc dichotomy_V1.c 
+  555  gcc dichotomy_V1.c -lm
+  556  ./a.out 
+  557  nano dichotomy_V1.c
+  558  $echo
+  559  $echo print
+  560  nano dichotomy_V1.c
+  561  nano parbaude.c
+  562  gcc parbaude.c 
+  563  nano parbaude.c
+  564  gcc parbaude.c 
+  565  ./a.out 
+  566  ls -l
+  567  nano ~/RTR105/README.md 
+  568  pwd
+  569  cd ~/RTR105/darbi/LabDarbiHEX/L16/
+  570  ls -l
+  571  idle &
+  572  idle 160.py 
+  573  ls -l
+  574  pwd
+  575  cd ..
+  576  cd ~
+  577  ls -l
+  578  cd RTR105/
+  579  history > history_20191221_2014.txt
+  580  ./git-upload 20191221_20_14
+  581  ls -l
+  582  rm -rf RTR105/
+  583  git clone http://github.com/MACTEP-ETF/RTR105
+  584  cd RTR105/darbi/LabDarbiHEX/L16/
+  585  PS1="$ "
+  586  idle
+  587  idle &
+  588  ls -l
+  589  cd ~
+  590  cd RTR105/
+  591  ./git-upload 20191221_21_45
+  592  init 0
+  593  cd ..
+  594  mkdir AllHistory
+  595  ls -l
+  596  mv *.txt ./AllHistory/
+  597  ls -l
+  598  cat history 
+  599  rm history 
+  600  ls -l
+  601  cd AllHistory/
+  602  ls -l
+  603  cd ..
+  604  cd darbi/
+  605  ls -l
+  606  idle &
+  607  cd ..
+  608  ls -l
+  609  cp TeiloraRindasVariantsNr12.c TeiloraRindasVariantsNr12+Gnuplot.c 
+  610  nano TeiloraRindasVariantsNr12+Gnuplot.c 
+  611  gcc TeiloraRindasVariantsNr12+Gnuplot.c -lm
+  612  ./a.out 
+  613  nano TeiloraRindasVariantsNr12+Gnuplot.c 
+  614  gcc TeiloraRindasVariantsNr12+Gnuplot.c -lm
+  615  ./a.out 
+  616  nano TeiloraRindasVariantsNr12+Gnuplot.c 
+  617  gcc TeiloraRindasVariantsNr12+Gnuplot.c -lm
+  618  ./a.out 
+  619  nano TeiloraRindasVariantsNr12+Gnuplot.c 
+  620  gcc TeiloraRindasVariantsNr12+Gnuplot.c -lm
+  621  ./a.out 
+  622  mkdir BackUP
+  623  ls -l
+  624  mv TeiloraRindasVariantsNr12.c ./BackUP/
+  625  ls -l
+  626  ls BackUP/
+  627  rm -r GnuplotSeries/
+  628  ls -l
+  629  nano TeiloraRindasVariantsNr12+Gnuplot.c 
+  630  mv TeiloraRindasVariantsNr12+Gnuplot.c TeiloraRindasVariantsNr12.c
+  631  ls -l
+  632  cd GnuplotSeries/
+  633  ls -l
+  634  cat SeriesGnuplot.dat 
+  635  nano SeriesGnuplot.dat 
+  636  cat SeriesGnuplot.dat 
+  637  ls -l
+  638  man cp
+  639  man mv
+  640  mv TeiloraRinda.c FunkcijasVertibuKalkulacija.c
+  641  ls -l
+  642  ls -l ..
+  643  cd ..
+  644  cd Lekcijas/
+  645  mkdir Files
+  646  cd Files/
+  647  nano working_with_files.c
+  648  gcc working_with_files.c
+  649  ./a.out 
+  650  ls -l
+  651  cat float.txt 
+  652  nano working_with_files.c
+  653  la -l
+  654  cd ..
+  655  mv ./Files ~/RTR105/darbi/LabDarbiAtskaites/series/
+  656  ls -l
+  657  cd ~/RTR105/darbi/LabDarbiAtskaites/series/
+  658  ls -l
+  659  mv Files GnuplotSeries
+  660  ls -l
+  661  cd GnuplotSeries/
+  662  ls -l
+  663  mv working_with_files.c TeiloraRinda.c
+  664  ls -l
+  665  rm float.txt 
+  666  rm a.out 
+  667  nano TeiloraRinda.c 
+  668  gcc TeiloraRinda.c -lm
+  669  ./a.out 
+  670  nano TeiloraRinda.c 
+  671  gcc TeiloraRinda.c -lm
+  672  ./a.out 
+  673  nano TeiloraRinda.c 
+  674  gcc TeiloraRinda.c -lm
+  675  ./a.out 
+  676  nano TeiloraRinda.c 
+  677  gcc TeiloraRinda.c -lm
+  678  ./a.out 
+  679  nano TeiloraRinda.c 
+  680  gcc TeiloraRinda.c -lm
+  681  ./a.out 
+  682  nano TeiloraRinda.c 
+  683  gcc TeiloraRinda.c -lm
+  684  ./a.out 
+  685  nano TeiloraRinda.c 
+  686  gcc TeiloraRinda.c -lm
+  687  nano TeiloraRinda.c 
+  688  gcc TeiloraRinda.c -lm
+  689  ./a.out 
+  690  nano TeiloraRinda.c 
+  691  gcc TeiloraRinda.c -lm
+  692  ./a.out 
+  693  nano TeiloraRinda.c 
+  694  gcc TeiloraRinda.c -lm
+  695  ./a.out 
+  696  nano TeiloraRinda.c 
+  697  gcc TeiloraRinda.c -lm
+  698  ./a.out 
+  699  gcc TeiloraRinda.c -lm
+  700  nano TeiloraRinda.c 
+  701  gcc TeiloraRinda.c -lm
+  702  ./a.out 
+  703  nano TeiloraRinda.c 
+  704  gcc TeiloraRinda.c -lm
+  705  ./a.out 
+  706  nano TeiloraRinda.c 
+  707  gcc TeiloraRinda.c -lm
+  708  ./a.out 
+  709  cd ~/RTR105/
+  710  nano README.md 
+  711  PS1="$ "
+  712  ls -l
+  713  cd RTR105/
+  714  cd ..
+  715  rm -rf RTR105/
+  716  git clone https://github.com/MACTEP-ETF/RTR105
+  717  cd RTR105/darbi/LabDarbiHEX/L16
+  718  ls -l
+  719  python 161-izstradee.py 
+  720  idle 161-izstradee.py &
+  721  idle 160.py &
+  722  python 160.py 
+  723  ls -l
+  724  idle 161-izstradee.py 
+  725  python 161.py 
+  726  idle 160.py &
+  727  idle 161.py &
+  728  python 161.py 
+  729  cd ..
+  730  ls -l
+  731  Visi kodi tiek realizēti Python 3.9.6 versijā > info.txt
+  732  $Echo off Visi kodi tiek realizēti Python 3.9.6 versijā > info.txt
+  733  $Echo Visi kodi tiek realizēti Python 3.9.6 versijā > info.txt
+  734  $Echo "Visi kodi tiek realizēti Python 3.9.6 versijā" > info.txt
+  735  nano info.txt
+  736  ls -l
+  737  mkdir L17
+  738  cd L17
+  739  ls -l
+  740  cd ..
+  741  ls -l
+  742  cd LabDarbiAtskaites/
+  743  cd series/
+  744  ls -l
+  745  rm a.out 
+  746  mkdir GnuplotSeries
+  747  ls -l
+  748  cd GnuplotSeries/
+  749  gnuplot
+  750  sudo apt-get update -y
+  751  sudo apt-get update -y gnuplot
+  752  sudo apt-get install -y gnuplot
+  753  sudo apt-get update -y
+  754  ls -l
+  755  pws
+  756  pwd
+  757  gnuplot
+  758  ls -l
+  759  pwd
+  760  cd ..
+  761  ls -l
+  762  cd GnuplotSeries/
+  763  ls -l
+  764  gnuplot
+  765  cd ..
+  766  cd ~/RTR105/AllHistory/
+  767  history > history_20191222_1555.txt
+  768  cd ..
+  769  ./git-upload 20191222_15_55
+  770  init 0
+  771  nano 1ld_series-VladimirsREBMO2.md 
+  772  cd ..
+  773  cd series/
+  774  ls -l
+  775  cc
+  776  cp ~/RTR105/darbi/LabDarbiAtskaites/series/TeiloraRindasVariantsNr12.c ./
+  777  ls -l
+  778  ls -l ~/RTR105/darbi/LabDarbiAtskaites/series/
+  779  mv TeiloraRindasVariantsNr12.c paraugs.c
+  780  ls -l
+  781  nano paraugs.c 
+  782  gcc paraugs.c 
+  783  nano paraugs.c 
+  784  gcc paraugs.c 
+  785  gcc paraugs.c -lm
+  786  ./a.out 
+  787  rm paraugs.c 
+  788  rm a.out 
+  789  ls -l
+  790  nano FunkcijasParaugs.c
+  791  ls -l
+  792  rm FunkcijasParaugs.c 
+  793  rm parbaude.c 
+  794  nano RootManaiFunkcijai.c
+  795  ls -l
+  796  cp dichotomy_V1.c RootsManaFunkcija.c
+  797  ls -l
+  798  nano RootsManaFunkcija.c 
+  799  nano RootsManaFunkcija.c -l
+  800  PS1="$ "
+  801  ls -l
+  802  rm -rf RTR105/
+  803  git clone http://github.com/MACTEP-ETF/RTR105
+  804  cd RTR105/darbi/LabDarbiAtskaites/series/
+  805  ls -l
+  806  gcc TeiloraRindasVariantsNr12.c -lm
+  807  ./a.out 
+  808  nano TeiloraRindasVariantsNr12.c
+  809  gcc TeiloraRindasVariantsNr12.c -lm
+  810  ./a.out 
+  811  nano TeiloraRindasVariantsNr12.c
+  812  gcc TeiloraRindasVariantsNr12.c -lm
+  813  ./a.out 
+  814  cd..
+  815  cd ..
+  816  cd ~
+  817  cd RTR105/
+  818  ls -l
+  819  ./git-upload 20191222_17_21
+  820  cd ..
+  821  ls -l
+  822  rm -rf RTR105/
+  823  ls -l
+  824  git clone http://www.github.com/MACTEP-ETF/RTR105
+  825  cd RTR105/darbi/LabDarbiAtskaites/roots/
+  826  ls -l
+  827  rm dichotomy_V1.c.save 
+  828  rm parbaude.c.save 
+  829  ls -l
+  830  rm a.out 
+  831  nano dichotomy_V1.c 
+  832  gcc dichotomy_V1.c -lm
+  833  ./a.out 
+  834  nano dichotomy_V1.c 
+  835  ls -l
+  836  gcc RootsManaFunkcija.c -lm
+  837  ./a.out 
+  838  gcc RootsManaFunkcija.c -lm
+  839  ./a.out 
+  840  gcc RootsManaFunkcija.c -lm
+  841  ./a.out 
+  842  gcc RootsManaFunkcija.c -lm
+  843  ./a.out 
+  844  gcc RootsManaFunkcija.c -lm
+  845  ./a.out 
+  846  gcc RootsManaFunkcija.c -lm
+  847  ./a.out 
+  848  gcc RootsManaFunkcija.c -lm
+  849  ./a.out 
+  850  gcc RootsManaFunkcija.c -lm
+  851  ./a.out 
+  852  gcc RootsManaFunkcija.c -lm
+  853  ./a.out 
+  854  gcc RootsManaFunkcija.c -lm
+  855  ./a.out 
+  856  gcc RootsManaFunkcija.c -lm
+  857  ./a.out 
+  858  gcc RootsManaFunkcija.c -lm
+  859  ./a.out 
+  860  gcc RootsManaFunkcija.c -lm
+  861  ./a.out 
+  862  gcc RootsManaFunkcija.c -lm
+  863  ./a.out 
+  864  gcc RootsManaFunkcija.c -lm
+  865  ./a.out 
+  866  gcc RootsManaFunkcija.c -lm
+  867  ./a.out 
+  868  gcc RootsManaFunkcija.c -lm
+  869  ./a.out 
+  870  gcc RootsManaFunkcija.c -lm
+  871  ./a.out 
+  872  cd ..
+  873  ls-
+  874  ls -l
+  875  cd ~/RTR105/AllHistory/
+  876  history > history_20191222_2207.txt
+  877  cd ..
+  878  ls -l
+  879  ./git-upload 20191222_22_07
+  880  cd ..
+  881  ls -l
+  882  rm -rf RTR105/
+  883  ls -l
+  884  init 0
+  885  ls -l
+  886  cat derivative.gp 
+  887  cat derivative.dat
+  888  PS1="$ "
+  889  ls -l
+  890  nano git-clone
+  891  ls -l
+  892  ./git-clone
+  893  cmod 744 git-clone 
+  894  chmod 744 git-clone 
+  895  ls -l
+  896  ./git-clone 
+  897  ls -l
+  898  nano git-clone 
+  899  cd RTR105/
+  900  cd darbi/LabDarbiAtskaites/
+  901  mkdir derivative
+  902  cd derivative/
+  903  ls -l
+  904  nano derivative_V1.c
+  905  nano derivative.gp
+  906  nano derivative.gp 
+  907  nano derivative_V1.c
+  908  cp derivative_V1.c DerivativeVladimirs.c
+  909  nano DerivativeVladimirs.c 
+  910  nano DerivativeVladimirs.c -l
+  911  gcc derivative_V1.c 
+  912  gcc derivative_V1.c -lm
+  913  ./a.out 
+  914  gcc derivative_V1.c -lm
+  915  ./a.out 
+  916  gcc derivative_V1.c -lm
+  917  ./a.out 
+  918  gcc derivative_V1.c -lm
+  919  ./a.out 
+  920  gcc derivative_V1.c -lm
+  921  ./a.out 
+  922  gcc derivative_V1.c -lm
+  923  ./a.out 
+  924  gcc derivative_V1.c -lm
+  925  ./a.out 
+  926  gcc derivative_V1.c -lm
+  927  ./a.out 
+  928  gcc derivative_V1.c -lm
+  929  ./a.out 
+  930  gcc derivative_V1.c -lm
+  931  ./a.out 
+  932  gcc derivative_V1.c -lm
+  933  ./a.out 
+  934  gcc DerivativeVladimirs.c 
+  935  gcc DerivativeVladimirs.c -lm
+  936  ./a.out 
+  937  gcc DerivativeVladimirs.c -lm
+  938  ./a.out 
+  939  gcc DerivativeVladimirs.c -lm
+  940  ./a.out 
+  941  gcc DerivativeVladimirs.c -lm
+  942  ./a.out 
+  943  gcc DerivativeVladimirs.c -lm
+  944  ./a.out 
+  945  gcc DerivativeVladimirs.c -lm
+  946  ./a.out 
+  947  cd ~/RTR105/AllHistory/
+  948  history > history_20191223_1144.txt
+  949  cd ..
+  950  ls -l
+  951  ./git-upload 20191223_11_44
+  952  cd ..
+  953  ls -l
+  954  rm -rf RTR105/
+  955  ls -l
+  956  init 0
+  957  gcc main.c 
+  958  ./a.out 
+  959  nano local.c 
+  960  gcc GeometrPorgresija.c 
+  961  ./a.out 
+  962  gcc GeometrPorgresija.c 
+  963  ./a.out 
+  964  python
+  965  nano ~/RTR105/README.md 
+  966  cd ../derivative/
+  967  ls -l
+  968  nano DerivativeVladimirs.c 
+  969  gcc RootsManaFunkcija.c -lm
+  970  ./a.out 
+  971  gcc RootsManaFunkcija.c -lm
+  972  ./a.out 
+  973  gcc RootsManaFunkcija.c -lm
+  974  ./a.out 
+  975  gcc RootsManaFunkcija.c -lm
+  976  ./a.out 
+  977  gcc RootsManaFunkcija.c -lm
+  978  ./a.out 
+  979  gcc RootsManaFunkcija.c -lm
+  980  ./a.out 
+  981  gcc RootsManaFunkcija.c -lm
+  982  ./a.out 
+  983  gcc RootsManaFunkcija.c -lm
+  984  ./a.out 
+  985  history > ~/RTR105/AllHistory/history_20191223_2021.txt
+  986  cat  ~/RTR105/AllHistory/history_20191223_2021.txt
+  987  gcc RootExapmle.c -lm
+  988  ./a.out 
+  989  cd ..
+  990  cd LabDarbiAtskaites/
+  991  cd roots/
+  992  ls -l
+  993  cp RootsManaFunkcija.c RootsManaFunkcija_V2.c 
+  994  nano RootsManaFunkcija_V2.c 
+  995  nano RootsManaFunkcija_V2.c -l
+  996  cp RootsManaFunkcija_V2.c RootsManaFunkcija_GalaVersija.c
+  997  nano RootsManaFunkcija_GalaVersija.c 
+  998  gcc fabs.c 
+  999  gcc fabs.c -lm
+ 1000  ./a.out 
+ 1001  gcc fabs.c -lm
+ 1002  ./a.out 
+ 1003  gcc fabs.c -lm
+ 1004  ./a.out 
+ 1005  ls -l
+ 1006  PS1="$ "
+ 1007  ./git-clone 
+ 1008  cd RTR105/darbi/LabDarbiAtskaites/derivative/
+ 1009  ls -l
+ 1010  nano DerivativeVladimirs.c -l
+ 1011  cd ..
+ 1012  ls -l
+ 1013  mkdir IevadsAlgoritmuValoda(J.Ziemelis)
+ 1014  mkdir IevadsAlgoritmuValoda-J-Ziemelis
+ 1015  cd IevadsAlgoritmuValoda-J-Ziemelis/
+ 1016  mkdir for
+ 1017  cd for
+ 1018  ls -l
+ 1019  nano GeometrPorgresija.c
+ 1020  rm a.out 
+ 1021  cd ..
+ 1022  mkdir LokalaBiblioteka
+ 1023  cd LokalaBiblioteka/
+ 1024  nano local.c
+ 1025  nano main.c
+ 1026  pwd
+ 1027  cd ~/RTR105/darbi/LabDarbiAtskaites/roots/
+ 1028  ls -l
+ 1029  nano RootsManaFunkcija.c -l
+ 1030  pwd
+ 1031  cd ..
+ 1032  cd  ..
+ 1033  ls -l
+ 1034  cd IevadsAlgoritmuValoda-J-Ziemelis/
+ 1035  mkdir RootExample
+ 1036  cd RootExample/
+ 1037  nano RootExapmle.c
+ 1038  ls -l
+ 1039  cd ~/RTR105/darbi/LabDarbiAtskaites/roots/
+ 1040  ls -l
+ 1041  nano RootsManaFunkcija.c 
+ 1042  pwd
+ 1043  cd ~/RTR105/darbi/IevadsAlgoritmuValoda-J-Ziemelis/
+ 1044  ls -l
+ 1045  mkdir fabs
+ 1046  cd f
+ 1047  cd fabs/
+ 1048  nano fabs.c
+ 1049  gcc RootsManaFunkcija_V2.c -lm
+ 1050  ./a.out 
+ 1051  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1052  ./a.out 
+ 1053  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1054  ./a.out 
+ 1055  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1056  ./a.out 
+ 1057  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1058  ./a.out 
+ 1059  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1060  ./a.out 
+ 1061  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1062  ./a.out 
+ 1063  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1064  ./a.out 
+ 1065  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1066  ./a.out 
+ 1067  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1068  ./a.out 
+ 1069  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1070  -2
+ 1071  1.5
+ 1072  0.
+ 1073  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1074  ./a.out 
+ 1075  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1076  ./a.out 
+ 1077  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1078  ./a.out 
+ 1079  j
+ 1080  ./a.out 
+ 1081  history > ~/RTR105/AllHistory/hystory_20191223_2322.txt
+ 1082  cd ~/RTR105/AllHistory/
+ 1083  ls -l
+ 1084  rm history_20191223_2021.txt 
+ 1085  mv hystory_20191223_2322.txt history_20191223_2323.txt
+ 1086  ls -l
+ 1087  cat history_20191223_2323.txt 
+ 1088  ls -l
+ 1089  cd ..
+ 1090  ls -l
+ 1091  ./git-upload 20191223_23_25
+ 1092  cd ..
+ 1093  rm -rf RTR105/
+ 1094  ls -l
+ 1095  init 0
+ 1096  ls -l
+ 1097  nano dichotomy_V1.c 
+ 1098  gcc Expreriments.c -lm
+ 1099  ./a.out 
+ 1100  gcc Expreriments.c -lm
+ 1101  ./a.out 
+ 1102  gcc Expreriments.c -lm
+ 1103  ./a.out 
+ 1104  gcc Expreriments.c -lm
+ 1105  ./a.out 
+ 1106  gcc Expreriments.c -lm
+ 1107  ./a.out 
+ 1108  gcc Expreriments.c -lm
+ 1109  ./a.out 
+ 1110  gcc dichotomy_V1.c -lm
+ 1111  ./a.out 
+ 1112  gcc dichotomy_V1.c -lm
+ 1113  ./a.out 
+ 1114  gcc dichotomy_V1.c -lm
+ 1115  ./a.out 
+ 1116  gcc dichotomy_V1.c -lm
+ 1117  ./a.out 
+ 1118  nano Expreriments.c
+ 1119  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1120  ./a.out 
+ 1121  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1122  ./a.out 
+ 1123  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1124  ./a.out 
+ 1125  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1126  -2
+ 1127  2
+ 1128  ./a.out 
+ 1129  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1130  ./a.out 
+ 1131  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1132  ./a.out 
+ 1133  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1134  ./a.out 
+ 1135  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1136  ./a.out 
+ 1137  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1138  ./a.out 
+ 1139  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1140  ./a.out 
+ 1141  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1142  -0.1
+ 1143  0.1
+ 1144  ./a.out 
+ 1145  -0.1
+ 1146  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1147  ./a.out 
+ 1148  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1149  ./a.out 
+ 1150  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1151  ./a.out 
+ 1152  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1153  ./a.out 
+ 1154  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1155  ./a.out 
+ 1156  python dg17 - cos(x).py
+ 1157  python "dg17 - cos(x).py"
+ 1158  ls -l
+ 1159  python 'dg17 - cos(x).py' 
+ 1160  ls -l
+ 1161  nano RootsManaFunkcija_GalaVersija.c 
+ 1162  history
+ 1163  history > ~/RTR105/AllHistory/history_20191224_1541.txt
