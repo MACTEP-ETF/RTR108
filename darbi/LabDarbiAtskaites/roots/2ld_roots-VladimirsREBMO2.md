@@ -117,7 +117,7 @@ Dotajā intervālā sakne ir!
 Rezultātu ieguvei nācās riktīgi palauzt galvu, bet izlasot atbilstošu nodaļu gramātā "Ievadu Algoritmu valodā" ( Autors J.Ziemelis), pildot V.Zagorska LabDarbu 17HEX, un urbjoties internetā man izdevās šo LabDarbu izpildīt.  
 
 ### Secinājums
-Nav iespējams saprast ko lasot pa diagonāli, ir jāsaprot ikkatra rindiņa!
+Nav iespējams saprast kodu lasot pa diagonāli, ir jāizprot ikkatra rindiņa! :) 
 
 ### Funkcijas cos(x)\*cos(x)=0.22 grafiks x vērtības intervālā:  \[-3.2;0\]  
 ![Funkcijas grafiks](https://github.com/MACTEP-ETF/RTR105/blob/master/darbi/LabDarbiAtskaites/series/GnuplotSeries/Funkcijas%20grafiks.png)
