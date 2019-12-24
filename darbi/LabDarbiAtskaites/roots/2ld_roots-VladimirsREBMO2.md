@@ -119,8 +119,13 @@ Rezultātu ieguvei nācās riktīgi palauzt galvu, bet izlasot atbilstošu noda�
 ### Secinājums
 Nav iespējams saprast kodu lasot pa diagonāli, ir jāizprot ikkatra rindiņa! :) 
 
-### Funkcijas cos(x)\*cos(x)=0.22 grafiks x vērtības intervālā:  \[-3.2;0\]  
+### Funkcijas y=cos(x)\*cos(x) grafiki
+#### Funkcijas vērtības intervālā: \[-22;22\] (grafiks no 1.LabDarba)
 ![Funkcijas grafiks](https://github.com/MACTEP-ETF/RTR105/blob/master/darbi/LabDarbiAtskaites/series/GnuplotSeries/Funkcijas%20grafiks.png)
+
+
+### Funkcijas cos(x)\*cos(x)=0.22 grafiks x vērtības intervālā: \[-3.2;0\]  
+![Funkcijas grafiks šim darbam](https://github.com/MACTEP-ETF/RTR105/blob/master/darbi/LabDarbiAtskaites/series/GnuplotSeries/Funkcijas%20grafiks.png)
 
 #### Funkcijas vērtību skaitļošanas kods grafika attēlošanai GNUPLOT vidē
 ```
