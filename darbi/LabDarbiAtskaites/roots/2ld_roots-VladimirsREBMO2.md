@@ -128,7 +128,7 @@ while(fabs(b0-a0)>delta_x)
 ```
 Ar cos^2(x) es apzīmēju savu funkciju saīsinātā veidā.
 
-### Rezultāts nr1
+### Rezultāts Nr1
 ```
 Sveicināti!
 Šī programma atrod tādu(as) 'x' vērtību(as) no jūsu definētā intervāla [a;b],
@@ -150,11 +150,11 @@ Funkcija ir tikai viena vienīgā sakne!
 
 ```
 
-### Analīze nr1
+### Analīze Nr1
 Šajā aprēķinā, programma konstatē, ka ir viena vienīgā sakne un izvada to!
 
 
-### Rezultāts nr2
+### Rezultāts Nr2
 ```
 Sveicināti!
 Šī programma atrod tādu(as) 'x' vērtību(as) no jūsu definētā intervāla [a;b],
@@ -177,7 +177,7 @@ Dotajā intervālā sakne(s) ir!
 
 ```
 
-### Analīze nr2
+### Analīze Nr2
 Šajā aprēķinā, programma konstatē, ka ir divas saknes un izvada tās!
 
 ### Secinājums
@@ -187,13 +187,16 @@ Nav iespējams saprast kodu lasot pa diagonāli, ir jāizprot ikkatra rindiņa! 
 ### Kļūdas
 Kā jau visām programmām, arī šai ir kļūdas. Neesmu atrisinājis problēmu pie x intervāla \[-1;1\] funkcijai cos^2(x)=1. Būtu jābūt tā kā saknei **0**, bet programma viņu neredz. Tā pat ir arī Zagorska Python programma - tā arī **0** neredz. :( 
 
-### Funkcijas y=cos(x)\*cos(x) grafiki
-#### Funkcijas vērtības intervālā: \[-22;22\] (grafiks no 1.LabDarba)
+### Funkcijas y=cos(x)\*cos(x) grafiki  
+#### Funkcijas grafiks rezultātam Nr1, x intervāls: \[-1.9;0.5\]  
+![Funkcijas grafiks Nr1](https://github.com/MACTEP-ETF/RTR105/blob/master/darbi/LabDarbiAtskaites/series/GnuplotSeries/Funkcijas%20grafiks.png)
+
+
+#### Funkcijas grafiks rezultātam Nr2, x intervāls: \[-3.2;0.5\]  
+![Funkcijas grafiks Nr2](https://github.com/MACTEP-ETF/RTR105/blob/master/darbi/LabDarbiAtskaites/series/GnuplotSeries/Funkcijas%20grafiks.png)
+
+#### Funkcijas cos(x)\*cos(x) grafiks no 1. LabDarba 
 ![Funkcijas grafiks](https://github.com/MACTEP-ETF/RTR105/blob/master/darbi/LabDarbiAtskaites/series/GnuplotSeries/Funkcijas%20grafiks.png)
-
-
-### Funkcijas cos(x)\*cos(x)=0.22 grafiks x vērtības intervālā: \[-3.2;0\]  
-![Funkcijas grafiks šim darbam](https://github.com/MACTEP-ETF/RTR105/blob/master/darbi/LabDarbiAtskaites/series/GnuplotSeries/Funkcijas%20grafiks.png)
 
 #### Funkcijas vērtību skaitļošanas kods grafika attēlošanai GNUPLOT vidē
 ```
