@@ -284,3 +284,18 @@ int dal(int v1, int v2)
  return v1;  
 }  
 
+# GNUPLOT
+Katrs grafiks ar parametriem, tiek atdalīts no otra ar "komatu".  
+
+## Vispārīgi
+- **plot "FileName.dat"** – zīmē grafiku.  
+- **replot "FileName.dat"** – pievieno papild grafiku jau esošam. (replot bez parametra - attēlot grafiku, ja piem., esi aizvēris grafika failu.)  
+- **[-2:2]** – definē intervālu no -2 līdz 2.  
+- **using 1:2** – norāda, ka no faila jānolasa tikai pirmā un otrā kolonna.  
+- **with lines** – grafika punkti būs sapludināti vienā līnijā.  
+
+## Grafika līknes parametri  
+- **lt 2** – definē līknes tipu (*line type*);  
+- **lw 2** – definē līknes biezumu (*line weight*);  
+- **lc rgb "green"** – definē, līknes krāsu - zaļa (*line color*);  
+
