@@ -92,7 +92,6 @@ Aprēķināsim f''(x) izmantojot analitisko formulu (augstākā matemātika):
 */
 
 ```
-- Ar cos^2(x) es apzīmēju savu funkciju saīsinātā veidā, respektīvi ir domāts - **cos<sup>2</sup>(x)**.
 - Programmas beigās es aprakstīju atvasināšanu pēc analitiskās formulas komentāra veidā.
 
 ### Rezultāts
@@ -109,8 +108,8 @@ b = 0.5
 
 Kā arī, nosakiet ar kādu soli (delta_x) mēs šo intervālu izskatīsim.
 delta_x = 0.0001
-      x		    f(x)	        f'(x)	    f'(x)	        f''(x)	    f''(x)
-           		    		    ar AF	    ar FD	        ar AF	    ar FD
+      x		      f(x)	        f'(x)	     f'(x)	       f''(x)	    f''(x)
+           		    		         ar AF	     ar FD	       ar AF	     ar FD
    -3.2000	    0.9966  	    0.1165	    0.1164  	   -1.9864	   -1.9864  
    -3.1999	    0.9966  	    0.1164	    0.1163  	   -1.9864	   -1.9864  
    -3.1998	    0.9966  	    0.1162	    0.1161  	   -1.9865	   -1.9865  
@@ -234,8 +233,8 @@ b = 2
 
 Kā arī, nosakiet ar kādu soli (delta_x) mēs šo intervālu izskatīsim.
 delta_x = 0.1
-      x		    f(x)	        f'(x)	    f'(x)	        f''(x)	    f''(x)
-       		    		        ar AF	    ar FD	        ar AF	    ar FD
+      x		      f(x)	        f'(x)	     f'(x)	       f''(x)	    f''(x)
+       		    		             ar AF	     ar FD	       ar AF	     ar FD
    -2.0000	    0.1732  	   -0.7568	   -0.6866  	    1.3073	    1.3029  
    -1.9000	    0.1045  	   -0.6119	   -0.5290  	    1.5819	    1.5767  
    -1.8000	    0.0516  	   -0.4425	   -0.3502  	    1.7935	    1.7875  
