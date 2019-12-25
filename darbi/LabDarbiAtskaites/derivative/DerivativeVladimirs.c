@@ -60,7 +60,7 @@ void main()
  fprintf(Der,"#      \t\t    \t\t    ar AF\t    ar FD\t    ar AF\t    ar FD\n");
 
  x = x0 = a;
- while(x<b)
+ while(x<b+delta_x)
  {
   Funx = f(x0);
   FunD = f(x0 + delta_x);
