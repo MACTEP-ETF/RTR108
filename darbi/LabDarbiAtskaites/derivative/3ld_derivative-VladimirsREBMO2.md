@@ -66,7 +66,7 @@ void main()
  fprintf(Der,"#      \t\t    \t\t    ar AF\t    ar FD\t    ar AF\t    ar FD\n");
 
  x = x0 = a;
- while(x<b)
+ while(x<b+delta_x)
  {
   Funx = f(x0);
   FunD = f(x0 + delta_x);
@@ -229,7 +229,7 @@ A.) Ar analitisko formulu (AF).
 B.) Ar 'forward difference' metodi (FD).
 Lūdzu, nosakiet x vērtības intervālu [a;b].
 a = -2
-b = 2
+b = 1.9
 
 Kā arī, nosakiet ar kādu soli (delta_x) mēs šo intervālu izskatīsim.
 delta_x = 0.1
