@@ -215,10 +215,10 @@ delta_x = 0.0001
 ```
 
 ### Analīze
-Lai korekti aprēķinātu pēc *forward difference* metodes, biju spiest likt gana mazu delta_x vērtību, pretējā gadījumā rezultāts nebija tik perfekts kā iebūvētās cos(x) funkcijas aprēķins (<math.h>) (Skat. otro rezultātu).
+Lai korekti aprēķinātu pēc *forward difference* metodes, biju spiest likt gana mazu **delta_x** vērtību, pretējā gadījumā rezultāts ir nedaudz atšķirīgs no iebūvētās cos(x) funkcijas (<math.h>) (Skat. otro rezultātu).
 2. kārtas atvasinājuma formulu es atradu [šeit](http://www.machinelearning.ru/wiki/index.php?title=%D0%92%D1%8B%D1%87%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B2%D1%82%D0%BE%D1%80%D0%BE%D0%B9_%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%BD%D0%BE%D0%B9_%D0%BF%D0%BE_%D0%BE%D0%B4%D0%BD%D0%BE%D0%B9_%D0%BF%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9), kura arī atbilst 2. kārtas atvasinājumam: d<sup>2</sup>y/dx<sup>2</sup>
 
-### Rezultāts Nr2
+### Rezultāts ar lielu delta_x vērtību
 Šeit delta_x = 0.1, dēļ tā arī acīmredzama nesakritība starp AF un FD.
 
 ```
