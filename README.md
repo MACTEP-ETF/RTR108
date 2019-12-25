@@ -3,7 +3,7 @@ Studiju kursa Datormācība (pamatkurss) elektroniskā klade
 
 # Satura rādītājs  
 *Satura rādītājs pakāpeniski tiks uztaisīts sakarīgs, lai nav bezgalīgi jāšķirsta kaut ko meklējot :)*  
-- [Darba vides struktūra](DarbaVide)
+- [Darba vides struktūra](#DarbaVide)
 - [Terminals](#Terminals)  
 - [Python](#Python)    
 
