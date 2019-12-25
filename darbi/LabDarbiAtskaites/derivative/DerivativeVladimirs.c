@@ -1,7 +1,12 @@
 /*************************************************************************
 Autors : Vladimirs Fedorovičs
 Mērķis : Aprēķināt funkcijas 'cos(x)*cos(x)' tiešo vērtību,
-kā arī tās 1. un 2. kārtas atvasinājumus, pēc lietotāja ievadītiem datiem
+kā arī tās 1. un 2. kārtas atvasinājumus pēc divām metodēm:
+A.) Ar analitisko formulu (AF).
+B.) Ar 'forward difference' metodi (FD).
+
+Lietotājs pats ievada 'x' vērtības intervālu [a;b], 
+kā arī nosaka 'delta_x' soli ar kuru šis intervāls tiks izskaitļots.
 *************************************************************************/
 
 #include<stdio.h>
