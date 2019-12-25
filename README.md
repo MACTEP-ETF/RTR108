@@ -26,6 +26,7 @@ Studiju kursa Datormācība (pamatkurss) elektroniskā klade
   - [Vim](#Vim)  
     - [Īsceļi (shortcuts)](#VimShortcuts)
   - [Nano](#Nano)  
+    - [Īsceļi (shortcuts)](#NanoShortcuts)
     - [Bibliotekas](#NanoBibliotekas)
     - [Funkcijas](#NanoFunkcijas)
     - [Datu tipi (izplatītākie)](#NanoDataTypes)
