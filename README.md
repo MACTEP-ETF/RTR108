@@ -7,15 +7,13 @@ Studiju kursa Datormācība (pamatkurss) elektroniskā klade
 - [Python](#Python)    
 
 # Vispārīgi
-## Hardware (PC sastāvdaļas):
-- CPU;  
-- RAM (short);  
-- ROM (long);  
-- Perifērijas ierīces (pele, tastatūra, monitors utt.);
-- Divi pamatelementi – "0" un "1".  
-
 ## Darba vides struktūra
-1. **Hardware** – dzelzis.  
+1. **Hardware** – dzelzis (PC sastāvdaļas):
+  - CPU;  
+  - RAM (short);  
+  - ROM (long);  
+  - Perifērijas ierīces (pele, tastatūra, monitors utt.);  
+  - Divi pamatelementi – "0" un "1".  
 2. **OS Linux operētājsistēma** – sazinās ar dzelzi izmantojot *drivers* (iebūvētās instrukcijas).  
 3. **Bash interpretators** – sazinās ar OS Linux izmantojot *Shell* valodu.  
 4. **Applications** – Aplikācijas. 
