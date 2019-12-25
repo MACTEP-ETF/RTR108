@@ -3,12 +3,14 @@ Studiju kursa Datormācība (pamatkurss) elektroniskā klade
 
 # Satura rādītājs  
 *Satura rādītājs pakāpeniski tiks uztaisīts sakarīgs, lai nav bezgalīgi jāšķirsta kaut ko meklējot :)*  
+- [Darba vides struktūra](DarbaVide)
 - [Terminals](#Terminals)  
 - [Python](#Python)    
 
 # Vispārīgi
+<a name="DarbaVide"></a>
 ## Darba vides struktūra
-1. **Hardware** – dzelzis (PC sastāvdaļas):
+1. **Hardware** – dzelzis (PC sastāvdaļas):  
   - CPU;  
   - RAM (short);  
   - ROM (long);  
