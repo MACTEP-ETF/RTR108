@@ -95,7 +95,7 @@ Aprēķināsim f''(x) izmantojot analitisko formulu (augstākā matemātika):
 - Programmas beigās es aprakstīju atvasināšanu pēc analitiskās formulas komentāra veidā.
 
 ### Rezultāts
-Rezultāts ir gana apjomīgs, tādēļ ieliku tikai daļu no viņa. Ja nepieciešams, pašu programmu var droši notestēt - viss strādā korekti. Rezultātu stabiņi ir nedaudz nošļūkuši kopējot, pašā terminālā viss ir korekti!
+Rezultāts ir gana apjomīgs, tādēļ ieliku tikai daļu no viņa. Ja nepieciešams, pašu programmu var droši notestēt - viss strādā korekti.
 ```
 Sveicināti!
 Šī programma aprēķina funkcijas cos(x)*cos(x) tiešo vērtību,
