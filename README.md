@@ -2,7 +2,6 @@
 Studiju kursa Datormācība (pamatkurss) elektroniskā klade  
 
 # Satura rādītājs  
-*Satura rādītājs pakāpeniski tiks uztaisīts sakarīgs, lai nav bezgalīgi jāšķirsta kaut ko meklējot :)*  
 - [Ievads](#Ievads)
   - [Darba vides struktūra](#DarbaVide)
   - [ASCII](#ASCII)
@@ -25,6 +24,7 @@ Studiju kursa Datormācība (pamatkurss) elektroniskā klade
     - [Komandas](#BashCommands)
 - [Koda redaktori](#KODS)
   - [Vim](#Vim)  
+    - [Īsceļi (shortcuts)](#VimShortcuts)
   - [Nano](#Nano)  
     - [Bibliotekas](#NanoBibliotekas)
     - [Funkcijas](#NanoFunkcijas)
@@ -33,6 +33,7 @@ Studiju kursa Datormācība (pamatkurss) elektroniskā klade
     - [C operatora prioritātes](#C_priorities)
     - [Vispārīgi](#Miscs)
 - [Python](#Python)  
+  - [Īsceļi (shortcuts)](#PythonShortcuts)
   - [Īpašības](#PythonSpec)
   - [Python Shell](#PythonShell)
   - [Python dienasgrāmatas dokumentācija (.py)](#PythonDiary)
@@ -202,7 +203,8 @@ Ja faila/foldera nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 # Koda redaktori
 
 <a name="Vim"></a>
-## vim redaktors (C valoda)
+## Vim redaktors (C valoda)
+<a name="VimShortcuts"></a>
 ### Īsceļi (shortcuts)
 - **Esc+:** – izsauc komandu rindu.  
   - **q** – iziet no redaktora.  
@@ -211,12 +213,14 @@ Ja faila/foldera nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
   - **:set number** – kreisajā sānā parādās rindiņu numerācija.  
   
 <a name="Nano"></a>
-## nano redaktors (C valoda)
+## Nano redaktors (C valoda)
+<a name="NanoShortcuts"></a>
 ### Īsceļi (shortcuts)
 - **Ctrl+K** – Cut.  
 - **Ctrl+U** – Paste.  
 - **Ctrl+S** – Save.  
 - **Ctrl+X** – Quit.  
+- **Alt+U** – Undo.  
 
 <a name="NanoBibliotekas"></a>
 ### Bibliotekas
@@ -310,7 +314,8 @@ Pieņemsim, ka mums ir divas *unsigned char* izteiksmes: b1 = 101<sub>10</sub>, 
 
 <a name="Python"></a>
 ## Python 
-### Shortcuts
+<a name="PythonShortcuts"></a>
+### Īsceļi (shortcuts)
 - **Alt+P un Alt+N** – izsauc iepriekšlietotas komandas, alternatīva bultiņām **uz augšu/leju** Terminālā.  
 
 <a name="PythonSpec"></a>
