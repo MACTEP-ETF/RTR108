@@ -142,7 +142,8 @@ Integrālis pēc trapezoidālās metodes: 2.08951
 Integrālis pēc Simsona metodes: 2.08943
 ```
 ### Analīze Nr1
-Pēc [WolframAlpha](https://www.wolframalpha.com/input/?i=Integral+cos%5E2%28x%29+from+-3.2+to+0.5) aprēķiniem manai funkcijai šajā **x** vērtību intervāla \[-3.2;0.5\], manas programmas izskaitļotais rezultāts ir pilnībā atbilstošs taisnstūra un trapezoidālai metodēm. Mikroskopiska nobīde ir Simsona metodei.  
+Pēc *WolframAlpha* aprēķiniem manai funkcijai dotā **x** vērtību apgabalā \[-3.2;0.5\] secinu, ka mana programma pilnīgi korekti izskaitļo integrālu pēc taisnstūra un trapezoidālās metodēm. Mikroskopiska nobīde ir Simsona metodei.  
+![WolframAlpha](https://github.com/MACTEP-ETF/RTR105/blob/master/darbi/LabDarbiAtskaites/integral/WolframAlpha.png)
 
 ### Rezultāts Nr2 ar delta_x = 0.1
 
@@ -162,7 +163,7 @@ Integrālis pēc Simsona metodes: 2.01275
 ```
 
 ### Analīze Nr2
-Šeit jau varam redzēt, ka vienīgi **trapezoidālā metode ir korekta**. Taisnstūra metode vēl kaut cik der, bet Simsona metode ir pati neprecīzākā pie šīs delta_x vērtības!
+Šeit jau varam redzēt, ka vienīgi **trapezoidālā metode ir korekta**. Taisnstūra metode vēl kaut cik der, bet Simsona metode ir pati neprecīzākā pie šīs delta_x vērtības!  
 
 ### Rezultāts Nr3 ar delta_x = 10
 Šeit esmu paņēmu citu **x** vērtību apgabalu [-50;50], lai būtu uzskatāmāks ar šo *delta_x* vērtību.  
@@ -183,19 +184,17 @@ Integrālis pēc Simsona metodes: 89.9252
 ```
 
 ### Analīze Nr3
-Pie šīs *delta_x* vērtības, rezultāti jau ir **pavisam šķērsām taisnstūra** un **Simsona metodēm**!
-
+Pie šīs *delta_x* vērtības, rezultāti jau ir **pavisam šķērsām taisnstūra** un **Simsona metodēm**!  
 
 ### Secinājums
-**Trapezoidālā metode ir pati precīzākā**, jo solis (*delta_x*) viņu praktiski neietekmē. Kā arī viņa atbilst *WolframAlpha* rezultātiem. Savukārt pārējās divas ir ļoti atkarīgas no soļa vērtības. Jo lielaks *delta_x*, jo neprecīzāk skaitļo integrāli! 
+**Trapezoidālā metode ir pati precīzākā**, jo solis (*delta_x*) viņu praktiski neietekmē. Kā arī viņa atbilst *WolframAlpha* rezultātiem. Savukārt pārējās divas ir ļoti atkarīgas no soļa vērtības. Jo lielaks *delta_x*, jo neprecīzāk skaitļo integrāli!  
 
 ### Funkcijas y=cos(x)\*cos(x) grafiki  
 #### Funkcijas grafiks, x intervāls: \[-4;4\], taču integrāls tika izskaitļots pie x intervāla \[-3.2;0.5\]  
-![GrafiksIntegralis](https://github.com/MACTEP-ETF/RTR105/blob/master/darbi/LabDarbiAtskaites/integral/GrafiksIntegralis.png)
+![GrafiksIntegralis](https://github.com/MACTEP-ETF/RTR105/blob/master/darbi/LabDarbiAtskaites/integral/GrafiksIntegralis.png)  
 
-P.S. Šo grafiku nebija nepieciešamība zīmēt ar *DAT* failu. Visas GNUPLOT komandas ierakstīju šajā failā [*PlotSettingFileIntegral.gp*](https://github.com/MACTEP-ETF/RTR105/blob/master/darbi/LabDarbiAtskaites/integral/PlotSettingFileIntegral.gp)
-Kā arī atsevišķi izkopēju šeit, lai ir pārskatamāk:
-
+P.S. Šo grafiku nebija nepieciešamība zīmēt ar *DAT* failu. Visas GNUPLOT komandas ierakstīju šajā failā [*PlotSettingFileIntegral.gp*](https://github.com/MACTEP-ETF/RTR105/blob/master/darbi/LabDarbiAtskaites/integral/PlotSettingFileIntegral.gp)  
+Kā arī atsevišķi izkopēju šeit, lai ir pārskatamāk:  
 ```
 # Set plot
 set xlabel "x"
