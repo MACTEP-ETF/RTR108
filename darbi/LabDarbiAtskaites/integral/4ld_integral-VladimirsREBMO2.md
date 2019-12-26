@@ -187,7 +187,7 @@ Integrālis pēc Simsona metodes: 89.9252
 Pie šīs *delta_x* vērtības, rezultāti jau ir **pavisam šķērsām taisnstūra** un **Simsona metodēm**!  
 
 ### Secinājums
-- **Trapezoidālā metode ir pati precīzākā**, jo solis (*delta_x*) viņu praktiski neietekmē. Kā arī viņa atbilst [*WolframAlpha*] (https://www.wolframalpha.com/input/?i=Integral+cos%5E2%28x%29+from+-3.2+to+0.5) rezultātiem.
+- **Trapezoidālā metode ir pati precīzākā**, jo solis (*delta_x*) viņu praktiski neietekmē. Kā arī viņa atbilst [*WolframAlpha*](https://www.wolframalpha.com/input/?i=Integral+cos%5E2%28x%29+from+-3.2+to+0.5) rezultātiem.
 - **Taisnstūra** un **Simsona metodes** ir ļoti atkarīgas no soļa vērtības. Jo lielaks *delta_x*, jo neprecīzāk skaitļo integrāli! Kā arī šo divu metožu algoritmi ir sarežģītāki nekā trapezoidālai.  
 - **Secinu, ka manai funkcijai cos<sup>2</sup>(x) trapezoidālā metode ir pati piemērotākā!**
 
