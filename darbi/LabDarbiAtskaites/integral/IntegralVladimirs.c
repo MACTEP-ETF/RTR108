@@ -2,8 +2,8 @@
 Autors : Vladimirs Fedorovičs
 Mērķis : Aprēķināt funkcijas 'cos(x)*cos(x)' integrālu pēc trīm metodēm:
 1.) Taisnstūra;
-2.) Trapezoidāla;
-3.) Simsona.
+2.) Trapecveida;
+3.) Simpsona.
 
 Lietotājs pats ievada 'x' vērtības intervālu [a;b], 
 kā arī nosaka 'delta_x' soli ar kuru šis intervāls tiks izskaitļots.
@@ -13,8 +13,8 @@ kā arī nosaka 'delta_x' soli ar kuru šis intervāls tiks izskaitļots.
 #include<math.h>
 
 double Taisnstura(double, double, double);
-double Trapezoidala(double, double, double);
-double Simsona(double, double, double);
+double Trapecveida(double, double, double);
+double Simpsona(double, double, double);
 
 double f(double z)
 {
@@ -27,7 +27,7 @@ void main ()
 
  printf("\nSveicināti!\n");
  printf("Šī programma aprēķina funkcijas cos(x)*cos(x) integrālu pēc trīm metodēm:\n");
- printf("taisnstūra, trapezoidālas, Simsona.\n");
+ printf("taisnstūra, trapecveida, Simpsona.\n");
 
  printf("Lūdzu, nosakiet x vērtības intervālu [a;b].\n");
  printf("a = "); scanf("%lf",&a);
@@ -51,8 +51,8 @@ Delta:
  }
 
  printf("Integrālis pēc taisnstūra metodes: %g\n",Taisnstura(a,b,delta_x));
- printf("Integrālis pēc trapezoidālās metodes: %g\n",Trapezoidala(a,b,delta_x));
- printf("Integrālis pēc Simsona metodes: %g\n\n",Simsona(a,b,delta_x));
+ printf("Integrālis pēc trapecveida metodes: %g\n",Trapecveida(a,b,delta_x));
+ printf("Integrālis pēc Simpsona metodes: %g\n\n",Simpsona(a,b,delta_x));
 }
 
 double Taisnstura(double a, double b, double delta_x)
@@ -74,7 +74,7 @@ double Taisnstura(double a, double b, double delta_x)
  return Integr2;
 }
 
-double Trapezoidala(double a, double b, double delta_x)
+double Trapecveida(double a, double b, double delta_x)
 {
  double TrapF0, TrapFend, TrapFn, TrapXn;
  double TrapSum = 0;
@@ -92,24 +92,24 @@ double Trapezoidala(double a, double b, double delta_x)
  return ((delta_x * (TrapF0 + (2 * TrapSum) + TrapFend))/2.);
 }
 
-double Simsona(double a, double b, double delta_x)
+double Simpsona(double a, double b, double delta_x)
 {
  int j, l, m = 1;
- double SimsHalf, SimsIntegr1 = 0., SimsIntegr2;
+ double SimpsHalf, SimpsIntegr1 = 0., SimpsIntegr2;
 
- SimsIntegr2 = (b - a) * (f(a) + f(b))/2.; //Integrāļa pirmais tuvinājums
+ SimpsIntegr2 = (b - a) * (f(a) + f(b))/2.; //Integrāļa pirmais tuvinājums
 
- while (fabs(SimsIntegr2 - SimsIntegr1) > delta_x)
+ while (fabs(SimpsIntegr2 - SimpsIntegr1) > delta_x)
  {
-  m *= 2; l = 2 * m; SimsHalf = (b - a)/l; //Sagatavojas risināt ar samazinātu soli
-  SimsIntegr1 = SimsIntegr2; //Iepriekšējā soļa vērtība tagad būs mazāk precīza
-  SimsIntegr2 = 0.; //Pirms summēšanas piešķir sākotnējo vērtību
+  m *= 2; l = 2 * m; SimpsHalf = (b - a)/l; //Sagatavojas risināt ar samazinātu soli
+  SimpsIntegr1 = SimpsIntegr2; //Iepriekšējā soļa vērtība tagad būs mazāk precīza
+  SimpsIntegr2 = 0.; //Pirms summēšanas piešķir sākotnējo vērtību
 
   for (j=1; j<=m-1; j++)
-  {SimsIntegr2 += 2. * (2. * f(a+(2*j-1)*SimsHalf) + f(a+2*j*SimsHalf));}
+  {SimpsIntegr2 += 2. * (2. * f(a+(2*j-1)*SimpsHalf) + f(a+2*j*SimpsHalf));}
 
-  SimsIntegr2 += f(b) + 4. * f(b-SimsHalf);
-  SimsIntegr2 *= SimsHalf/3.;
+  SimpsIntegr2 += f(b) + 4. * f(b-SimpsHalf);
+  SimpsIntegr2 *= SimpsHalf/3.;
  }
-return SimsIntegr2;
+return SimpsIntegr2;
 }

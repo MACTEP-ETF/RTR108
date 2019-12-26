@@ -1,7 +1,9 @@
 # 4. laboratorijas darba - Integrālis (integral) - atskaite
 ## Teorija
 #### Taisnstūra metode
-[Taisnstūra metode]() tuvina funkcijas f(x) integrālu slēgtā un ierobežotā intervālā [a, a + h], kura garums ir h> 0, ar taisnstūra (parakstīto) laukumu ar garumu h un augstumu pēc funkcijas vērtības. f (x) novērtēts intervāla viduspunktā, f (a + h / 2).
+[Taisnstūra metode](https://chemicalstatistician.wordpress.com/2014/01/20/rectangular-integration-a-k-a-the-midpoint-rule/) 
+Taisnstūra integrācija ir skaitliska integrācijas metode, kas tuvina funkcijas integrāciju ar taisnstūri. Lai tuvinātu laukumu zem līknes, tas izmanto taisnstūrus.
+
 #### Trapecveida metode
 [Trapecveida metode](https://www.math24.net/trapezoidal-rule/) ir viena mainīgā funkcijas skaitliskās integrācijas metode, kas sastāv no katra elementārā segmenta aizvietošanas ar aizstāšanu ar pirmās pakāpes polinomu, tas ir, ar lineāru funkciju. Platību zem funkciju diagrammas tuvina taisnstūrveida trapecveida.  
 
