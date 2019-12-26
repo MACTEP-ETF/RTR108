@@ -143,7 +143,7 @@ Integrālis pēc Simsona metodes: 2.08943
 ```
 ### Analīze Nr1
 Pēc *WolframAlpha* aprēķiniem manai funkcijai dotā **x** vērtību apgabalā \[-3.2;0.5\] secinu, ka mana programma pilnīgi korekti izskaitļo integrālu pēc taisnstūra un trapezoidālās metodēm. Mikroskopiska nobīde ir Simsona metodei.  
-![WolframAlpha](https://github.com/MACTEP-ETF/RTR105/blob/master/darbi/LabDarbiAtskaites/integral/WolframAlpha.png)
+![WolframAlpha](https://github.com/MACTEP-ETF/RTR105/blob/master/darbi/LabDarbiAtskaites/integral/WolframAlpha.PNG)
 
 ### Rezultāts Nr2 ar delta_x = 0.1
 
