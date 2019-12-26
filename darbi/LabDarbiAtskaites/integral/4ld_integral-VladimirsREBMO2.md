@@ -121,7 +121,7 @@ double Simsona(double a, double b, double delta_x)
 return SimsIntegr2;
 }
 ```
-**Trapezoidālā metode** tika studēta šajā [vietnē](https://www.math24.net/trapezoidal-rule/).Pārējās divas metodes tika studētas no grāmatas "Ievads algoritmu valodā C" (J. Ziemelis).  
+**Trapezoidālā metode** tika studēta šajā [vietnē](https://www.math24.net/trapezoidal-rule/). Pārējās divas metodes tika studētas no grāmatas "Ievads algoritmu valodā C" (J. Ziemelis).  
 
 **Tālāk izskatīsim, kā rezultātu ietekmē *delta_x* precizitātes vērtība.**  
 
