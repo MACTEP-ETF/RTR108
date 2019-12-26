@@ -1,7 +1,11 @@
 # 4. laboratorijas darba - Integrālis (integral) - atskaite
 ## Teorija
-3 dažādas teorijas
-Aprasts...
+####
+#### Trapecveida metode
+[Trapecveida metode](https://www.math24.net/trapezoidal-rule/) ir viena mainīgā funkcijas skaitliskās integrācijas metode, kas sastāv no katra elementārā segmenta aizvietošanas ar aizstāšanu ar pirmās pakāpes polinomu, tas ir, ar lineāru funkciju. Platību zem funkciju diagrammas tuvina taisnstūrveida trapecveida.  
+
+####
+
 
 
 ### Kods
@@ -11,7 +15,7 @@ Autors : Vladimirs Fedorovičs
 Mērķis : Aprēķināt funkcijas 'cos(x)*cos(x)' integrālu pēc trīm metodēm:
 1.) Taisnstūra;
 2.) Trapezoidāla;
-3.) Simsona.
+3.) Simpsona.
 Lietotājs pats ievada 'x' vērtības intervālu [a;b], 
 kā arī nosaka 'delta_x' soli ar kuru šis intervāls tiks izskaitļots.
 *************************************************************************/
@@ -21,7 +25,7 @@ kā arī nosaka 'delta_x' soli ar kuru šis intervāls tiks izskaitļots.
 
 double Taisnstura(double, double, double);
 double Trapezoidala(double, double, double);
-double Simsona(double, double, double);
+double Simpsona(double, double, double);
 
 double f(double z)
 {
@@ -34,7 +38,7 @@ void main ()
 
  printf("\nSveicināti!\n");
  printf("Šī programma aprēķina funkcijas cos(x)*cos(x) integrālu pēc trīm metodēm:\n");
- printf("taisnstūra, trapezoidālas, Simsona.\n");
+ printf("taisnstūra, trapezoidālas, Simpsona.\n");
 
  printf("Lūdzu, nosakiet x vērtības intervālu [a;b].\n");
  printf("a = "); scanf("%lf",&a);
@@ -59,7 +63,7 @@ Delta:
 
  printf("Integrālis pēc taisnstūra metodes: %g\n",Taisnstura(a,b,delta_x));
  printf("Integrālis pēc trapezoidālās metodes: %g\n",Trapezoidala(a,b,delta_x));
- printf("Integrālis pēc Simsona metodes: %g\n\n",Simsona(a,b,delta_x));
+ printf("Integrālis pēc Simpsona metodes: %g\n\n",Simpsona(a,b,delta_x));
 }
 
 double Taisnstura(double a, double b, double delta_x)
@@ -99,26 +103,26 @@ double Trapezoidala(double a, double b, double delta_x)
  return ((delta_x * (TrapF0 + (2 * TrapSum) + TrapFend))/2.);
 }
 
-double Simsona(double a, double b, double delta_x)
+double Simpsona(double a, double b, double delta_x)
 {
  int j, l, m = 1;
- double SimsHalf, SimsIntegr1 = 0., SimsIntegr2;
+ double SimpsHalf, SimpsIntegr1 = 0., SimpsIntegr2;
 
- SimsIntegr2 = (b - a) * (f(a) + f(b))/2.; //Integrāļa pirmais tuvinājums
+ SimpsIntegr2 = (b - a) * (f(a) + f(b))/2.; //Integrāļa pirmais tuvinājums
 
- while (fabs(SimsIntegr2 - SimsIntegr1) > delta_x)
+ while (fabs(SimpsIntegr2 - SimpsIntegr1) > delta_x)
  {
-  m *= 2; l = 2 * m; SimsHalf = (b - a)/l; //Sagatavojas risināt ar samazinātu soli
-  SimsIntegr1 = SimsIntegr2; //Iepriekšējā soļa vērtība tagad būs mazāk precīza
-  SimsIntegr2 = 0.; //Pirms summēšanas piešķir sākotnējo vērtību
+  m *= 2; l = 2 * m; SimpsHalf = (b - a)/l; //Sagatavojas risināt ar samazinātu soli
+  SimpsIntegr1 = SimpsIntegr2; //Iepriekšējā soļa vērtība tagad būs mazāk precīza
+  SimpsIntegr2 = 0.; //Pirms summēšanas piešķir sākotnējo vērtību
 
   for (j=1; j<=m-1; j++)
-  {SimsIntegr2 += 2. * (2. * f(a+(2*j-1)*SimsHalf) + f(a+2*j*SimsHalf));}
+  {SimpsIntegr2 += 2. * (2. * f(a+(2*j-1)*SimpsHalf) + f(a+2*j*SimpsHalf));}
 
-  SimsIntegr2 += f(b) + 4. * f(b-SimsHalf);
-  SimsIntegr2 *= SimsHalf/3.;
+  SimpsIntegr2 += f(b) + 4. * f(b-SimpsHalf);
+  SimpsIntegr2 *= SimpsHalf/3.;
  }
-return SimsIntegr2;
+return SimpsIntegr2;
 }
 ```
 **Trapezoidālā metode** tika studēta šajā [vietnē](https://www.math24.net/trapezoidal-rule/). Pārējās divas metodes tika studētas no grāmatas "Ievads algoritmu valodā C" (J. Ziemelis).  
@@ -130,7 +134,7 @@ return SimsIntegr2;
 ```
 Sveicināti!
 Šī programma aprēķina funkcijas cos(x)*cos(x) integrālu pēc trīm metodēm:
-taisnstūra, trapezoidālas, Simsona.
+taisnstūra, trapezoidālas, Simpsona.
 Lūdzu, nosakiet x vērtības intervālu [a;b].
 a = -3.2
 b = 0.5
@@ -139,10 +143,10 @@ Kā arī, nosakiet ar kādu soli (delta_x) mēs šo intervālu izskatīsim.
 delta_x = 0.0001
 Integrālis pēc taisnstūra metodes: 2.08951
 Integrālis pēc trapezoidālās metodes: 2.08951
-Integrālis pēc Simsona metodes: 2.08943
+Integrālis pēc Simpsona metodes: 2.08943
 ```
 ### Analīze Nr1
-Pēc *WolframAlpha* aprēķiniem manai funkcijai dotā **x** vērtību apgabalā \[-3.2;0.5\] secinu, ka mana programma pilnīgi korekti izskaitļo integrālu pēc taisnstūra un trapezoidālās metodēm. Mikroskopiska nobīde ir Simsona metodei.  
+Pēc *WolframAlpha* aprēķiniem manai funkcijai dotā **x** vērtību apgabalā \[-3.2;0.5\] secinu, ka mana programma pilnīgi korekti izskaitļo integrālu pēc taisnstūra un trapezoidālās metodēm. Mikroskopiska nobīde ir Simpsona metodei.  
 ![WolframAlpha](https://github.com/MACTEP-ETF/RTR105/blob/master/darbi/LabDarbiAtskaites/integral/WolframAlpha.PNG)
 
 ### Rezultāts Nr2 ar delta_x = 0.1
@@ -150,7 +154,7 @@ Pēc *WolframAlpha* aprēķiniem manai funkcijai dotā **x** vērtību apgabalā
 ```
 Sveicināti!
 Šī programma aprēķina funkcijas cos(x)*cos(x) integrālu pēc trīm metodēm:
-taisnstūra, trapezoidālas, Simsona.
+taisnstūra, trapezoidālas, Simpsona.
 Lūdzu, nosakiet x vērtības intervālu [a;b].
 a = -3.2
 b = 0.5
@@ -159,11 +163,11 @@ Kā arī, nosakiet ar kādu soli (delta_x) mēs šo intervālu izskatīsim.
 delta_x = 0.1
 Integrālis pēc taisnstūra metodes: 2.09826
 Integrālis pēc trapezoidālās metodes: 2.08871
-Integrālis pēc Simsona metodes: 2.01275
+Integrālis pēc Simpsona metodes: 2.01275
 ```
 
 ### Analīze Nr2
-Šeit jau varam redzēt, ka vienīgi **trapezoidālā metode ir korekta**. Taisnstūra metode vēl kaut cik der, bet Simsona metode ir pati neprecīzākā pie šīs delta_x vērtības!  
+Šeit jau varam redzēt, ka vienīgi **trapezoidālā metode ir korekta**. Taisnstūra metode vēl kaut cik der, bet Simpsona metode ir pati neprecīzākā pie šīs delta_x vērtības!  
 
 ### Rezultāts Nr3 ar delta_x = 10
 Šeit esmu paņēmu citu **x** vērtību apgabalu [-50;50], lai būtu uzskatāmāks ar šo *delta_x* vērtību.  
@@ -171,7 +175,7 @@ Integrālis pēc Simsona metodes: 2.01275
 ```
 Sveicināti!
 Šī programma aprēķina funkcijas cos(x)*cos(x) integrālu pēc trīm metodēm:
-taisnstūra, trapezoidālas, Simsona.
+taisnstūra, trapezoidālas, Simpsona.
 Lūdzu, nosakiet x vērtības intervālu [a;b].
 a = -50
 b = 50
@@ -180,15 +184,15 @@ Kā arī, nosakiet ar kādu soli (delta_x) mēs šo intervālu izskatīsim.
 delta_x = 10
 Integrālis pēc taisnstūra metodes: 97.8239
 Integrālis pēc trapezoidālās metodes: 46.095
-Integrālis pēc Simsona metodes: 89.9252
+Integrālis pēc Simpsona metodes: 89.9252
 ```
 
 ### Analīze Nr3
-Pie šīs *delta_x* vērtības, rezultāti jau ir **pavisam šķērsām taisnstūra** un **Simsona metodēm**!  
+Pie šīs *delta_x* vērtības, rezultāti jau ir **pavisam šķērsām taisnstūra** un **Simpsona metodēm**!  
 
 ### Secinājums
 - **Trapezoidālā metode ir pati precīzākā**, jo solis (*delta_x*) viņu praktiski neietekmē. Kā arī viņa atbilst [*WolframAlpha*](https://www.wolframalpha.com/input/?i=Integral+cos%5E2%28x%29+from+-3.2+to+0.5) rezultātiem.
-- **Taisnstūra** un **Simsona metodes** ir ļoti atkarīgas no soļa vērtības. Jo lielaks *delta_x*, jo neprecīzāk skaitļo integrāli! Kā arī šo divu metožu algoritmi ir sarežģītāki nekā trapezoidālai.  
+- **Taisnstūra** un **Simpsona metodes** ir ļoti atkarīgas no soļa vērtības. Jo lielaks *delta_x*, jo neprecīzāk skaitļo integrāli! Kā arī šo divu metožu algoritmi ir sarežģītāki nekā trapezoidālai.  
 - **Secinu, ka manai funkcijai cos<sup>2</sup>(x) trapezoidālā metode ir pati piemērotākā!**
 
 ### Funkcijas y=cos(x)\*cos(x) grafiki  
