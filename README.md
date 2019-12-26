@@ -354,6 +354,7 @@ Katrs grafiks ar parametriem, tiek atdalīts no otra ar "komatu".
 
 <a name="GnuplotCommands"></a>
 ## Komandas
+- Šeit var atpskatīt GNUPLOT komandu un iespēju [PDFu](http://www.hpc.lsu.edu/training/weekly-materials/2016-Fall/Gnuplot-28Sep2016.pdf)
 - **plot "FileName.dat"** – zīmē grafiku.  
 - **replot "FileName.dat"** – pievieno papild grafiku jau esošam. (replot bez parametra - attēlot grafiku, ja piem., esi aizvēris grafika failu.)  
 - **[-2:2]** – definē vērtību intervālu no -2 līdz 2.  
