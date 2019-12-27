@@ -1,5 +1,4 @@
-# udemy
-Beginners first step to Coding world (C language)
+# Beginners first step to Coding world (C language) course e-diary
 
 ## Data Types
 - **unsigned char** – 0–255  
