@@ -1,0 +1,1000 @@
+ 1045  ./a.out 
+ 1046  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1047  ./a.out 
+ 1048  j
+ 1049  ./a.out 
+ 1050  history > ~/RTR105/AllHistory/hystory_20191223_2322.txt
+ 1051  cd ~/RTR105/AllHistory/
+ 1052  ls -l
+ 1053  rm history_20191223_2021.txt 
+ 1054  mv hystory_20191223_2322.txt history_20191223_2323.txt
+ 1055  ls -l
+ 1056  cat history_20191223_2323.txt 
+ 1057  ls -l
+ 1058  cd ..
+ 1059  ls -l
+ 1060  ./git-upload 20191223_23_25
+ 1061  cd ..
+ 1062  rm -rf RTR105/
+ 1063  ls -l
+ 1064  init 0
+ 1065  ls -l
+ 1066  nano dichotomy_V1.c 
+ 1067  gcc Expreriments.c -lm
+ 1068  ./a.out 
+ 1069  gcc Expreriments.c -lm
+ 1070  ./a.out 
+ 1071  gcc Expreriments.c -lm
+ 1072  ./a.out 
+ 1073  gcc Expreriments.c -lm
+ 1074  ./a.out 
+ 1075  gcc Expreriments.c -lm
+ 1076  ./a.out 
+ 1077  gcc Expreriments.c -lm
+ 1078  ./a.out 
+ 1079  gcc dichotomy_V1.c -lm
+ 1080  ./a.out 
+ 1081  gcc dichotomy_V1.c -lm
+ 1082  ./a.out 
+ 1083  gcc dichotomy_V1.c -lm
+ 1084  ./a.out 
+ 1085  gcc dichotomy_V1.c -lm
+ 1086  ./a.out 
+ 1087  nano Expreriments.c
+ 1088  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1089  ./a.out 
+ 1090  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1091  ./a.out 
+ 1092  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1093  ./a.out 
+ 1094  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1095  -2
+ 1096  2
+ 1097  ./a.out 
+ 1098  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1099  ./a.out 
+ 1100  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1101  ./a.out 
+ 1102  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1103  ./a.out 
+ 1104  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1105  ./a.out 
+ 1106  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1107  ./a.out 
+ 1108  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1109  ./a.out 
+ 1110  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1111  -0.1
+ 1112  0.1
+ 1113  ./a.out 
+ 1114  -0.1
+ 1115  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1116  ./a.out 
+ 1117  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1118  ./a.out 
+ 1119  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1120  ./a.out 
+ 1121  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1122  ./a.out 
+ 1123  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1124  ./a.out 
+ 1125  python dg17 - cos(x).py
+ 1126  python "dg17 - cos(x).py"
+ 1127  ls -l
+ 1128  python 'dg17 - cos(x).py' 
+ 1129  gcc exp2.c -LM
+ 1130  gcc exp2.c -lm
+ 1131  ./a.out 
+ 1132  gcc exp2.c -lm
+ 1133  ./a.out 
+ 1134  cd ..
+ 1135  cd LabDarbiHEX/
+ 1136  ls -l
+ 1137  mkdir L17
+ 1138  cd L17
+ 1139  ls -l
+ 1140  idle -n &
+ 1141  gnuplot
+ 1142  idle &
+ 1143  gnuplot
+ 1144  python 'dg17 - cos(x).py' 
+ 1145  nano exp2.c
+ 1146  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1147  ./a.out 
+ 1148  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1149  ./a.out 
+ 1150  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1151  ./a.out 
+ 1152  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1153  ./a.out 
+ 1154  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1155  ./a.out 
+ 1156  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1157  ./a.out 
+ 1158  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1159  ./a.out 
+ 1160  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1161  ./a.out 
+ 1162  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1163  ./a.out 
+ 1164  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1165  ./a.out 
+ 1166  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1167  ./a.out 
+ 1168  PS1="$ "
+ 1169  ./git-clone 
+ 1170  cd RTR105/darbi/LabDarbiAtskaites/roots/
+ 1171  ls -l
+ 1172  nano RootsManaFunkcija_GalaVersija.c 
+ 1173  nano RootsManaFunkcija_GalaVersija.c -l
+ 1174  nano RootsManaFunkcija_GalaVersija.c
+ 1175  nano RootsManaFunkcija_GalaVersija.c -l
+ 1176  gunplot
+ 1177  gnuplot
+ 1178  ls -l
+ 1179  nano RootsManaFunkcija_GalaVersija.c 
+ 1180  cd ..
+ 1181  cd LabDarbiHEX/
+ 1182  cd L17
+ 1183  ls -l
+ 1184  python 'dg17 - cos(x).py' 
+ 1185  idle 'dg17 - cos(x).py' & 
+ 1186  python 'dg17 - cos(x).py' 
+ 1187  cd GnuplotRoots/
+ 1188  ls -l
+ 1189  cp RootsFunkcijasVertibuKalkulacija.c RootsFunkcijasVertibuKalkulacija_V2.c 
+ 1190  ls -l
+ 1191  nano RootsFunkcijasVertibuKalkulacija_V2.c 
+ 1192  gcc RootsFunkcijasVertibuKalkulacija_V2.c -lm
+ 1193  ./a.out 
+ 1194  gnuplot
+ 1195  ls -l
+ 1196  nano RootsManaFunkcija_GalaVersija.c 
+ 1197  history
+ 1198  history > ~/RTR105/AllHistory/history_20191224_1541.txt
+ 1199  cd ..
+ 1200  PS1="$ "
+ 1201  ls -l
+ 1202  cd darbi/
+ 1203  cd LabDarbiAtskaites/
+ 1204  cd roots/
+ 1205  ls -l
+ 1206  rm a.out 
+ 1207  mkdir BackUP
+ 1208  mv dichotomy_V1.c ./BackUP/
+ 1209  mv exp2.c ./BackUP/
+ 1210  mv Expreriments.c ./BackUP/
+ 1211  ls -l
+ 1212  mv RootsManaFunkcija.c ./BackUP/
+ 1213  mv RootsManaFunkcija_V2.c ./BackUP/
+ 1214  ls -l
+ 1215  cd ..
+ 1216  cd series/
+ 1217  ls -l
+ 1218  cp 1ld_series-VladimirsREBMO2.md ../roots/
+ 1219  ls -l
+ 1220  cd ..
+ 1221  cd roots/
+ 1222  ls -l
+ 1223  mv 1ld_series-VladimirsREBMO2.md 2ld_roots-VladimirsREBMO2.md 
+ 1224  la -l
+ 1225  nano 2ld_roots-VladimirsREBMO2.md 
+ 1226  cd ..
+ 1227  cd ~
+ 1228  ls -l
+ 1229  cd RTR105/
+ 1230  ls -l
+ 1231  ./git-upload 20191224_15_49
+ 1232  cd ..
+ 1233  ls -l
+ 1234  rm -rf RTR105/
+ 1235  ./git-clone 
+ 1236  cd RTR105/darbi/LabDarbiAtskaites/roots/
+ 1237  ls -l
+ 1238  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1239  ./a.out 
+ 1240  nano RootsManaFunkcija_GalaVersija.c 
+ 1241  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1242  ./a.out 
+ 1243  nano RootsManaFunkcija_GalaVersija.c 
+ 1244  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1245  ./a.out 
+ 1246  nano RootsManaFunkcija_GalaVersija.c 
+ 1247  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1248  ./a.out 
+ 1249  cd ~
+ 1250  cd RTR105/
+ 1251  ls -l
+ 1252  ./git-upload 20191224_16_17
+ 1253  cd ~
+ 1254  ls -l
+ 1255  rm -rf RTR105/
+ 1256  ./git-clone 
+ 1257  ls -l
+ 1258  ./git-clone 
+ 1259  cd RTR105/darbi/LabDarbiAtskaites/roots/
+ 1260  ls -l
+ 1261  gcc RootsManaFunkcija_GalaVersija.c 
+ 1262  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1263  ./a.out 
+ 1264  ls -l
+ 1265  cd ..
+ 1266  cd ~
+ 1267  ls -l
+ 1268  cd RTR105/
+ 1269  ./git-upload 
+ 1270  ./git-upload 20191224_16_53
+ 1271  cd darbi/LabDarbiAtskaites/roots/
+ 1272  ls -l
+ 1273  nano 2ld_roots-VladimirsREBMO2.md 
+ 1274  ls -l
+ 1275  nano GnuplotCOSdata.c
+ 1276  mkdir GnuplotRoots
+ 1277  ls -l
+ 1278  rm GnuplotCOSdata.c 
+ 1279  rm a.out 
+ 1280  cd GnuplotRoots/
+ 1281  ls -l
+ 1282  nano RootsFunkcijasVertibuKalkulacija.c
+ 1283  gcc RootsFunkcijasVertibuKalkulacija.c -lm
+ 1284  nano RootsFunkcijasVertibuKalkulacija.c
+ 1285  gcc RootsFunkcijasVertibuKalkulacija.c -lm
+ 1286  ./a.out 
+ 1287  gnuplot
+ 1288  ls -l
+ 1289  cat RootsGnuplot.dat 
+ 1290  nano RootsFunkcijasVertibuKalkulacija.c
+ 1291  gcc RootsFunkcijasVertibuKalkulacija.c -lm
+ 1292  ./a.out 
+ 1293  gnuplot
+ 1294  ls -l
+ 1295  cd ..
+ 1296  ls -l
+ 1297  nano RootsManaFunkcija_GalaVersija.c 
+ 1298  ./a.out 
+ 1299  gcc RootsFunkcijasVertibuKalkulacija.c -lm
+ 1300  ls -l
+ 1301  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1302  ./a.out 
+ 1303  nano RootsManaFunkcija_GalaVersija.c 
+ 1304  gcc RootsManaFunkcija_GalaVersija.c 
+ 1305  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1306  ./a.out 
+ 1307  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1308  ./a.out 
+ 1309  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1310  ./a.out 
+ 1311  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1312  ./a.out 
+ 1313  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1314  ./a.out 
+ 1315  ls -l
+ 1316  nano VienaSakne.dat
+ 1317  nano DivasSaknes.dat
+ 1318  nano VienaSakne.dat
+ 1319  nano DivasSaknes.dat
+ 1320  nano VienaSakne.dat
+ 1321  nano RootsFunkcijasVertibuKalkulacija_Nr1.c 
+ 1322  gcc RootsFunkcijasVertibuKalkulacija_Nr1.c -lm
+ 1323  nano RootsFunkcijasVertibuKalkulacija_Nr1.c 
+ 1324  nano RootsFunkcijasVertibuKalkulacija_Nr2.c 
+ 1325  gcc GnuplotCOSdata.c -lm
+ 1326  ./a.out 
+ 1327  ls -l
+ 1328  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1329  ./a.out 
+ 1330  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1331  ./a.out 
+ 1332  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1333  ./a.out 
+ 1334  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1335  ./a.out 
+ 1336  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1337  ./a.out 
+ 1338  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1339  ./a.out 
+ 1340  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1341  ./a.out 
+ 1342  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1343  ./a.out 
+ 1344  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1345  ./a.out 
+ 1346  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1347  ./a.out 
+ 1348  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1349  ./a.out 
+ 1350  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1351  ./a.out 
+ 1352  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1353  ./a.out 
+ 1354  cd ..
+ 1355  ls -l
+ 1356  ./git-upload 20191224_18_21
+ 1357  cd darbi/LabDarbiAtskaites/roots/
+ 1358  ls -l
+ 1359  gcc RootsManaFunkcija_GalaVersija.c 
+ 1360  gcc RootsManaFunkcija_GalaVersija.c -lm
+ 1361  ./a.out 
+ 1362  cd ..
+ 1363  cd roots/
+ 1364  nano RootsManaFunkcija_GalaVersija.c 
+ 1365  cd ..
+ 1366  ls -l
+ 1367  cd darbi/LabDarbiAtskaites/roots/
+ 1368  ls -l
+ 1369  rm a.out 
+ 1370  cd ~/RTR105/
+ 1371  ls -l
+ 1372  ./git-upload 20191224_18_54
+ 1373  cd ..
+ 1374  ls -l
+ 1375  rm -rf RTR105/
+ 1376  ls -l
+ 1377  ./git-clone 
+ 1378  cd RTR105/darbi/LabDarbiAtskaites/roots/GnuplotRoots/
+ 1379  ls -l
+ 1380  PS1=$ ""
+ 1381  PS1="$ "
+ 1382  la -l
+ 1383  cat RootsFunkcijasVertibuKalkulacija.c
+ 1384  cat RootsFunkcijasVertibuKalkulacija_V2.c
+ 1385  rm RootsFunkcijasVertibuKalkulacija_V2.c 
+ 1386  ls -l
+ 1387  mv RootsFunkcijasVertibuKalkulacija.c RootsFunkcijasVertibuKalkulacija_Nr1.c 
+ 1388  cp RootsFunkcijasVertibuKalkulacija_Nr1.c RootsFunkcijasVertibuKalkulacija_Nr2.c 
+ 1389  nano RootsFunkcijasVertibuKalkulacija_Nr1.c 
+ 1390  gcc RootsFunkcijasVertibuKalkulacija_Nr1.c -lm
+ 1391  nanp RootsFunkcijasVertibuKalkulacija_Nr2.c 
+ 1392  nano RootsFunkcijasVertibuKalkulacija_Nr2.c 
+ 1393  gcc RootsFunkcijasVertibuKalkulacija_Nr2.c -lm
+ 1394  ls -l
+ 1395  ./a.out 
+ 1396  gcc RootsFunkcijasVertibuKalkulacija_Nr1.c -lm
+ 1397  ./a.out 
+ 1398  ls -l
+ 1399  rm RootsGnuplot.dat 
+ 1400  gnuplot
+ 1401  nano GnuplotGraph.gp
+ 1402  ls -l
+ 1403  rm a.out 
+ 1404  nano RootsFunkcijasVertibuKalkulacija_Nr1.c 
+ 1405  gcc RootsFunkcijasVertibuKalkulacija_Nr1.c 
+ 1406  gcc RootsFunkcijasVertibuKalkulacija_Nr1.c -lm
+ 1407  ./a.out 
+ 1408  nano RootsFunkcijasVertibuKalkulacija_Nr2.c 
+ 1409  gcc RootsFunkcijasVertibuKalkulacija_Nr2.c -lm
+ 1410  ./a.out 
+ 1411  ls -l
+ 1412  nano GnuplotGraph.gp 
+ 1413  cat RootsGnuplotNr1.dat 
+ 1414  gcc RootsFunkcijasVertibuKalkulacija_Nr1.c 
+ 1415  gcc RootsFunkcijasVertibuKalkulacija_Nr1.c -lm
+ 1416  ./a.out 
+ 1417  cat RootsGnuplotNr1.dat 
+ 1418  gcc RootsFunkcijasVertibuKalkulacija_Nr1.c -lm
+ 1419  ./a.out 
+ 1420  cat RootsGnuplotNr1.dat 
+ 1421  gcc RootsFunkcijasVertibuKalkulacija_Nr2.c -lm
+ 1422  ./a.out 
+ 1423  nano DivasSaknes.dat 
+ 1424  nano VienaSakne.dat 
+ 1425  ls -l
+ 1426  cd ~/RTR105/
+ 1427  ls -l
+ 1428  ./git-upload 20191224_20_25
+ 1429  cd ..
+ 1430  ls -l
+ 1431  rm -rf RTR105/
+ 1432  init 0
+ 1433  PS1="$ "
+ 1434  ./git-clone 
+ 1435  cd RTR105/darbi/LabDarbiHEX/
+ 1436  cd ~
+ 1437  cd RTR105/
+ 1438  cat README.md 
+ 1439  PS1="$ "
+ 1440  cd RTR105/darbi/LabDarbiHEX/
+ 1441  ls -l
+ 1442  cd L17
+ 1443  ls -l
+ 1444  mv 'dg17 - cos(x).py' dg17-cos(x).py
+ 1445  mv 'dg17 - cos(x).py' dg17-cos\(x\).py
+ 1446  ls -l
+ 1447  mv 'dg17-cos(x).py' dg17-cosx.py
+ 1448  ls -l
+ 1449  idle dg17-cosx.py &
+ 1450  python dg17-cosx.py 
+ 1451  idle dg17-cosx.py &
+ 1452  python dg17-cosx.py 
+ 1453  idle dg17-cosx.py &
+ 1454  python dg17-cosx.py 
+ 1455  mv dg17-cosx.py 171.py
+ 1456  ls -l
+ 1457  cp 171.py dg171.py
+ 1458  idle 171.py
+ 1459  ls -l
+ 1460  mv 171.py 171-GalaVersija.py
+ 1461  ls -l
+ 1462  gunplot
+ 1463  gnuplot
+ 1464  idle 171-GalaVersija.py 
+ 1465  python 171-GalaVersija.py 
+ 1466  cd ~/RTR105/
+ 1467  cd AllHistory/
+ 1468  history > history_20191225_1222.txt
+ 1469  cd ..
+ 1470  ls -l
+ 1471  ./git-upload 20191225_12_22
+ 1472  cd ..
+ 1473  ls -l
+ 1474  rm -rf RTR105/
+ 1475  ./git-clone 
+ 1476  cd RTR105/darbi/LabDarbiHEX/
+ 1477  mkdir L19
+ 1478  cd L19
+ 1479  ls -l
+ 1480  cd RTR105/darbi/LabDarbiHEX/L19
+ 1481  PS1="$ "
+ 1482  ls -l
+ 1483  pwd
+ 1484  gnuplot
+ 1485  idle &
+ 1486  python dg19.py > 90.dat
+ 1487  ls -l
+ 1488  cat 90.dat 
+ 1489  ls -l
+ 1490  mv dg19.py 3190.py 
+ 1491  ls -l
+ 1492  mv 190.py dg19.py
+ 1493  mv 3190.py 190.py
+ 1494  ls -l
+ 1495  idle 190.py
+ 1496  idle 190.py &
+ 1497  idle dg19.py &
+ 1498  idle &
+ 1499  python 190.py 
+ 1500  cat 90.dat 
+ 1501  python 190.py 
+ 1502  cat 90.dat 
+ 1503  mv 190.py 190_1UN2_kartasAtv.py
+ 1504  la -l
+ 1505  ls -l
+ 1506  idle 190_1UN2_kartasAtv.py &
+ 1507  python 190_1UN2_kartasAtv.py 
+ 1508  cat 90.dat 
+ 1509  python 190_1UN2_kartasAtv.py 
+ 1510  cat 90.dat 
+ 1511  python 190_1UN2_kartasAtv.py 
+ 1512  cat 90.dat 
+ 1513  python 190_1UN2_kartasAtv.py 
+ 1514  cat 90.dat 
+ 1515  python 190_1UN2_kartasAtv.py 
+ 1516  cat 90.dat 
+ 1517  python 190_1UN2_kartasAtv.py 
+ 1518  cat 90.dat 
+ 1519  python 190_1UN2_kartasAtv.py 
+ 1520  cat 90.dat 
+ 1521  python 190_1UN2_kartasAtv.py 
+ 1522  cat 90.dat 
+ 1523  python 190_1UN2_kartasAtv.py 
+ 1524  cat 90.dat 
+ 1525  python 190_1UN2_kartasAtv.py 
+ 1526  cat 90.dat 
+ 1527  python 190_1UN2_kartasAtv.py 
+ 1528  cat 90.dat 
+ 1529  python 190_1UN2_kartasAtv.py 
+ 1530  cat 90.dat 
+ 1531  python 190_1UN2_kartasAtv.py 
+ 1532  cat 90.dat 
+ 1533  python 190_1UN2_kartasAtv.py 
+ 1534  cat 90.dat 
+ 1535  python 190_1UN2_kartasAtv.py 
+ 1536  cat 90.dat 
+ 1537  nano ~/RTR105/README.md 
+ 1538  ls -l
+ 1539  mv 190_1UN2_kartasAtv.py 190.py
+ 1540  ls -l
+ 1541  cd ~/RTR105/
+ 1542  ls -l
+ 1543  ./git-upload 20191225_16_44
+ 1544  cd ..
+ 1545  dir
+ 1546  rm -rf RTR105/
+ 1547  ls -l
+ 1548  la -l
+ 1549  -lal
+ 1550  ./git-clone 
+ 1551  cd ..
+ 1552  cd L17
+ 1553  ls -l
+ 1554  nano 171-GalaVersija.py 
+ 1555  ls -l
+ 1556  cd RTR105/darbi/LabDarbiAtskaites/
+ 1557  ls -l
+ 1558  cd derivative/
+ 1559  ls -l
+ 1560  cat derivative.gp 
+ 1561  gnuplot derivative.gp
+ 1562  gnuplot
+ 1563  PS1="$ "
+ 1564  ls -l
+ 1565  cat derivative_V1.c 
+ 1566  nano DerivativeVladimirs.c 
+ 1567  nano DerivativeVladimirs.c -l
+ 1568  cd ..
+ 1569  cd LabDarbiHEX/L19
+ 1570  ls -l
+ 1571  idle 190.py 
+ 1572  cd ..
+ 1573  cd LabDarbiAtskaites/
+ 1574  cd derivative/
+ 1575  ls -l
+ 1576  rm derivative.dat 
+ 1577  rm derivative_V1.c 
+ 1578  ls -l
+ 1579  nano PlotSettingFile.gp
+ 1580  rm derivative.dat 
+ 1581  ./a.out 
+ 1582  gcc DerivativeVladimirs.c -lm
+ 1583  ./a.out 
+ 1584  gcc DerivativeVladimirs.c -lm
+ 1585  ./a.out 
+ 1586  gcc DerivativeVladimirs.c -lm
+ 1587  ./a.out 
+ 1588  gcc DerivativeVladimirs.c -lm
+ 1589  ./a.out 
+ 1590  gcc DerivativeVladimirs.c -lm
+ 1591  ./a.out 
+ 1592  gcc DerivativeVladimirs.c -lm
+ 1593  ./a.out 
+ 1594  gcc DerivativeVladimirs.c -lm
+ 1595  ./a.out 
+ 1596  gcc DerivativeVladimirs.c -lm
+ 1597  ./a.out 
+ 1598  gcc DerivativeVladimirs.c -lm
+ 1599  ./a.out 
+ 1600  gcc DerivativeVladimirs.c -lm
+ 1601  ./a.out 
+ 1602  gcc DerivativeVladimirs.c -lm
+ 1603  ./a.out 
+ 1604  gcc DerivativeVladimirs.c -lm
+ 1605  ./a.out 
+ 1606  gcc DerivativeVladimirs.c -lm
+ 1607  ./a.out 
+ 1608  gcc DerivativeVladimirs.c -lm
+ 1609  ./a.out 
+ 1610  gcc DerivativeVladimirs.c -lm
+ 1611  ./a.out 
+ 1612  gcc DerivativeVladimirs.c -lm
+ 1613  ./a.out 
+ 1614  gcc DerivativeVladimirs.c -lm
+ 1615  ./a.out 
+ 1616  gcc DerivativeVladimirs.c -lm
+ 1617  ./a.out 
+ 1618  gcc DerivativeVladimirs.c -lm
+ 1619  ./a.out 
+ 1620  gcc DerivativeVladimirs.c -lm
+ 1621  ./a.out 
+ 1622  gcc DerivativeVladimirs.c -lm
+ 1623  ./a.out 
+ 1624  gcc DerivativeVladimirs.c -lm
+ 1625  ./a.out 
+ 1626  gcc DerivativeVladimirs.c -lm
+ 1627  ./a.out 
+ 1628  gcc DerivativeVladimirs.c -lm
+ 1629  ./a.out 
+ 1630  gcc DerivativeVladimirs.c -lm
+ 1631  ./a.out 
+ 1632  gcc DerivativeVladimirs.c -lm
+ 1633  ./a.out 
+ 1634  gcc DerivativeVladimirs.c -lm
+ 1635  ./a.out 
+ 1636  gcc DerivativeVladimirs.c -lm
+ 1637  ./a.out 
+ 1638  gcc DerivativeVladimirs.c -lm
+ 1639  ./a.out 
+ 1640  gcc DerivativeVladimirs.c -lm
+ 1641  ./a.out 
+ 1642  gcc DerivativeVladimirs.c -lm
+ 1643  ./a.out 
+ 1644  gcc DerivativeVladimirs.c -lm
+ 1645  ./a.out 
+ 1646  gcc DerivativeVladimirs.c -lm
+ 1647  ./a.out 
+ 1648  gcc DerivativeVladimirs.c -lm
+ 1649  ./a.out 
+ 1650  gcc DerivativeVladimirs.c -lm
+ 1651  ./a.out 
+ 1652  gcc DerivativeVladimirs.c -lm
+ 1653  ./a.out 
+ 1654  gcc DerivativeVladimirs.c -lm
+ 1655  ./a.out 
+ 1656  gcc DerivativeVladimirs.c -lm
+ 1657  ./a.out 
+ 1658  gcc DerivativeVladimirs.c -lm
+ 1659  ./a.out 
+ 1660  history > ~/RTR105/AllHistory/history_20191225_1942.txt
+ 1661  cd ~/RTR105/
+ 1662  ls -l
+ 1663  ./git-upload 20191225_19_42
+ 1664  cd .
+ 1665  cd ..
+ 1666  ls -l
+ 1667  cd RTR105/darbi/LabDarbiAtskaites/derivative/
+ 1668  nano DerivativeVladimirs.c 
+ 1669  gcc DerivativeVladimirs.c 
+ 1670  gcc DerivativeVladimirs.c -lm
+ 1671  ./a.out 
+ 1672  nano DerivativeVladimirs.c 
+ 1673  ls -l
+ 1674  cat derivative.dat 
+ 1675  nano derivative.dat -l
+ 1676  ls -l
+ 1677  rm derivative.gp 
+ 1678  rm a.out 
+ 1679  ls -l
+ 1680  gnuplot
+ 1681  gnuplot derivative.gp "derivative.dat" 
+ 1682  gnuplot derivative.dat "derivative.gp" 
+ 1683  gnuplot derivative.dat
+ 1684  gnuplot derivative.gp
+ 1685  gnuplot derivative.gp "derivative.dat"
+ 1686  gnuplot
+ 1687  nano derivative.dat 
+ 1688  rm derivative.dat 
+ 1689  cat derivative.gp 
+ 1690  cd ..
+ 1691  cd derivative/
+ 1692  ls -l
+ 1693  cat PlotSettingFile.gp 
+ 1694  nano PlotSettingFile.gp 
+ 1695  ls -l
+ 1696  cd ~/RTR105/
+ 1697  ls -l
+ 1698  ./git-upload 20191225_20_30
+ 1699  cd ..
+ 1700  ls -l
+ 1701  cd RTR105/
+ 1702  cd ..
+ 1703  rm -rf RTR105/
+ 1704  ./git-clone 
+ 1705  cd RTR105/darbi/LabDarbiAtskaites/roots/
+ 1706  ls -l
+ 1707  cp 2ld_roots-VladimirsREBMO2.md ~/RTR105/darbi/LabDarbiAtskaites/derivative/
+ 1708  cd ..
+ 1709  cd derivative/
+ 1710  ls -l
+ 1711  mv 2ld_roots-VladimirsREBMO2.md 3ld_derivative-VladimirsREBMO2.md 
+ 1712  ls -l
+ 1713  cd ~
+ 1714  cd RTR105/
+ 1715  ./git-upload 20191225_20_343
+ 1716  ./git-upload 20191225_20_34
+ 1717  cd ..
+ 1718  cd RTR105/darbi/LabDarbiAtskaites/derivative/
+ 1719  ls -l
+ 1720  gcc DerivativeVladimirs.c -lm
+ 1721  ./a.out 
+ 1722  history > 1.txt
+ 1723  nano 1.txt 
+ 1724  rm 1.txt 
+ 1725  ./a.out 
+ 1726  ./a.out > Rezultats.txt
+ 1727  ./a.out 
+ 1728  nano DerivativeVladimirs.c 
+ 1729  cd ~
+ 1730  rm -rf RTR105/
+ 1731  ./git-clone 
+ 1732  cd RTR105/darbi/LabDarbiAtskaites/derivative/
+ 1733  nano DerivativeVladimirs.c 
+ 1734  gcc DerivativeVladimirs.c -lm
+ 1735  ./a.out 
+ 1736  ls -l
+ 1737  rm derivative.dat 
+ 1738  ./a.out 
+ 1739  rm a.out 
+ 1740  ls -l
+ 1741  cd ..
+ 1742  cd ~
+ 1743  cd RTR105/
+ 1744  ./git-upload 20191225_21_34
+ 1745  cd ..
+ 1746  rm -rf RTR105/
+ 1747  ls -l
+ 1748  init 0
+ 1749  PS1="$ "
+ 1750  ls -l
+ 1751  ./git-clone 
+ 1752  cd RTR105/
+ 1753  cd darbi/LabDarbiHEX/
+ 1754  ls -l
+ 1755  mkdir L18
+ 1756  cd L18
+ 1757  ls -l
+ 1758  gnuplot
+ 1759  idle &
+ 1760  gcc 180.c -lm
+ 1761  ./a.out 
+ 1762  gcc 180.c -lm
+ 1763  ./a.out 
+ 1764  gcc 180.c -lm
+ 1765  ./a.out 
+ 1766  gcc 180.c -lm
+ 1767  ./a.out 
+ 1768  gcc 180.c -lm
+ 1769  ./a.out 
+ 1770  gcc 180.c -lm
+ 1771  ./a.out 
+ 1772  gcc 180.c -lm
+ 1773  ./a.out 
+ 1774  cd .
+ 1775  cd ..
+ 1776  cd derivative/
+ 1777  ls -l
+ 1778  nano DerivativeVladimirs.c 
+ 1779  cd ..
+ 1780  cd derivative/
+ 1781  nano DerivativeVladimirs.c 
+ 1782  nano ~/RTR105/README.md 
+ 1783  cd ..
+ 1784  cd derivative/
+ 1785  cat DerivativeVladimirs.c 
+ 1786  ls -l
+ 1787  cp 3ld_derivative-VladimirsREBMO2.md ../integral/
+ 1788  ls -l
+ 1789  cd ..
+ 1790  cd integral/
+ 1791  ls -l
+ 1792  mv 3ld_derivative-VladimirsREBMO2.md 4ld_integral-VladimirsREBMO2.md 
+ 1793  ls -l
+ 1794  rm integral.dat 
+ 1795  nano 4ld_integral-VladimirsREBMO2.md 
+ 1796  cd ..
+ 1797  cd derivative/
+ 1798  cat DerivativeVladimirs.c 
+ 1799  ls -l
+ 1800  gcc IntegralVladimirs.c -lm
+ 1801  ./a.out 
+ 1802  gcc IntegralVladimirs.c -lm
+ 1803  ./a.out 
+ 1804  gcc IntegralVladimirs.c -lm
+ 1805  ./a.out 
+ 1806  gcc IntegralVladimirs.c -lm
+ 1807  ./a.out 
+ 1808  gcc IntegralVladimirs.c -lm
+ 1809  ./a.out 
+ 1810  gcc IntegralVladimirs.c -lm
+ 1811  ./a.out 
+ 1812  gcc IntegralVladimirs.c -lm
+ 1813  ./a.out 
+ 1814  gcc IntegralVladimirs.c -lm
+ 1815  ./a.out 
+ 1816  gcc IntegralVladimirs.c -lm
+ 1817  ./a.out 
+ 1818  gcc IntegralVladimirs.c -lm
+ 1819  ./a.out 
+ 1820  history > ~/RTR105/AllHistory/history_20191226_1718.txt
+ 1821  gnuplot
+ 1822  nano ~/RTR105/README.md 
+ 1823  ls -l
+ 1824  cat IntegralVladimirs.c 
+ 1825  nano IntegralVladimirs.c 
+ 1826  gcc IntegralVladimirs.c -lm
+ 1827  ./a.out 
+ 1828  PS1="$ "
+ 1829  cd RTR105/darbi/LabDarbiHEX/L18/
+ 1830  nano 180.c
+ 1831  cd ~/RTR105/
+ 1832  ./git-upload 20191226_14_25
+ 1833  cd ~
+ 1834  ls -l
+ 1835  rm -rf RTR105/
+ 1836  ./git-clone 
+ 1837  cd RTR105/darbi/LabDarbiAtskaites/
+ 1838  ls -l
+ 1839  mkdir integral
+ 1840  cd integral/
+ 1841  nano IntegralVladimirs.c
+ 1842  nano IntegralVladimirs.c -l
+ 1843  ls -l
+ 1844  nano IntegralVladimirs.c -l
+ 1845  cat 4ld_integral-VladimirsREBMO2.md 
+ 1846  ls -l
+ 1847  nano 4ld_integral-VladimirsREBMO2.md 
+ 1848  ls -l
+ 1849  rm a.out 
+ 1850  ls -l
+ 1851  cd ~
+ 1852  ls -l
+ 1853  cd RTR105/
+ 1854  ls -l
+ 1855  ./git-upload 20191226_18_35
+ 1856  cd ..
+ 1857  ls -l
+ 1858  rm -rf RTR105/
+ 1859  init 0
+ 1860  ls -l
+ 1861  ./git-clone 
+ 1862  cd RTR105/darbi/LabDarbiAtskaites/integral/
+ 1863  ls -l
+ 1864  nano IntegralVladimirs.c 
+ 1865  gcc IntegralVladimirs.c -lm
+ 1866  nano IntegralVladimirs.c 
+ 1867  gcc IntegralVladimirs.c -lm
+ 1868  ./a.out 
+ 1869  rm a.out 
+ 1870  ls -l
+ 1871  nano 4ld_integral-VladimirsREBMO2.md 
+ 1872  cd ~/RTR105/
+ 1873  ls -l
+ 1874  ./git-upload 20191226_19_45
+ 1875  cd ..
+ 1876  rm -rf RTR105/
+ 1877  ls -l
+ 1878  init 0
+ 1879  cd ..
+ 1880  ./git-clone-BestCalcMethods 
+ 1881  ls -l
+ 1882  cd BestCalcMethods/
+ 1883  ls -l
+ 1884  rm index.html 
+ 1885  rm styles.css 
+ 1886  cd images/
+ 1887  ls -l
+ 1888  rm create-octocat.png 
+ 1889  cd ..
+ 1890  ls -l
+ 1891  ./git-upload 
+ 1892  nanp git-upload 
+ 1893  nano git-upload 
+ 1894  cd ..
+ 1895  ls -l
+ 1896  rm -rf RTR105/
+ 1897  ls -l
+ 1898  cd BestCalcMethods/
+ 1899  ./git-upload 
+ 1900  ls -l
+ 1901  ./git-upload 2019-12-27_09-00
+ 1902  cd ..
+ 1903  ls -l
+ 1904  PS1="$ "
+ 1905  ls -l
+ 1906  ./git-clone 
+ 1907  cd RTR105/darbi/
+ 1908  ls -l
+ 1909  cd ~
+ 1910  ls -l
+ 1911  ./git-clone-udemy 
+ 1912  ls -l
+ 1913  ./git-clone-RTR105 
+ 1914  cd RTR105/ls -l
+ 1915  cd RTR105/
+ 1916  cd darbi/
+ 1917  ls -l
+ 1918  cd ..
+ 1919  ls -l
+ 1920  cd UDEMY\(finishedCourses\)/
+ 1921  ls -l
+ 1922  cd ..
+ 1923  ls -l
+ 1924  mv UDEMY\(finishedCourses\) Udemy-ComplitedCourses
+ 1925  ls -l
+ 1926  cd Udemy-ComplitedCourses/
+ 1927  ls -l
+ 1928  mkdir Codes
+ 1929  ls -l
+ 1930  ls
+ 1931  mv *.c Codes/
+ 1932  ls -l
+ 1933  cd ..
+ 1934  ls -l
+ 1935  ./git-upload 20191227_09_10
+ 1936  ls -l
+ 1937  cd Udemy-ComplitedCourses/
+ 1938  ls -a
+ 1939  ls -a -l
+ 1940  nano .git/
+ 1941  rm .git/
+ 1942  rm .git
+ 1943  rm -rf .git
+ 1944  ls -l
+ 1945  cd ..
+ 1946  ls -l
+ 1947  ./git-upload 20191227_09_14
+ 1948  cd Udemy-ComplitedCourses/
+ 1949  ls -la
+ 1950  cd ..
+ 1951  ls -l
+ 1952  mv Udemy-ComplitedCourses Udemy-Courses
+ 1953  ls -l
+ 1954  cd Udemy-Courses/
+ 1955  ls -la
+ 1956  cd ..
+ 1957  ls -l
+ 1958  ./git-upload 20191227_09_16
+ 1959  cd ..
+ 1960  ls -l
+ 1961  nano git-clone-udemy 
+ 1962  rm git-clone-udemy 
+ 1963  ls -l
+ 1964  rm -rf RTR105/
+ 1965  ls -l
+ 1966  init 0
+ 1967  PS1="$ "
+ 1968  ls -l
+ 1969  ./git-clone-RTR105 
+ 1970  cd RTR105/darbi/Lekcijas/
+ 1971  ls -l
+ 1972  cd P06_masivi/
+ 1973  ls -l
+ 1974  cd ...
+ 1975  cd..
+ 1976  cd ..
+ 1977  ls -l
+ 1978  cd ..
+ 1979  ls -l
+ 1980  cd LabDarbiAtskaites/
+ 1981  cd sort/
+ 1982  ls -l
+ 1983  nano SortVladimirs.c 
+ 1984  ls -l
+ 1985  gcc SortVladimirs.c 
+ 1986  ls -l
+ 1987  ./a.out 
+ 1988  gcc SortVladimirs.c 
+ 1989  ./a.out 
+ 1990  gcc SortVladimirs.c 
+ 1991  ./a.out 
+ 1992  gcc SortVladimirs.c 
+ 1993  ./a.out 
+ 1994  gcc SortVladimirs.c 
+ 1995  ./a.out 
+ 1996  gcc SortVladimirs.c 
+ 1997  ./a.out 
+ 1998  gcc SortVladimirs.c 
+ 1999  ./a.out 
+ 2000  init 0
+ 2001  PS1="$ "
+ 2002  ls -l
+ 2003  cd RTR105/
+ 2004  ls -l
+ 2005  ./git-upload 20191228_10_37
+ 2006  cd ..
+ 2007  ls -l
+ 2008  rm -rf RTR105/
+ 2009  ls -l
+ 2010  ./git-clone-RTR105 
+ 2011  cd RTR105/darbi/LabDarbiAtskaites/sort/
+ 2012  ls -l
+ 2013  mkdir BackUP
+ 2014  cp SortVladimirs.c BackUP/
+ 2015  ls -l
+ 2016  cd BackUP/
+ 2017  ls -l
+ 2018  mv SortVladimirs.c SortVladimirs-old.c 
+ 2019  ls -l
+ 2020  cd ..
+ 2021  ls -l
+ 2022  nano SortVladimirs.c 
+ 2023  ls -l
+ 2024  nano SortVladimirs.c 
+ 2025  nano SortVladimirs.c -l
+ 2026  cp SortVladimirs.c SortVladimirs_V2.c 
+ 2027  nano SortVladimirs_V2.c 
+ 2028  nano SortVladimirs_V2.c  -l
+ 2029  ls -l
+ 2030  cd BackUP/
+ 2031  ls -l
+ 2032  cp SortVladimirs-old.c ..
+ 2033  ls -l
+ 2034  cd ..
+ 2035  ls -l
+ 2036  mv SortVladimirs-old.c SortVladimirsFINAL.c
+ 2037  ls -l
+ 2038  nano SortVladimirsFINAL.c 
+ 2039  d ..
+ 2040  ls -l
+ 2041  mv SortVladimirsFINAL.c BackUP/
+ 2042  ls -l
+ 2043  rm a.out 
+ 2044  history > ~/RTR105/AllHistory/history_20191228_1730
