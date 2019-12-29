@@ -6,28 +6,26 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-#define izmers 100
+#define izmers 50
 
 float MedianaF(int a[], int b);
 
-//MAIN sākums
 int main()
 {
  int i, j, k, l, abc, Temp; // ciklu mainīgie
  int MasGarums;
- int VidVert1, VidVert2, VidVert3; // Ieviešam divus mainīgos vidējā kopas simbola izdalīšanai un izvadīšanai
 
  char buferis[izmers];
- char *MasStart = buferis;
+ char *MasStart = buferis; 
  int masivs[izmers];
 
- printf("\n\nSveicināti!\n");
+ printf("Sveicināti\n");
  printf("1.) Lūdzu, ievadiet simbolu virkni (līdz %d zīmēm): \n", izmers);
  fgets(buferis,izmers,stdin);
 
  for(*MasStart, MasGarums=0; *MasStart!='\n'; *MasStart++, MasGarums++) //pārrkastam char masīvu -> int masīvā
  {masivs[MasGarums] = buferis[MasGarums];}
-
+ 
  for (i=0; i<MasGarums; i++) //Bubble sort - kārtojam elementus augošā secībā
   {
    for (j=0; j<(MasGarums-1); j++)
@@ -50,7 +48,7 @@ int main()
   else continue;
  }
  if (min==32)
- printf("\n2.) Kopas simbols ar minimālo vērtību ir 'astarpe'\n");
+ printf("2.) Kopas simbols ar minimālo vērtību ir 'astarpe'\n");
  else
  printf("2.) Kopas simbols ar minimālo vērtību: '%c'\n",min);
 
@@ -65,23 +63,10 @@ int main()
  if (max==32)
  printf("3.) Kopas simbols ar maksimālo vērtību: 'astarpe'\n");
  else
- printf("3.) Kopas simbols ar maksimālo vērtību: '%c'\n",max);
+ printf("3.) Kopas simbols ar maksimālo vērtību: %c\n",max);
+  
+ //printf("4.) Kopas elements ar vidējo vērtību JĀSATAISA VĒL!!!: %s\n", masivs);
 
- //Meklējam simbolu ar vidējo vērtību
- if (MasGarums%2 == 0) // ja elementu skaits ir pāra un vairāk par 2
- {
-  VidVert1 = MasGarums/2;
-  VidVert2 = MasGarums/2 - 1;
-  printf("4.) Tā kā kopas simbolu skaits ir pāra,\n");
-  printf("tad ir divi simboli ar vidējo vērtību: '%c' un '%c'\n",masivs[VidVert1],masivs[VidVert2]);
- }
- else
- {
-  VidVert3 = MasGarums/2;
-  printf("4.) Kopas simbols ar vidējo vērtību: '%c'\n", masivs[VidVert3]);
- }
-
- //izvadam kopu sakārtotu alfabēta secībā
  printf("5.) Sakārtots kopas saturs alfabēta secībā: ");
  for (abc=0; abc<MasGarums; abc++)
  {
@@ -91,10 +76,9 @@ int main()
   printf("%c", masivs[abc]);
  }
 
- //izvadam mediānu
  printf("\n6.) Kopas mediānas vērtība: %.2f\n", MedianaF(masivs, MasGarums));
 
- //Izvadam modu
+ //Modas skaitļošana 
  int maxVertiba = 0, maxSkaits = 0, r, t;
  for (r=0; r<MasGarums; r++)
  {
@@ -110,19 +94,9 @@ int main()
    maxVertiba = masivs[r];
   }
  }
- printf("7.) Kopas moda: %d\t", maxVertiba);
-
- //Izvadam kopu divās kolonās kā simbolus un to ASCII koda veidā
- printf("\n\n8.) Izvadam kopu divās kolonās - kā simbolus un to ASCII koda veidā:\n");
- int z;
- for (z=0; z<MasGarums; z++) // izvada SAKAARTOTA masiiva burtu un atbistosu ASCII koda veidaa
-  if (masivs[z] == 32)
-   printf("Simbols: 'atstarpe'\tASCII kods: %d\n", masivs[z]);
-  else
-   printf("Simbols: %c\t\tASCII kods: %d\n", masivs[z], masivs[z]);
-
-// MAIN beigas
+ printf("7.) Kopas moda(s): %d (%d)\n", maxVertiba, maxSkaits);
 }
+
 
 float MedianaF(int a[], int b)
 {
