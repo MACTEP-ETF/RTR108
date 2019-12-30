@@ -33,7 +33,7 @@ Studiju kursa Datormācība (pamatkurss) elektroniskā klade
     - [Darbības ar bitiem](#WorkWithBytes)
     - [C operatora prioritātes](#C_priorities)
     - [Vispārīgi](#Miscs)
-- [Python](#Python)  
+- [Python v3](#Python)  
   - [Īsceļi (shortcuts)](#PythonShortcuts)
   - [Īpašības](#PythonSpec)
   - [Python Shell](#PythonShell)
@@ -314,7 +314,7 @@ Pieņemsim, ka mums ir divas *unsigned char* izteiksmes: b1 = 101<sub>10</sub>, 
 - **init 0** – OS Linux shutdown.  
 
 <a name="Python"></a>
-## Python 
+## Python v3 
 <a name="PythonShortcuts"></a>
 ### Īsceļi (shortcuts)
 - **Alt+P un Alt+N** – izsauc iepriekšlietotas komandas, alternatīva bultiņām **uz augšu/leju** Terminālā.  
