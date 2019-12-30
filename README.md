@@ -245,7 +245,16 @@ Ja faila/foldera nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
   - **\b** – kursors 1 solis atpakaļ.  
   - **\v** – vertikālā tabulācija.  
   - **10.8f** – pirmais cipars '10'  apzīmē cik simbolus rādīt pirms komata, tādejādi veidojot izvietojuma struktūru (lai nav jāizmanto tabulācija un velns zin ko vēl :D). Otrs cipars - cik simbolus attēlot pēc komata, turklāt pēdējo **noapaļojot**.  
-
+- **srand** un **rand**
+```
+  //Gadijumskaitļa ģenerācijas inicializēšana
+  srand();
+  //Ģenerē un iegaumē skaitļus diapazonā no 0 līdz N skaitlim
+	for (i=0; i<N; i++)
+	{
+		a[i]=rand()%50000; //ieraksta masīvā gadījumskaitli no 0 līdz norādītam skaitlim aiz '%' zīmes
+	}
+```
 <a name="NanoDataTypes"></a>
 ### Datu tipi (izplatītākie)
 - **char b = 'A'** – šī koda rindiņa definē trīs darbības:  
