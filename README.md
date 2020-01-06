@@ -1,5 +1,6 @@
 # RTR105
 Studiju kursa Datormācība (pamatkurss) elektroniskā klade  
+(Šobrīd aktīvi darbojos šeit: https://www.hackerrank.com/challenges)
 
 # Satura rādītājs  
 - [Ievads](#Ievads)
