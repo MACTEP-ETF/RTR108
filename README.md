@@ -377,6 +377,7 @@ Katrs grafiks ar parametriem, tiek atdalīts no otra ar "komatu".
 <a name="Templates"></a>
 # FUNKCIJU Templates
 ## Funkcija atrod lielāko kopīgo dalītāju  
+```
 int dal(int v1, int v2)  
 {  
  int temp;  
@@ -386,3 +387,12 @@ int dal(int v1, int v2)
  }  
  return v1;  
 }  
+```
+## Search array for the largest value
+```
+for (z=1; z<ar_count; z++) {
+    if (ar[z] > ar[max]) {
+        max = z;
+    }
+}
+```
