@@ -40,7 +40,7 @@ int main()
     }
    }
   }
-/*
+
  //Meklējam minimālo vērtību
  char min = masivs[0];
  for (k=0; k<MasGarums; k++)
@@ -93,48 +93,26 @@ int main()
 
  //izvadam mediānu
  printf("\n6.) Kopas mediānas vērtība: %.2f\n", MedianaF(masivs, MasGarums));
-*/
 
  //Izvadam modu
- int maxVertiba1 = 0, maxSkaits1 = 0, maxVertiba2 = 0, maxSkaits2 = 0, r, t;
- for (r=0; r<MasGarums; r++)
- {
-  int skaititajs1 = 0;
-  for (t=0; t<MasGarums; t++)
-  {
-   if (masivs[t] == masivs[r])
-   skaititajs1++;
-  }
-  if (skaititajs1 > maxSkaits1)
-  {
-   maxSkaits1 = skaititajs1;
-   maxVertiba1 = masivs[r];
-  }
- }
+int x, max_repeat;
+ for (i=0; i<MasGarums; i++) {
+        masivs[i] += 1;
+        if (max_repeat < masivs[i]) {
+            max_repeat = masivs[i];
+        }
+    }
 
- for (r=0; r<MasGarums; r++)
- {
-  int skaititajs2 = 0;
-  for (t=0; t<MasGarums; t++)
-  {
-   if (masivs[t] == masivs[r])
-   skaititajs2++;
-  }
-  if (skaititajs2 > maxSkaits2)
-  {
-   maxSkaits2 = skaititajs2;
-   maxVertiba2 = masivs[r];
-  }
-  if (maxVertiba1==maxVertiba2)
-  {
-    printf("7.) Kopas modas: %d\t", maxVertiba2);
-  }
- }
+    printf("7.) Kopas moda(s): ");
+
+    for (i = 0; i < MasGarums; i++) {
+        if (masivs[i] == max_repeat) {
+            printf(" %d", i);
+        }
+    }
+    printf("\n");
 
 
-
- printf("7.) Kopas moda: %d\t", maxVertiba1);
-/*
  //Izvadam kopu divās kolonās kā simbolus un to ASCII koda veidā
  printf("\n\n8.) Izvadam kopu divās kolonās - kā simbolus un to ASCII koda veidā:\n");
  int z;
@@ -143,7 +121,7 @@ int main()
    printf("Simbols: 'atstarpe'\tASCII kods: %d\n", masivs[z]);
   else
    printf("Simbols: %c\t\tASCII kods: %d\n", masivs[z], masivs[z]);
-*/
+
 // MAIN beigas
 }
 
