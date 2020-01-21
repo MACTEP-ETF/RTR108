@@ -11,6 +11,7 @@ Visi bloki sastāv no blakus esošām atmiņas vietām. Zemākā adrese atbilst 
 /*******************************************************************************
 ** Autors : Vladimirs Fedorovičs
 ** Mērķis : Apgūt masīvus (arrays) un tā satura kārtošanu/pārkārtošanu/izvadu
+** Versija : Optimizēts kods, 21.01.2020
 ********************************************************************************/
 
 #include<stdio.h>
@@ -18,18 +19,23 @@ Visi bloki sastāv no blakus esošām atmiņas vietām. Zemākā adrese atbilst 
 
 #define izmers 100
 
-float MedianaF(int a[], int b);
+
+void BubbleSort(int*, int);
+void MinimalaVertiba(int*, int);
+void MaksimalaVertiba(int*, int);
+void VidejaVertiba(int*, int);
+float Mediana(int*, int);
+void Moda(int*, int);
+void print(int*, int);
 
 //MAIN sākums
 int main()
 {
- int i, j, k, l, abc, Temp; // ciklu mainīgie
+ int i; // cikla mainīgais
  int MasGarums;
- int VidVert1, VidVert2, VidVert3; // Ieviešam divus mainīgos vidējā kopas simbola izdalīšanai un izvadīšanai
-
- char buferis[izmers];
+ char *buferis = malloc(izmers*sizeof(char));
+ int *masivs = malloc(izmers*sizeof(int));
  char *MasStart = buferis;
- int masivs[izmers];
 
  printf("\n\nSveicināti!\n");
  printf("1.) Lūdzu, ievadiet simbolu virkni (līdz %d zīmēm): \n", izmers);
@@ -38,110 +44,134 @@ int main()
  for(*MasStart, MasGarums=0; *MasStart!='\n'; *MasStart++, MasGarums++) //pārrkastam char masīvu -> int masīvā
  {masivs[MasGarums] = buferis[MasGarums];}
 
- for (i=0; i<MasGarums; i++) //Bubble sort - kārtojam elementus augošā secībā
-  {
-   for (j=0; j<(MasGarums-1); j++)
-   {
-    if (masivs[j] > masivs[j+1])
-    {
-     Temp = masivs[j];
-     masivs[j] = masivs[j+1];
-     masivs[j+1] = Temp;
-    }
-   }
-  }
 
- //Meklējam minimālo vērtību
- char min = masivs[0];
- for (k=0; k<MasGarums; k++)
+ MinimalaVertiba(masivs, MasGarums); //Minimālās vērtības izvade
+ MaksimalaVertiba(masivs, MasGarums); //Maksimālās vērtības izvade
+ VidejaVertiba(masivs, MasGarums); //Izvadam vidējo vērtību to skaitliskā un burta veidā
+
+ printf("5.) Kopa tiek sakārtota augošā secībā, bet izvade netiek veikta, jo uzdevumā tas nav minēts šajā punkta.\n");
+ BubbleSort(masivs, MasGarums); //Bubble sort
+
+ printf("6.) Kopas mediānas vērtība: %.2f\n", Mediana(masivs, MasGarums)); //izvadam mediānu
+
+ printf("7.) Kopas moda(s): Pagaidām SKAITĻO NEKOREKTI!!! - ");
+ Moda(masivs, MasGarums); //Izvadam modu
+
+ //Izvadam kopu divās rindās - kā simbolus un to ASCII koda veidā
+ printf("8.) Izvadam kopu divās rindās - kā simbolus un to ASCII koda veidā:\n");
+ print(masivs, MasGarums); //drukājam ārā simbolus
+ return 0;
+}
+// MAIN beigas
+
+void MinimalaVertiba(int* masivs, int MasGarums) //Meklējam minimālo vērtību
+{
+ int i;
+ int min = masivs[0];
+ for (i=0; i<MasGarums; i++)
  {
-  if (masivs[k] < min)
-  min = masivs[k];
-  else continue;
+  if (masivs[i] < min)
+  min = masivs[i];
  }
  if (min==32)
  printf("\n2.) Kopas simbols ar minimālo vērtību ir 'astarpe'\n");
  else
  printf("2.) Kopas simbols ar minimālo vērtību: '%c'\n",min);
+}
 
- //Meklējam maximālo vērtību
- char max = masivs[0];
- for (l=0; l<MasGarums; l++)
+void MaksimalaVertiba(int* masivs, int MasGarums) //Meklējam maksimālo vērtību
+{
+ int max = masivs[0];
+ for (int i=0; i<MasGarums; i++)
  {
-  if (masivs[l] > max)
-  max = masivs[l];
-  else continue;
+  if (masivs[i] > max)
+  max = masivs[i];
  }
  if (max==32)
  printf("3.) Kopas simbols ar maksimālo vērtību: 'astarpe'\n");
  else
  printf("3.) Kopas simbols ar maksimālo vērtību: '%c'\n",max);
-
- //Meklējam simbolu ar vidējo vērtību
- if (MasGarums%2 == 0) // ja elementu skaits ir pāra un vairāk par 2
- {
-  VidVert1 = MasGarums/2;
-  VidVert2 = MasGarums/2 - 1;
-  printf("4.) Tā kā kopas simbolu skaits ir pāra,\n");
-  printf("tad ir divi simboli ar vidējo vērtību: '%c' un '%c'\n",masivs[VidVert1],masivs[VidVert2]);
- }
- else
- {
-  VidVert3 = MasGarums/2;
-  printf("4.) Kopas simbols ar vidējo vērtību: '%c'\n", masivs[VidVert3]);
- }
-
- //izvadam kopu sakārtotu alfabēta secībā
- printf("5.) Sakārtots kopas saturs alfabēta secībā: ");
- for (abc=0; abc<MasGarums; abc++)
- {
-  if (masivs[abc] == 32)
-  printf("'atstarpe'");
-  else
-  printf("%c", masivs[abc]);
- }
-
- //izvadam mediānu
- printf("\n6.) Kopas mediānas vērtība: %.2f\n", MedianaF(masivs, MasGarums));
-
- //Izvadam modu
- int maxVertiba = 0, maxSkaits = 0, r, t;
- for (r=0; r<MasGarums; r++)
- {
-  int skaititajs = 0;
-  for (t=0; t<MasGarums; t++)
-  {
-   if (masivs[t] == masivs[r])
-   skaititajs++;
-  }
-  if (skaititajs > maxSkaits)
-  {
-   maxSkaits = skaititajs;
-   maxVertiba = masivs[r];
-  }
- }
- printf("7.) Kopas moda: %d\t", maxVertiba);
-
- //Izvadam kopu divās kolonās kā simbolus un to ASCII koda veidā
- printf("\n\n8.) Izvadam kopu divās kolonās - kā simbolus un to ASCII koda veidā:\n");
- int z;
- for (z=0; z<MasGarums; z++) // izvada SAKAARTOTA masiiva burtu un atbistosu ASCII koda veidaa
-  if (masivs[z] == 32)
-   printf("Simbols: 'atstarpe'\tASCII kods: %d\n", masivs[z]);
-  else
-   printf("Simbols: %c\t\tASCII kods: %d\n", masivs[z], masivs[z]);
-
-// MAIN beigas
 }
 
-float MedianaF(int a[], int b)
+void VidejaVertiba(int* masivs, int MasGarums) //izvadam vidējo vērtību to skaitliskā un burta veidā
 {
-    float Med = 0;
-    if (b%2 == 0) // ja elementu skaits ir paara
-        Med = (a[(b-1)/2] + a[b/2])/2.0;
-    else // ja elementu skaits ir nepaara
-        Med = a[b/2];
-    return Med;
+ int i, summa = 0, VidVertiba;
+ for (int i=0; i<MasGarums; i++)
+ {
+  summa += masivs[i];
+ }
+ VidVertiba = summa/MasGarums;
+ printf("4.) Kopas vidējā vērtība: '%d'. Un atbilstoš simbols šai vertībai ir: '%c'\n", VidVertiba, VidVertiba);
+}
+
+void BubbleSort(int* masivs, int MasGarums)
+{
+ int i, j, Temp;
+
+ for (i=0; i<MasGarums; i++) //kārtojam elementus augošā secībā
+ {
+  for (j=0; j<(MasGarums-1); j++)
+  {
+   if (masivs[j] > masivs[j+1])
+   {
+    Temp = masivs[j];
+    masivs[j] = masivs[j+1];
+    masivs[j+1] = Temp;
+   }
+  }
+ }
+}
+
+
+float Mediana(int* a, int b)
+{
+ float Med = 0;
+ if (b%2 == 0) // ja elementu skaits ir pāra
+  Med = (a[(b-1)/2] + a[b/2])/2.0;
+ else // ja elementu skaits ir nepāra
+  Med = a[b/2];
+ return Med;
+}
+
+void Moda(int* masivs, int MasGarums)
+{
+ int i, j, max_repeat;
+ int *b=malloc(MasGarums*sizeof(int));
+ for (i=0; i<MasGarums; i++)
+ {
+  b[i] += 1;
+  if (max_repeat < masivs[i])
+   max_repeat = masivs[i];
+ }
+
+ for (j=0; j<MasGarums; j++)
+ {
+  if (masivs[j] == max_repeat)
+  {
+   printf(" %d", j);
+  }
+ }
+ printf("\n");
+}
+
+
+void print(int *masivs, int MasGarums)
+{
+ printf("Simbols:\n");
+ for (int i=0; i<MasGarums; i++) // Izvadam sakārtotās kopas burtu un atbilstšu ASCII koda veidā
+ {
+  if (masivs[i] == 32)
+  printf("' '\t");
+  else
+  printf("%c\t", masivs[i]);
+ }
+ printf("\nASCII kods:\n");
+ 
+ for (int j=0; j<MasGarums; j++) // Izvadam sakārtotās kopas burtu un atbilstšu ASCII koda veidā
+ {
+  printf("%d\t", masivs[j]);
+ }
+ printf("\n");
 }
 ```
 
@@ -150,61 +180,23 @@ float MedianaF(int a[], int b)
 ```
 Sveicināti!
 1.) Lūdzu, ievadiet simbolu virkni (līdz 100 zīmēm): 
-Es ceru, ka kods nav gluzi zemee metams.
+Vladimirs Fed.
 
 2.) Kopas simbols ar minimālo vērtību ir 'astarpe'
-3.) Kopas simbols ar maksimālo vērtību: 'z'
-4.) Tā kā kopas simbolu skaits ir pāra,
-tad ir divi simboli ar vidējo vērtību: 'g' un 'e'
-5.) Sakārtots kopas saturs alfabēta secībā: 'atstarpe''atstarpe''atstarpe''atstarpe''atstarpe''atstarpe''atstarpe',.Eaaacdeeeeegikklmmmnorssstuuvzz
-6.) Kopas mediānas vērtība: 102.00
-7.) Kopas moda: 32	
+3.) Kopas simbols ar maksimālo vērtību: 's'
+4.) Kopas vidējā vērtība: '92'. Un atbilstoš simbols šai vertībai ir: '\'
+5.) Kopa tiek sakārtota augošā secībā, bet izvade netiek veikta, jo uzdevumā tas nav minēts šajā punkta.
+6.) Kopas mediānas vērtība: 100.50
+7.) Kopas moda(s): Pagaidām SKAITĻO NEKOREKTI!!! -  13
+8.) Izvadam kopu divās rindās - kā simbolus un to ASCII koda veidā:
+Simbols:
+' '	.	F	V	a	d	d	e	i	i	l	m	r	s	
+ASCII kods:
+32	46	70	86	97	100	100	101	105	105	108	109	114	115	
 
-8.) Izvadam kopu divās kolonās - kā simbolus un to ASCII koda veidā:
-Simbols: 'atstarpe'	ASCII kods: 32
-Simbols: 'atstarpe'	ASCII kods: 32
-Simbols: 'atstarpe'	ASCII kods: 32
-Simbols: 'atstarpe'	ASCII kods: 32
-Simbols: 'atstarpe'	ASCII kods: 32
-Simbols: 'atstarpe'	ASCII kods: 32
-Simbols: 'atstarpe'	ASCII kods: 32
-Simbols: ,		ASCII kods: 44
-Simbols: .		ASCII kods: 46
-Simbols: E		ASCII kods: 69
-Simbols: a		ASCII kods: 97
-Simbols: a		ASCII kods: 97
-Simbols: a		ASCII kods: 97
-Simbols: c		ASCII kods: 99
-Simbols: d		ASCII kods: 100
-Simbols: e		ASCII kods: 101
-Simbols: e		ASCII kods: 101
-Simbols: e		ASCII kods: 101
-Simbols: e		ASCII kods: 101
-Simbols: e		ASCII kods: 101
-Simbols: g		ASCII kods: 103
-Simbols: i		ASCII kods: 105
-Simbols: k		ASCII kods: 107
-Simbols: k		ASCII kods: 107
-Simbols: l		ASCII kods: 108
-Simbols: m		ASCII kods: 109
-Simbols: m		ASCII kods: 109
-Simbols: m		ASCII kods: 109
-Simbols: n		ASCII kods: 110
-Simbols: o		ASCII kods: 111
-Simbols: r		ASCII kods: 114
-Simbols: s		ASCII kods: 115
-Simbols: s		ASCII kods: 115
-Simbols: s		ASCII kods: 115
-Simbols: t		ASCII kods: 116
-Simbols: u		ASCII kods: 117
-Simbols: u		ASCII kods: 117
-Simbols: v		ASCII kods: 118
-Simbols: z		ASCII kods: 122
-Simbols: z		ASCII kods: 122
 ```
 ### Analīze
-- Diemžēl, nespēju attēlot vairākas modas ja tādas ir, tādēļ tiek attēlota tikai viena no.
-- Es atļāvos izvadīt kopu vertikālā veidā, jo tā ir pārskatamāk, ja simbolu virkne ir gara.
+- Esmu krietni optimizējis kodu salīdzinot ar iepriekšējo "README failu", bet līdz modai tā vēl arī netiku.
 
 ### Secinājums
 Grūtākais šajā LabDarbā bija saprast, kā darboties ar char masīvu. Bet kad sapratu, ka kopu ir japārraksta no *char* datu tipa uz *int*, tad uzreiz visas problēmas atkrita kā nebijušas.

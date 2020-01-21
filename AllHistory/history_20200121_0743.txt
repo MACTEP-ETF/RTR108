@@ -1,0 +1,1000 @@
+ 1048  ls -l
+ 1049  gnuplot
+ 1050  gnuplot derivative.gp "derivative.dat" 
+ 1051  gnuplot derivative.dat "derivative.gp" 
+ 1052  gnuplot derivative.dat
+ 1053  gnuplot derivative.gp
+ 1054  gnuplot derivative.gp "derivative.dat"
+ 1055  gnuplot
+ 1056  nano derivative.dat 
+ 1057  rm derivative.dat 
+ 1058  cat derivative.gp 
+ 1059  cd ..
+ 1060  cd derivative/
+ 1061  ls -l
+ 1062  cat PlotSettingFile.gp 
+ 1063  nano PlotSettingFile.gp 
+ 1064  ls -l
+ 1065  cd ~/RTR105/
+ 1066  ls -l
+ 1067  ./git-upload 20191225_20_30
+ 1068  cd ..
+ 1069  ls -l
+ 1070  cd RTR105/
+ 1071  cd ..
+ 1072  rm -rf RTR105/
+ 1073  ./git-clone 
+ 1074  cd RTR105/darbi/LabDarbiAtskaites/roots/
+ 1075  ls -l
+ 1076  cp 2ld_roots-VladimirsREBMO2.md ~/RTR105/darbi/LabDarbiAtskaites/derivative/
+ 1077  cd ..
+ 1078  cd derivative/
+ 1079  ls -l
+ 1080  mv 2ld_roots-VladimirsREBMO2.md 3ld_derivative-VladimirsREBMO2.md 
+ 1081  ls -l
+ 1082  cd ~
+ 1083  cd RTR105/
+ 1084  ./git-upload 20191225_20_343
+ 1085  ./git-upload 20191225_20_34
+ 1086  cd ..
+ 1087  cd RTR105/darbi/LabDarbiAtskaites/derivative/
+ 1088  ls -l
+ 1089  gcc DerivativeVladimirs.c -lm
+ 1090  ./a.out 
+ 1091  history > 1.txt
+ 1092  nano 1.txt 
+ 1093  rm 1.txt 
+ 1094  ./a.out 
+ 1095  ./a.out > Rezultats.txt
+ 1096  ./a.out 
+ 1097  nano DerivativeVladimirs.c 
+ 1098  cd ~
+ 1099  rm -rf RTR105/
+ 1100  ./git-clone 
+ 1101  cd RTR105/darbi/LabDarbiAtskaites/derivative/
+ 1102  nano DerivativeVladimirs.c 
+ 1103  gcc DerivativeVladimirs.c -lm
+ 1104  ./a.out 
+ 1105  ls -l
+ 1106  rm derivative.dat 
+ 1107  ./a.out 
+ 1108  rm a.out 
+ 1109  ls -l
+ 1110  cd ..
+ 1111  cd ~
+ 1112  cd RTR105/
+ 1113  ./git-upload 20191225_21_34
+ 1114  cd ..
+ 1115  rm -rf RTR105/
+ 1116  ls -l
+ 1117  init 0
+ 1118  PS1="$ "
+ 1119  ls -l
+ 1120  ./git-clone 
+ 1121  cd RTR105/
+ 1122  cd darbi/LabDarbiHEX/
+ 1123  ls -l
+ 1124  mkdir L18
+ 1125  cd L18
+ 1126  ls -l
+ 1127  gnuplot
+ 1128  idle &
+ 1129  gcc 180.c -lm
+ 1130  ./a.out 
+ 1131  gcc 180.c -lm
+ 1132  ./a.out 
+ 1133  gcc 180.c -lm
+ 1134  ./a.out 
+ 1135  gcc 180.c -lm
+ 1136  ./a.out 
+ 1137  gcc 180.c -lm
+ 1138  ./a.out 
+ 1139  gcc 180.c -lm
+ 1140  ./a.out 
+ 1141  gcc 180.c -lm
+ 1142  ./a.out 
+ 1143  cd .
+ 1144  cd ..
+ 1145  cd derivative/
+ 1146  ls -l
+ 1147  nano DerivativeVladimirs.c 
+ 1148  cd ..
+ 1149  cd derivative/
+ 1150  nano DerivativeVladimirs.c 
+ 1151  nano ~/RTR105/README.md 
+ 1152  cd ..
+ 1153  cd derivative/
+ 1154  cat DerivativeVladimirs.c 
+ 1155  ls -l
+ 1156  cp 3ld_derivative-VladimirsREBMO2.md ../integral/
+ 1157  ls -l
+ 1158  cd ..
+ 1159  cd integral/
+ 1160  ls -l
+ 1161  mv 3ld_derivative-VladimirsREBMO2.md 4ld_integral-VladimirsREBMO2.md 
+ 1162  ls -l
+ 1163  rm integral.dat 
+ 1164  nano 4ld_integral-VladimirsREBMO2.md 
+ 1165  cd ..
+ 1166  cd derivative/
+ 1167  cat DerivativeVladimirs.c 
+ 1168  ls -l
+ 1169  gcc IntegralVladimirs.c -lm
+ 1170  ./a.out 
+ 1171  gcc IntegralVladimirs.c -lm
+ 1172  ./a.out 
+ 1173  gcc IntegralVladimirs.c -lm
+ 1174  ./a.out 
+ 1175  gcc IntegralVladimirs.c -lm
+ 1176  ./a.out 
+ 1177  gcc IntegralVladimirs.c -lm
+ 1178  ./a.out 
+ 1179  gcc IntegralVladimirs.c -lm
+ 1180  ./a.out 
+ 1181  gcc IntegralVladimirs.c -lm
+ 1182  ./a.out 
+ 1183  gcc IntegralVladimirs.c -lm
+ 1184  ./a.out 
+ 1185  gcc IntegralVladimirs.c -lm
+ 1186  ./a.out 
+ 1187  gcc IntegralVladimirs.c -lm
+ 1188  ./a.out 
+ 1189  history > ~/RTR105/AllHistory/history_20191226_1718.txt
+ 1190  gnuplot
+ 1191  nano ~/RTR105/README.md 
+ 1192  ls -l
+ 1193  cat IntegralVladimirs.c 
+ 1194  nano IntegralVladimirs.c 
+ 1195  gcc IntegralVladimirs.c -lm
+ 1196  ./a.out 
+ 1197  PS1="$ "
+ 1198  cd RTR105/darbi/LabDarbiHEX/L18/
+ 1199  nano 180.c
+ 1200  cd ~/RTR105/
+ 1201  ./git-upload 20191226_14_25
+ 1202  cd ~
+ 1203  ls -l
+ 1204  rm -rf RTR105/
+ 1205  ./git-clone 
+ 1206  cd RTR105/darbi/LabDarbiAtskaites/
+ 1207  ls -l
+ 1208  mkdir integral
+ 1209  cd integral/
+ 1210  nano IntegralVladimirs.c
+ 1211  nano IntegralVladimirs.c -l
+ 1212  ls -l
+ 1213  nano IntegralVladimirs.c -l
+ 1214  cat 4ld_integral-VladimirsREBMO2.md 
+ 1215  ls -l
+ 1216  nano 4ld_integral-VladimirsREBMO2.md 
+ 1217  ls -l
+ 1218  rm a.out 
+ 1219  ls -l
+ 1220  cd ~
+ 1221  ls -l
+ 1222  cd RTR105/
+ 1223  ls -l
+ 1224  ./git-upload 20191226_18_35
+ 1225  cd ..
+ 1226  ls -l
+ 1227  rm -rf RTR105/
+ 1228  init 0
+ 1229  ls -l
+ 1230  ./git-clone 
+ 1231  cd RTR105/darbi/LabDarbiAtskaites/integral/
+ 1232  ls -l
+ 1233  nano IntegralVladimirs.c 
+ 1234  gcc IntegralVladimirs.c -lm
+ 1235  nano IntegralVladimirs.c 
+ 1236  gcc IntegralVladimirs.c -lm
+ 1237  ./a.out 
+ 1238  rm a.out 
+ 1239  ls -l
+ 1240  nano 4ld_integral-VladimirsREBMO2.md 
+ 1241  cd ~/RTR105/
+ 1242  ls -l
+ 1243  ./git-upload 20191226_19_45
+ 1244  cd ..
+ 1245  rm -rf RTR105/
+ 1246  ls -l
+ 1247  init 0
+ 1248  cd ..
+ 1249  ./git-clone-BestCalcMethods 
+ 1250  ls -l
+ 1251  cd BestCalcMethods/
+ 1252  ls -l
+ 1253  rm index.html 
+ 1254  rm styles.css 
+ 1255  cd images/
+ 1256  ls -l
+ 1257  rm create-octocat.png 
+ 1258  cd ..
+ 1259  ls -l
+ 1260  ./git-upload 
+ 1261  nanp git-upload 
+ 1262  nano git-upload 
+ 1263  cd ..
+ 1264  ls -l
+ 1265  rm -rf RTR105/
+ 1266  ls -l
+ 1267  cd BestCalcMethods/
+ 1268  ./git-upload 
+ 1269  ls -l
+ 1270  ./git-upload 2019-12-27_09-00
+ 1271  cd ..
+ 1272  ls -l
+ 1273  PS1="$ "
+ 1274  ls -l
+ 1275  ./git-clone 
+ 1276  cd RTR105/darbi/
+ 1277  ls -l
+ 1278  cd ~
+ 1279  ls -l
+ 1280  ./git-clone-udemy 
+ 1281  ls -l
+ 1282  ./git-clone-RTR105 
+ 1283  cd RTR105/ls -l
+ 1284  cd RTR105/
+ 1285  cd darbi/
+ 1286  ls -l
+ 1287  cd ..
+ 1288  ls -l
+ 1289  cd UDEMY\(finishedCourses\)/
+ 1290  ls -l
+ 1291  cd ..
+ 1292  ls -l
+ 1293  mv UDEMY\(finishedCourses\) Udemy-ComplitedCourses
+ 1294  ls -l
+ 1295  cd Udemy-ComplitedCourses/
+ 1296  ls -l
+ 1297  mkdir Codes
+ 1298  ls -l
+ 1299  ls
+ 1300  mv *.c Codes/
+ 1301  ls -l
+ 1302  cd ..
+ 1303  ls -l
+ 1304  ./git-upload 20191227_09_10
+ 1305  ls -l
+ 1306  cd Udemy-ComplitedCourses/
+ 1307  ls -a
+ 1308  ls -a -l
+ 1309  nano .git/
+ 1310  rm .git/
+ 1311  rm .git
+ 1312  rm -rf .git
+ 1313  ls -l
+ 1314  cd ..
+ 1315  ls -l
+ 1316  ./git-upload 20191227_09_14
+ 1317  cd Udemy-ComplitedCourses/
+ 1318  ls -la
+ 1319  cd ..
+ 1320  ls -l
+ 1321  mv Udemy-ComplitedCourses Udemy-Courses
+ 1322  ls -l
+ 1323  cd Udemy-Courses/
+ 1324  ls -la
+ 1325  cd ..
+ 1326  ls -l
+ 1327  ./git-upload 20191227_09_16
+ 1328  cd ..
+ 1329  ls -l
+ 1330  nano git-clone-udemy 
+ 1331  rm git-clone-udemy 
+ 1332  ls -l
+ 1333  rm -rf RTR105/
+ 1334  ls -l
+ 1335  init 0
+ 1336  PS1="$ "
+ 1337  ls -l
+ 1338  ./git-clone-RTR105 
+ 1339  cd RTR105/darbi/Lekcijas/
+ 1340  ls -l
+ 1341  cd P06_masivi/
+ 1342  ls -l
+ 1343  cd ...
+ 1344  cd..
+ 1345  cd ..
+ 1346  ls -l
+ 1347  cd ..
+ 1348  ls -l
+ 1349  cd LabDarbiAtskaites/
+ 1350  cd sort/
+ 1351  ls -l
+ 1352  nano SortVladimirs.c 
+ 1353  ls -l
+ 1354  gcc SortVladimirs.c 
+ 1355  ls -l
+ 1356  ./a.out 
+ 1357  gcc SortVladimirs.c 
+ 1358  ./a.out 
+ 1359  gcc SortVladimirs.c 
+ 1360  ./a.out 
+ 1361  gcc SortVladimirs.c 
+ 1362  ./a.out 
+ 1363  gcc SortVladimirs.c 
+ 1364  ./a.out 
+ 1365  gcc SortVladimirs.c 
+ 1366  ./a.out 
+ 1367  gcc SortVladimirs.c 
+ 1368  ./a.out 
+ 1369  init 0
+ 1370  nano test1.c
+ 1371  nano test1.c
+ 1372  gcc test1.c 
+ 1373  ./a.out 
+ 1374  gcc test1.c 
+ 1375  ./a.out 
+ 1376  gcc test1.c 
+ 1377  ./a.out 
+ 1378  ls -l
+ 1379  gcc arrays2.c 
+ 1380  ./a.out 
+ 1381  gcc arrays2.c 
+ 1382  ./a.out 
+ 1383  gcc arrays2.c 
+ 1384  ./a.out 
+ 1385  gcc arrays2.c 
+ 1386  ./a.out 
+ 1387  gcc arrays2.c 
+ 1388  ./a.out 
+ 1389  gcc arrays2.c 
+ 1390  ./a.out 
+ 1391  gcc arrays2.c 
+ 1392  ./a.out 
+ 1393  gcc arrays2.c 
+ 1394  ./a.out 
+ 1395  gcc arrays2.c 
+ 1396  ./a.out 
+ 1397  gcc arrays2.c 
+ 1398  ./a.out 
+ 1399  gcc arrays2.c 
+ 1400  ./a.out 
+ 1401  gcc arrays2.c 
+ 1402  ./a.out 
+ 1403  mv test1.c ~/RTR105/darbi/IevadsAlgoritmuValoda-J-Ziemelis/
+ 1404  mkdir ~/RTR105/darbi/IevadsAlgoritmuValoda-J-Ziemelis/pointers
+ 1405  mv ~/RTR105/darbi/IevadsAlgoritmuValoda-J-Ziemelis/test1.c ~/RTR105/darbi/IevadsAlgoritmuValoda-J-Ziemelis/pointers/
+ 1406  cd ~/RTR105/darbi/IevadsAlgoritmuValoda-J-Ziemelis/test1.c ~/RTR105/darbi/IevadsAlgoritmuValoda-J-Ziemelis/pointers/
+ 1407  cd ~/RTR105/darbi/IevadsAlgoritmuValoda-J-Ziemelis/pointers/
+ 1408  ls -l
+ 1409  cd ..
+ 1410  mv pointers pointers_arrays
+ 1411  cd pointers_arrays/
+ 1412  ls -l
+ 1413  nano arrays.c
+ 1414  nano arrays2.c
+ 1415  gcc SortVladimirs.c 
+ 1416  rm a.out 
+ 1417  gcc SortVladimirs.c 
+ 1418  ./a.out 
+ 1419  gcc SortVladimirs.c 
+ 1420  ./a.out 
+ 1421  gcc SortVladimirs.c 
+ 1422  ./a.out 
+ 1423  gcc SortVladimirs.c 
+ 1424  ./a.out 
+ 1425  gcc SortVladimirs.c 
+ 1426  ./a.out 
+ 1427  gcc SortVladimirs.c 
+ 1428  ./a.out 
+ 1429  gcc SortVladimirs.c 
+ 1430  ./a.out 
+ 1431  gcc SortVladimirs.c 
+ 1432  ./a.out 
+ 1433  gcc SortVladimirs.c 
+ 1434  ./a.out 
+ 1435  gcc SortVladimirs.c 
+ 1436  ./a.out 
+ 1437  gcc SortVladimirs.c 
+ 1438  ./a.out 
+ 1439  nano test.c
+ 1440  gcc test.c 
+ 1441  ./a.out 
+ 1442  nano test.c
+ 1443  ls -l
+ 1444  rm test.c 
+ 1445  gcc SortVladimirs.c 
+ 1446  ./a.out 
+ 1447  gcc SortVladimirs.c 
+ 1448  ./a.out 
+ 1449  gcc SortVladimirs.c 
+ 1450  ./a.out 
+ 1451  gcc SortVladimirs.c 
+ 1452  ./a.out 
+ 1453  gcc SortVladimirs.c 
+ 1454  ./a.out 
+ 1455  gcc SortVladimirs.c 
+ 1456  ./a.out 
+ 1457  gcc SortVladimirs.c 
+ 1458  ./a.out 
+ 1459  gcc SortVladimirs.c 
+ 1460  ./a.out 
+ 1461  gcc SortVladimirs.c 
+ 1462  ./a.out 
+ 1463  gcc SortVladimirs.c 
+ 1464  ./a.out 
+ 1465  gcc SortVladimirs.c 
+ 1466  ./a.out 
+ 1467  gcc SortVladimirs.c 
+ 1468  ./a.out 
+ 1469  gcc SortVladimirs.c 
+ 1470  ./a.out 
+ 1471  gcc SortVladimirs.c 
+ 1472  ./a.out 
+ 1473  gcc SortVladimirs.c 
+ 1474  ./a.out 
+ 1475  gcc SortVladimirs.c 
+ 1476  ./a.out 
+ 1477  gcc SortVladimirs.c 
+ 1478  ./a.out 
+ 1479  gcc SortVladimirs.c 
+ 1480  ./a.out 
+ 1481  gcc SortVladimirs.c 
+ 1482  ./a.out 
+ 1483  gcc SortVladimirs.c 
+ 1484  ./a.out 
+ 1485  gcc SortVladimirs.c 
+ 1486  ./a.out 
+ 1487  gcc SortVladimirs.c 
+ 1488  ./a.out 
+ 1489  gcc SortVladimirs.c 
+ 1490  ./a.out 
+ 1491  gcc SortVladimirs.c 
+ 1492  ./a.out 
+ 1493  gcc SortVladimirs.c 
+ 1494  ./a.out 
+ 1495  gcc SortVladimirs.c 
+ 1496  ./a.out 
+ 1497  gcc SortVladimirs.c 
+ 1498  ./a.out 
+ 1499  gcc SortVladimirs.c 
+ 1500  ./a.out 
+ 1501  gcc SortVladimirs.c 
+ 1502  ./a.out 
+ 1503  gcc SortVladimirs.c 
+ 1504  ./a.out 
+ 1505  gcc SortVladimirs.c 
+ 1506  ./a.out 
+ 1507  gcc SortVladimirs.c 
+ 1508  ./a.out 
+ 1509  gcc SortVladimirs.c 
+ 1510  ./a.out 
+ 1511  gcc SortVladimirs.c 
+ 1512  ./a.out 
+ 1513  gcc SortVladimirs.c 
+ 1514  ./a.out 
+ 1515  gcc SortVladimirs.c 
+ 1516  ./a.out 
+ 1517  gcc SortVladimirs.c 
+ 1518  ./a.out 
+ 1519  gcc SortVladimirs.c 
+ 1520  ./a.out 
+ 1521  gcc SortVladimirs.c 
+ 1522  ./a.out 
+ 1523  gcc SortVladimirs_V2.c 
+ 1524  PS1="$ "
+ 1525  ls -l
+ 1526  cd RTR105/
+ 1527  ls -l
+ 1528  ./git-upload 20191228_10_37
+ 1529  cd ..
+ 1530  ls -l
+ 1531  rm -rf RTR105/
+ 1532  ls -l
+ 1533  ./git-clone-RTR105 
+ 1534  cd RTR105/darbi/LabDarbiAtskaites/sort/
+ 1535  ls -l
+ 1536  mkdir BackUP
+ 1537  cp SortVladimirs.c BackUP/
+ 1538  ls -l
+ 1539  cd BackUP/
+ 1540  ls -l
+ 1541  mv SortVladimirs.c SortVladimirs-old.c 
+ 1542  ls -l
+ 1543  cd ..
+ 1544  ls -l
+ 1545  nano SortVladimirs.c 
+ 1546  ls -l
+ 1547  nano SortVladimirs.c 
+ 1548  nano SortVladimirs.c -l
+ 1549  cp SortVladimirs.c SortVladimirs_V2.c 
+ 1550  nano SortVladimirs_V2.c 
+ 1551  nano SortVladimirs_V2.c  -l
+ 1552  ls -l
+ 1553  cd BackUP/
+ 1554  ls -l
+ 1555  cp SortVladimirs-old.c ..
+ 1556  ls -l
+ 1557  cd ..
+ 1558  ls -l
+ 1559  mv SortVladimirs-old.c SortVladimirsFINAL.c
+ 1560  ls -l
+ 1561  nano SortVladimirsFINAL.c 
+ 1562  d ..
+ 1563  ls -l
+ 1564  mv SortVladimirsFINAL.c BackUP/
+ 1565  ls -l
+ 1566  rm a.out 
+ 1567  history > ~/RTR105/AllHistory/history_20191228_1730
+ 1568  nano 1.c
+ 1569  gcc 1.c 
+ 1570  nano 1.c
+ 1571  gcc 1.c 
+ 1572  PS="$ "
+ 1573  cd RTR105/darbi/LabDarbiAtskaites/sort/
+ 1574  PS1="$ "
+ 1575  nano SortVladimirsGalaVersija.c -l
+ 1576  ls -l
+ 1577  gcc SortVladimirsGalaVersija.c 
+ 1578  ./a.out 
+ 1579  gcc SortVladimirsGalaVersija.c 
+ 1580  ./a.out 
+ 1581  gcc SortVladimirsGalaVersija.c 
+ 1582  ./a.out 
+ 1583  gcc SortVladimirsGalaVersija.c 
+ 1584  ./a.out 
+ 1585  gcc SortVladimirsGalaVersija.c 
+ 1586  ./a.out 
+ 1587  gcc SortVladimirsGalaVersija.c 
+ 1588  ./a.out 
+ 1589  gcc SortVladimirsGalaVersija.c 
+ 1590  ./a.out 
+ 1591  gcc SortVladimirsGalaVersija.c 
+ 1592  ./a.out 
+ 1593  gcc SortVladimirsGalaVersija.c 
+ 1594  ./a.out 
+ 1595  gcc SortVladimirsGalaVersija.c 
+ 1596  ./a.out 
+ 1597  gcc SortVladimirsGalaVersija.c 
+ 1598  ./a.out 
+ 1599  gcc SortVladimirs.c 
+ 1600  ls -l
+ 1601  rm 1.c 
+ 1602  rm a.out 
+ 1603  gcc SortVladimirs.c 
+ 1604  ./a.out 
+ 1605  gcc SortVladimirs.c 
+ 1606  ./a.out 
+ 1607  gcc SortVladimirs.c 
+ 1608  ./a.out 
+ 1609  gcc Test1.c 
+ 1610  ./a.out 
+ 1611  cd RTR105/darbi/LabDarbiAtskaites/sort/
+ 1612  ls -l
+ 1613  gcc SortVladimirs.c 
+ 1614  ./a.out 
+ 1615  gcc SortVladimirs.c 
+ 1616  ./a.out 
+ 1617  gcc SortVladimirs.c 
+ 1618  ./a.out 
+ 1619  gcc SortVladimirs.c 
+ 1620  ./a.out 
+ 1621  gcc SortVladimirs.c 
+ 1622  ./a.out 
+ 1623  gcc SortVladimirs.c 
+ 1624  ./a.out 
+ 1625  gcc SortVladimirs.c 
+ 1626  ./a.out 
+ 1627  gcc SortVladimirs.c 
+ 1628  ./a.out 
+ 1629  gcc SortVladimirs.c 
+ 1630  ./a.out 
+ 1631  gcc SortVladimirs.c 
+ 1632  ./a.out 
+ 1633  gcc SortVladimirs.c 
+ 1634  ./a.out 
+ 1635  gcc SortVladimirs.c 
+ 1636  ./a.out 
+ 1637  gcc SortVladimirs.c 
+ 1638  ./a.out 
+ 1639  gcc SortVladimirs.c 
+ 1640  ./a.out 
+ 1641  gcc SortVladimirs.c 
+ 1642  ./a.out 
+ 1643  gcc SortVladimirs.c 
+ 1644  ./a.out 
+ 1645  gcc SortVladimirs.c 
+ 1646  ./a.out 
+ 1647  gcc SortVladimirs.c 
+ 1648  ./a.out 
+ 1649  gcc SortVladimirs.c 
+ 1650  ./a.out 
+ 1651  gcc SortVladimirs.c 
+ 1652  ./a.out 
+ 1653  gcc SortVladimirs.c 
+ 1654  ./a.out 
+ 1655  gcc SortVladimirs.c 
+ 1656  ./a.out 
+ 1657  gcc SortVladimirs.c 
+ 1658  ./a.out 
+ 1659  gcc SortVladimirs.c 
+ 1660  ./a.out 
+ 1661  gcc SortVladimirs.c 
+ 1662  ./a.out 
+ 1663  gcc SortVladimirs.c 
+ 1664  ./a.out 
+ 1665  gcc SortVladimirs.c 
+ 1666  ./a.out 
+ 1667  gcc SortVladimirs.c 
+ 1668  ./a.out 
+ 1669  ls -l
+ 1670  gcc SortVladimirsGalaVersija.c 
+ 1671  ./a.out 
+ 1672  gcc SortVladimirsGalaVersija.c 
+ 1673  ./a.out 
+ 1674  gcc SortVladimirsGalaVersija.c 
+ 1675  ./a.out 
+ 1676  gcc SortVladimirs.c
+ 1677  ./a.out 
+ 1678  ls -l
+ 1679  gcc SortVladimirsCharArray.c 
+ 1680  ./a.out 
+ 1681  gcc SortVladimirsCharArray.c 
+ 1682  ./a.out 
+ 1683  gcc SortVladimirsCharArray.c 
+ 1684  ./a.out 
+ 1685  cd RTR105/
+ 1686  ./git-upload 20191228_20_38
+ 1687  cd ..
+ 1688  init 0
+ 1689  ls -l
+ 1690  -gcc ExpCharArray.c 
+ 1691  gcc ExpCharArray.c 
+ 1692  PS1="$ "
+ 1693  gcc ExpCharArray.c 
+ 1694  ./a.out 
+ 1695  gcc ExpCharArray.c 
+ 1696  ./a.out 
+ 1697  gcc ExpCharArray.c 
+ 1698  ./a.out 
+ 1699  2
+ 1700  gcc ExpCharArray.c 
+ 1701  2
+ 1702  ./a.out 
+ 1703  2
+ 1704  gcc ExpCharArray.c 
+ 1705  ./a.out 
+ 1706  gcc ExpCharArray.c 
+ 1707  ./a.out 
+ 1708  gcc ExpCharArray.c 
+ 1709  ./a.out 
+ 1710  gcc ExpCharArray.c 
+ 1711  ./a.out 
+ 1712  gcc ExpCharArray.c 
+ 1713  ./a.out 
+ 1714  gcc ExpCharArray.c 
+ 1715  ./a.out 
+ 1716  gcc ExpCharArray.c 
+ 1717  ./a.out 
+ 1718  gcc ExpCharArray.c 
+ 1719  ./a.out 
+ 1720  gcc ExpCharArray.c 
+ 1721  ./a.out 
+ 1722  gcc ExpCharArray.c 
+ 1723  ls -l
+ 1724  cd ..
+ 1725  ls -l
+ 1726  cd ..
+ 1727  ./git-clone-RTR105 
+ 1728  cd RTR105/darbi/LabDarbiAtskaites/sort/
+ 1729  ls -l
+ 1730  mkdir Experiments
+ 1731  cp SortVladimirsCharArray.c Experiments/
+ 1732  cd Ex
+ 1733  cd Experiments/
+ 1734  PS1="$ "
+ 1735  gcc ExpCharArray.c
+ 1736  ./a.out 
+ 1737  nano Test1.c
+ 1738  gcc Test1.c 
+ 1739  ./a.out 
+ 1740  gcc Test1.c 
+ 1741  ./a.out 
+ 1742  gcc Test1.c 
+ 1743  ./a.out 
+ 1744  gcc Test1.c 
+ 1745  ./a.out 
+ 1746  gcc Test1.c 
+ 1747  ./a.out 
+ 1748  pwd
+ 1749  cd RTR105/darbi/LabDarbiAtskaites/sort/
+ 1750  ls -l
+ 1751  gcc SortVladimirsFINAL.c 
+ 1752  nano test.c
+ 1753  gcc test.c 
+ 1754  ./a.out 
+ 1755  q
+ 1756  cd RTR105/darbi/LabDarbiAtskaites/sort/
+ 1757  ls -j
+ 1758  ls -l
+ 1759  fcc SortVladimirsFINAL.c 
+ 1760  gcc [A
+ 1761  gcc SortVladimirsFINAL.c 
+ 1762  ./a.out 
+ 1763  gcc SortVladimirsFINAL.c 
+ 1764  ./a.out 
+ 1765  gcc SortVladimirsFINAL.c 
+ 1766  ./a.out 
+ 1767  gcc SortVladimirsFINAL.c 
+ 1768  ./a.out 
+ 1769  gcc SortVladimirsFINAL.c 
+ 1770  ./a.out 
+ 1771  gcc SortVladimirsFINAL.c 
+ 1772  sss
+ 1773  ./a.out 
+ 1774  gcc SortVladimirsFINAL.c 
+ 1775  ./a.out 
+ 1776  gcc SortVladimirsFINAL.c 
+ 1777  ./a.out 
+ 1778  gcc SortVladimirsFINAL.c 
+ 1779  ./a.out 
+ 1780  gcc SortVladimirsFINAL.c 
+ 1781  ./a.out 
+ 1782  gcc SortVladimirsFINAL.c 
+ 1783  ./a.out 
+ 1784  gcc SortVladimirsFINAL.c 
+ 1785  ./a.out 
+ 1786  cd ~R
+ 1787  cd ~/RTR105/
+ 1788  ./git-upload 2019129_03_27
+ 1789  init 0
+ 1790  PS1="$ "
+ 1791  cd RTR105/darbi/LabDarbiAtskaites/sort/
+ 1792  ls -l
+ 1793  mv test.c BackUP/
+ 1794  gcc SortVladimirsFINAL.c 
+ 1795  ./a.out 
+ 1796  gcc SortVladimirsFINAL.c 
+ 1797  ./a.out 
+ 1798  gcc SortVladimirsFINAL.c 
+ 1799  ./a.out 
+ 1800  gcc SortVladimirsFINAL.c 
+ 1801  ./a.out 
+ 1802  gcc SortVladimirsFINAL.c 
+ 1803  ./a.out 
+ 1804  gcc SortVladimirsFINAL.c 
+ 1805  ./a.out 
+ 1806  gcc SortVladimirsFINAL.c 
+ 1807  ./a.out 
+ 1808  gcc SortVladimirsFINAL.c 
+ 1809  ./a.out 
+ 1810  gcc SortVladimirsFINAL.c 
+ 1811  ./a.out 
+ 1812  gcc SortVladimirsFINAL.c 
+ 1813  ./a.out 
+ 1814  gcc SortVladimirsFINAL.c 
+ 1815  ./a.out 
+ 1816  gcc SortVladimirsFINAL.c 
+ 1817  ./a.out 
+ 1818  gcc SortVladimirsFINAL.c 
+ 1819  ./a.out 
+ 1820  gcc SortVladimirsFINAL.c 
+ 1821  ./a.out 
+ 1822  gcc SortVladimirsFINAL.c 
+ 1823  ./a.out 
+ 1824  gcc SortVladimirsFINAL.c 
+ 1825  ./a.out 
+ 1826  gcc SortVladimirsFINAL.c 
+ 1827  ./a.out 
+ 1828  gcc SortVladimirsFINAL.c 
+ 1829  ./a.out 
+ 1830  nano SortVladimirsFINAL.c -l
+ 1831  gcc SortVladimirsFINAL.c 
+ 1832  ./a.out 
+ 1833  nano SortVladimirsFINAL.c -l
+ 1834  gcc SortVladimirsFINAL.c 
+ 1835  ./a.out 
+ 1836  gcc SortVladimirsFINAL.c 
+ 1837  ./a.out 
+ 1838  cd RTR105/
+ 1839  ./git-upload 20191229_12_21
+ 1840  cd .
+ 1841  cd ..
+ 1842  ls -l
+ 1843  rm RTR105/
+ 1844  rm -rf RTR105/
+ 1845  ls -l
+ 1846  init 0
+ 1847  PS1="$ "
+ 1848  ls -l
+ 1849  cp git-clone-RTR105 git-clone-DataStructures
+ 1850  ls -l
+ 1851  nano git-clone-DataStructures 
+ 1852  ./git-clone-DataStructures 
+ 1853  ls -l
+ 1854  cd BestCalcMethods/
+ 1855  ls -l
+ 1856  cp git-upload ~/Mastering-Data-Structures-Algorithms/
+ 1857  cd ~/Mastering-Data-Structures-Algorithms/
+ 1858  ls -l
+ 1859  nano git-upload 
+ 1860  ls -l
+ 1861  init 0
+ 1862  sudo app-install update
+ 1863  sudo get-install update
+ 1864  sudo update
+ 1865  sudo
+ 1866  update
+ 1867  sudo apt install update
+ 1868  init 0
+ 1869  gcc Pointer.c 
+ 1870  ./a.out 
+ 1871  gcc Pointer.c 
+ 1872  ./a.out 
+ 1873  PS1="$ "
+ 1874  ./a.out 
+ 1875  sudo apt-get install g++
+ 1876  gcc PointerWithReference_C++.c 
+ 1877  mv PointerWithReference_C++.c PointerWithReference_C++.cpp
+ 1878  gcc PointerWithReference_C++.cpp 
+ 1879  ./a.out 
+ 1880  rm a.out 
+ 1881  gcc PointerWithReference_C++.cpp 
+ 1882  ./a.out 
+ 1883  PS1="$ "
+ 1884  ls -l
+ 1885  cd Mastering-Data-Structures-Algorithms/
+ 1886  ls -l
+ 1887  nano Pointer.c
+ 1888  ls -l
+ 1889  nano Pointer.c 
+ 1890  cp Pointer.c 
+ 1891  cp Pointer.c PointerWithReference(C++).c 
+ 1892  cp Pointer.c PointerWithReference_C++.c 
+ 1893  nano PointerWithReference_C++.c 
+ 1894  ls -l
+ 1895  ./git-upload 
+ 1896  ./git-upload 20190101_21_24
+ 1897  ls -l
+ 1898  cd ..
+ 1899  ls -l
+ 1900  rm -rf Mastering-Data-Structures-Algorithms/
+ 1901  ls -l
+ 1902  cd BestCalcMethods/
+ 1903  ls -l
+ 1904  ./git-upload 20190101_21_25
+ 1905  cd ..
+ 1906  ls -l
+ 1907  rm -rf BestCalcMethods/
+ 1908  ls -l
+ 1909  init 0
+ 1910  gcc ModularFunction_Struct_AND_Functions.c 
+ 1911  ./a.out 
+ 1912  nano TemplatesForClasses.cpp
+ 1913  PS1="$ "
+ 1914  ./git-clone-DataStructures 
+ 1915  cd Mastering-Data-Structures-Algorithms/
+ 1916  ls -l
+ 1917  ./git-upload 20200101_23_08
+ 1918  cd .
+ 1919  cd ..
+ 1920  ls -l
+ 1921  rm -rf Mastering-Data-Structures-Algorithms/
+ 1922  ls -l
+ 1923  ./git-clone-DataStructures 
+ 1924  cd Mastering-Data-Structures-Algorithms/
+ 1925  ls -l
+ 1926  cd Code/
+ 1927  nano ArrayAsParameter.c
+ 1928  gcc ArrayAsParameter.c 
+ 1929  ./a.out 
+ 1930  gcc ArrayAsParameterByPointerArray.c 
+ 1931  ./a.out 
+ 1932  gcc ArrayAsParameterByPointerArray.c 
+ 1933  ./a.out 
+ 1934  gcc ArrayAsParameterByPointerArray.c 
+ 1935  ./a.out 
+ 1936  gcc StructureAsParameter.c 
+ 1937  ./a.out 
+ 1938  gcc StructureAsParameter.c 
+ 1939  gcc StructureAsParameter.c 
+ 1940  ./a.out 
+ 1941  gcc StructureAsParameterPassedByAddress.c 
+ 1942  ./a.out 
+ 1943  ls -l
+ 1944  nano ModularFunction_Struct&Functions.c
+ 1945  nano ModularFunction_Struct_AND_Functions.c
+ 1946  gcc ModularFunction_Struct_AND_Functions_C++.cpp 
+ 1947  ./a.out 
+ 1948  rm a.out 
+ 1949  gcc ModularFunction_Struct_AND_Functions_C++.cpp 
+ 1950  rm a.out 
+ 1951  gcc ModularFunction_Struct_AND_Functions_C++.cpp 
+ 1952  ./a.out 
+ 1953  gcc Raw_C++_Class_AND_Constructor.cpp 
+ 1954  g++ Raw_C++_Class_AND_Constructor.cpp 
+ 1955  rm a.out 
+ 1956  g++ Raw_C++_Class_AND_Constructor.cpp 
+ 1957  ls -l
+ 1958  ./a.out 
+ 1959  ls -l
+ 1960  rm a.out 
+ 1961  cd ..
+ 1962  ls -l
+ 1963  ./git-upload 20200102_02_55
+ 1964  cd ..
+ 1965  ls -l
+ 1966  rm -rf Mastering-Data-Structures-Algorithms/
+ 1967  ls -l
+ 1968  cd Dev-Cpp/ && find -type f -exec echo "  Delete \"{}\"" \; | sed -e "s/\\//\\\/g" | sed -e "s/\"\./\"\$INSTDIR/" | grep -v "CVS" | todos >>../installed_files.nsh
+ 1969  sudo apt-get install build-essential geany
+ 1970  ls -l
+ 1971  init 0
+ 1972  k k
+ 1973  init 0
+ 1974  ls -l
+ 1975  ./git-clone-RTR105 
+ 1976  cd RTR105/darbi/LabDarbiAtskaites/sort/
+ 1977  ls -l
+ 1978  rm a.out 
+ 1979  ls -l
+ 1980  nano SortVladimirsModaExp.c 
+ 1981  gcc SortVladimirsModaExp.c 
+ 1982  ./a.out 
+ 1983  gcc SortVladimirsModaExp.c 
+ 1984  ./a.out 
+ 1985  ls -l
+ 1986  gcc 'SortVladimirsFINAL(ModaUnderConstruction).c' 
+ 1987  ls -l
+ 1988  ./a.out 
+ 1989  cd ..
+ 1990  cd ~
+ 1991  ls -l
+ 1992  cd RTR105/
+ 1993  ls -l
+ 1994  ./git-upload 20200114_00_09
+ 1995  cd ..
+ 1996  ls -l
+ 1997  rm -rf RTR105/
+ 1998  ls -l
+ 1999  init 0
+ 2000  ls -l
+ 2001  ./git-clone-RTR105 
+ 2002  cd RTR105/darbi/LabDarbiAtskaites/sort/
+ 2003  ls -l
+ 2004  PS1="$ "
+ 2005  ls -l
+ 2006  cd ..
+ 2007  cd s
+ 2008  cd sort/
+ 2009  ls -l
+ 2010  gcc SortVladimirs_UnderConstruction.c 
+ 2011  ls -l
+ 2012  gcc SortVladimirs_UnderConstruction.c 
+ 2013  ./a.out 
+ 2014  gcc SortVladimirs_UnderConstruction.c 
+ 2015  ./a.out 
+ 2016  gcc SortVladimirs_UnderConstruction.c 
+ 2017  ./a.out 
+ 2018  gcc SortVladimirs_UnderConstruction.c 
+ 2019  ./a.out 
+ 2020  gcc SortVladimirs_UnderConstruction.c 
+ 2021  ./a.out 
+ 2022  gcc SortVladimirs_UnderConstruction.c 
+ 2023* 
+ 2024  gcc SortVladimirs_UnderConstruction.c 
+ 2025  ./a.out 
+ 2026  gcc SortVladimirs_UnderConstruction.c 
+ 2027  ./a.out 
+ 2028  ls -l
+ 2029  nano SortVladimirs_OPTIMIZETA_versija.c 
+ 2030  gcc SortVladimirs_UnderConstruction.c 
+ 2031  gcc SortVladimirs_OPTIMIZETA_versija.c 
+ 2032  ./a.out 
+ 2033  gcc SortVladimirs_OPTIMIZETA_versija.c 
+ 2034  ./a.out 
+ 2035  gcc SortVladimirs_OPTIMIZETA_versija.c 
+ 2036  ./a.out 
+ 2037  gcc SortVladimirs_OPTIMIZETA_versija.c 
+ 2038  ./a.out 
+ 2039  gcc SortVladimirs_OPTIMIZETA_versija.c 
+ 2040  ./a.out 
+ 2041  gcc SortVladimirs_OPTIMIZETA_versija.c 
+ 2042  ./a.out 
+ 2043  cd ~
+ 2044  ls -l
+ 2045  cd RTR105/
+ 2046  cd AllHistory/
+ 2047  history > history_20200121_0743.txt
