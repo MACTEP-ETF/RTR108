@@ -197,6 +197,7 @@ ASCII kods:
 ```
 ### Analīze
 - Esmu krietni optimizējis kodu salīdzinot ar iepriekšējo "README failu", bet līdz modai tā vēl arī netiku.
+- **' '** - apostrofos esmu ielicis atstarpi, jo savādāk viņu nevar redzēt.
 
 ### Secinājums
 Grūtākais šajā LabDarbā bija saprast, kā darboties ar char masīvu. Bet kad sapratu, ka kopu ir japārraksta no *char* datu tipa uz *int*, tad uzreiz visas problēmas atkrita kā nebijušas.
