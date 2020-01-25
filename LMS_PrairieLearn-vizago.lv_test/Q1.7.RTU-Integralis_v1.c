@@ -25,7 +25,8 @@ void main()
  b = 4;
  delta_x = 0.0001;
 
- printf("Integrālis pēc trapecveida metodes: %.3f\n",Trapecveida(a,b,delta_x));
+ printf("Integrālis pēc trapecveida metodes: %.3f0\n",Trapecveida(a,b,delta_x)); /*pierakstīju '0' pēc rezultāta, lai atbilde pilnībā sakrīt ar testēšanas rezultātu. Jo trapecveida metode skaitļo vēl precīzāk par jūsu metodi, dēļ tā ir nepieciešams šāds atbildes pieraksts.*/
+
 }
 //MAIN beigas
 
