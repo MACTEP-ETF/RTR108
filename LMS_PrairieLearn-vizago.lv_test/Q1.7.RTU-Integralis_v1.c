@@ -3,8 +3,8 @@ Autors : Vladimirs Fedorovičs
 Mērķis : Aprēķināt integrāli
 
 Izvēlējos trapecveida metodi,
-jo pildot 4. LabDarbu biju atklājis
- ka šī metode ir pati precīzākā
+jo pildot 4. LabDarbu biju atklājis,
+ka šī metode ir pati precīzākā
 ***************************************/
 
 #include<stdio.h>
@@ -25,7 +25,7 @@ void main()
  b = 4;
  delta_x = 0.0001;
 
- printf("Integrālis pēc trapecveida metodes: %.4g\n",Trapecveida(a,b,delta_x));
+ printf("Integrālis pēc trapecveida metodes: %.3f\n",Trapecveida(a,b,delta_x));
 }
 //MAIN beigas
 
