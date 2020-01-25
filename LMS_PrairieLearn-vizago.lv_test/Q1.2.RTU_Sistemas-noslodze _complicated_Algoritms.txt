@@ -1,0 +1,13 @@
+Zemāk izklāstīju algoritmu saprotamā veidā :) Pašu programmu nerakstīju. 
+
+t_count = 6;
+job_count = 0;
+job_sum = 0;
+for (int i=0; i<t_count; i++) {job_sum += Jobs;} // visi Jobs sasumētie kopā
+
+if (job > 0) {job_count++;}
+
+
+Lsistema = job_sum / t_count;
+Lserveris = (Lsistema/job_sum) * job_count
+Lrinda = Lsistema-Lserveris
