@@ -172,9 +172,9 @@ Ja faila/foldera nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 - **cd /home** – pāreja uz konkrētu adresi (folderi).  
 - **pwd** – parāda kāda ir adrese tekošam folderim (*kur es esmu?*).  
 - **ls** – parāda kas atrodas tekošā folderī (*kas man ir pieejams*).  
-- **ls -l** – tekošā foldera detalizēts skats.  
-- **ls -l \Path\FileName** – konkreta faila detalizēts skats (*Nav obligāti atrasties tajā adresē, var darboties arī attālināti!*).  
-- **ls -a** – parādā visus objektus (tai skaitā *hidden files*).  
+  - **ls -l** – tekošā foldera detalizēts skats.(*Nav obligāti atrasties tajā adresē, var darboties arī attālināti!*).  
+  - **ls -a** – parādā visus objektus (tai skaitā *hidden files*).  
+  - **ls -lt** – ļauj *atzipot* saturu no citas direktorijas tekošajā.  
 
 <a name="BashCommands"></a>
 #### Komandas failiem/folderiem
@@ -201,6 +201,12 @@ Ja faila/foldera nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 - **echo $PATH RequirePath** – pievieno ceļu nepieciešamajam folderim.  
 - **echo -e "Hello\vWorld"** – izdrukā uz ekrāna *Hello World*. Simbolu virkne "\v" ir darbības simbols, kurš pārnes uz nākamo rindiņu turpmāko saturu tieši zem sevis. T.i., šis nav parasts *Enter*! Sintaksis -e aktivizē papild bibliotēku ar aprakstu par "\v" un citiem darbības simboliem (*detalizētāk skatīt **man echo***).  
 - **ifconfig** – parāda datora IP adresi. (Piem., http:\/\/10.152.16.149:8001).  
+- **ps -aux | grep server** – Task manager, *grep* ‒ ļauj atlasīt procesus pēc atslēgvārda.  
+  - **kill \[ProcessCode\]** ‒ Task End.  
+- **unzip** ‒ atzipot saturu.  
+
+
+
 
 <a name="KODS"></a>
 # Koda redaktori
