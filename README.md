@@ -200,6 +200,7 @@ Ja faila/foldera nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 - **$PATH** – parāda uz ekrāna visus iekešotos ceļus sistēmā!  
 - **echo $PATH RequirePath** – pievieno ceļu nepieciešamajam folderim.  
 - **echo -e "Hello\vWorld"** – izdrukā uz ekrāna *Hello World*. Simbolu virkne "\v" ir darbības simbols, kurš pārnes uz nākamo rindiņu turpmāko saturu tieši zem sevis. T.i., šis nav parasts *Enter*! Sintaksis -e aktivizē papild bibliotēku ar aprakstu par "\v" un citiem darbības simboliem (*detalizētāk skatīt **man echo***).  
+- **ifconfig** – parāda datora IP adresi. (Piem., http:\/\/10.152.16.149:8001).  
 
 <a name="KODS"></a>
 # Koda redaktori
