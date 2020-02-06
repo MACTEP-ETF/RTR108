@@ -208,6 +208,7 @@ Ja faila/foldera nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
   ~~~
   Forwarding                    http://d4618a23.ngrok.io -> http://localhost:8001 
   ~~~
+- **script -c "python -m http.server 8001" debug.log** ‒ iespēja ierakstīt procesus log failā pēc lapas aizveršanas.  
 
 
 
