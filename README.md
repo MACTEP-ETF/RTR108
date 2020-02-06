@@ -204,6 +204,10 @@ Ja faila/foldera nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 - **ps -aux | grep server** – Task manager, *grep* ‒ ļauj atlasīt procesus pēc atslēgvārda.  
   - **kill \[ProcessCode\]** ‒ Task End.  
 - **unzip** ‒ atzipot saturu.  
+- **ngrok http 8001** ‒ atver kanālu caur *firewall* šim portam, lai varētu no Pasaules piekļūt pie *python -m* adreses.
+  ~~~
+  Forwarding                    http://d4618a23.ngrok.io -> http://localhost:8001 
+  ~~~
 
 
 
