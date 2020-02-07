@@ -1,10 +1,10 @@
 # RTR108
 Studiju kursa Datormācība (speckurss) elektroniskā klade
-- https:\/\/www.py4e.com\/ ‒Python apguves vietne (mājasdarbs)  
+- www.py4e.com ‒Python apguves vietne (mājasdarbs)  
 
 Ikdienā aktīvi darbojos šeit:
 - www.hackerrank.com
-- udemy.com
+- www.udemy.com
 
 # Satura rādītājs  
 - [Ievads](#Ievads)
