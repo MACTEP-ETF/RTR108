@@ -1,0 +1,44 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  PS1="$ "
+    4  git clone http://github.com/MACTEP-ETF/RTR108
+    5  cd RTR108/
+    6  ls -l
+    7  mkdir Lekcijas
+    8  mkdir AllHistory
+    9  cd Lekcijas/
+   10  python
+   11  ipython
+   12  nano python_tests.py
+   13  python python_tests.py 
+   14  echo
+   15  @echo
+   16  echo
+   17  nano python_tests.py
+   18  python python_tests.py 
+   19  nano python_tests.py
+   20  python python_tests.py 
+   21  nano python_tests.py
+   22  python python_tests.py 
+   23  python
+   24  python --version
+   25  python python_tests.py 
+   26  nano python_tests.py
+   27  python2 python_tests.py 
+   28  nano python_tests.py
+   29  python python_tests.py 
+   30  cp python_tests.py python_tests_auto_exe.py 
+   31  ls -l
+   32  nano python_tests_auto_exe.py 
+   33  chmod 744 python_tests_auto_exe.py 
+   34  ls -l
+   35  ./python_tests_auto_exe.py 
+   36  ls -la /usr/bin/python
+   37  idle
+   38  -m SimpleHTTPServer 8000
+   39  python2 -m SimpleHTTPServer 8000
+   40  ls -la
+   41  cd ..
+   42  ls -l
+   43  cd AllHistory/
+   44  history >> history_20200130.txt

@@ -1,0 +1,60 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  nano Empty.c
+    4  PS1="$ "
+    5  git clone http://github.com/MACTEP-ETF/RTR108
+    6  cd RTR108/Lekcijas/2
+    7  python -m http.server 8001
+    8  python -m http.server 8001 &
+    9  python -m http.server 8001 & | $Logfile
+   10  python -m http.server 8001 & > $Logfile
+   11  ps -aux | grep server
+   12  kill 2952
+   13  python -m http.server 8001 & > $Logfile
+   14  ps -aux | grep server
+   15  kill 3135
+   16  ls -l
+   17  python -m http.server 8001 | tee -a $LOGFILE
+   18  ps -aux | grep server
+   19  PS1="$ "
+   20  ls -l
+   21  pwd
+   22  ls -a
+   23  ls -l
+   24  ipconfig
+   25  ifconfig
+   26  python -m http.server 8001 > server.log &
+   27  -aux
+   28  ps -aux
+   29  ps -aux | grep server
+   30  kill 2625
+   31  ps -aux
+   32  python -m http.server 8001 & > server.log &
+   33  python -m http.server 8001 & >> server.log &
+   34  ps -aux
+   35  ps -aux | grep server
+   36  kill 2747
+   37  python -m http.server 8001 & >> server.log &
+   38  kill 2747
+   39  ps -aux | grep server
+   40  kill 2849
+   41  ls -l
+   42  rm server.log 
+   43  ls -l
+   44  ls -lt
+   45  ls -lt ~/Downloads/
+   46  unzip ~/Downloads/ngrok-stable-linux-amd64.zip 
+   47  ls -lt ~/Downloads/
+   48  ls -l
+   49  man ngrok
+   50  ./ngrok 
+   51  ./ngrok http 8001
+   52  ps -aux | grep server
+   53  kill 1776
+   54  script -c "python -m http.server 8001" debug.log
+   55  script -c "python -m http.server 8001" stdout.log
+   56  script -c "python -m http.server 8001" debug.log
+   57  cd ..
+   58  ls -l
+   59  cd AllHistory/
+   60  history > history_20200206.txt 

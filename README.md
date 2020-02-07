@@ -1,6 +1,10 @@
-# RTR105
-Studiju kursa Datormācība (pamatkurss) elektroniskā klade  
-(Šobrīd aktīvi darbojos šeit: https://www.hackerrank.com/challenges)
+# RTR108
+Studiju kursa Datormācība (speckurss) elektroniskā klade
+- https:\/\/www.py4e.com\/ ‒Python apguves vietne (mājasdarbs)  
+
+Ikdienā aktīvi darbojos šeit:
+- www.hackerrank.com
+- udemy.com
 
 # Satura rādītājs  
 - [Ievads](#Ievads)
@@ -36,10 +40,13 @@ Studiju kursa Datormācība (pamatkurss) elektroniskā klade
     - [Vispārīgi](#Miscs)
 - [Python v3](#Python)  
   - [Īsceļi (shortcuts)](#PythonShortcuts)
+  - [Bibliotekas](#PythonBiblioteka)
   - [Īpašības](#PythonSpec)
-  - [Python Shell](#PythonShell)
+  - [Python vispārīgi](#PythonSimple)
   - [Python dienasgrāmatas dokumentācija (.py)](#PythonDiary)
   - [Funkcijas](#PythonFunkcijas)
+  - [Satura attēlošana pārlūkprogrammā](#Web)
+  - [Tips & Tricks](#Tips&tricks)
 - [GNUPLOT](#GNUPLOT)
   - [Komandas](#GnuplotCommands)
 - [FUNKCIJU Templates](#Templates)
@@ -340,6 +347,7 @@ Pieņemsim, ka mums ir divas *unsigned char* izteiksmes: b1 = 101<sub>10</sub>, 
 <a name="PythonShortcuts"></a>
 ### Īsceļi (shortcuts)
 - **Alt+P un Alt+N** – izsauc iepriekšlietotas komandas, alternatīva bultiņām **uz augšu/leju** Terminālā.  
+- **F5** – izpilda python kodu python shell vidē.  
 
 <a name="PythonSpec"></a>
 ### Python Īpašības
@@ -348,27 +356,92 @@ Pieņemsim, ka mums ir divas *unsigned char* izteiksmes: b1 = 101<sub>10</sub>, 
 - Nav nepieciešam atsevišķi deklarēt mainīgos.  
 - Nav nepieciešam atsevišķi kompilēt failu ar programmas kodu. Palaišana notiek *pa taisno*.  
 
-<a name="PythonShell"></a>
-### Python Shell
+<a name="PythonSimple"></a>
+### Python Terminālā
 - **python** – izsauc Python versiju vienkāršotā veidā turpat Terminālā. **>>>**  
-- **idle** – interaktīvi grafiska *Python Shell* forma.  
-  - **&** – šī sintakse atver programmu *background* režīmā, ļaujot strādāt kā pašā programmā, tā arī Terminālā.  
+- **.__doc__** - šis papildinājums ļauj iegūt objekta aprakstu (*documentation*) (*Piem., __build_class__.__doc__*)  
+  print(__build_class__.__doc__)  - ērtā aplūkošana.  
 
 <a name="PythonDiary"></a>
 ### Python dienasgrāmatas dokumentācija (.py)
-- ar IDLE vai citu redaktora palīdzību var uzrakstīt Python komandu rindu. OBLIGĀTI faila sākumā rakstīt šo rindiņu:    
-  - \# -*- coding: UTF-8 -*-  
+- **idle** – interaktīvi grafiska *Python Shell* forma, ar kuras palīdzību var uzrakstīt Python komandu rindas. OBLIGĀTI faila sākumā rakstīt šo rindiņu: **\# -\*- coding: UTF-8 -\*-** (ar šo rindiņu mēs definējam kodēšanas veidu).  
   Ar šo rindiņu mēs definējam kodēšanas veidu.  
 - **python FileName.py** – ar šo komandrindiņu mēs palaižam dienasgrāmatas kodu izpildi. Kā redzams, Pythonam nav nepieciešama papildkompilācija. Viss notiek *on the fly* tā teikt. Kas būtībā ļoti atvieglo un pāatrina programmēšanu!  
+
+<a name="PythonBiblioteka"></a>
+### Bibliotēkas
+#### Bibliotēkas imortēšanas veidi
+- import math  
+  print (math.cos(a))  
+
+- from math import cos  
+  print (cos(a))  
+ 
+- import math as math_V1  
+  print (math_V1.cos(a))  
+
+- from math import cos as cos_V1  
+  print (cos_V1(a))  
+
+- from math import *  
+  print (cos(a))  
 
 <a name="PythonFunkcijas"></a>
 ### Python funkciju apraksti
 Vairākas *Python* instrukcijas var rakstīt vienā rindā atdalot tās ar semikolona operatoru (līdzīgi kā C valodā).  
 
-- **print()** – piemērs korektai izvadei: print("Pēc %g sekundes bumba būs %.2f metru augstumā \n" %(t,y)).  
-  - Atšķirībā no C valodas, Pythonam mēs mainīgos rakstam papildiekavās un pirms mainīgo iekavām norādam datu/virknes tipu *%*  
-
 - **a = input()** – *input* funkcija nolasa lietotāja ievadu un ieraksta mainīgajā 'a'.  
+- **for i in range(1,n)** – *for* cikls no "1" līdz "n" vērtībai.  
+- **print()** – piemērs korektai izvadei: print("Pēc %g sekundes bumba būs %.2f metru augstumā \n" %(t,y)).  
+  - **end=''** – ļauj aizvietot rindiņas beigu elementu (Piem., **print (i, end='')** – ļauj cikla elementu "i" drukāt vienā rindā, nevis katru vērtību nākamā rindiņā).  
+  - **sep=''** ‒ no vārds *separator*, ļauj mainīt atdalošu elementu starp drukātiem mainīgiem.  
+- **a = input()** – *input* funkcija nolasa lietotāja ievadu un ieraksta mainīgajā 'a'.  
+- **ipython** – draudzīgāka versija pythonam.  
+- **python + Tab** – ļauj redzēt papild python versijas.  
+- **#!/usr/bin/python** – automatizēta python palaišana (*neaizmirst chmod funkciju (744), lai fails ir executable*).  
+- **ls -la /usr/bin/python** – attēlo linku esošai versijai.  
+- **ngrok** – izveido piekļuvi web adresei no ārpasaules.  
+- **arr = map(int, input().split())** – izveido massīvu *map* veidā. Šo tipu nevar izmantot *for* ciklā kā *C valodā*, priekš tā ir jāpārveido masīvs ar **list()** funkciju ‒ **arrList = list(map(int,arr))**.  
+- **type()** – parāda datu tipu. Ja saturs ir ielikts apostrofos **''**, tad tas ir string datu tips.  
+- **XX** – XX.  
+- **XX** – XX.  
+- **XX** – XX.  
+- **XX** – XX.  
+
+<a name="Web"></a>
+### Satura attēlošana pārlūkprogrammā
+#### Python v2
+Ievadīt **python2 -m SimpleHTTPServer 8000**  
+Palaist pārlūkprogrammu un ierakstīt **localhost:8000**  
+#### Python v3
+python -m http.server 8001  
+Palaist pārlūkprogrammu un ierakstīt **localhost:8001**  
+izmantojot komandu *ifconfig* var piekļūt arī caur sava datora IP adresi: http:\/\/10.152.16.149:8001  
+plašākas funkcijas Bash-am (terminālam) skatīt [šeit](#BashCommands)  
+- localhost = 127.0.0.1  
+
+<a name="Tips&tricks"></a>
+### Tips & tricks
+```
+for i in range(1,int(input())+1):
+    print (((10**i-1)//9)**2)    
+```
+Paskaidrojumi matemātiskām darbībām:  
+- **\*\*** – tas ir kāpinātājs, tāpat kā "^" zīme vai funkcija *pow()* C valodā.  
+- **\/\/** – tā ir dalīšana bez daļskaitļiem.  
+
+1 -> (   10 - 1) \/ 9 =    1,    1 \*    1 = 1  
+2 -> (  100 - 1) \/ 9 =   11,   11 \*   11 = 121  
+3 -> ( 1000 - 1) \/ 9 =  111,  111 \*  111 = 12321  
+4 -> (10000 - 1) \/ 9 = 1111, 1111 \* 1111 = 1234321  
+
+#### Papildinājums nesaistīts
+LoRa un 
+
+Gateway (XG or WiFi or Ethernet) savienots ar TTN(the things of network). TTN uz visim norādītiem IP sūta visus datus uz Device1, Device2 utt.  
+
+Caur datora *ngrok* startē retlanslāciju Pasaulei.  
+
 
 <a name="GNUPLOT"></a>
 # GNUPLOT
