@@ -45,6 +45,7 @@ Ikdienā aktīvi darbojos šeit:
   - [Python vispārīgi](#PythonSimple)
   - [Python dienasgrāmatas dokumentācija (.py)](#PythonDiary)
   - [Funkcijas](#PythonFunkcijas)
+  - [Pievienot jaunumus...]()
   - [Satura attēlošana pārlūkprogrammā](#Web)
   - [Tips & Tricks](#Tips&tricks)
 - [GNUPLOT](#GNUPLOT)
@@ -370,21 +371,18 @@ Pieņemsim, ka mums ir divas *unsigned char* izteiksmes: b1 = 101<sub>10</sub>, 
 
 <a name="PythonBiblioteka"></a>
 ### Bibliotēkas
+- **random**:
+  - **random.random(10)** ģenerē 10 skaitļus no 0 līdz 1.  
+  - **random.randint(5,10)** ‒ ģenerē skaitļus intervālā \[5;10\].  
+  - **random.choice(t)** ‒ izvēlās vienu no vērtības dotam masīvam un izvada uz ekrāna.  
+
 #### Bibliotēkas imortēšanas veidi
-- import math  
-  print (math.cos(a))  
-
-- from math import cos  
-  print (cos(a))  
- 
-- import math as math_V1  
-  print (math_V1.cos(a))  
-
-- from math import cos as cos_V1  
-  print (cos_V1(a))  
-
-- from math import *  
-  print (cos(a))  
+- math:
+  - import math -> print (math.cos(a))  
+  - from math import cos -> print (cos(a))  
+  - import math as math_V1 -> print (math_V1.cos(a))  
+  - from math import cos as cos_V1 -> print (cos_V1(a))  
+  - from math import \*-> print (cos(a))  
 
 <a name="PythonFunkcijas"></a>
 ### Python funkciju apraksti
@@ -392,6 +390,22 @@ Vairākas *Python* instrukcijas var rakstīt vienā rindā atdalot tās ar semik
 
 - **a = input()** – *input* funkcija nolasa lietotāja ievadu un ieraksta mainīgajā 'a'.  
 - **for i in range(1,n)** – *for* cikls no "1" līdz "n" vērtībai.  
+- **try, except** ‒ ir if else paveids. Piemērs:  
+
+  ```
+  inp = input('Enter Fahrenheit Temperature:')
+  try:
+      fahr = float(inp)
+      cel = (fahr - 32.0) * 5.0 / 9.0
+      print(cel)
+  except:
+      print('Please enter a number')
+  
+  # Code: http://www.py4e.com/code3/fahren2.py
+  ```
+  Explanation:
+  Python starts by executing the sequence of statements in the **try** block. If all goes well, it skips the **except** block and proceeds. If an exception occurs in the **try** block, Python jumps out of the **try** block and executes the sequence of statements in the **except** block.  
+
 - **print()** – piemērs korektai izvadei: print("Pēc %g sekundes bumba būs %.2f metru augstumā \n" %(t,y)).  
   - **end=''** – ļauj aizvietot rindiņas beigu elementu (Piem., **print (i, end='')** – ļauj cikla elementu "i" drukāt vienā rindā, nevis katru vērtību nākamā rindiņā).  
   - **sep=''** ‒ no vārds *separator*, ļauj mainīt atdalošu elementu starp drukātiem mainīgiem.  
@@ -403,10 +417,60 @@ Vairākas *Python* instrukcijas var rakstīt vienā rindā atdalot tās ar semik
 - **ngrok** – izveido piekļuvi web adresei no ārpasaules.  
 - **arr = map(int, input().split())** – izveido massīvu *map* veidā. Šo tipu nevar izmantot *for* ciklā kā *C valodā*, priekš tā ir jāpārveido masīvs ar **list()** funkciju ‒ **arrList = list(map(int,arr))**.  
 - **type()** – parāda datu tipu. Ja saturs ir ielikts apostrofos **''**, tad tas ir string datu tips.  
+- **\/\/** – dalījums ar *floor* efektu.  
+- **\*\*** – celšana pakāpē (*Piem., 2\*\*3 = 2\*2\*2 = 8*).  
+- **string\*int** – var reizināt arī string datu tipu ar skaitļiem. Piem.:  
+  A = 'Test '  
+  B = 3  
+  print (A*B)  
+  Test Test Test  
+- **min(), max()** – atrod un izvada uz ekrāna minimālo/maksimālo vērtību no:  
+  - ja ir string, tad ievadīt saturu apostrofos;  
+  - ja ir skaitliskās vērtības, tad atdalīt ar komatu.  
+*P.S. Mainīgos arī var rakstīt iekšā atdalot ar komatu.*  
+- **def** – ar šo definē jaunu funkciju (*Piem., def print_lyrics()*). Jauna funkcija tiek palaista - vnk ierakstot tās nosaukumu: *print_lyrics()*. Iespēja ierakstīt funkciju funkcijā. Paraugs:  
+```
+def print_lyrics():
+    print("I'm a lumberjack, and I'm okay.")
+    print('I sleep all night and I work all day.')
+
+
+def repeat_lyrics():
+    print_lyrics()
+    print_lyrics()
+
+repeat_lyrics()
+
+# Code: http://www.py4e.com/code3/lyrics.py
+```
 - **XX** – XX.  
 - **XX** – XX.  
 - **XX** – XX.  
 - **XX** – XX.  
+- **XX** – XX.  
+
+#### Logical expression feature
+Ja pastāv vairākas loģiskas operācijas, tad ja neizpildās pirmā, tad pārējās (pat ja viņas ir kļūdainas) programma nepārbauda un izlaiž visu!  
+
+#### Python comparison operators
+- **x != y** – x is not equal to y  
+- **x > y** – x is greater than y  
+- **x < y** – x is less than y  
+- **x >= y** – x is greater than or equal to y  
+- **x <= y** – x is less than or equal to y  
+- **x is y** – x is the same as y  
+- **x is not y** – x is not the same as y  
+
+
+#### Python rezevētie atslēgvārdi
+and       del       from      None      True  
+as        elif      global    nonlocal  try  
+assert    else      if        not       while  
+break     except    import    or        with  
+class     False     in        pass      yield  
+continue  finally   is        raise     async  
+def       for       lambda    return    await  
+
 
 <a name="Web"></a>
 ### Satura attēlošana pārlūkprogrammā

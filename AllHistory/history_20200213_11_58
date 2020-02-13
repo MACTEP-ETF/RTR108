@@ -1,0 +1,21 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  PS1="$ "
+    4  git clone https://github.com/MACTEP-ETF/RTR108
+    5  cd RTR108/
+    6  ls -l
+    7  cd Lekcijas108/
+    8  ls -l
+    9  mkdir 3
+   10  cd 3
+   11  ls -l
+   12  idle &
+   13  ls -l
+   14  cd ..
+   15  cd ~!
+   16  cd~
+   17  cd ~
+   18  ls -l 
+   19  cd RTR108/
+   20  cd AllHistory/
+   21  history > history_20200213_11_58
