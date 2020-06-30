@@ -14,6 +14,52 @@ Atskaišu veidošana python valodā (*\*.ipynb*) failiem.
 Underconstruction...
 
 
+
+# P02_04_basics
+Underconstruction
+
+
+# P05_ipynb
+Underconstruction
+
+
+# P06_OOP
+Underconstruction
+
+
+# P07_GUI
+Underconstruction
+
+
+# P09_SPICE
+Underconstruction
+
+
+# P10_P11_LaTeX
+Underconstruction
+
+
+# P12_HTML_and_CSS
+Underconstruction
+
+
+# P13_JavaScript
+Underconstruction
+
+
+# P14_web_service
+Underconstruction
+
+
+# P15_frameworks
+Underconstruction
+
+
+# P16_PrairieLearn
+Underconstruction
+
+
+
 # LINUX Bash
 ## Komandas failiem/folderiem
 - **ifconfig** – parāda datora IP adresi. (Piem., http:\/\/10.152.16.149:8001).  
