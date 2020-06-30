@@ -11,54 +11,45 @@ Atskaišu veidošana python valodā (*\*.ipynb*) failiem.
 - **https:\/\/htmlpreview.github.io\/?** *tālāk seko pilna lapas adrese* ‒ apraksts sekos...   
 
 # Satura rādītājs  
-Underconstruction...
+Underconstruction...  
 
 
-
-# P02_04_basics
-Underconstruction
-
-
-# P05_ipynb
-Underconstruction
+# Uzdevumi  
+## P02_04_basics  
+Underconstruction  
 
 
-# P06_OOP
-Underconstruction
+## P05_ipynb
+Underconstruction  
 
 
-# P07_GUI
-Underconstruction
+## P06_OOP
+Underconstruction  
 
 
-# P09_SPICE
-Underconstruction
+## P07_GUI
+Underconstruction  
 
+## P09_SPICE
+Underconstruction  
 
-# P10_P11_LaTeX
-Underconstruction
+## P10_P11_LaTeX
+Underconstruction  
 
+## P12_HTML_and_CSS
+Underconstruction  
 
-# P12_HTML_and_CSS
-Underconstruction
+## P13_JavaScript
+Underconstruction  
 
+## P14_web_service
+Underconstruction  
 
-# P13_JavaScript
-Underconstruction
+## P15_frameworks
+Underconstruction  
 
-
-# P14_web_service
-Underconstruction
-
-
-# P15_frameworks
-Underconstruction
-
-
-# P16_PrairieLearn
-Underconstruction
-
-
+## P16_PrairieLearn
+Underconstruction  
 
 # LINUX Bash
 ## Komandas failiem/folderiem
