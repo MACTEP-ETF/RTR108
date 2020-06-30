@@ -1,0 +1,1 @@
+Uzdevuma izpildīšana vēl top :)
