@@ -1,14 +1,5 @@
-# RTR108
-Studiju kursa Datormācība (speckurss) elektroniskā klade  
-- www.py4e.com ‒ Python apguves vietne (mājasdarbs)  
-
-Ikdienā aktīvi darbojos šeit:  
-- www.hackerrank.com  
-- www.udemy.com  
-
-Atskaišu veidošana python valodā (*\*.ipynb*) failiem.  
-- **https:\/\/colab.research.google.com** Atskaites veidošanas vide. Alternatīva *jupiter*.
-- **https:\/\/htmlpreview.github.io\/?** *tālāk seko pilna lapas adrese* ‒ apraksts sekos...   
+# RTR105
+Studiju kursa Datormācība (pamatkurss) elektroniskā klade  
 
 # Satura rādītājs  
 - [Ievads](#Ievads)
