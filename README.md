@@ -7,17 +7,15 @@ Ikdienā aktīvi darbojos šeit:
 - www.udemy.com  
 
 Atskaišu veidošana python valodā (*\*.ipynb*) failiem.  
-- **https:\/\/colab.research.google.com** Atskaites veidošanas vide. Alternatīva *jupiter*.
+- **https:\/\/colab.research.google.com** Atskaites veidošanas vide. Alternatīva *jupiter*.  
 - **https:\/\/htmlpreview.github.io\/?** *tālāk seko pilna lapas adrese* ‒ apraksts sekos...   
 
 # Satura rādītājs  
 Underconstruction...  
 
-
 # Uzdevumi  
 ## P02_04_basics  
-Kodus esmu rakstījis pa taisno py4e mājaslapā un pēcāk koopēju uz SAKAI sistēmu, tādēļ man nav izveidoti *Python* faili šiem uzdevumiem.  
-
+Kodus esmu rakstījis galvenokārt pa taisno py4e mājaslapā un pēcāk koopēju uz SAKAI sistēmu, tādēļ man nav izveidoti *Python* un *Diary* faili šiem uzdevumiem.  
 
 ## P05_ipynb
 Underconstruction  
