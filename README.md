@@ -16,7 +16,7 @@ Underconstruction...
 
 # Uzdevumi  
 ## P02_04_basics  
-Underconstruction  
+Kodus esmu rakstījis pa taisno py4e mājaslapā un pēcāk koopēju uz SAKAI sistēmu, tādēļ man nav izveidoti *Python* faili šiem uzdevumiem.  
 
 
 ## P05_ipynb
