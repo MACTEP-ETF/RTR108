@@ -69,6 +69,26 @@ repeat_lyrics()
 
 # Code: http://www.py4e.com/code3/lyrics.py
 ```
+### Logical expression feature
+Ja pastāv vairākas loģiskas operācijas, tad ja neizpildās pirmā, tad pārējās (pat ja viņas ir kļūdainas) programma nepārbauda un izlaiž visu!  
+
+### Python comparison operators
+- **x != y** – x is not equal to y  
+- **x > y** – x is greater than y  
+- **x < y** – x is less than y  
+- **x >= y** – x is greater than or equal to y  
+- **x <= y** – x is less than or equal to y  
+- **x is y** – x is the same as y  
+- **x is not y** – x is not the same as y  
+
+### Python rezevētie atslēgvārdi
+and       del       from      None      True  
+as        elif      global    nonlocal  try  
+assert    else      if        not       while  
+break     except    import    or        with  
+class     False     in        pass      yield  
+continue  finally   is        raise     async  
+def       for       lambda    return    await  
 
 ## P05_ipynb
 Underconstruction  
