@@ -17,6 +17,59 @@ Underconstruction...
 ## P02_04_basics  
 Kodus esmu rakstījis galvenokārt pa taisno py4e mājaslapā un pēcāk koopēju uz SAKAI sistēmu, tādēļ man nav izveidoti *Python* un *Diary* faili šiem uzdevumiem.  
 
+### Python funkciju apraksti
+Vairākas *Python* instrukcijas var rakstīt vienā rindā atdalot tās ar semikolona operatoru (līdzīgi kā C valodā).  
+
+- **a = input()** – *input* funkcija nolasa lietotāja ievadu un ieraksta mainīgajā 'a'.  
+- **for i in range(1,n)** – *for* cikls no "1" līdz "n" vērtībai.  
+- **try, except** ‒ ir if else paveids. Piemērs:  
+
+  ```
+  inp = input('Enter Fahrenheit Temperature:')
+  try:
+      fahr = float(inp)
+      cel = (fahr - 32.0) * 5.0 / 9.0
+      print(cel)
+  except:
+      print('Please enter a number')
+  
+  # Code: http://www.py4e.com/code3/fahren2.py
+  ```
+  Explanation:
+  Python starts by executing the sequence of statements in the **try** block. If all goes well, it skips the **except** block and proceeds. If an exception occurs in the **try** block, Python jumps out of the **try** block and executes the sequence of statements in the **except** block.  
+
+- **print()** – piemērs korektai izvadei: print("Pēc %g sekundes bumba būs %.2f metru augstumā \n" %(t,y)).  
+  - **end=''** – ļauj aizvietot rindiņas beigu elementu (Piem., **print (i, end='')** – ļauj cikla elementu "i" drukāt vienā rindā, nevis katru vērtību nākamā rindiņā).  
+  - **sep=''** ‒ no vārds *separator*, ļauj mainīt atdalošu elementu starp drukātiem mainīgiem.  
+- **a = input()** – *input* funkcija nolasa lietotāja ievadu un ieraksta mainīgajā 'a'.  
+- **type()** – parāda datu tipu. Ja saturs ir ielikts apostrofos **''**, tad tas ir string datu tips.  
+- **\/\/** – dalījums ar *floor* efektu.  
+- **\*\*** – celšana pakāpē (*Piem., 2\*\*3 = 2\*2\*2 = 8*).  
+- **string\*int** – var reizināt arī string datu tipu ar skaitļiem. Piem.:  
+  A = 'Test '  
+  B = 3  
+  print (A*B)  
+  Test Test Test  
+- **min(), max()** – atrod un izvada uz ekrāna minimālo/maksimālo vērtību no:  
+  - ja ir string, tad ievadīt saturu apostrofos;  
+  - ja ir skaitliskās vērtības, tad atdalīt ar komatu.  
+*P.S. Mainīgos arī var rakstīt iekšā atdalot ar komatu.*  
+- **def** – ar šo definē jaunu funkciju (*Piem., def print_lyrics()*). Jauna funkcija tiek palaista - vnk ierakstot tās nosaukumu: *print_lyrics()*. Iespēja ierakstīt funkciju funkcijā. Paraugs:  
+```
+def print_lyrics():
+    print("I'm a lumberjack, and I'm okay.")
+    print('I sleep all night and I work all day.')
+
+
+def repeat_lyrics():
+    print_lyrics()
+    print_lyrics()
+
+repeat_lyrics()
+
+# Code: http://www.py4e.com/code3/lyrics.py
+```
+
 ## P05_ipynb
 Underconstruction  
 
