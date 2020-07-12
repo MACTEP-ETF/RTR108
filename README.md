@@ -91,7 +91,7 @@ continue  finally   is        raise     async
 def       for       lambda    return    await  
 
 ## P05_ipynb
-Underconstruction  
+Tā kā šis uzdevums bija jau veikts C valodā 1. kursa 1. semestri, tad visus komentārus esmu pierakstīji pašā *ipynb* failā. Ne ar kādiem sarežģijumiem nebiju sastapies, un izpildīju uzdevumu, tā teikt, ar vieglu roku. :)  
 
 
 ## P06_OOP
