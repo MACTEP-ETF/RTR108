@@ -15,7 +15,7 @@ Underconstruction...
 
 # Uzdevumi  
 ## P02_04_basics  
-Kodus esmu rakstījis galvenokārt pa taisno py4e mājaslapā un pēcāk koopēju uz SAKAI sistēmu, tādēļ man nav izveidoti *Python* un *Diary* faili šiem uzdevumiem.  
+Kodus esmu rakstījis galvenokārt pa taisno py4e mājaslapā un pēcāk koopēju uz SAKAI sistēmu, tādēļ man nav lāgā izveidoti *Python* un *Diary* faili šiem uzdevumiem.  
 
 ### Python funkciju apraksti
 Vairākas *Python* instrukcijas var rakstīt vienā rindā atdalot tās ar semikolona operatoru (līdzīgi kā C valodā).  
@@ -95,7 +95,9 @@ Tā kā šis uzdevums bija jau veikts C valodā 1. kursa 1. semestri, tad visus 
 
 
 ## P06_OOP
-Underconstruction  
+### Python funkciju apraksti
+- **type(y)** – konsolē, izvada uz ekrāna dotā mainīgā tipu (*list, int, tuple, utt.*).  
+- **dir(y)** – konsolē, izvada uz ekrāna visas iespējamās metodes kas atbilst mainīgā "y" tipam.  
 
 
 ## P07_GUI
@@ -235,7 +237,7 @@ repeat_lyrics()
 
 # Code: http://www.py4e.com/code3/lyrics.py
 ```
-- **XX** – XX.  
+
 - **XX** – XX.  
 - **XX** – XX.  
 - **XX** – XX.  
