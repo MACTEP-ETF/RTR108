@@ -16,7 +16,7 @@ Programmas kodu neiekļāvu README.md failā, lai nepiegrūžotu. Kodi atrodas a
 ![Vizualis](https://github.com/MACTEP-ETF/RTR108/blob/master/P07_GUI/PNG/2d%20-%20Layout.png)  
 
 ## 3. uzdevums (Dialogs)
-...  
+![Vizualis](https://github.com/MACTEP-ETF/RTR108/blob/master/P07_GUI/PNG/3a%20-%20Dialog.png)  
 
 ## 4. uzdevums (Main windows)
 ...  
@@ -50,9 +50,10 @@ Programmas kodu neiekļāvu README.md failā, lai nepiegrūžotu. Kodi atrodas a
     
   A **dialog window** is always a top-level window that you can use as the main window for your Dialog-Style application.  
   When dialog windows are used to communicate with the user, they may be:
-  - *Modal dialogs*: block input to any other visible windows in the same application. You can display a modal dialog by calling .exec_().  
-  - *Modeless dialogs*: operate independently of other windows in the same application. You can display a modeless dialog by using .show().  
-Dialog windows can also provide a return value and have default buttons (for example, OK and Cancel).
+    - *Modal dialogs*: block input to any other visible windows in the same application. You can display a modal dialog by calling .exec_().  
+    - *Modeless dialogs*: operate independently of other windows in the same application. You can display a modeless dialog by using .show().  
+    
+  Dialog windows can also provide a return value and have default buttons (for example, OK and Cancel).  
 - **Main windows**:  
   - **One menu bar** is at the top of the window. The menu bar holds the application’s main menu.  
   - **Several toolbars** are on the sides of the window. Toolbars are suitable for holding tool buttons and other kinds of widgets such as QComboBox, QSpinBox, and more.  
