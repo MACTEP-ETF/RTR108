@@ -283,9 +283,9 @@ Tikai darot var gūt panākumus :)
 
 ### Funkcijas y=cos(x)\*cos(x) grafiki  
 #### Funkcijas grafiks, x intervāls: \[-3.2;0.5\]  
-![DerivativeGnuplot](https://github.com/MACTEP-ETF/RTR105/blob/master/darbi/LabDarbiAtskaites/derivative/DerivativeGnuplot.png)
+![DerivativeGnuplot](https://github.com/MACTEP-ETF/RTR108/tree/master/RTR105/darbi/LabDarbiAtskaites/derivative/DerivativeGnuplot.png)
 
 #### Funkcijas cos(x)\*cos(x) grafiks no 1. LabDarba 
-![Funkcijas grafiks](https://github.com/MACTEP-ETF/RTR105/blob/master/darbi/LabDarbiAtskaites/series/GnuplotSeries/Funkcijas%20grafiks.png)
+![Funkcijas grafiks](https://github.com/MACTEP-ETF/RTR108/tree/master/RTR105/darbi/LabDarbiAtskaites/series/Funkcijas%20grafiks.png)
 
 P.S. Funkcijas vērtību skaitļošanas kods grafika attēlošanai GNUPLOT vidē ir iešūts pašā programmā, tādēļ atsevišķi netika rakstīts :)
