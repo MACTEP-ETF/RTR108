@@ -9,7 +9,7 @@ Mana pirmā GUI aplikācija:
 
 # 2. uzdevums
 Horizontāla izkārtojuma piemērs (QHBoxLayout):  
-...   
+![Vizualis](https://github.com/MACTEP-ETF/RTR108/blob/master/P07_GUI/PNG/2a%20-%20Layout.png)   
 
 Horizontāla izkārtojuma piemērs:  
 ...   
