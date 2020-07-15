@@ -35,4 +35,4 @@ atbilstošām GUI bildēm - pirms izmaiņām un pēc izmaiņām.
 - **X** –
 
 ## Vitāli svarīga informācija
- - This relationship also defines ownership, with parents owning their children. The PyQt5 ownership model ensures that if you delete a parent (for example, a top-level window), then all of its children (widgets) are automatically deleted as well.  To avoid memory leaks, you should always make sure that any QWidget object has a parent, with the sole exception of top-level windows.  
+ - The PyQt5 ownership model ensures that if you delete a parent (for example, a top-level window), then all of its children (widgets) are automatically deleted as well.  To avoid memory leaks, you should **always make sure that any QWidget object has a parent, with the sole exception of top-level windows**.  
