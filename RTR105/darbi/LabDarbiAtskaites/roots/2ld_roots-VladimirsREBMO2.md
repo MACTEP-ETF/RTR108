@@ -199,14 +199,14 @@ Kā jau visām programmām, arī šai ir kļūdas. Neesmu atrisinājis problēmu
 
 ### Funkcijas y=cos(x)\*cos(x) grafiki  
 #### Funkcijas grafiks rezultātam Nr1, x intervāls: \[-1.9;0.5\]  
-![RezultatsNr1](https://github.com/MACTEP-ETF/RTR105/blob/master/darbi/LabDarbiAtskaites/roots/GnuplotRoots/RezultatsNr1.png)
+![RezultatsNr1](https://github.com/MACTEP-ETF/RTR108/blob/master/RTR105/darbi/LabDarbiAtskaites/roots/GnuplotRoots/RezultatsNr1.png)
 
 
 #### Funkcijas grafiks rezultātam Nr2, x intervāls: \[-3.2;0.5\]  
-![RezultatsNr2](https://github.com/MACTEP-ETF/RTR105/blob/master/darbi/LabDarbiAtskaites/roots/GnuplotRoots/RezultatsNr2.png)
+![RezultatsNr2](https://github.com/MACTEP-ETF/RTR108/blob/master/RTR105/darbi/LabDarbiAtskaites/roots/GnuplotRoots/RezultatsNr2.png)
 
 #### Funkcijas cos(x)\*cos(x) grafiks no 1. LabDarba 
-![Funkcijas grafiks](https://github.com/MACTEP-ETF/RTR105/blob/master/darbi/LabDarbiAtskaites/series/GnuplotSeries/Funkcijas%20grafiks.png)
+![Funkcijas grafiks](https://github.com/MACTEP-ETF/RTR108/blob/master/RTR105/darbi/LabDarbiAtskaites/series/GnuplotSeries/Funkcijas%20grafiks.png)
 
 #### Funkcijas vērtību skaitļošanas kods grafika attēlošanai GNUPLOT vidē
 Rezultāts Nr1:
