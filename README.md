@@ -96,6 +96,8 @@ Tā kā šis uzdevums bija jau veikts C valodā 1. kursa 1. semestri, tad visus 
 
 
 ## P06_OOP
+Esmu jau saskāries ar OOP, kad patstāvīgi apguvu C# vienam brīvā laika projektam. 
+
 ### Definīcijas šajā lekcijā
 - **Class** – a template (*klišeja, forma, bet ne pats gala produkts*).  
 - **Attribute** – A variable within a class (*Piem., x = 'hi'*).  
