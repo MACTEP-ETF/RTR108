@@ -1,6 +1,7 @@
 # RTR108
 Studiju kursa Datormācība (speckurss) elektroniskā klade  
 - www.py4e.com ‒ Python apguves vietne (mājasdarbs)  
+**Daļa no aprakstiem ir angliski un nav tulkoti, jo ir pilnībā saprotams par ko ir runa**
 
 Ikdienā aktīvi darbojos šeit:  
 - www.hackerrank.com  
@@ -95,10 +96,25 @@ Tā kā šis uzdevums bija jau veikts C valodā 1. kursa 1. semestri, tad visus 
 
 
 ## P06_OOP
-### Python funkciju apraksti
+### Definīcijas šajā lekcijā
+- **Class** – a template (*klišeja, forma, bet ne pats gala produkts*).  
+- **Attribute** – A variable within a class (*Piem., x = 'hi'*).  
+- **Method** – A function within a class. (*Piem., x.upper()*).  
+- **Object** – A particular instance of a class. (*Piem., fh = open(...)*).  
+- **Constructor** – Code that runs when an object is created.  
+- **Inheritance** – The ability to extend a class to make a new class.  
+
+### Dažu funkciju/sintakses apraksti
 - **type(y)** – konsolē, izvada uz ekrāna dotā mainīgā tipu (*list, int, tuple, utt.*).  
 - **dir(y)** – konsolē, izvada uz ekrāna visas iespējamās metodes kas atbilst mainīgā "y" tipam.  
+- **PartyAnimal.party** – kur 'punkts' ir objekta operators (*object lookup operator*).  
 
+### Summary (Kopsavilkums)  
+-  Object Oriented programming (OOP) is a very structured approach to code reuse.  
+-  We can group data and functionality together and create many independent instances of a class.  
+
+### Papildkomentāri
+Visi papildkomentāri ir ierakstīti *python* kodos.  
 
 ## P07_GUI
 Underconstruction  
