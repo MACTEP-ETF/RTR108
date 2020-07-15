@@ -54,7 +54,9 @@ Programmas kodu neiekļāvu README.md failā, lai nepiegrūžotu. Kodi atrodas a
     - *Modeless dialogs*: operate independently of other windows in the same application. You can display a modeless dialog by using .show().  
     
   Dialog windows can also provide a return value and have default buttons (for example, OK and Cancel).  
-- **Main windows**:  
+- **Main windows**  
+  Most of the time, your GUI applications will be Main Window-Style. This means that they’ll have a menu bar, some toolbars, a status bar, and a central widget that will be the GUI’s main element. It’s also common that your apps will have several dialog windows to accomplish secondary actions that depend on user input.  
+  You’ll use the class QMainWindow to develop Main Window-Style applications. You need to inherit from QMainWindow to create your main GUI class. An instance of a class that derives from QMainWindow is considered to be a main window. QMainWindow provides a framework for building your application’s GUI. The class has its own built-in layout, which you can use to place the following:  
   - **One menu bar** is at the top of the window. The menu bar holds the application’s main menu.  
   - **Several toolbars** are on the sides of the window. Toolbars are suitable for holding tool buttons and other kinds of widgets such as QComboBox, QSpinBox, and more.  
   - **One central widget** is in the center of the window. The central widget can be of any type, or it can be a composite widget.  
