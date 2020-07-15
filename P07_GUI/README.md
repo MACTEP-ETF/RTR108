@@ -46,6 +46,10 @@ Programmas kodu neiekļāvu README.md failā, lai nepiegrūžotu. Kodi atrodas a
     - QFormLayout – arranges widgets in a two-column layout. The first column usually displays messages in labels. The second column generally contains widgets like *QLineEdit*, *QComboBox*, *QSpinBox*, and so on. These allow the user to enter or edit data regarding the information in the first column.  
       The left column consists of labels, and the right column consists of field widgets. If you’re dealing with a database application, then this kind of layout can be an attractive option for increased productivity when you’re creating your forms.  
 - **Dialogs**  
+  - A Main Window-Style application – the application’s main window inherits from *QMainWindow*.  
+  - A Dialog-Style application – the application’s main window inherits from *QDialog*.  
+    
+  A **dialog window** is always a top-level window that you can use as the main window for your Dialog-Style application.  
 - **Main windows**:  
   - **One menu bar** is at the top of the window. The menu bar holds the application’s main menu.  
   - **Several toolbars** are on the sides of the window. Toolbars are suitable for holding tool buttons and other kinds of widgets such as QComboBox, QSpinBox, and more.  
