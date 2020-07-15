@@ -38,17 +38,21 @@ Programmas kodu neiekļāvu README.md failā, lai nepiegrūžotu. Kodi atrodas a
   - Combo boxes  
   - Radio buttons  
 - **Layout managers**  
-    - QHBoxLayout – arranges widgets horizontally from left to right.  
-    - QVBoxLayout – arranges widgets vertically, from top to bottom.  
-    - QGridLayout – arranges widgets into a grid of rows and columns. Every widget will have a relative position on the grid. You can define a widget’s position by passing it a pair of coordinates in the form of (row, column). These coordinates should be valid int numbers. They define which cell of the grid you’re going to place the widget on.  
-    - QFormLayout – arranges widgets in a two-column layout. The first column usually displays messages in labels. The second column generally contains widgets like *QLineEdit*, *QComboBox*, *QSpinBox*, and so on. These allow the user to enter or edit data regarding the information in the first column. The left column consists of labels, and the right column consists of field widgets. If you’re dealing with a database application, then this kind of layout can be an attractive option for increased productivity when you’re creating your forms.  
+    - **QHBoxLayout** – arranges widgets horizontally from left to right.  
+    - **QVBoxLayout** – arranges widgets vertically, from top to bottom.  
+    - **QGridLayout** – arranges widgets into a grid of rows and columns. Every widget will have a relative position on the grid. You can define a widget’s position by passing it a pair of coordinates in the form of (row, column). These coordinates should be valid int numbers. They define which cell of the grid you’re going to place the widget on.  
+    - **QFormLayout** – arranges widgets in a two-column layout. The first column usually displays messages in labels. The second column generally contains widgets like *QLineEdit*, *QComboBox*, *QSpinBox*, and so on. These allow the user to enter or edit data regarding the information in the first column. The left column consists of labels, and the right column consists of field widgets. If you’re dealing with a database application, then this kind of layout can be an attractive option for increased productivity when you’re creating your forms.  
       
   *Layout managers are classes that allow you to size and position your widgets at the places you want them to be on the application’s form. Layout managers automatically adapt to resize events and content changes. They also control the size of the widgets within them. This means that the widgets in a layout are automatically resized whenever the form is resized.*  
 - **Dialogs**  
-  - A Main Window-Style application – the application’s main window inherits from *QMainWindow*.  
-  - A Dialog-Style application – the application’s main window inherits from *QDialog*.  
+  - **A Main Window-Style application** – the application’s main window inherits from *QMainWindow*.  
+  - **A Dialog-Style application** – the application’s main window inherits from *QDialog*.  
     
   A **dialog window** is always a top-level window that you can use as the main window for your Dialog-Style application.  
+  When dialog windows are used to communicate with the user, they may be:
+  - *Modal dialogs*: block input to any other visible windows in the same application. You can display a modal dialog by calling .exec_().  
+  - *Modeless dialogs*: operate independently of other windows in the same application. You can display a modeless dialog by using .show().  
+Dialog windows can also provide a return value and have default buttons (for example, OK and Cancel).
 - **Main windows**:  
   - **One menu bar** is at the top of the window. The menu bar holds the application’s main menu.  
   - **Several toolbars** are on the sides of the window. Toolbars are suitable for holding tool buttons and other kinds of widgets such as QComboBox, QSpinBox, and more.  
