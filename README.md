@@ -121,7 +121,7 @@ Esmu jau saskāries ar OOP, kad patstāvīgi apguvu C# vienam brīvā laika proj
 Visi papildkomentāri ir ierakstīti *python* kodos.  
 
 ## P07_GUI
-Underconstruction  
+Bija ļoti interesanti apgūt un pildīt GUI uzdevumus! Drusciņ paspēlējos ar kodu, lai ir vēl interesantāka apguve. Dažiem uzdevumiem bija nepieciešamība apgūt nedaudz HTML kodu, lai, piem., palielinātu teksta izmēru.   
 
 ## P09_SPICE
 Underconstruction  
@@ -143,6 +143,9 @@ Underconstruction
 
 ## P16_PrairieLearn
 Underconstruction  
+
+
+# BACKUP
 
 # LINUX Bash
 ## Komandas failiem/folderiem
@@ -182,21 +185,6 @@ Underconstruction
 - **idle** – interaktīvi grafiska *Python Shell* forma, ar kuras palīdzību var uzrakstīt Python komandu rindas. OBLIGĀTI faila sākumā rakstīt šo rindiņu: **\# -\*- coding: UTF-8 -\*-** (ar šo rindiņu mēs definējam kodēšanas veidu).  
   Ar šo rindiņu mēs definējam kodēšanas veidu.  
 - **python FileName.py** – ar šo komandrindiņu mēs palaižam dienasgrāmatas kodu izpildi. Kā redzams, Pythonam nav nepieciešama papildkompilācija. Viss notiek *on the fly* tā teikt. Kas būtībā ļoti atvieglo un pāatrina programmēšanu!  
-
-<a name="PythonBiblioteka"></a>
-## Bibliotēkas
-- **random**:
-  - **random.random(10)** ģenerē 10 skaitļus no 0 līdz 1.  
-  - **random.randint(5,10)** ‒ ģenerē skaitļus intervālā \[5;10\].  
-  - **random.choice(t)** ‒ izvēlās vienu no vērtības dotam masīvam un izvada uz ekrāna.  
-
-### Bibliotēkas imortēšanas veidi
-- math:
-  - import math -> print (math.cos(a))  
-  - from math import cos -> print (cos(a))  
-  - import math as math_V1 -> print (math_V1.cos(a))  
-  - from math import cos as cos_V1 -> print (cos_V1(a))  
-  - from math import \*-> print (cos(a))  
 
 <a name="PythonFunkcijas"></a>
 ## Python funkciju apraksti
