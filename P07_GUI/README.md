@@ -63,8 +63,9 @@ Programmas kodu neiekļāvu README.md failā, lai nepiegrūžotu. Kodi atrodas a
   - **Several dock widgets** are around the central widget. Dock widgets are small, movable windows.  
   - **One status bar** is at the bottom of the window. The status bar shows information on the application’s general status.  
     
-  You can’t create a main window without first setting a central widget. You must have a central widget, even if it’s just a placeholder. When this is the case, you can use a *QWidget* object as your central widget. You can set the main window’s central widget with *.setCentralWidget()*. The main window’s layout will allow you to have only one central widget, but it can be a single or a composite widget.
-- **Applications**:  
+  You can’t create a main window without first setting a central widget. You must have a central widget, even if it’s just a placeholder. When this is the case, you can use a *QWidget* object as your central widget. You can set the main window’s central widget with *.setCentralWidget()*. The main window’s layout will allow you to have only one central widget, but it can be a single or a composite widget.  
+- **Applications**  
+  This class is at the core of any PyQt application. It manages the application’s control flow as well as its main settings. In PyQt, any instance of *QApplication* is considered to be an **application**. Every PyQt GUI application must have one *QApplication* object. Some of the application’s responsibilities include:  
   - Handling initialization and finalization  
   - Providing the event loop and event handling  
   - Handling most of the system-wide and application-wide settings  
@@ -73,10 +74,19 @@ Programmas kodu neiekļāvu README.md failā, lai nepiegrūžotu. Kodi atrodas a
   - Defining the application’s look and feel  
   - Providing localization capabilities  
 - **Event loops**  
-- **Signals and slots**:  
+  GUI applications are event-driven. This means that functions and methods are executed in response to user actions like clicking on a button, selecting an item from a combo box, entering or updating the text in a text edit, pressing a key on the keyboard, and so on. These user actions are generally called events.  
+  An event loop is an infinite loop in which all events from the user, the window system, and any other sources are processed and dispatched. The event loop waits for an event to occur and then dispatches it to perform some task. The event loop continues to work until the application is terminated.  
+- **Signals and slots**  
+  PyQt widgets act as **event-catchers**. This means that every widget can catch a specific number of events, like mouse clicks, keypresses, and so on. In response to these events, widgets always emit a **signal**, which is a kind of message that announces a change in its state.  
+  The signal on its own doesn’t perform any action. If you want a signal to trigger an action, then you need to connect it to a **slot**. This is the function or method that will perform an action whenever the connecting signal is emitted. You can use any Python callable (or **callback**) as a slot.  
+  If a signal is connected to a slot, then the slot is called whenever the signal is emitted. If a signal isn’t connected to any slot, then nothing happens and the signal is ignored. Here are some of the most useful features of this mechanism:  
   - A signal can be connected to one or many slots.  
   - A signal may also be connected to another signal.  
   - A slot may be connected to one or many signals.  
+  
+  Example: 
+  *widget.signal.connect(slot_function)*  
+  This will connect *slot_function* to *widget.signal*. Whenever *signal* is **emitted**, *slot_function()* will be **called**.
 
 # Explanation for methods (pašsaprotamos es neaprakstīšu, tādus kā *.setWindowTitle*, *.show*, *.exec* u.c.)  
 - **.setGeometry (100, 100, 500, 500)** –  the first two parameters are the 'x' and 'y' coordinates at which the window will be placed on the screen. The **third** and **fourth** parameters are the **width** and **height** of the window.  
