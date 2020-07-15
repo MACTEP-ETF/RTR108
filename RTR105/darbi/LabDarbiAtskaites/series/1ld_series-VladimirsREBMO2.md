@@ -130,7 +130,7 @@ Rekurences atteelosana funkcijai 'y=cos(x)*cos(x)' ASCII kodaa:
 Neizskaidrojama iemesla pēc, programma spēj korekti izskaitļot funkciju ar **x** vērtību intervāla: \[-22;22\].  
 
 ### Funkcijas y=cos(x)\*cos(x) grafiks x vērtības intervālā:  \[-22;22\]  
-![Funkcijas grafiks](https://github.com/MACTEP-ETF/RTR105/blob/master/darbi/LabDarbiAtskaites/series/GnuplotSeries/Funkcijas%20grafiks.png)
+![Funkcijas grafiks](https://github.com/MACTEP-ETF/RTR108/blob/master/RTR105/darbi/LabDarbiAtskaites/series/GnuplotSeries/Funkcijas%20grafiks.png)
 
 #### Funkcijas vērtību skaitļošanas kods grafika attēlošanai GNUPLOT vidē
 ```
