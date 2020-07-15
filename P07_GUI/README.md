@@ -25,11 +25,8 @@ Programmas kodu neiekļāvu README.md failā, lai nepiegrūžotu. Kodi atrodas a
 ## 4. uzdevums (Main windows)
 ![Vizualis](https://github.com/MACTEP-ETF/RTR108/blob/master/P07_GUI/PNG/4%20-%20Main%20Windows.png)  
 
-## 5. uzdevums (Event loops)
-...  
-
-## 7. uzdevums (Signals and slots)
-...  
+## 5. uzdevums (Signals and slots)
+![Vizualis](https://github.com/MACTEP-ETF/RTR108/blob/master/P07_GUI/PNG/5%20-%20SignalsAndSlots.gif)  
 
 ## GUI noslēdzošais projekts ""
 ...
