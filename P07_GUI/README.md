@@ -1,6 +1,6 @@
 # Šis fails tiks papildināts laika gaitā
 
-**Darba uzdevums šai lekcijai**
+**Darba uzdevums šai lekcijai**  
 Ievietošu tikai rezultātu pēc izmaiņām :)
 
 # Pirmais uzdevums
