@@ -2,23 +2,35 @@
 
 **Darba uzdevums šai lekcijai**  
 Programmas kodu neiekļāvu README.md failā, lai nepiegrūžotu. Kodi atrodas atsevišķi šajā pašā mapītē. Šeit liku pašus vizuāļus.  
-
-# 1. uzdevums
+# Uzdevumi
+## 1. uzdevums (Widgets)
 ![Vizualis](https://github.com/MACTEP-ETF/RTR108/blob/master/P07_GUI/PNG/GUI%20-%20Hello%20World!.png)  
 
-# 2. uzdevums
+## 2. uzdevums (Layout managers)
 ![Vizualis](https://github.com/MACTEP-ETF/RTR108/blob/master/P07_GUI/PNG/2a%20-%20Layout.png)  
 
 ![Vizualis](https://github.com/MACTEP-ETF/RTR108/blob/master/P07_GUI/PNG/2b%20-%20Layout.png)  
 
 ![Vizualis](https://github.com/MACTEP-ETF/RTR108/blob/master/P07_GUI/PNG/2c%20-%20Layout.png)  
  
+![Vizualis](https://github.com/MACTEP-ETF/RTR108/blob/master/P07_GUI/PNG/2d%20-%20Layout.png)  
 
+## 3. uzdevums (Dialogs)
+...  
 
+## 4. uzdevums (Main windows)
+...  
 
+## 5. uzdevums (Applications)
+...  
 
+## 6. uzdevums (Event loops)
+...  
 
-## Concepts  
+## 7. uzdevums (Signals and slots)
+...  
+
+# Concepts  
 - **Widgets**:  
   - Buttons  
   - Labels  
@@ -54,15 +66,10 @@ Programmas kodu neiekļāvu README.md failā, lai nepiegrūžotu. Kodi atrodas a
   - A signal may also be connected to another signal.  
   - A slot may be connected to one or many signals.  
 
-## Explanation for methods (pašsaprotamos es neaprakstīšu, tādus kā *.setWindowTitle*, *.show*, *.exec* u.c.)  
+# Explanation for methods (pašsaprotamos es neaprakstīšu, tādus kā *.setWindowTitle*, *.show*, *.exec* u.c.)  
 - **.setGeometry (100, 100, 500, 500)** –  the first two parameters are the 'x' and 'y' coordinates at which the window will be placed on the screen. The **third** and **fourth** parameters are the **width** and **height** of the window.  
 - **.move(50, 50)** – piešķir jebkuram objektam (window, textobject utt.) nobīdi pēc 'x' un 'y' koordinātēm.  
 - **.resizeEvent()** – calculate widget size and position dynamically.  
 
-## Vitāli svarīga informācija
- - The PyQt5 ownership model ensures that if you delete a parent (for example, a top-level window), then all of its children (widgets) are automatically deleted as well.  To avoid memory leaks, you should **always make sure that any QWidget object has a parent, with the sole exception of top-level windows**.  
-
-
-
-
-- **X** –
+# Vitāli svarīga informācija
+- The PyQt5 ownership model ensures that if you delete a parent (for example, a top-level window), then all of its children (widgets) are automatically deleted as well.  To avoid memory leaks, you should **always make sure that any QWidget object has a parent, with the sole exception of top-level windows**.  
