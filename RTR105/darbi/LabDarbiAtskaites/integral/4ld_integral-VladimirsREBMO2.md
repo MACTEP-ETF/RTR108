@@ -148,7 +148,7 @@ Integrālis pēc Simpsona metodes: 2.08943
 ```
 ### Analīze Nr1
 Pēc *WolframAlpha* aprēķiniem manai funkcijai dotā **x** vērtību apgabalā \[-3.2;0.5\] secinu, ka mana programma pilnīgi korekti izskaitļo integrālu pēc taisnstūra un trapecveida metodēm. Mikroskopiska nobīde ir Simpsona metodei.  
-![WolframAlpha](https://github.com/MACTEP-ETF/RTR105/blob/master/darbi/LabDarbiAtskaites/integral/WolframAlpha.PNG)
+![WolframAlpha](https://github.com/MACTEP-ETF/RTR108/blob/master/RTR105/darbi/LabDarbiAtskaites/integral/WolframAlpha.PNG)
 
 ### Rezultāts Nr2 ar delta_x = 0.1
 
@@ -198,9 +198,9 @@ Pie šīs *delta_x* vērtības, rezultāti jau ir **pavisam šķērsām taisnst�
 
 ### Funkcijas y=cos(x)\*cos(x) grafiki  
 #### Funkcijas grafiks, x intervāls: \[-4;4\], taču integrāls tika izskaitļots pie x intervāla \[-3.2;0.5\]  
-![GrafiksIntegralis](https://github.com/MACTEP-ETF/RTR105/blob/master/darbi/LabDarbiAtskaites/integral/GrafiksIntegralis.png)  
+![GrafiksIntegralis](https://github.com/MACTEP-ETF/RTR108/blob/master/RTR105/darbi/LabDarbiAtskaites/integral/GrafiksIntegralis.png)  
 
-P.S. Šo grafiku nebija nepieciešamība zīmēt ar *DAT* failu. Visas GNUPLOT komandas ierakstīju šajā failā [*PlotSettingFileIntegral.gp*](https://github.com/MACTEP-ETF/RTR105/blob/master/darbi/LabDarbiAtskaites/integral/PlotSettingFileIntegral.gp)  
+P.S. Šo grafiku nebija nepieciešamība zīmēt ar *DAT* failu. Visas GNUPLOT komandas ierakstīju šajā failā [*PlotSettingFileIntegral.gp*](https://github.com/MACTEP-ETF/RTR108/blob/master/RTR105/darbi/LabDarbiAtskaites/integral/PlotSettingFileIntegral.gp)  
 Kā arī atsevišķi izkopēju šeit, lai ir pārskatamāk:  
 ```
 # Set plot
