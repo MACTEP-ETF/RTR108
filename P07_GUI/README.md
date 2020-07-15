@@ -92,6 +92,11 @@ Programmas kodu neiekļāvu README.md failā, lai nepiegrūžotu. Kodi atrodas a
   
 # Explanation for some methods (pašsaprotamos es neaprakstīšu, tādus kā *.setWindowTitle*, *.show*, *.exec* u.c.)  
 - **.setGeometry (100, 100, 500, 500)** –  the first two parameters are the 'x' and 'y' coordinates at which the window will be placed on the screen. The **third** and **fourth** parameters are the **width** and **height** of the window.  
+- **.setFixedSize(450, 235)** – set currect object to the fixed size.  
+- **.setDisplayText()** – to set and update the display’s text.  
+- **.displayText()** – to get the current display’s text.  
+- **.clearDisplay()** – to clear the display’s text.  
+
 
 ##  Model-View-Controller (MVC)
 This pattern has three layers of code, each with different roles:  
