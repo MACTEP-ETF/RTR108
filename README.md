@@ -100,10 +100,12 @@ Esmu jau saskāries ar OOP, kad patstāvīgi apguvu C# vienam brīvā laika proj
 
 ### Definīcijas šajā lekcijā
 - **Class** – a template (*klišeja, forma, bet ne pats gala produkts*).  
+- **Child class** – a new class created when a parent class is extended. The child class inherits all of the attributes and methods of the parent class.  
 - **Attribute** – A variable within a class (*Piem., x = 'hi'*).  
 - **Method** – A function within a class. (*Piem., x.upper()*).  
 - **Object** – A particular instance of a class. (*Piem., fh = open(...)*).  
-- **Constructor** – Code that runs when an object is created.  
+- **Constructor** – An optional specially named method (__init__) that is called at the moment when a class is being used to construct an object. Usually this is used to set up initial values for the object. (*Code that runs when an object is created*).  
+- **Destructor** – An optional specially named method (__del__) that is called at the moment just before an object is destroyed. Destructors are rarely used. 
 - **Inheritance** – The ability to extend a class to make a new class.  
 
 ### Dažu funkciju/sintakses apraksti
