@@ -29,7 +29,8 @@ Programmas kodu neiekļāvu README.md failā, lai nepiegrūžotu. Kodi atrodas a
   - QHBoxLayout – arranges widgets horizontally from left to right.  
   - QVBoxLayout – arranges widgets vertically, from top to bottom.  
   - QGridLayout – arranges widgets into a grid of rows and columns. Every widget will have a relative position on the grid. You can define a widget’s position by passing it a pair of coordinates in the form of (row, column). These coordinates should be valid int numbers. They define which cell of the grid you’re going to place the widget on.  
-  - QFormLayout –  
+  - QFormLayout – arranges widgets in a two-column layout. The first column usually displays messages in labels. The second column generally contains widgets like *QLineEdit*, *QComboBox*, *QSpinBox*, and so on. These allow the user to enter or edit data regarding the information in the first column.  
+    The left column consists of labels, and the right column consists of field widgets. If you’re dealing with a database application, then this kind of layout can be an attractive option for increased productivity when you’re creating your forms.  
   *Layout managers are classes that allow you to size and position your widgets at the places you want them to be on the application’s form. Layout managers automatically adapt to resize events and content changes. They also control the size of the widgets within them. This means that the widgets in a layout are automatically resized whenever the form is resized.*  
 - **Dialogs**  
 - **Main windows**:  
