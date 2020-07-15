@@ -10,33 +10,35 @@ Programmas kodu neiekļāvu README.md failā, lai nepiegrūžotu. Kodi atrodas a
 ![Vizualis](https://github.com/MACTEP-ETF/RTR108/blob/master/P07_GUI/PNG/2a%20-%20Layout.png)  
 
 ![Vizualis](https://github.com/MACTEP-ETF/RTR108/blob/master/P07_GUI/PNG/2b%20-%20Layout.png)  
+
+![Vizualis](https://github.com/MACTEP-ETF/RTR108/blob/master/P07_GUI/PNG/2c%20-%20Layout.png)  
  
 
-Horizontāla izkārtojuma piemērs:  
-...   
 
-Horizontāla izkārtojuma piemērs:  
-...   
 
 
 
 ## Concepts  
-- Widgets:  
+- **Widgets**:  
   - Buttons  
   - Labels  
   - Line edits  
   - Combo boxes  
   - Radio buttons  
-- Layout managers:
-  - Layout managers are classes that allow you to size and position your widgets at the places you want them to be on the application’s form. Layout managers automatically adapt to resize events and content changes. They also control the size of the widgets within them. This means that the widgets in a layout are automatically resized whenever the form is resized.  
-- Dialogs  
-- Main windows:  
+- **Layout managers**:
+  - QHBoxLayout – arranges widgets horizontally from left to right.  
+  - QVBoxLayout – arranges widgets vertically, from top to bottom.  
+  - QGridLayout – arranges widgets into a grid of rows and columns. Every widget will have a relative position on the grid. You can define a widget’s position by passing it a pair of coordinates in the form of (row, column). These coordinates should be valid int numbers. They define which cell of the grid you’re going to place the widget on.  
+  - QFormLayout –  
+  *Layout managers are classes that allow you to size and position your widgets at the places you want them to be on the application’s form. Layout managers automatically adapt to resize events and content changes. They also control the size of the widgets within them. This means that the widgets in a layout are automatically resized whenever the form is resized.*  
+- **Dialogs**  
+- **Main windows**:  
   - **One menu bar** is at the top of the window. The menu bar holds the application’s main menu.  
   - **Several toolbars** are on the sides of the window. Toolbars are suitable for holding tool buttons and other kinds of widgets such as QComboBox, QSpinBox, and more.  
   - **One central widget** is in the center of the window. The central widget can be of any type, or it can be a composite widget.  
   - **Several dock widgets** are around the central widget. Dock widgets are small, movable windows.  
   - **One status bar** is at the bottom of the window. The status bar shows information on the application’s general status.  
-- Applications:  
+- **Applications**:  
   - Handling initialization and finalization  
   - Providing the event loop and event handling  
   - Handling most of the system-wide and application-wide settings  
@@ -44,8 +46,8 @@ Horizontāla izkārtojuma piemērs:
   - Parsing common command-line arguments  
   - Defining the application’s look and feel  
   - Providing localization capabilities  
-- Event loops  
-- Signals and slots:  
+- **Event loops**  
+- **Signals and slots**:  
   - A signal can be connected to one or many slots.  
   - A signal may also be connected to another signal.  
   - A slot may be connected to one or many signals.  
