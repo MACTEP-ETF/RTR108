@@ -16,10 +16,10 @@ Programmas kodu neiekļāvu README.md failā, lai nepiegrūžotu. Kodi atrodas a
 ![Vizualis](https://github.com/MACTEP-ETF/RTR108/blob/master/P07_GUI/PNG/2d%20-%20Layout.png)  
 
 ## 3. uzdevums (Dialogs)
-![Vizualis](https://github.com/MACTEP-ETF/RTR108/blob/master/P07_GUI/PNG/3a%20-%20Dialog.png)  
+![Vizualis](https://github.com/MACTEP-ETF/RTR108/blob/master/P07_GUI/PNG/3%20-%20Dialog.png)  
 
 ## 4. uzdevums (Main windows)
-...  
+![Vizualis](https://github.com/MACTEP-ETF/RTR108/blob/master/P07_GUI/PNG/4%20-%20Main%20Windows.png)  
 
 ## 5. uzdevums (Applications)
 ...  
@@ -50,18 +50,20 @@ Programmas kodu neiekļāvu README.md failā, lai nepiegrūžotu. Kodi atrodas a
     
   A **dialog window** is always a top-level window that you can use as the main window for your Dialog-Style application.  
   When dialog windows are used to communicate with the user, they may be:
-    - *Modal dialogs*: block input to any other visible windows in the same application. You can display a modal dialog by calling .exec_().  
-    - *Modeless dialogs*: operate independently of other windows in the same application. You can display a modeless dialog by using .show().  
+    - *Modal dialogs*: block input to any other visible windows in the same application. You can display a modal dialog by calling *.exec_()*.  
+    - *Modeless dialogs*: operate independently of other windows in the same application. You can display a modeless dialog by using *.show()*.  
     
   Dialog windows can also provide a return value and have default buttons (for example, OK and Cancel).  
 - **Main windows**  
-  Most of the time, your GUI applications will be Main Window-Style. This means that they’ll have a menu bar, some toolbars, a status bar, and a central widget that will be the GUI’s main element. It’s also common that your apps will have several dialog windows to accomplish secondary actions that depend on user input.  
-  You’ll use the class QMainWindow to develop Main Window-Style applications. You need to inherit from QMainWindow to create your main GUI class. An instance of a class that derives from QMainWindow is considered to be a main window. QMainWindow provides a framework for building your application’s GUI. The class has its own built-in layout, which you can use to place the following:  
+  Most of the time, your GUI applications will be **Main Window-Style**. This means that they’ll have a menu bar, some toolbars, a status bar, and a central widget that will be the GUI’s main element. It’s also common that your apps will have several dialog windows to accomplish secondary actions that depend on user input.  
+  You’ll use the class *QMainWindow* to develop Main Window-Style applications. You need to inherit from *QMainWindow* to create your main GUI class. An instance of a class that derives from *QMainWindow* is considered to be a **main window**. *QMainWindow* provides a framework for building your application’s GUI. The class has its own built-in layout, which you can use to place the following:  
   - **One menu bar** is at the top of the window. The menu bar holds the application’s main menu.  
   - **Several toolbars** are on the sides of the window. Toolbars are suitable for holding tool buttons and other kinds of widgets such as QComboBox, QSpinBox, and more.  
   - **One central widget** is in the center of the window. The central widget can be of any type, or it can be a composite widget.  
   - **Several dock widgets** are around the central widget. Dock widgets are small, movable windows.  
   - **One status bar** is at the bottom of the window. The status bar shows information on the application’s general status.  
+    
+  You can’t create a main window without first setting a central widget. You must have a central widget, even if it’s just a placeholder. When this is the case, you can use a *QWidget* object as your central widget. You can set the main window’s central widget with *.setCentralWidget()*. The main window’s layout will allow you to have only one central widget, but it can be a single or a composite widget.
 - **Applications**:  
   - Handling initialization and finalization  
   - Providing the event loop and event handling  
