@@ -1,7 +1,11 @@
 # Šis fails tiks papildināts laika gaitā
 
 **Darba uzdevums šai lekcijai**  
-Programmas kodu neiekļāvu README.md failā, lai nepiegrūžotu. Kodi atrodas atsevišķi šajā pašā mapītē. Šeit liku pašus vizuāļus.  
+Programmas kodu neiekļāvu README.md failā, lai nepiegrūžotu. Kodi atrodas atsevišķi šajā pašā mapītē. Šeit liku pašus vizuāļus. 
+
+# Vitāli svarīga informācija
+- The PyQt5 ownership model ensures that if you delete a parent (for example, a top-level window), then all of its children (widgets) are automatically deleted as well.  To avoid memory leaks, you should **always make sure that any QWidget object has a parent, with the sole exception of top-level windows**.  
+
 # Uzdevumi
 ## 1. uzdevums (Widgets)
 ![Vizualis](https://github.com/MACTEP-ETF/RTR108/blob/master/P07_GUI/PNG/GUI%20-%20Hello%20World!.png)  
@@ -21,14 +25,16 @@ Programmas kodu neiekļāvu README.md failā, lai nepiegrūžotu. Kodi atrodas a
 ## 4. uzdevums (Main windows)
 ![Vizualis](https://github.com/MACTEP-ETF/RTR108/blob/master/P07_GUI/PNG/4%20-%20Main%20Windows.png)  
 
-## 5. uzdevums (Applications)
-...  
-
-## 6. uzdevums (Event loops)
+## 5. uzdevums (Event loops)
 ...  
 
 ## 7. uzdevums (Signals and slots)
 ...  
+
+## GUI noslēdzošais projekts ""
+...
+
+
 
 # Concepts  
 - **Widgets**:  
@@ -84,14 +90,9 @@ Programmas kodu neiekļāvu README.md failā, lai nepiegrūžotu. Kodi atrodas a
   - A signal may also be connected to another signal.  
   - A slot may be connected to one or many signals.  
   
-  Example: 
-  *widget.signal.connect(slot_function)*  
-  This will connect *slot_function* to *widget.signal*. Whenever *signal* is **emitted**, *slot_function()* will be **called**.
-
-# Explanation for methods (pašsaprotamos es neaprakstīšu, tādus kā *.setWindowTitle*, *.show*, *.exec* u.c.)  
+  Example: *widget.signal.connect(slot_function)*  
+  This will connect *slot_function* to *widget.signal*. Whenever *signal* is **emitted**, *slot_function()* will be **called**.  
+# Explanation for some methods (pašsaprotamos es neaprakstīšu, tādus kā *.setWindowTitle*, *.show*, *.exec* u.c.)  
 - **.setGeometry (100, 100, 500, 500)** –  the first two parameters are the 'x' and 'y' coordinates at which the window will be placed on the screen. The **third** and **fourth** parameters are the **width** and **height** of the window.  
-- **.move(50, 50)** – piešķir jebkuram objektam (window, textobject utt.) nobīdi pēc 'x' un 'y' koordinātēm.  
-- **.resizeEvent()** – calculate widget size and position dynamically.  
 
-# Vitāli svarīga informācija
-- The PyQt5 ownership model ensures that if you delete a parent (for example, a top-level window), then all of its children (widgets) are automatically deleted as well.  To avoid memory leaks, you should **always make sure that any QWidget object has a parent, with the sole exception of top-level windows**.  
+
