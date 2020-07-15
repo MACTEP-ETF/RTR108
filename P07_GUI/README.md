@@ -4,7 +4,7 @@
 Programmas kodu neiekļāvu README.md failā, lai nepiegrūžotu. Kodi atrodas atsevišķi šajā pašā mapītē. Šeit liku pašus vizuāļus.  
 
 # 1. uzdevums
-Mana pirmā GUI aplikācija:
+Mana pirmā GUI aplikācija:  
 ![Vizualis](https://github.com/MACTEP-ETF/RTR108/blob/master/P07_GUI/PNG/GUI%20-%20Hello%20World!.png)  
 
 # 2. uzdevums
