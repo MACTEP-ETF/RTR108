@@ -28,7 +28,7 @@ Programmas kodu neiekļāvu README.md failā, lai nepiegrūžotu. Kodi atrodas a
 ## 5. uzdevums (Signals and slots)
 ![Vizualis](https://github.com/MACTEP-ETF/RTR108/blob/master/P07_GUI/PNG/5%20-%20SignalsAndSlots.gif)  
 
-## GUI noslēdzošais projekts ""
+## 6. GUI noslēdzošais projekts ""
 ...
 
 
@@ -89,7 +89,20 @@ Programmas kodu neiekļāvu README.md failā, lai nepiegrūžotu. Kodi atrodas a
   
   Example: *widget.signal.connect(slot_function)*  
   This will connect *slot_function* to *widget.signal*. Whenever *signal* is **emitted**, *slot_function()* will be **called**.  
+  
 # Explanation for some methods (pašsaprotamos es neaprakstīšu, tādus kā *.setWindowTitle*, *.show*, *.exec* u.c.)  
 - **.setGeometry (100, 100, 500, 500)** –  the first two parameters are the 'x' and 'y' coordinates at which the window will be placed on the screen. The **third** and **fourth** parameters are the **width** and **height** of the window.  
 
+##  Model-View-Controller (MVC)
+This pattern has three layers of code, each with different roles:  
+- **The model** takes care of your app’s business logic. It contains the core functionality and data. For your calculator, the model will handle the calculations.  
+- **The view** implements your app’s GUI. It hosts all the widgets the end-user would need to interact with the application. The view also receives user actions and events. For your calculator, the view will be the window you’ll see on your screen.  
+- **The controller** connects the model and the view to make the application work. User events (or requests) are sent to the controller, which puts the model to work. When the model delivers the requested result (or data) in the right format, the controller forwards it to the view. For your calculator, the controller will receive user events from the GUI, ask the model to perform calculations, and update the GUI with the result.  
 
+Here’s a step-by-step MVC pattern for a GUI desktop application:  
+- The user performs an action or request (event) on the view (GUI).  
+- The view notifies the controller about the user’s action.  
+- The controller gets the user’s request and queries the model for a response.  
+- The model processes the controller query, performs the required operations, and returns an answer or result.  
+- The controller receives the model’s answer and updates the view accordingly.  
+- The user finally sees the requested result on the view.  
