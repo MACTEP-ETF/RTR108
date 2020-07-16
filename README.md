@@ -123,17 +123,11 @@ Visi papildkomentāri ir ierakstīti *python* kodos.
 ## P07_GUI
 Bija ļoti interesanti apgūt un pildīt GUI uzdevumus! Drusciņ paspēlējos ar kodu, lai ir vēl interesantāka apguve. Dažiem uzdevumiem bija nepieciešamība apgūt nedaudz HTML kodu, lai, piem., palielinātu teksta izmēru.   
 
-## P09_SPICE
-Underconstruction  
+## P09_SPICE, P10_P11_LaTeX, P12_HTML_and_CSS
 
-## P10_P11_LaTeX
-Underconstruction  
-
-## P12_HTML_and_CSS
-Underconstruction  
 
 ## P13_JavaScript
-Underconstruction  
+Uzdevums bija gana viegls. Visi komentāri mapē "P13_JavaScript".  
 
 ## P14_web_service
 Underconstruction  
@@ -142,7 +136,7 @@ Underconstruction
 Underconstruction  
 
 ## P16_PrairieLearn
-Underconstruction  
+Links neiet.   
 
 
 # BACKUP
