@@ -28,8 +28,10 @@ Programmas kodu neiekļāvu README.md failā, lai nepiegrūžotu. Kodi atrodas a
 ## 5. uzdevums (Signals and slots)
 ![Vizualis](https://github.com/MACTEP-ETF/RTR108/blob/master/P07_GUI/PNG/5%20-%20SignalsAndSlots.gif)  
 
-## 6. GUI noslēdzošais projekts ""
-...
+## 6. Kalkulators
+![Vizualis](https://github.com/MACTEP-ETF/RTR108/blob/master/P07_GUI/PNG/6%20-%20Kalkulators.png)  
+
+**Izdodas pievienot Pi kā vērtību un veikt ar to aprēķinus, tikai tādos gadījumos, ja to raksta kā pirmo elementu.**
 
 
 
