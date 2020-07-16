@@ -14,13 +14,13 @@
 - **X** –
 - **X** –
 
-## Functions and methods
+## Regular functions and expressions
 - **alert()** – display the result in an alert box (Same as *print()* in C).  
 - **function myFunction () { *code*; }** – funkcijas apraksta struktūra.  
 - **var myObject = { variable: value, variable: value };** – objekta apraksta struktūra.  
 - **function.person** – piekļuve pie *object/function* elementa caur ".", tāpat kā C#, Python.  
 
-### String methods
+### String Methods
 - **txt.length** – iegūstam mainīgā "txt" garumu (C valodā mēs piekļūtu ar *length(txt)*).  
 - **txt.indexOf("something")** – atrod pozīciju ar kuru sākas pirmais "something" mainīgajā *txt* (*Piem., var txt = "Is there something broken?". vārds something sākās ar 9 pozīciju, jo pirmā pozīcija ir "0"*).  
 - **txt.lastIndexOf("something")** – sāk meklēšanu no beigām. Ja ir **("something", 15)** , tad tā būs norāde, ar kuru pozīciju sākt meklēt un virzīties uz sākumu.  
@@ -28,13 +28,25 @@
 - **txt.search("something")** – atrod konkrēto vērtību mainīgajā *txt*. Atšķirībā no *.indexOf*, šajā metodē ir iekļauts spēcīgs rīks – **Regular Expresions**   
 - **var x = txt.slice(1, 5)** – nogriež mainīgā *txt* vērtību dotā diapazonā un piešķir *x* mainīgajam (**NB! Nemaina mainīgā *txt* saturu!**).  
 
-- **X** –
-- **X** –
-- **X** –
-- **X** –
-- **X** –
-- **X** –
-- **X** –
+### Array Methods  
+- **fruits.pop()** – izņem no masīva pēdējo elementu.  
+- **fruits.push("Kiwi")** – pievieno jaunu elementu "Kiwi" masīvam (kā pēdējo).  
+- **fruits.splice(1,2)** – izmet no masīva konkrētos elementus.  
+- **fruits.sort()** – pārkārto masīva elementus alfabēta secībā. 
+
+### Date Objects
+- **new Date()** – izveido jaunu datuma objektu ar pašreizējo datumu un laiku (sistēmas laiku).  
+- **d.getFullYear()** – extract the year (four digits) out of a date object.  
+- **d.setFullYear(2020)** – Vārds *set* jau visu paskaidro.   
+- **d.getMonth()** – extract the months (0-11).  
+- **var d = new Date()** parametru ievade iekavās:  
+  - **6** cipari atdalīti ar komatu – gads, mēnesis, diena, stunda, minūte, sekunde.  
+  - **5** cipari – gads, mēnesis, diena, stunda, minūte.  
+  - **4** cipari – gads, mēnesis, diena, stunda.  
+  - **3** cipari – gads, mēnesis, diena.  
+  - **2** cipari – gads, mēnesis.  
+  - **1** cipars – **NB! viens cipars reprezentē milisekundes!**  
+  
 - **X** –
 - **X** –
 - **X** –
