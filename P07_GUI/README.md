@@ -1,5 +1,3 @@
-# Šis fails tiks papildināts laika gaitā
-
 **Darba uzdevums šai lekcijai**  
 Programmas kodu neiekļāvu README.md failā, lai nepiegrūžotu. Kodi atrodas atsevišķi šajā pašā mapītē. Šeit liku pašus vizuāļus. 
 
