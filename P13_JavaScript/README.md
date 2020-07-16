@@ -54,7 +54,7 @@
 - **Math.ceil** – noapaļo uz augšu, pat ja ir tikai 3,1.  
 - **Math.abs** – modulis no vērtības.  
 - **Math.random** – gadījuma skaitlis.  
-Papild aprakstus var gūt ![šeit](https://www.w3schools.com/js/js_math.asp).  
+Papild aprakstus var gūt [šeit](https://www.w3schools.com/js/js_math.asp).  
 
 
 
