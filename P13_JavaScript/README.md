@@ -60,7 +60,7 @@ Papild aprakstus var gūt [šeit](https://www.w3schools.com/js/js_math.asp).
 - **document.write()** – can be used to write directly to the HTML output stream.  
   **NB!** Never use *document.write()* after the document is loaded. **It will overwrite the document**.
 - **document.getElementById(id).innerHTML = new HTML** – to change the content of an HTML element.  
-- **document.getElementsByTagName("P")\[0\].innerHTML = "Hello World!"** – change the HTML content of the first <p> element (index 0) in the document.  
+- **document.getElementsByTagName("P")\[0\].innerHTML = "Hello World!"** – change the HTML content of the first \<p\> element (index 0) in the document.  
 - **document.getElementById(id).attribute = new value** –
 - **X** –
 - **X** –
