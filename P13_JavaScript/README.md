@@ -1,18 +1,14 @@
 # JavaScript valodas apraksts
-*Piezīme: Aprakstā izmantoju divas valodas: gan latviešu, gan angļu.*  
+##### Piezīmes
+- Aprakstā izmantoju divas valodas: gan latviešu, gan angļu.  
+- Pašas primitīvākās fnkcijas un metodes neaprakstīju.  
 - Šajā valodā nav obligāti jādefinē konkrētu datu tipu aprakstot mainīgu. izmanto **var**. Bet ja ir konkrēts gadījums, tad protams definē konkrēto.  
-- **CaseSensitive language!**
+- **CaseSensitive language for methods!**
 
-## Data types
+## Some Data types
 - **number** – integer, float utt.  
 - **string** – tā pat ka C valodā (*Piem., var name = "Vladimirs"*).  
 - **object** – datu struktūra (Tāpat kā *struct* C++).  
-- **X** –
-- **X** –
-- **X** –
-- **X** –
-- **X** –
-- **X** –
 
 ## Regular functions and expressions
 - **alert()** – display the result in an alert box (Same as *print()* in C).  
@@ -56,18 +52,12 @@
 - **Math.random** – gadījuma skaitlis.  
 Papild aprakstus var gūt [šeit](https://www.w3schools.com/js/js_math.asp).  
 
+### Loops
+- **For loop** – ir abi veidi: gan parastais C valodas, gan Python.  
+
+### HTML DOM - Changing HTML
 
 
-
-- **X** –
-
-
-
-- **Math.Pi** – atgriež *Pi* vērtību.  
-- **X** –
-- **X** –
-
-- **X** –
 - **X** –
 
 ## Function with HTML code
