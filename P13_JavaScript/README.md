@@ -46,8 +46,24 @@
   - **3** cipari – gads, mēnesis, diena.  
   - **2** cipari – gads, mēnesis.  
   - **1** cipars – **NB! viens cipars reprezentē milisekundes!**  
-  
+
+### Math Object (Math.) 
+#### Dažas pamata metodes
+- **Math.round** – standarta noapaļošana.
+- **Math.floor** – noapaļo uz leju, pat ja ir veseli 3,9.  
+- **Math.ceil** – noapaļo uz augšu, pat ja ir tikai 3,1.  
+- **Math.abs** – modulis no vērtības.  
+- **Math.random** – gadījuma skaitlis.  
+Papild aprakstus var gūt ![šeit](https://www.w3schools.com/js/js_math.asp).  
+
+
+
+
 - **X** –
+
+
+
+- **Math.Pi** – atgriež *Pi* vērtību.  
 - **X** –
 - **X** –
 
