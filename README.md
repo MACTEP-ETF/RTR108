@@ -142,6 +142,7 @@ Bija ļoti interesanti apgūt un pildīt GUI uzdevumus! Drusciņ paspēlējos ar
 
 <a name="P09_SPICE"></a>
 ## P09_SPICE
+Darba uzdevuma apraksts ir saprotams un aizķeršanās bija pavisam neliela ar *value* un *defres* vērtībām.  
 
 <a name="P10_P11_LaTeX"></a>
 ## P10_P11_LaTeX
