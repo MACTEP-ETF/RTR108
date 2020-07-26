@@ -146,6 +146,7 @@ Darba uzdevuma apraksts ir saprotams un aizķeršanās bija pavisam neliela ar *
 
 <a name="P10_P11_LaTeX"></a>
 ## P10_P11_LaTeX
+Pirms Covid laika es galīgi neorientējos šajā vidē, bet jūlijā pildot šo uzdevumu sapratu, ka viss ir ļoti vienkārši. Vienīgais izskaidrojums - paliku gudrāks un vairāk saprotu angļu valodu nekā pērn.  Viss apraksts pa soļiem ir uztaisīts :aTex vidē (ar attēliem).  
 
 <a name="P12_HTML_and_CSS"></a>
 ## P12_HTML_and_CSS
