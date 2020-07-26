@@ -157,6 +157,7 @@ Uzdevums bija gana viegls. Visi komentāri mapē "P13_JavaScript".
 
 <a name="P14_web_service"></a>
 ## P14_web_service
+### LINUX (BASH) termināla komandas 
 - **ifconfig** – parāda datora IP adresi. (Piem., http:\/\/10.152.16.149:8001).  
 - **ps -aux | grep server** – Task manager, *grep* ‒ ļauj atlasīt procesus pēc atslēgvārda.  
   - **kill \[ProcessCode\]** ‒ Task End.  
