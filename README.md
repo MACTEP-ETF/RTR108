@@ -12,9 +12,20 @@ Atskaišu veidošana python valodā (*\*.ipynb*) failiem.
 - **https:\/\/htmlpreview.github.io\/?** *tālāk seko pilna lapas adrese* ‒ apraksts sekos...   
 
 # Satura rādītājs  
-Underconstruction...  
+[P02_04_basics](#P02_04_basics)  
+[P05_ipynb](#P05_ipynb)  
+[P06_OOP](#P06_OOP)  
+[P07_GUI](#P07_GUI)  
+[P09_SPICE](#P09_SPICE)  
+[P10_P11_LaTeX](#P10_P11_LaTeX)  
+[P12_HTML_and_CSS](#P12_HTML_and_CSS)  
+[P13_JavaScript](#P13_JavaScript)  
+[P14_web_service](#P14_web_service)  
+[P15_frameworks](#P15_frameworks)  
+[P16_PrairieLearn](#P16_PrairieLearn)  
 
 # Uzdevumi  
+<a name="P02_04_basics"></a>
 ## P02_04_basics  
 Kodus esmu rakstījis galvenokārt pa taisno py4e mājaslapā un pēcāk koopēju uz SAKAI sistēmu, tādēļ man nav lāgā izveidoti *Python* un *Diary* faili šiem uzdevumiem.  
 
@@ -91,10 +102,11 @@ class     False     in        pass      yield
 continue  finally   is        raise     async  
 def       for       lambda    return    await  
 
+<a name="P05_ipynb"></a>
 ## P05_ipynb
 Tā kā šis uzdevums bija jau veikts C valodā 1. kursa 1. semestri, tad visus komentārus esmu pierakstīji pašā *ipynb* failā. Ne ar kādiem sarežģījumiem nebiju sastapies pārveidojot kodu uz *python* valodu, un izpildīju šo uzdevumu, tā teikt, ar vieglu roku. :)  
 
-
+<a name="P06_OOP"></a>
 ## P06_OOP
 Esmu jau saskāries ar OOP, kad patstāvīgi apguvu C# vienam brīvā laika projektam. 
 
@@ -120,23 +132,40 @@ Esmu jau saskāries ar OOP, kad patstāvīgi apguvu C# vienam brīvā laika proj
 ### Papildkomentāri
 Visi papildkomentāri ir ierakstīti *python* kodos.  
 
+<a name="P07_GUI"></a>
 ## P07_GUI
 Bija ļoti interesanti apgūt un pildīt GUI uzdevumus! Drusciņ paspēlējos ar kodu, lai ir vēl interesantāka apguve. Dažiem uzdevumiem bija nepieciešamība apgūt nedaudz HTML kodu, lai, piem., palielinātu teksta izmēru.   
 
-## P09_SPICE, P10_P11_LaTeX, P12_HTML_and_CSS
+<a name="P09_SPICE"></a>
+## P09_SPICE
 
+<a name="P10_P11_LaTeX"></a>
+## P10_P11_LaTeX
 
+<a name="P12_HTML_and_CSS"></a>
+## P12_HTML_and_CSS
+
+<a name="P13_JavaScript"></a>
 ## P13_JavaScript
 Uzdevums bija gana viegls. Visi komentāri mapē "P13_JavaScript".  
 
+<a name="P14_web_service"></a>
 ## P14_web_service
 Underconstruction  
 
+<a name="P15_frameworks"></a>
 ## P15_frameworks
 Underconstruction  
 
+<a name="P16_PrairieLearn"></a>
 ## P16_PrairieLearn
 Links neiet.   
+
+
+
+
+
+
 
 
 # BACKUP
@@ -157,30 +186,6 @@ Links neiet.
 
 # Python v3 
 
-## Īsceļi (shortcuts)
-- **Alt+P un Alt+N** – izsauc iepriekšlietotas komandas, alternatīva bultiņām **uz augšu/leju** Terminālā.  
-- **F5** – izpilda python kodu python shell vidē.  
-
-<a name="PythonSpec"></a>
-## Python Īpašības
-- Nav iespējams turpināt darbu ar veco sesiju! Verot vaļā ar komandrindiņu veco dienasgrāmatas failu, var tikai skatīt/kopēt/modificēt saturu, bet izpildīt kodu vairs nav iespējams, tādēļ lai turpinātu iepriekšējo darbu ir jāparkopē tieši/netieši saturu un jāturpina strādāt jau jaunā *dienasgrāmatas* failā!
-- Python v3 izpildamās darbības pierakstu forma ir pietuvināta C valodai, savukārt Python v2 - Shell/Bash valodai.  
-- Nav nepieciešam atsevišķi deklarēt mainīgos.  
-- Nav nepieciešam atsevišķi kompilēt failu ar programmas kodu. Palaišana notiek *pa taisno*.  
-
-<a name="PythonSimple"></a>
-## Python Terminālā
-- **python** – izsauc Python versiju vienkāršotā veidā turpat Terminālā. **>>>**  
-- **.__doc__** - šis papildinājums ļauj iegūt objekta aprakstu (*documentation*) (*Piem., __build_class__.__doc__*)  
-  print(__build_class__.__doc__)  - ērtā aplūkošana.  
-
-<a name="PythonDiary"></a>
-## Python dienasgrāmatas dokumentācija (.py)
-- **idle** – interaktīvi grafiska *Python Shell* forma, ar kuras palīdzību var uzrakstīt Python komandu rindas. OBLIGĀTI faila sākumā rakstīt šo rindiņu: **\# -\*- coding: UTF-8 -\*-** (ar šo rindiņu mēs definējam kodēšanas veidu).  
-  Ar šo rindiņu mēs definējam kodēšanas veidu.  
-- **python FileName.py** – ar šo komandrindiņu mēs palaižam dienasgrāmatas kodu izpildi. Kā redzams, Pythonam nav nepieciešama papildkompilācija. Viss notiek *on the fly* tā teikt. Kas būtībā ļoti atvieglo un pāatrina programmēšanu!  
-
-<a name="PythonFunkcijas"></a>
 ## Python funkciju apraksti
 Vairākas *Python* instrukcijas var rakstīt vienā rindā atdalot tās ar semikolona operatoru (līdzīgi kā C valodā).  
 
@@ -244,29 +249,6 @@ repeat_lyrics()
 - **XX** – XX.  
 - **XX** – XX.  
 - **XX** – XX.  
-
-### Logical expression feature
-Ja pastāv vairākas loģiskas operācijas, tad ja neizpildās pirmā, tad pārējās (pat ja viņas ir kļūdainas) programma nepārbauda un izlaiž visu!  
-
-### Python comparison operators
-- **x != y** – x is not equal to y  
-- **x > y** – x is greater than y  
-- **x < y** – x is less than y  
-- **x >= y** – x is greater than or equal to y  
-- **x <= y** – x is less than or equal to y  
-- **x is y** – x is the same as y  
-- **x is not y** – x is not the same as y  
-
-
-### Python rezevētie atslēgvārdi
-and       del       from      None      True  
-as        elif      global    nonlocal  try  
-assert    else      if        not       while  
-break     except    import    or        with  
-class     False     in        pass      yield  
-continue  finally   is        raise     async  
-def       for       lambda    return    await  
-
 
 ## Satura attēlošana pārlūkprogrammā
 ### Python v2
