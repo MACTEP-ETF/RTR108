@@ -150,6 +150,7 @@ Pirms Covid laika es galīgi neorientējos šajā vidē, bet jūlijā pildot šo
 
 <a name="P12_HTML_and_CSS"></a>
 ## P12_HTML_and_CSS
+Underconstruction
 
 <a name="P13_JavaScript"></a>
 ## P13_JavaScript
@@ -170,22 +171,17 @@ Uzdevums bija gana viegls. Visi komentāri mapē "P13_JavaScript".
 - **script -c "python -m http.server 8001" debug.log** ‒ iespēja ierakstīt procesus log failā pēc lapas aizveršanas.  
 
 ### Satura attēlošana pārlūkprogrammā
-#### Python v2
+#### Python v2 (novecojis)
 Ievadīt **python2 -m SimpleHTTPServer 8000**  
 Palaist pārlūkprogrammu un ierakstīt **localhost:8000**  
 #### Python v3
 python -m http.server 8001  
 Palaist pārlūkprogrammu un ierakstīt **localhost:8001**  
 izmantojot komandu *ifconfig* var piekļūt arī caur sava datora IP adresi: http:\/\/10.152.16.149:8001  
-plašākas funkcijas Bash-am (terminālam) skatīt [šeit](#BashCommands)  
 - localhost = 127.0.0.1  
 
-### Papildinājums nesaistīts
-LoRa un 
-
-Gateway (XG or WiFi or Ethernet) savienots ar TTN(the things of network). TTN uz visim norādītiem IP sūta visus datus uz Device1, Device2 utt.  
-
-Caur datora *ngrok* startē retlanslāciju Pasaulei.  
+*Papildinājums nesaistīts*  
+LoRa un Gateway (XG or WiFi or Ethernet) savienots ar TTN(the things of network). TTN uz visim norādītiem IP sūta visus datus uz Device1, Device2 utt.  
 
 
 
@@ -196,17 +192,3 @@ Underconstruction
 <a name="P16_PrairieLearn"></a>
 ## P16_PrairieLearn
 Links neiet.   
-
-
-
-
-
-
-
-
-# BACKUP
-- **XX** – XX.  
-- **XX** – XX.  
-- **XX** – XX.  
-- **XX** – XX.  
-
