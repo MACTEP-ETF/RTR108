@@ -1,0 +1,29 @@
+h1 {
+  color: black;
+  text-align: center;
+}
+
+h2 {
+  color: blue;
+  text-align: center;
+}
+
+h3 {
+  color: black;
+  text-align: center;
+}
+
+h4 {
+  color: black;
+  text-align: center;
+}
+
+h5 {
+  color: black;
+  text-align: center;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}

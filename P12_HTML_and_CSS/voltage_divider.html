@@ -1,0 +1,111 @@
+<body>
+	<head>
+		<link rel="stylesheet" href="External_CSS_styles.css">
+		<style>
+			th {background-color:black; color:white;}
+			img {width:75%;}
+		</style>
+	</head>
+	<br>
+	<hr></hr>
+	<h5>Rīgas tehniskā universitāte<br>Elektronikas un telekomunikāciju fakultāte<br>Elektronikas pamatu katedra</h5>
+	<br><br><br>
+	<h1 style="color:green">Sprieguma dalītājs</h1>
+	<h3><i>LaTex apgūšana (P10_P11 uzdevums)</i></h3>
+	<br><br><br><br><br><br><br>
+	<p style="text-align:center">Vladimirs Fedorovičs<br>REBM02, 041RDB182<br><br><i>2020. gada jūlijs</i></p>
+	<hr></hr>
+	<br><br><br><br><br><br><br>
+	
+	<h1>Darba mērķi</h1>
+	<ul>
+		<li>Aprakstīt sprieguma dalītāja shēmas izveidi ar gEDA rīkiem P09 uzdevumam.</li>
+		<li>Iemācīties veidot vienkāršus LaTeX dokumentus.</li>
+		<li>Iemācīties ievietot attēlus un tabulas.</li>
+	</ul>  	
+
+	<br><br><br>
+	<h1>Dotie parametri</h1>
+
+	<table style="width:25%; text-align:center">
+	<tr>
+		<th>Elements</th>
+		<th>Vērtība</th>
+	</tr>
+	<tr>
+		<td>R<sub>1</sub>, &#937</td>
+		<td>9,0</td>
+	</tr>
+	<tr>
+		<td>R<sub>2</sub>, &#937</td>
+		<td>3,0</td>
+	</tr>
+	<tr>
+		<td>V<sub>1</sub>, V</td>
+		<td>18,2</td>
+	</tr>
+	</table>
+
+	<br><br><br>
+	<h1>Shēmas zīmēšana <i>gschem</i></h1>
+
+	<ul>
+		<li>Lai atvērtu programmu ierakstīsim Linux terminālā komandu <i>gschem</i>.</li>
+		
+		<br>
+		<li>Tālāk zīmēsim tāpat ka LTSpice, skatīties zemāk:<br><img src="Links/1.png"><br>
+		<i>Piezīme.</i> Ar 1. ikonu pievienosim nepieciešamos elementus un ar 2. ikonu – savienosim elementus savās starpā.</li>
+		
+		<br>
+		<li>Vērtību un nosaukumu piešķiršana vizualizēta zemāk:<br><img src="Links/2.png"><br>
+		<i>Piezīme.</i> Klikšķinot uz elementa ar labo peles taustiņu atvēras parametru lodziņš, kur jau pievienojam paremetrus izvēloties atbilstošos <i>Add Attribute</i> zonā un pievienojot ar pogu <i>Add</i>: <i>refdes</i> – emelenta nosaukums, <i>value</i> – vērtība.</li>
+		
+		<br>
+		<li>Tad pievienojam ZEMES punktu, klikšķinot ar labo peles taustiņu uz vēlamā mezgla un izvēloties no saraksta [<i>Add attribute...</i>], <i>value</i> ierakstam "0":<br>
+		<img src="Links/3.png"><br>
+		<i>Piezīme.</i> Tādā veidā pievienojam arī pārējos mezglus piešķirot tiem nosaukumus, piem., "1" un "2".</li>
+		
+		<br>
+		<li>Saglabāsim failu ar nosaukumu <i>voltage_divider.sch.</i></li>
+
+		<br>
+		<li>Lai saglabātu shēmu kā attēlu, spiežam <i>File</i> un [<i>Write Image...</i>] 
+		un izvēlamies nepieciešamo formātu (PNG, EPS, utt.):<br>
+		<img src="Links/4.png"><br></li>
+
+		<br>
+		<li>Šādi izskatās noeksportēts attēls:<br>
+		<img src="Links/voltage_divider.png"><br></li>
+		
+		<br>
+		<li>Iziesiem no programmas aizvērot to ar krustiņu (vai kā savādāk).</li>
+	</ul> 
+
+	<br><br><br>
+	<h1>Shēmas simulēšana <i>ngspice</i></h1>
+
+	<ul>
+		<li> Lai varētu nodarboties ar simulāciju, sākumā izveidosim failu ar paplašinājumu *.net. Terminālā ierakstīsim komandu [<i>gnetlist</i>] ar paramatiem [<i>-g spice -0 GalaFailaNosaukums.net IzejasFailaNosaukums.sch</i>]. Mūsu gadījumā <i>IzejasFailaNosaukums.sch</i> būs <i>voltage_divider.sch</i></li>
+		
+		<br>
+		<li> Palaižam programmu ar komandrindiņu <i>ngspice</i>.</li>
+		
+		<br>
+		<li> Tālāk ielādējam mūsu *.net failu iekšā ar komandu: <i>source GalaFailaNosaukums.net</i>.</li>
+		
+		<br>
+		<li> Tad tāpat kā LTSpice izmantojam <i>tran</i> direktīvu. Šeit tā būs komandrindiņa: <i>tran 0.01ms 10ms</i>.</li>
+		
+		<br>
+		<li> Tad uzzīmējam pirmā un otrā mezgla spriegumus izmantojot komandas <i>plot "1"</i> un <i>plot "2"</i> un saglabājam tos nospiežot atbilstošo podziņu <i>hardcopy</i>:<br>
+		<img src="Links/5.png"><br></li>
+		
+		<br>
+		<li> Lai saglabāt krāsainu attēlu, tad pirms <i>plot</i> komandas nepieciešams ievadīt komandu <i>set hcopypscolor = 0</i>.</li>
+		
+		<br>
+		<li> Šādi izskatās abu mezglu spriegumu grafiki:<br>
+		<img src="Links/voltage_divider_Vnode1.png"><img src="Links/voltage_divider_Vnode2.png"><br></li>
+	</ul>
+
+</body>
