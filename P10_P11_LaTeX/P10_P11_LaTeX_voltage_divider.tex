@@ -70,8 +70,8 @@
 
 {\large\bfseries Shēmas simulēšana \emph{ngspice}\par}
 \begin{itemize}
-    \item Lai varētu nodarboties ar simālāciju, sākumā izveidosim failu ar paplašinājumu *.net. Terminālā ierakstīsim komandu [\emph{gnetlist}] ar paramatiem [\emph{-g spice -0 GalaFailaNosaukums.net IzejasFailaNosaukums.sch}]. Mūsu gadījumā \emph{IzejasFailaNosaukums.sch} būs \emph{voltage\_divider.sch}.\\
-    \item Palaižam programmu ar komandridiņu \emph{ngspice}.\\
+    \item Lai varētu nodarboties ar simulāciju, sākumā izveidosim failu ar paplašinājumu *.net. Terminālā ierakstīsim komandu [\emph{gnetlist}] ar paramatiem [\emph{-g spice -0 GalaFailaNosaukums.net IzejasFailaNosaukums.sch}]. Mūsu gadījumā \emph{IzejasFailaNosaukums.sch} būs \emph{voltage\_divider.sch}.\\
+    \item Palaižam programmu ar komandrindiņu \emph{ngspice}.\\
     \item Tālāk ielādējam mūsu *.net failu iekšā ar komandu: \emph{source GalaFailaNosaukums.net}.\\
     \item Tad tāpat kā LTSpice izmantojam \emph{tran} direktīvu. Šeit tā būs komandrindiņa: \emph{tran 0.01ms 10ms}\\
     \item Tad uzzīmējam pirmā un otrā mezgla spriegumus izmantojot komandas \emph{plot "1"} un \emph{plot "2"} un saglabājam tos nospiežot atbilstošo podziņu \emph{hardcopy}:\\
