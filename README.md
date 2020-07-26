@@ -95,6 +95,7 @@ Ja pastāv vairākas loģiskas operācijas, tad ja neizpildās pirmā, tad pār�
 
 ### Python rezevētie atslēgvārdi
 
+| – | – | – | – | – |  
 | --- | --- | --- | --- | --- |  
 | and | del | from | None | True |  
 | as | elif | global | nonlocal | try |  
@@ -103,6 +104,7 @@ Ja pastāv vairākas loģiskas operācijas, tad ja neizpildās pirmā, tad pār�
 | class | False | in | pass | yield |  
 | continue | finally | is | raise | async |  
 | def | for | lambda | return | await |  
+| – | – | – | – | – |  
 
 <a name="P05_ipynb"></a>
 ## P05_ipynb
