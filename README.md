@@ -96,7 +96,7 @@ Ja pastāv vairākas loģiskas operācijas, tad ja neizpildās pirmā, tad pār�
 ### Python rezevētie atslēgvārdi
 
 | – | – | – | – | – |  
-| --- | --- | --- | --- | --- |  
+| :---: | :---: | :---: | :---: | :---: |  
 | and | del | from | None | True |  
 | as | elif | global | nonlocal | try |  
 | assert | else | if | not | while |  
