@@ -157,7 +157,36 @@ Uzdevums bija gana viegls. Visi komentāri mapē "P13_JavaScript".
 
 <a name="P14_web_service"></a>
 ## P14_web_service
-Underconstruction  
+- **ifconfig** – parāda datora IP adresi. (Piem., http:\/\/10.152.16.149:8001).  
+- **ps -aux | grep server** – Task manager, *grep* ‒ ļauj atlasīt procesus pēc atslēgvārda.  
+  - **kill \[ProcessCode\]** ‒ Task End.  
+- **unzip** ‒ atzipot saturu.  
+- **ngrok** – izveido piekļuvi web adresei no ārpasaules.  
+- **ngrok http 8001** ‒ atver kanālu caur *firewall* šim portam, lai varētu no Pasaules piekļūt pie *python -m* adreses.
+  ~~~
+  Forwarding                    http://d4618a23.ngrok.io -> http://localhost:8001 
+  ~~~
+- **script -c "python -m http.server 8001" debug.log** ‒ iespēja ierakstīt procesus log failā pēc lapas aizveršanas.  
+
+### Satura attēlošana pārlūkprogrammā
+#### Python v2
+Ievadīt **python2 -m SimpleHTTPServer 8000**  
+Palaist pārlūkprogrammu un ierakstīt **localhost:8000**  
+#### Python v3
+python -m http.server 8001  
+Palaist pārlūkprogrammu un ierakstīt **localhost:8001**  
+izmantojot komandu *ifconfig* var piekļūt arī caur sava datora IP adresi: http:\/\/10.152.16.149:8001  
+plašākas funkcijas Bash-am (terminālam) skatīt [šeit](#BashCommands)  
+- localhost = 127.0.0.1  
+
+### Papildinājums nesaistīts
+LoRa un 
+
+Gateway (XG or WiFi or Ethernet) savienots ar TTN(the things of network). TTN uz visim norādītiem IP sūta visus datus uz Device1, Device2 utt.  
+
+Caur datora *ngrok* startē retlanslāciju Pasaulei.  
+
+
 
 <a name="P15_frameworks"></a>
 ## P15_frameworks
@@ -175,101 +204,8 @@ Links neiet.
 
 
 # BACKUP
-
-# LINUX Bash
-## Komandas failiem/folderiem
-- **ifconfig** – parāda datora IP adresi. (Piem., http:\/\/10.152.16.149:8001).  
-- **ps -aux | grep server** – Task manager, *grep* ‒ ļauj atlasīt procesus pēc atslēgvārda.  
-  - **kill \[ProcessCode\]** ‒ Task End.  
-- **unzip** ‒ atzipot saturu.  
-- **ngrok http 8001** ‒ atver kanālu caur *firewall* šim portam, lai varētu no Pasaules piekļūt pie *python -m* adreses.
-  ~~~
-  Forwarding                    http://d4618a23.ngrok.io -> http://localhost:8001 
-  ~~~
-- **script -c "python -m http.server 8001" debug.log** ‒ iespēja ierakstīt procesus log failā pēc lapas aizveršanas.  
-
-
-
-# Python v3 
-
-## Python funkciju apraksti
-Vairākas *Python* instrukcijas var rakstīt vienā rindā atdalot tās ar semikolona operatoru (līdzīgi kā C valodā).  
-
-- **a = input()** – *input* funkcija nolasa lietotāja ievadu un ieraksta mainīgajā 'a'.  
-- **for i in range(1,n)** – *for* cikls no "1" līdz "n" vērtībai.  
-- **try, except** ‒ ir if else paveids. Piemērs:  
-
-  ```
-  inp = input('Enter Fahrenheit Temperature:')
-  try:
-      fahr = float(inp)
-      cel = (fahr - 32.0) * 5.0 / 9.0
-      print(cel)
-  except:
-      print('Please enter a number')
-  
-  # Code: http://www.py4e.com/code3/fahren2.py
-  ```
-  Explanation:
-  Python starts by executing the sequence of statements in the **try** block. If all goes well, it skips the **except** block and proceeds. If an exception occurs in the **try** block, Python jumps out of the **try** block and executes the sequence of statements in the **except** block.  
-
-- **print()** – piemērs korektai izvadei: print("Pēc %g sekundes bumba būs %.2f metru augstumā \n" %(t,y)).  
-  - **end=''** – ļauj aizvietot rindiņas beigu elementu (Piem., **print (i, end='')** – ļauj cikla elementu "i" drukāt vienā rindā, nevis katru vērtību nākamā rindiņā).  
-  - **sep=''** ‒ no vārds *separator*, ļauj mainīt atdalošu elementu starp drukātiem mainīgiem.  
-- **a = input()** – *input* funkcija nolasa lietotāja ievadu un ieraksta mainīgajā 'a'.  
-- **ipython** – draudzīgāka versija pythonam.  
-- **python + Tab** – ļauj redzēt papild python versijas.  
-- **#!/usr/bin/python** – automatizēta python palaišana (*neaizmirst chmod funkciju (744), lai fails ir executable*).  
-- **ls -la /usr/bin/python** – attēlo linku esošai versijai.  
-- **ngrok** – izveido piekļuvi web adresei no ārpasaules.  
-- **arr = map(int, input().split())** – izveido massīvu *map* veidā. Šo tipu nevar izmantot *for* ciklā kā *C valodā*, priekš tā ir jāpārveido masīvs ar **list()** funkciju ‒ **arrList = list(map(int,arr))**.  
-- **type()** – parāda datu tipu. Ja saturs ir ielikts apostrofos **''**, tad tas ir string datu tips.  
-- **\/\/** – dalījums ar *floor* efektu.  
-- **\*\*** – celšana pakāpē (*Piem., 2\*\*3 = 2\*2\*2 = 8*).  
-- **string\*int** – var reizināt arī string datu tipu ar skaitļiem. Piem.:  
-  A = 'Test '  
-  B = 3  
-  print (A*B)  
-  Test Test Test  
-- **min(), max()** – atrod un izvada uz ekrāna minimālo/maksimālo vērtību no:  
-  - ja ir string, tad ievadīt saturu apostrofos;  
-  - ja ir skaitliskās vērtības, tad atdalīt ar komatu.  
-*P.S. Mainīgos arī var rakstīt iekšā atdalot ar komatu.*  
-- **def** – ar šo definē jaunu funkciju (*Piem., def print_lyrics()*). Jauna funkcija tiek palaista - vnk ierakstot tās nosaukumu: *print_lyrics()*. Iespēja ierakstīt funkciju funkcijā. Paraugs:  
-```
-def print_lyrics():
-    print("I'm a lumberjack, and I'm okay.")
-    print('I sleep all night and I work all day.')
-
-
-def repeat_lyrics():
-    print_lyrics()
-    print_lyrics()
-
-repeat_lyrics()
-
-# Code: http://www.py4e.com/code3/lyrics.py
-```
-
 - **XX** – XX.  
 - **XX** – XX.  
 - **XX** – XX.  
 - **XX** – XX.  
 
-## Satura attēlošana pārlūkprogrammā
-### Python v2
-Ievadīt **python2 -m SimpleHTTPServer 8000**  
-Palaist pārlūkprogrammu un ierakstīt **localhost:8000**  
-### Python v3
-python -m http.server 8001  
-Palaist pārlūkprogrammu un ierakstīt **localhost:8001**  
-izmantojot komandu *ifconfig* var piekļūt arī caur sava datora IP adresi: http:\/\/10.152.16.149:8001  
-plašākas funkcijas Bash-am (terminālam) skatīt [šeit](#BashCommands)  
-- localhost = 127.0.0.1  
-
-### Papildinājums nesaistīts
-LoRa un 
-
-Gateway (XG or WiFi or Ethernet) savienots ar TTN(the things of network). TTN uz visim norādītiem IP sūta visus datus uz Device1, Device2 utt.  
-
-Caur datora *ngrok* startē retlanslāciju Pasaulei.  
