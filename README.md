@@ -150,7 +150,7 @@ Pirms Covid laika es galīgi neorientējos šajā vidē, bet jūlijā pildot šo
 
 <a name="P12_HTML_and_CSS"></a>
 ## P12_HTML_and_CSS
-Underconstruction
+Šo uzdevumu pildīšana bija tik ļoti primitīvi viegla, ka nemaz nav ko šeit piebilst un aprakstīt.
 
 <a name="P13_JavaScript"></a>
 ## P13_JavaScript
