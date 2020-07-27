@@ -7,4 +7,5 @@
 4. Tiklīdz būs aizvērts šis termināla tabs, tad piekļuve no ārpasaules būs pārtraukta.  
 5. Lai ierakstītu visas darbības, kuras tika veiktas ar web-serveri tā darbības laikā, var ierakstīt *log* failā ar pavisam vienkāršu komandrindiņu *script -c "python -m http.server 8001" debug.log*:  
 ![Log_faila_ieraksts](https://github.com/MACTEP-ETF/RTR108/blob/master/P14_web_service/Links/Log_faila_ieraksts.PNG)  
-Tiklīdz serveris būs apturēts, tā log fails būs aizpildīts. Online ieraksts netiek veikts šī veida komandrindiņai.  
+Tiklīdz serveris būs apturēts, tā *log* fails būs ierakstīts. 
+*Piezīme.* Šis skripts neveic online ierakstus.  
