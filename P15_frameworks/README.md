@@ -1,5 +1,6 @@
 15. nodarbības izmēģinājums
-Apraksti, bildes ar pārlūkprogrammas izskatu, pārbaudot servera darbību lokāli un globāli.
+Apraksti, bildes ar pārlūkprogrammas izskatu, pārbaudot servera darbību lokāli un globāli.  
+*Piezīme*:  
 Šīs nodarbības apguvei izmantoju šo web-kursu: *https://app.pluralsight.com/course-player?clipId=33017302-131d-43db-bc3f-e8ea1c1ecc53*
 
 ## Component
