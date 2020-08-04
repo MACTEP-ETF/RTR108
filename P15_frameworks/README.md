@@ -29,6 +29,7 @@ Component is a view defined in Template. It is associated code defined with a Cl
   - Append "Component" to the name  
 
 - **export keyword**  
+
 - **Data in properties**:  
   - Approriate data type  
   - Approriate default value  
@@ -40,8 +41,10 @@ Component is a view defined in Template. It is associated code defined with a Cl
 #### Component Checklist: *Metadata*  
 - **Component decorator**  
   - Prefix with @. Suffix with ()  
+  
 - **selector: Component name in HTML**  
   - Prefix for clarity  
+  
 - **template: View's HTML**  
   - Correct HTML syntax  
 
