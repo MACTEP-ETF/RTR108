@@ -16,3 +16,13 @@ Component is a view defined in Template. It is associated code defined with a Cl
 3. Metadata:  
    - Extra data for Angular;  
    - Defined with a decorator.  
+
+### Decorator
+ A function that adds *metadata* to a class, its members, or its methoods arguments.  
+ Prefixed with an @.  
+ Angular provides built-in decorators.  
+ **@Component()**  
+
+# Servera darbība lokāli un globāli
+Lai palasitu lokāli, VS code terminālā jāraksta: **npm start**  
+Lai palasitu globāli, VS code terminālā jāraksta: **ngrok http --host-header=rewrite PORT**  
