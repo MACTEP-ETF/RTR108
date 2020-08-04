@@ -24,33 +24,35 @@ Component is a view defined in Template. It is associated code defined with a Cl
 - Import what we need (import)  
  
 #### Component Checklist: *Class*  
-**Clear name**:  
-- Use PascalCasing  
-- Append "Component" to the name  
-**export keyword**  
-**Data in properties**:  
-- Approriate data type  
-- Approriate default value  
-- camelCase with first letter lowercase  
-**Logic in methods**  
-- camelCase with first letter lowercase
+- **Clear name**:  
+  - Use PascalCasing  
+  - Append "Component" to the name  
+
+- **export keyword**  
+- **Data in properties**:  
+  - Approriate data type  
+  - Approriate default value  
+  - camelCase with first letter lowercase  
+
+- **Logic in methods**  
+  - camelCase with first letter lowercase
 
 #### Component Checklist: *Metadata*  
-**Component decorator**  
-- Prefix witg @l Suffix with ()  
-**selector: Component name in HTML**  
-- Prefix for clarity  
-**template: View's HTML**  
-- Correct HTML syntax  
+- **Component decorator**  
+  - Prefix witg @l Suffix with ()  
+- **selector: Component name in HTML**  
+  - Prefix for clarity  
+- **template: View's HTML**  
+  - Correct HTML syntax  
 
 #### Component Checklist: *Import*  
-**Defines where to find the members that this component needs**  
-**import keyword**  
-**Member name**  
-- Correct spelling/casing  
-**Module path**  
-- Enclose in quotes  
-- Correct spelling/casing  
+- **Defines where to find the members that this component needs**  
+- **import keyword**  
+- **Member name**  
+  - Correct spelling/casing  
+- **Module path**  
+  - Enclose in quotes  
+  - Correct spelling/casing  
 
 # Servera darbība lokāli un globāli
 Lai palasitu lokāli, VS code terminālā jāraksta: **npm start**  
