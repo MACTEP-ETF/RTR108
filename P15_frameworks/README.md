@@ -39,7 +39,7 @@ Component is a view defined in Template. It is associated code defined with a Cl
 
 #### Component Checklist: *Metadata*  
 - **Component decorator**  
-  - Prefix witg @l Suffix with ()  
+  - Prefix with @. Suffix with ()  
 - **selector: Component name in HTML**  
   - Prefix for clarity  
 - **template: View's HTML**  
