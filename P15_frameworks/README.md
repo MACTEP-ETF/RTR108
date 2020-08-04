@@ -3,20 +3,23 @@ Apraksti, bildes ar pārlūkprogrammas izskatu, pārbaudot servera darbību lok�
 *Piezīme*:  
 Šīs nodarbības apguvei studēju šo web-kursu: *https://app.pluralsight.com/course-player?clipId=33017302-131d-43db-bc3f-e8ea1c1ecc53*
 
-## Component
-Component is a view defined in Template. It is associated code defined with a Class and Metadata defined with a decorator.
-1. Template:  
-   - View layout;  
-   - Created with HTML;  
-   - Includes binding ad directives.  
-2. Class:  
-   - Code supporting the view;  
-   - Created with TypeScript;  
-   - Properties: data;  
-   - Methods: logic.  
-3. Metadata:  
-   - Extra data for Angular;  
-   - Defined with a decorator (a function that adds *metadata* to a class, its members, or its methoods arguments).  
+## Common features of Angular template syntax
+- **ngFor** – A structural directive that renders a template for each item in a collection. The directive is placed on an element, which becomes the parent of the cloned templates.  
+- **ngIf** – A structural directive that conditionally includes a template based on the value of an expression coerced to Boolean. When the expression evaluates to true, Angular renders the template provided in a then clause, and when false or null, Angular renders the template provided in an optional else clause. The default template for the else clause is blank.  
+- **Interpolation {{ }}** – renders a property's value as text.  
+- **Property binding [ ]** – lets you use the property value in a template expression.  
+- **Event binding ( )** – uses a set of parentheses, ( ), around the event.
+
+## Components
+Components define areas of responsibility in the user interface, or UI, that let you reuse sets of UI functionality. A component consists of three things:  
+- **A component class** – that handles data and functionality: Code supporting the view; Created with TypeScript; Properties: data; Methods: logic.  
+- **An HTML template** – that determines the UI. It is a view layout,  and Includes binding and directives.  
+- **Component-specific styles** – that define the look and feel. Defined with a decorator (a function that adds *metadata* to a class, it's members, or its methoods arguments).  
+
+### Decorator
+**@Component() decorator** – this indicates that the following class is a component. It provides metadata about the component, including its selector, templates, and styles.  
+- The selector identifies the component. The selector is the name you give the Angular component when it is rendered as an HTML element on the page. By convention, Angular component selectors begin with the prefix app-, followed by the component name.  
+- The template and style filenames reference the HTML and CSS files.  
 
 ### Component Checklist
 - Class -> Code  
