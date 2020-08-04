@@ -57,6 +57,6 @@ Component is a view defined in Template. It is associated code defined with a Cl
   - Enclose in quotes  
   - Correct spelling/casing  
 
-# Servera darbība lokāli un globāli
-Lai palasitu lokāli, VS code terminālā jāraksta: **npm start**  
-Lai palasitu globāli, VS code terminālā jāraksta: **ngrok http --host-header=rewrite PORT**  
+# Servera darbība lokāli un globāli VS code
+Lokāli, terminālā jāraksta: **npm start**  
+Globāli, terminālā jāraksta: **ngrok http --host-header=rewrite PORT**  
