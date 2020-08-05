@@ -85,3 +85,13 @@ Routing enables navigation from one view to the next (within the same page) as u
 - Clicking links on the page to navigate to a new view.  
 - Clicking the browser's back and forward buttons to navigate backward and forward through the browser history.  
 
+The Angular Router displays components based on the browser's URL and your defined routes.  
+
+## Services
+Services are an integral part of Angular applications. In Angular, a service is an instance of a class that you can make available to any part of your application using Angular's dependency injection system.  
+
+### Dependency injection (DI)
+A design pattern and mechanism for creating and delivering some parts of an application (dependencies) to other parts of an application that require them.  
+
+In Angular, dependencies are typically services, but they also can be values, such as strings or functions. An injector for an app (created automatically during bootstrap) instantiates dependencies when needed, using a configured provider of the service or value.  
+
