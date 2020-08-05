@@ -1,5 +1,7 @@
-15. nodarbības izmēģinājums
-Apraksti, bildes ar pārlūkprogrammas izskatu, pārbaudot servera darbību lokāli un globāli.  
+# Servera darbība lokāli un globāli VS code  
+Lokāli, terminālā jāraksta: **npm start**  
+Globāli, terminālā jāraksta: **ngrok http --host-header=rewrite PORT**  
+
 *Piezīme*:  
 Šīs nodarbības apguvei studēju šo web-kursu: *https://app.pluralsight.com/course-player?clipId=33017302-131d-43db-bc3f-e8ea1c1ecc53*
 
@@ -59,7 +61,12 @@ Components define areas of responsibility in the user interface, or UI, that let
 - **Module path**  
   - Enclose in quotes  
   - Correct spelling/casing  
+  
+## Input
+The @Input() decorator indicates that the property value passes in from the component's parent, the product list component.  
 
-# Servera darbība lokāli un globāli VS code
-Lokāli, terminālā jāraksta: **npm start**  
-Globāli, terminālā jāraksta: **ngrok http --host-header=rewrite PORT**  
+## Output
+```
+import { Output, EventEmitter } from '@angular/core';
+```
+In the component class, define a property named *PropertyName* with an *@Output()* decorator and an instance of *EventEmitter()*. This allows to emit an event when the value of the notify property changes.  
