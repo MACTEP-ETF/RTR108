@@ -3,7 +3,7 @@ Lokāli, terminālā jāraksta: **npm start**
 Globāli, terminālā jāraksta: **ngrok http --host-header=rewrite PORT**  
 
 *Piezīme*:  
-Šīs nodarbības apguvei studēju šo web-kursu: *https://app.pluralsight.com/course-player?clipId=33017302-131d-43db-bc3f-e8ea1c1ecc53*
+Šīs nodarbības apguvei studēju: *https://app.pluralsight.com/course-player?clipId=33017302-131d-43db-bc3f-e8ea1c1ecc53* un *https://angular.io/start*
 
 ## Common features of Angular template syntax
 - **ngFor** – A structural directive that renders a template for each item in a collection. The directive is placed on an element, which becomes the parent of the cloned templates.  
