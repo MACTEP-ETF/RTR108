@@ -78,3 +78,10 @@ The @Input() decorator indicates that the property value passes in from the comp
 import { Output, EventEmitter } from '@angular/core';
 ```
 In the component class, define a property named *PropertyName* with an *@Output()* decorator and an instance of *EventEmitter()*. This allows to emit an event when the value of the notify property changes.  
+
+## Angular routing
+Routing enables navigation from one view to the next (within the same page) as users perform tasks such as the following:
+- Entering a URL in the address bar to navigate to a corresponding view.  
+- Clicking links on the page to navigate to a new view.  
+- Clicking the browser's back and forward buttons to navigate backward and forward through the browser history.  
+
