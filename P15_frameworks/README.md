@@ -9,7 +9,7 @@ Globāli, terminālā jāraksta: **ngrok http --host-header=rewrite PORT**
 - *https://angular.io/start/start-data*  
 - *https://angular.io/start/start-forms*  
 
-Un vēl atsevišķi šo:
+Un vēl atsevišķi nedaudz pētīju šo (šis ir maksas resurs, bet var abonēt pirmās 10 dienas bezmaksas):
 - *https://app.pluralsight.com/course-player?clipId=33017302-131d-43db-bc3f-e8ea1c1ecc53*  
 
 
