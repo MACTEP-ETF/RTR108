@@ -172,7 +172,7 @@ izmantojot komandu *ifconfig* var piekļūt arī caur sava datora IP adresi, pie
 - **script -c "python -m http.server 8001" debug.log** ‒ iespēja ierakstīt procesus log failā pēc lapas aizveršanas.  
 
 *Papildinājums nesaistīts*  
-LoRa un Gateway (XG or WiFi or Ethernet) savienots ar TTN(the things of network). TTN uz visim norādītiem IP sūta visus datus uz Device1, Device2 utt.  
+LoRa un Gateway (XG or WiFi or Ethernet) savienots ar TTN (the things of network). TTN uz visim norādītiem IP sūta visus datus uz Device1, Device2 utt.  
 
 
 <a name="P15_frameworks"></a>
@@ -183,4 +183,4 @@ Re kur attēli un neliels video ar izpildāmo funkcionālu:
 
 <a name="P16_PrairieLearn"></a>
 ## P16_PrairieLearn
-Links neiet.   
+Vēl top – gala projekts – web-serviss sprieguma dalītāja aprēķiniem.  
