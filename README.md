@@ -177,7 +177,9 @@ LoRa un Gateway (XG or WiFi or Ethernet) savienots ar TTN(the things of network)
 
 <a name="P15_frameworks"></a>
 ## P15_frameworks
-Underconstruction  
+Bija ļoti interesanti šī tipa programmēšanu apgūt. Izdevās palaist kodu arī no datora, t.i. ar VS code. 
+Re kur attēli un neliels video ar izpildāmo funkcionālu:  
+
 
 <a name="P16_PrairieLearn"></a>
 ## P16_PrairieLearn
