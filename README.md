@@ -184,8 +184,7 @@ Web-serviss lokāli:
 Web-serviss globāli:  
 ![Vizualis](https://github.com/MACTEP-ETF/RTR108/blob/master/P15_frameworks/Links/MyStore%20globali.png)  
 
-Neliela vizualizācija ar funkcionālu:
-[![Watch the video](https://youtu.be/Ic_T5tcb6U4)
+[![Neliela vizualizācija ar funkcionālu(https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/Ic_T5tcb6U4)
 
 
 <a name="P16_PrairieLearn"></a>
