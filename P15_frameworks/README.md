@@ -1,3 +1,12 @@
+# Vizualizācija
+Web-serviss lokāli:  
+![Vizualis](https://github.com/MACTEP-ETF/RTR108/blob/master/P15_frameworks/Links/MyStore%20lokali.png)  
+
+Web-serviss globāli:  
+![Vizualis](https://github.com/MACTEP-ETF/RTR108/blob/master/P15_frameworks/Links/MyStore%20globali.png)  
+
+[![Neliela vizualizācija ar funkcionālu]](https://youtu.be/Ic_T5tcb6U4)
+
 # Servera darbība lokāli un globāli VS code  
 Lokāli, terminālā jāraksta: **npm start**  
 Globāli, terminālā jāraksta: **ngrok http --host-header=rewrite PORT**  
