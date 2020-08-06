@@ -178,14 +178,6 @@ LoRa un Gateway (XG or WiFi or Ethernet) savienots ar TTN (the things of network
 <a name="P15_frameworks"></a>
 ## P15_frameworks
 Bija ļoti interesanti šī tipa programmēšanu apgūt. Izdevās palaist kodu arī no datora, t.i. ar VS code.  
-Web-serviss lokāli:  
-![Vizualis](https://github.com/MACTEP-ETF/RTR108/blob/master/P15_frameworks/Links/MyStore%20lokali.png)  
-
-Web-serviss globāli:  
-![Vizualis](https://github.com/MACTEP-ETF/RTR108/blob/master/P15_frameworks/Links/MyStore%20globali.png)  
-
-[![Neliela vizualizācija ar funkcionālu]](https://youtu.be/Ic_T5tcb6U4)
-
 
 <a name="P16_PrairieLearn"></a>
 ## P16_PrairieLearn
