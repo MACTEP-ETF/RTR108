@@ -1,4 +1,4 @@
-Web servisa izstrāde bāzēta uz uzdevumu P15 framework.
+Web servisa izstrāde ir konstruēta no nulles + izmantojot *http://angular.io* piemērus un resursus.
 
 # Angular projekta izveide
 Terminālā komanda, lai VS code uzģenerē projekta skeletu: *ng new ProjectName*.  
