@@ -1,1 +1,1 @@
-aaa
+Nezidevās realizēt projektu.
