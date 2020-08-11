@@ -181,4 +181,4 @@ Bija ļoti interesanti šī tipa programmēšanu apgūt. Izdevās palaist kodu a
 
 <a name="P16_PrairieLearn"></a>
 ## P16_PrairieLearn
-Vēl top – gala projekts – web-serviss sprieguma dalītāja aprēķiniem.  
+Neizdevās realizēt eksāmena projektu.  
