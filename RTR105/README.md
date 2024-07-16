@@ -223,8 +223,9 @@ Ja faila/foldera nosaukums sākas ar ".", tad objekts ir režīmā ***hidden***.
 ## Vim redaktors (C valoda)
 <a name="VimShortcuts"></a>
 ### Īsceļi (shortcuts)
-- **Esc+:** – izsauc komandu rindu.  
-  - **q** – iziet no redaktora.  
+- **Esc+:** – izsauc komandu rindu pārtraucot tekošu stāvokli (ja tāds ir).  
+  - **q** – iziet no redaktora.
+  - **i** – ieiet rediģēšanas stāvoklī.
   - **q!** – piespiedu izeja no redaktora (ja fails nav saglabāts, paziņojums neizlec un fails NETIEK saglabāts).  
   - **w** – ierakstīt izmaiņas failā (*Save*).  
   - **:set number** – kreisajā sānā parādās rindiņu numerācija.  
